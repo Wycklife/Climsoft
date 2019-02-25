@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblYear.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblYear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>467, 11</value>
+  </data>
+  <data name="lblYear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblYear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>494</value>
+  </data>
+  <data name="lblElement.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblElement.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>264, 11</value>
+  </data>
+  <data name="lblElement.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="lblElement.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>496</value>
+  </data>
+  <data name="lblStation.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStation.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>68, 11</value>
+  </data>
+  <data name="lblStation.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="lblStation.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>495</value>
+  </data>
+  <data name="btnView.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>421, 481</value>
+  </data>
+  <data name="btnView.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnView.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnUpload.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>583, 509</value>
+  </data>
+  <data name="btnUpload.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnUpload.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Label5.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label5.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>180, 519</value>
+  </data>
+  <data name="Label5.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="Label5.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>675</value>
+  </data>
+  <data name="txtSequencer.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>245, 516</value>
+  </data>
+  <data name="txtSequencer.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>200, 20</value>
+  </data>
+  <data name="txtSequencer.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>674</value>
+  </data>
+  <data name="btnHelp.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>583, 481</value>
+  </data>
+  <data name="btnHelp.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnHelp.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnClear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>340, 481</value>
+  </data>
+  <data name="btnClear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnClear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnCommit.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>97, 481</value>
+  </data>
+  <data name="btnCommit.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCommit.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnDelete.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>259, 481</value>
+  </data>
+  <data name="btnDelete.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnDelete.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnAddNew.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>16, 481</value>
+  </data>
+  <data name="btnAddNew.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnAddNew.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnUpdate.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>178, 481</value>
+  </data>
+  <data name="btnUpdate.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnUpdate.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnClose.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>502, 481</value>
+  </data>
+  <data name="btnClose.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnClose.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="ucrNavigation.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>163, 442</value>
+  </data>
+  <data name="ucrNavigation.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="ucrNavigation.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>336, 25</value>
+  </data>
+  <data name="ucrNavigation.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="ucrMonthlydata.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>180, 53</value>
+  </data>
+  <data name="ucrMonthlydata.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 8, 6, 8</value>
+  </data>
+  <data name="ucrMonthlydata.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>343, 404</value>
+  </data>
+  <data name="ucrMonthlydata.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ucrYearSelector.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>470, 27</value>
+  </data>
+  <data name="ucrYearSelector.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 12, 9, 12</value>
+  </data>
+  <data name="ucrYearSelector.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>85, 25</value>
+  </data>
+  <data name="ucrYearSelector.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ucrElementSelector.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>267, 27</value>
+  </data>
+  <data name="ucrElementSelector.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 8, 6, 8</value>
+  </data>
+  <data name="ucrElementSelector.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>178, 21</value>
+  </data>
+  <data name="ucrElementSelector.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ucrStationSelector.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>65, 27</value>
+  </data>
+  <data name="ucrStationSelector.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 12, 9, 12</value>
+  </data>
+  <data name="ucrStationSelector.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>187, 24</value>
+  </data>
+  <data name="ucrStationSelector.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>681, 543</value>
+  </data>
+  <data name="$this.StartPosition" xml:space="preserve" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <metadata name="lblYear.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

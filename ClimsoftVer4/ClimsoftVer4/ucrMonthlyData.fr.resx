@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UcrValueFlagPeriod1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>69, 22</value>
+  </data>
+  <data name="UcrValueFlagPeriod1.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="UcrValueFlagPeriod5.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>69, 139</value>
+  </data>
+  <data name="UcrValueFlagPeriod5.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod5.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod5.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="UcrValueFlagPeriod6.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>69, 169</value>
+  </data>
+  <data name="UcrValueFlagPeriod6.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod6.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod6.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="UcrValueFlagPeriod12.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>69, 347</value>
+  </data>
+  <data name="UcrValueFlagPeriod12.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod12.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod12.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="UcrValueFlagPeriod11.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>69, 318</value>
+  </data>
+  <data name="UcrValueFlagPeriod11.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod11.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod11.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="UcrValueFlagPeriod10.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>69, 288</value>
+  </data>
+  <data name="UcrValueFlagPeriod10.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod10.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod10.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="UcrValueFlagPeriod7.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>69, 200</value>
+  </data>
+  <data name="UcrValueFlagPeriod7.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod7.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod7.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="UcrValueFlagPeriod8.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>69, 228</value>
+  </data>
+  <data name="UcrValueFlagPeriod8.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod8.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod8.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="UcrValueFlagPeriod9.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>69, 258</value>
+  </data>
+  <data name="UcrValueFlagPeriod9.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod9.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod9.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="UcrValueFlagPeriod4.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>69, 110</value>
+  </data>
+  <data name="UcrValueFlagPeriod4.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod4.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod4.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="UcrValueFlagPeriod3.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>69, 83</value>
+  </data>
+  <data name="UcrValueFlagPeriod3.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod3.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod3.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="UcrValueFlagPeriod2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>69, 52</value>
+  </data>
+  <data name="UcrValueFlagPeriod2.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="UcrValueFlagPeriod2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="UcrValueFlagPeriod2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblFlag.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFlag.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>122, 6</value>
+  </data>
+  <data name="lblFlag.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="lblFlag.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>572</value>
+  </data>
+  <data name="lblValue.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValue.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>70, 6</value>
+  </data>
+  <data name="lblValue.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="lblValue.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>571</value>
+  </data>
+  <data name="lblMonth.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMonth.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>11, 5</value>
+  </data>
+  <data name="lblMonth.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="lblMonth.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>570</value>
+  </data>
+  <data name="lbl12.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl12.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 353</value>
+  </data>
+  <data name="lbl12.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="lbl12.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>584</value>
+  </data>
+  <data name="lbl11.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl11.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 323</value>
+  </data>
+  <data name="lbl11.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="lbl11.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>583</value>
+  </data>
+  <data name="lbl10.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl10.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 293</value>
+  </data>
+  <data name="lbl10.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="lbl10.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>582</value>
+  </data>
+  <data name="lbl09.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl09.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 262</value>
+  </data>
+  <data name="lbl09.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="lbl09.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>581</value>
+  </data>
+  <data name="lbl08.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl08.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 234</value>
+  </data>
+  <data name="lbl08.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lbl08.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>580</value>
+  </data>
+  <data name="lbl07.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl07.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 206</value>
+  </data>
+  <data name="lbl07.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="lbl07.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>579</value>
+  </data>
+  <data name="lbl06.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl06.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 176</value>
+  </data>
+  <data name="lbl06.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="lbl06.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>578</value>
+  </data>
+  <data name="lbl05.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl05.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 145</value>
+  </data>
+  <data name="lbl05.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="lbl05.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>577</value>
+  </data>
+  <data name="lbl04.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl04.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 115</value>
+  </data>
+  <data name="lbl04.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="lbl04.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>576</value>
+  </data>
+  <data name="lbl03.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl03.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 89</value>
+  </data>
+  <data name="lbl03.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="lbl03.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>575</value>
+  </data>
+  <data name="lbl02.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl02.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 59</value>
+  </data>
+  <data name="lbl02.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="lbl02.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>574</value>
+  </data>
+  <data name="lbl01.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl01.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>3, 26</value>
+  </data>
+  <data name="lbl01.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="lbl01.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>573</value>
+  </data>
+  <data name="lblPeriod.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPeriod.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>159, 7</value>
+  </data>
+  <data name="lblPeriod.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="lblPeriod.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>585</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Margin" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="$this.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>202, 378</value>
+  </data>
+  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

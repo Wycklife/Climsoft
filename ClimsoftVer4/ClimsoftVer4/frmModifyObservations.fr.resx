@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataGridViewObservations.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>12, 108</value>
+  </data>
+  <data name="DataGridViewObservations.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>1137, 468</value>
+  </data>
+  <data name="DataGridViewObservations.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtEndHour.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>596, 48</value>
+  </data>
+  <data name="txtEndHour.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="txtEndHour.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="txtStartHour.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>596, 17</value>
+  </data>
+  <data name="txtStartHour.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="txtStartHour.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblEndHour.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEndHour.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>539, 52</value>
+  </data>
+  <data name="lblEndHour.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="lblEndHour.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblStartHour.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStartHour.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>538, 21</value>
+  </data>
+  <data name="lblStartHour.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="lblStartHour.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="txtEndDay.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>498, 48</value>
+  </data>
+  <data name="txtEndDay.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="txtEndDay.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="txtStartDay.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>496, 17</value>
+  </data>
+  <data name="txtStartDay.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>32, 20</value>
+  </data>
+  <data name="txtStartDay.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblEndDay.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEndDay.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>444, 52</value>
+  </data>
+  <data name="lblEndDay.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="lblEndDay.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblStartDay.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStartDay.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>443, 21</value>
+  </data>
+  <data name="lblStartDay.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblStartDay.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="txtEndMonth.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>405, 48</value>
+  </data>
+  <data name="txtEndMonth.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="txtEndMonth.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtStartMonth.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>404, 17</value>
+  </data>
+  <data name="txtStartMonth.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>31, 20</value>
+  </data>
+  <data name="txtStartMonth.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtEndYear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>291, 48</value>
+  </data>
+  <data name="txtEndYear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>35, 20</value>
+  </data>
+  <data name="txtEndYear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtStartYear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>290, 17</value>
+  </data>
+  <data name="txtStartYear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>36, 20</value>
+  </data>
+  <data name="txtStartYear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="txtElement.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>95, 48</value>
+  </data>
+  <data name="txtElement.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>124, 20</value>
+  </data>
+  <data name="txtElement.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtStation.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>95, 17</value>
+  </data>
+  <data name="txtStation.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>124, 20</value>
+  </data>
+  <data name="txtStation.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblEndMonth.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEndMonth.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>341, 52</value>
+  </data>
+  <data name="lblEndMonth.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="lblEndMonth.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblStartMonth.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStartMonth.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>341, 21</value>
+  </data>
+  <data name="lblStartMonth.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="lblStartMonth.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblEndYear.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEndYear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>235, 52</value>
+  </data>
+  <data name="lblEndYear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblEndYear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblStartYear.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStartYear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>235, 21</value>
+  </data>
+  <data name="lblStartYear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lblStartYear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblElement.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblElement.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>16, 52</value>
+  </data>
+  <data name="lblElement.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="lblElement.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblSation.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSation.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>16, 21</value>
+  </data>
+  <data name="lblSation.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="lblSation.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GrBxSelection.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>147, 20</value>
+  </data>
+  <data name="GrBxSelection.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>638, 78</value>
+  </data>
+  <data name="GrBxSelection.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Button1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>280, 24</value>
+  </data>
+  <data name="Button1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>57, 23</value>
+  </data>
+  <data name="Button1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cmdClose.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>212, 24</value>
+  </data>
+  <data name="cmdClose.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>57, 23</value>
+  </data>
+  <data name="cmdClose.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cmdDelete.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdDelete.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>144, 24</value>
+  </data>
+  <data name="cmdDelete.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>57, 23</value>
+  </data>
+  <data name="cmdDelete.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmdUpade.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdUpade.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>76, 24</value>
+  </data>
+  <data name="cmdUpade.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>57, 23</value>
+  </data>
+  <data name="cmdUpade.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdView.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>8, 24</value>
+  </data>
+  <data name="cmdView.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>57, 23</value>
+  </data>
+  <data name="cmdView.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GrBxCommands.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>799, 30</value>
+  </data>
+  <data name="GrBxCommands.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>344, 58</value>
+  </data>
+  <data name="GrBxCommands.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="optFinal.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optFinal.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>11, 46</value>
+  </data>
+  <data name="optFinal.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="optFinal.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="optInitial.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="optInitial.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>11, 23</value>
+  </data>
+  <data name="optInitial.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>109, 17</value>
+  </data>
+  <data name="optInitial.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GrBxDataBase.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>17, 20</value>
+  </data>
+  <data name="GrBxDataBase.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>125, 78</value>
+  </data>
+  <data name="GrBxDataBase.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblrecords.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblrecords.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>518, 93</value>
+  </data>
+  <data name="lblrecords.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lblrecords.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>1161, 588</value>
+  </data>
+  <metadata name="BindingSource1.TrayLocation" xml:space="preserve" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

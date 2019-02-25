@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblSequencerGuidelines.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>66, 22</value>
+  </data>
+  <data name="lblSequencerGuidelines.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>419, 45</value>
+  </data>
+  <data name="lblSequencerGuidelines.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="btnHelp.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>355, 319</value>
+  </data>
+  <data name="btnHelp.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnHelp.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="btnDelete.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>103, 319</value>
+  </data>
+  <data name="btnDelete.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnDelete.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btnUpdate.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>187, 319</value>
+  </data>
+  <data name="btnUpdate.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnUpdate.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btnClose.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>271, 319</value>
+  </data>
+  <data name="btnClose.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnClose.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="DataGridView1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>57, 81</value>
+  </data>
+  <data name="DataGridView1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>428, 215</value>
+  </data>
+  <data name="DataGridView1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>554, 365</value>
+  </data>
+  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtQCReportOriginal.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>171, 47</value>
+  </data>
+  <data name="txtQCReportOriginal.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>310, 20</value>
+  </data>
+  <data name="txtQCReportOriginal.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblQCReportOriginal.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblQCReportOriginal.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>32, 50</value>
+  </data>
+  <data name="lblQCReportOriginal.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="lblQCReportOriginal.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtQCReportUpdated.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>171, 94</value>
+  </data>
+  <data name="txtQCReportUpdated.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>310, 20</value>
+  </data>
+  <data name="txtQCReportUpdated.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblQCReportUpdated.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblQCReportUpdated.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>32, 97</value>
+  </data>
+  <data name="lblQCReportUpdated.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="lblQCReportUpdated.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnOK.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnOK.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>210, 148</value>
+  </data>
+  <data name="btnOK.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnOK.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnCancel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>308, 148</value>
+  </data>
+  <data name="btnCancel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Button1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>406, 148</value>
+  </data>
+  <data name="Button1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="Button1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnBrowseQCOriginal.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>487, 45</value>
+  </data>
+  <data name="btnBrowseQCOriginal.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnBrowseQCOriginal.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnQCUpdated.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>487, 92</value>
+  </data>
+  <data name="btnQCUpdated.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnQCUpdated.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblProcessStatus.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblProcessStatus.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
+    <value>179, 21</value>
+  </data>
+  <data name="lblProcessStatus.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lblProcessStatus.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
+    <value>594, 200</value>
+  </data>
+  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
