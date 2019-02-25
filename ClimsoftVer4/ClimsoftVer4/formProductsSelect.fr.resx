@@ -12,172 +12,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="OpenListToolStripMenuItem.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
+  <data name="OpenListToolStripMenuItem.Text" xml:space="preserve">
+    <value>Enregistrez les spécifications</value>
   </data>
-  <data name="ToolStripMenuItem2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
+  <data name="ToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Ouverture de spécifications</value>
   </data>
-  <data name="OpenListToolStripMenuItem1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
+  <data name="OpenListToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Ajouter un nouveau produit</value>
   </data>
-  <data name="ToolStripMenuItem1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>176, 6</value>
+  <data name="ExitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quitter</value>
   </data>
-  <data name="ExitToolStripMenuItem.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>179, 22</value>
+  <data name="FileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fichier</value>
   </data>
-  <data name="FileToolStripMenuItem.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
+  <data name="EditToolStripMenuItem.Text" xml:space="preserve">
+    <value>Modifier</value>
   </data>
-  <data name="EditToolStripMenuItem.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>39, 20</value>
+  <data name="HelpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Aide</value>
   </data>
-  <data name="HelpToolStripMenuItem.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
+  <data name="MenuStrip1.Text" xml:space="preserve">
+    <value>MenuStrip1</value>
   </data>
-  <data name="MenuStrip1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="lblProducts.Text" xml:space="preserve">
+    <value>Produits</value>
   </data>
-  <data name="MenuStrip1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>515, 24</value>
+  <data name="ToolStrip1.Text" xml:space="preserve">
+    <value>ToolStrip1</value>
   </data>
-  <data name="MenuStrip1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="ToolStripButton1.Text" xml:space="preserve">
+    <value>Fermer</value>
   </data>
-  <data name="lblProducts.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="ToolStrip2.Text" xml:space="preserve">
+    <value>ToolStrip2</value>
   </data>
-  <data name="lblProducts.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  <data name="lblProductsCategory.Text" xml:space="preserve">
+    <value>Sélectionnez le Type de données-produit</value>
   </data>
-  <data name="lblProducts.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>77, 52</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Liste de produits</value>
   </data>
-  <data name="lblProducts.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>69, 16</value>
-  </data>
-  <data name="lblProducts.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="ToolStrip1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
-  </data>
-  <data name="ToolStrip1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>515, 25</value>
-  </data>
-  <data name="ToolStrip1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="ToolStrip2.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="ToolStripSeparator2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
-  </data>
-  <data name="ToolStripButton1.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="ToolStripButton1.Image" xml:space="preserve" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
-        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
-        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
-        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
-        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
-        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
-        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
-        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
-        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
-        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="ToolStripButton1.ImageTransparentColor" xml:space="preserve" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="ToolStripButton1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>40, 22</value>
-  </data>
-  <data name="ToolStrip2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>0, 410</value>
-  </data>
-  <data name="ToolStrip2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>515, 25</value>
-  </data>
-  <data name="ToolStrip2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="cmbProductsCategory.ItemHeight" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="cmbProductsCategory.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>21, 12</value>
-  </data>
-  <data name="cmbProductsCategory.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>217, 21</value>
-  </data>
-  <data name="cmbProductsCategory.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="lblProductsCategory.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblProductsCategory.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="lblProductsCategory.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>244, 17</value>
-  </data>
-  <data name="lblProductsCategory.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>162, 16</value>
-  </data>
-  <data name="lblProductsCategory.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="lstvProducts.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>21, 41</value>
-  </data>
-  <data name="lstvProducts.RightToLeftLayout" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lstvProducts.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>384, 320</value>
-  </data>
-  <data name="lstvProducts.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="Panel1.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="Panel1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>0, 49</value>
-  </data>
-  <data name="Panel1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>455, 361</value>
-  </data>
-  <data name="Panel1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>515, 435</value>
-  </data>
-  <metadata name="MenuStrip1.TrayLocation" xml:space="preserve" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="ToolStrip1.TrayLocation" xml:space="preserve" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>239, 17</value>
-  </metadata>
-  <metadata name="ToolStrip2.TrayLocation" xml:space="preserve" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>346, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" xml:space="preserve" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>25</value>
-  </metadata>
 </root>

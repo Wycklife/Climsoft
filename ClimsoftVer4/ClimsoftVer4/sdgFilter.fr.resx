@@ -12,157 +12,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ComboBox1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>3, 28</value>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Valeur :</value>
   </data>
-  <data name="ComboBox1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>121, 21</value>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Opérateur :</value>
   </data>
-  <data name="ComboBox1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Élément :</value>
   </data>
-  <data name="ComboBox2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>130, 28</value>
+  <data name="TabPage1.Text" xml:space="preserve">
+    <value>Simple</value>
   </data>
-  <data name="ComboBox2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 21</value>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Opérateur :</value>
   </data>
-  <data name="ComboBox2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="btnRigthFilter.Text" xml:space="preserve">
+    <value>Filtre à droite</value>
   </data>
-  <data name="TextBox1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>186, 28</value>
+  <data name="btnLeftFilter.Text" xml:space="preserve">
+    <value>Filtre gauche</value>
   </data>
-  <data name="TextBox1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>59, 20</value>
+  <data name="tbCombined.Text" xml:space="preserve">
+    <value>Combiné</value>
   </data>
-  <data name="TextBox1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Filtrer</value>
   </data>
-  <data name="Label3.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label3.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>190, 12</value>
-  </data>
-  <data name="Label3.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>37, 13</value>
-  </data>
-  <data name="Label3.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="Label2.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>132, 12</value>
-  </data>
-  <data name="Label2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>51, 13</value>
-  </data>
-  <data name="Label2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="Label1.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>6, 12</value>
-  </data>
-  <data name="Label1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 13</value>
-  </data>
-  <data name="Label1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="CheckedListBox1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>122, 65</value>
-  </data>
-  <data name="CheckedListBox1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>128, 184</value>
-  </data>
-  <data name="CheckedListBox1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="TabPage1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="TabPage1.Padding" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TabPage1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>261, 258</value>
-  </data>
-  <data name="TabPage1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Label4.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label4.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>87, 26</value>
-  </data>
-  <data name="Label4.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>51, 13</value>
-  </data>
-  <data name="Label4.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="btnRigthFilter.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>144, 42</value>
-  </data>
-  <data name="btnRigthFilter.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnRigthFilter.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="btnLeftFilter.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>7, 42</value>
-  </data>
-  <data name="btnLeftFilter.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnLeftFilter.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="ComboBox3.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>88, 42</value>
-  </data>
-  <data name="ComboBox3.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 21</value>
-  </data>
-  <data name="ComboBox3.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tbCombined.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="tbCombined.Padding" xml:space="preserve" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tbCombined.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>261, 258</value>
-  </data>
-  <data name="tbCombined.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="TabControl1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>3, 12</value>
-  </data>
-  <data name="TabControl1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>269, 284</value>
-  </data>
-  <data name="TabControl1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>284, 326</value>
-  </data>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

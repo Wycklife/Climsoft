@@ -12,499 +12,85 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="StationIdLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="StationIdLabel.Text" xml:space="preserve">
+    <value>Id de la station :</value>
   </data>
-  <data name="StationIdLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>76, 37</value>
+  <data name="StationNameLabel.Text" xml:space="preserve">
+    <value>Nom de la station :</value>
   </data>
-  <data name="StationIdLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>55, 13</value>
+  <data name="LatitudeLabel.Text" xml:space="preserve">
+    <value>Latitude :</value>
   </data>
-  <data name="StationIdLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="LongitudeLabel.Text" xml:space="preserve">
+    <value>Longitude :</value>
   </data>
-  <data name="StationNameLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="ElevationLabel.Text" xml:space="preserve">
+    <value>Altitude :</value>
   </data>
-  <data name="StationNameLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>290, 40</value>
+  <data name="GeoLocationMethodLabel.Text" xml:space="preserve">
+    <value>Géo localisation méthode :</value>
   </data>
-  <data name="StationNameLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>74, 13</value>
+  <data name="GeoLocationAccuracyLabel.Text" xml:space="preserve">
+    <value>Précision de la localisation géo :</value>
   </data>
-  <data name="StationNameLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="OpeningDatetimeLabel.Text" xml:space="preserve">
+    <value>Ouverture Datetime :</value>
   </data>
-  <data name="LatitudeLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="ClosingDatetimeLabel.Text" xml:space="preserve">
+    <value>Fermeture de Datetime :</value>
   </data>
-  <data name="LatitudeLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>85, 84</value>
+  <data name="CountryLabel.Text" xml:space="preserve">
+    <value>Pays :</value>
   </data>
-  <data name="LatitudeLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 13</value>
+  <data name="AuthorityLabel.Text" xml:space="preserve">
+    <value>Texte de base :</value>
   </data>
-  <data name="LatitudeLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="AdminRegionLabel.Text" xml:space="preserve">
+    <value>Région de l’admin :</value>
   </data>
-  <data name="LongitudeLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="DrainageBasinLabel.Text" xml:space="preserve">
+    <value>Bassin hydrographique :</value>
   </data>
-  <data name="LongitudeLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>309, 84</value>
+  <data name="CptSelectionLabel.Text" xml:space="preserve">
+    <value>Sélection du CPT :</value>
   </data>
-  <data name="LongitudeLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>57, 13</value>
+  <data name="StationOperationalLabel.Text" xml:space="preserve">
+    <value>Station opérationnelle :</value>
   </data>
-  <data name="LongitudeLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Fermer</value>
   </data>
-  <data name="ElevationLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnMoveNext.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
   </data>
-  <data name="ElevationLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>557, 87</value>
+  <data name="btnMoveLast.Text" xml:space="preserve">
+    <value>&gt; &gt;|</value>
   </data>
-  <data name="ElevationLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>54, 13</value>
+  <data name="btnMoveFirst.Text" xml:space="preserve">
+    <value>| &lt; &lt;</value>
   </data>
-  <data name="ElevationLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="btnMovePrevious.Text" xml:space="preserve">
+    <value>&lt;&lt;</value>
   </data>
-  <data name="GeoLocationMethodLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnUpdate.Text" xml:space="preserve">
+    <value>Mise à jour</value>
   </data>
-  <data name="GeoLocationMethodLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>24, 258</value>
+  <data name="btnAddNew.Text" xml:space="preserve">
+    <value>Ajouter nouveau</value>
   </data>
-  <data name="GeoLocationMethodLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>113, 13</value>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Supprimer</value>
   </data>
-  <data name="GeoLocationMethodLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="btnCommit.Text" xml:space="preserve">
+    <value>Enregistrer</value>
   </data>
-  <data name="GeoLocationAccuracyLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Effacer</value>
   </data>
-  <data name="GeoLocationAccuracyLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>324, 258</value>
+  <data name="btnHelp.Text" xml:space="preserve">
+    <value>Aide</value>
   </data>
-  <data name="GeoLocationAccuracyLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>122, 13</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Informations station</value>
   </data>
-  <data name="GeoLocationAccuracyLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="OpeningDatetimeLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="OpeningDatetimeLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>252, 170</value>
-  </data>
-  <data name="OpeningDatetimeLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>95, 13</value>
-  </data>
-  <data name="OpeningDatetimeLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="ClosingDatetimeLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="ClosingDatetimeLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>252, 210</value>
-  </data>
-  <data name="ClosingDatetimeLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>89, 13</value>
-  </data>
-  <data name="ClosingDatetimeLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="CountryLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="CountryLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>565, 43</value>
-  </data>
-  <data name="CountryLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>46, 13</value>
-  </data>
-  <data name="CountryLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="AuthorityLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="AuthorityLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>85, 124</value>
-  </data>
-  <data name="AuthorityLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>51, 13</value>
-  </data>
-  <data name="AuthorityLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="AdminRegionLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="AdminRegionLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>287, 127</value>
-  </data>
-  <data name="AdminRegionLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>76, 13</value>
-  </data>
-  <data name="AdminRegionLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="DrainageBasinLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="DrainageBasinLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>500, 124</value>
-  </data>
-  <data name="DrainageBasinLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>82, 13</value>
-  </data>
-  <data name="DrainageBasinLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="CptSelectionLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="CptSelectionLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>63, 213</value>
-  </data>
-  <data name="CptSelectionLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>78, 13</value>
-  </data>
-  <data name="CptSelectionLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="StationOperationalLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="StationOperationalLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>37, 173</value>
-  </data>
-  <data name="StationOperationalLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 13</value>
-  </data>
-  <data name="StationOperationalLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="StationIdTextBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>141, 34</value>
-  </data>
-  <data name="StationIdTextBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="StationIdTextBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="StationNameTextBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>368, 37</value>
-  </data>
-  <data name="StationNameTextBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>175, 20</value>
-  </data>
-  <data name="StationNameTextBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="LatitudeTextBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>141, 81</value>
-  </data>
-  <data name="LatitudeTextBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="LatitudeTextBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="LongitudeTextBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>368, 81</value>
-  </data>
-  <data name="LongitudeTextBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="LongitudeTextBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="ElevationTextBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>616, 84</value>
-  </data>
-  <data name="ElevationTextBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="ElevationTextBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="GeoLocationMethodTextBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>141, 255</value>
-  </data>
-  <data name="GeoLocationMethodTextBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="GeoLocationMethodTextBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="GeoLocationAccuracyTextBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>459, 255</value>
-  </data>
-  <data name="GeoLocationAccuracyTextBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>109, 20</value>
-  </data>
-  <data name="GeoLocationAccuracyTextBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="OpeningDatetimeDateTimePicker.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>368, 166</value>
-  </data>
-  <data name="OpeningDatetimeDateTimePicker.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>200, 20</value>
-  </data>
-  <data name="OpeningDatetimeDateTimePicker.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="ClosingDatetimeDateTimePicker.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>368, 206</value>
-  </data>
-  <data name="ClosingDatetimeDateTimePicker.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>200, 20</value>
-  </data>
-  <data name="ClosingDatetimeDateTimePicker.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="CountryTextBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>616, 40</value>
-  </data>
-  <data name="CountryTextBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="CountryTextBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="AuthorityTextBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>141, 121</value>
-  </data>
-  <data name="AuthorityTextBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="AuthorityTextBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="AdminRegionTextBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>368, 124</value>
-  </data>
-  <data name="AdminRegionTextBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="AdminRegionTextBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="DrainageBasinTextBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>616, 121</value>
-  </data>
-  <data name="DrainageBasinTextBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="DrainageBasinTextBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="CptSelectionTextBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>141, 210</value>
-  </data>
-  <data name="CptSelectionTextBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="CptSelectionTextBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="StationOperationalTextBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>141, 170</value>
-  </data>
-  <data name="StationOperationalTextBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="StationOperationalTextBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="btnClose.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>527, 364</value>
-  </data>
-  <data name="btnClose.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnClose.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>33</value>
-  </data>
-  <data name="btnMoveNext.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="btnMoveNext.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>477, 327</value>
-  </data>
-  <data name="btnMoveNext.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>38, 23</value>
-  </data>
-  <data name="btnMoveNext.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="recNumberTextBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>330, 329</value>
-  </data>
-  <data name="recNumberTextBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>141, 20</value>
-  </data>
-  <data name="recNumberTextBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>35</value>
-  </data>
-  <data name="btnMoveLast.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="btnMoveLast.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>521, 327</value>
-  </data>
-  <data name="btnMoveLast.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>32, 23</value>
-  </data>
-  <data name="btnMoveLast.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="btnMoveFirst.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="btnMoveFirst.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>231, 327</value>
-  </data>
-  <data name="btnMoveFirst.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>41, 23</value>
-  </data>
-  <data name="btnMoveFirst.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="btnMovePrevious.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="btnMovePrevious.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>278, 327</value>
-  </data>
-  <data name="btnMovePrevious.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>46, 23</value>
-  </data>
-  <data name="btnMovePrevious.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="btnUpdate.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>284, 364</value>
-  </data>
-  <data name="btnUpdate.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnUpdate.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
-  <data name="btnAddNew.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>119, 364</value>
-  </data>
-  <data name="btnAddNew.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnAddNew.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>40</value>
-  </data>
-  <data name="btnDelete.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>365, 364</value>
-  </data>
-  <data name="btnDelete.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnDelete.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="btnCommit.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btnCommit.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>200, 364</value>
-  </data>
-  <data name="btnCommit.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnCommit.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>42</value>
-  </data>
-  <data name="btnClear.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btnClear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>446, 364</value>
-  </data>
-  <data name="btnClear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnClear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="btnHelp.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>608, 364</value>
-  </data>
-  <data name="btnHelp.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnHelp.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>44</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>784, 411</value>
-  </data>
-  <metadata name="StationIdLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="StationNameLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="LatitudeLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="LongitudeLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="ElevationLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="GeoLocationMethodLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="GeoLocationAccuracyLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="OpeningDatetimeLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="ClosingDatetimeLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="CountryLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="AuthorityLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="AdminRegionLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="DrainageBasinLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="CptSelectionLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="StationOperationalLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

@@ -12,28 +12,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="cmsMonthIDs.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
+  <data name="cmsMonthIDs.Text" xml:space="preserve">
+    <value>Affichage mois IDs</value>
   </data>
-  <data name="cmsMonthNames.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
+  <data name="cmsMonthNames.Text" xml:space="preserve">
+    <value>Voir les noms de mois</value>
   </data>
-  <data name="cmsMonthShortMonthNames.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
+  <data name="cmsMonthShortMonthNames.Text" xml:space="preserve">
+    <value>Voir les noms de mois abrégé</value>
   </data>
-  <data name="cmsMonth.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>210, 70</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>380, 212</value>
-  </data>
-  <metadata name="cmsMonth.TrayLocation" xml:space="preserve" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

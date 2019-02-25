@@ -12,290 +12,61 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="txtEyear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>345, 110</value>
+  <data name="txtEyear.Text" xml:space="preserve">
+    <value>2012</value>
   </data>
-  <data name="txtEyear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>36, 20</value>
+  <data name="txtByear.Text" xml:space="preserve">
+    <value>1900</value>
   </data>
-  <data name="txtEyear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="lblEyear.Text" xml:space="preserve">
+    <value>Année de fin</value>
   </data>
-  <data name="txtByear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>231, 110</value>
+  <data name="lblByear.Text" xml:space="preserve">
+    <value>Beging année</value>
   </data>
-  <data name="txtByear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>41, 20</value>
+  <data name="lblV4.Text" xml:space="preserve">
+    <value>V4 db</value>
   </data>
-  <data name="txtByear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="txtV4db.Text" xml:space="preserve">
+    <value>maria_climsoft_db_v4</value>
   </data>
-  <data name="lblEyear.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="txtV3db.Text" xml:space="preserve">
+    <value>mysql_main_climsoft_database_v3</value>
   </data>
-  <data name="lblEyear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>297, 112</value>
+  <data name="lblV3.Text" xml:space="preserve">
+    <value>V3 db</value>
   </data>
-  <data name="lblEyear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>51, 13</value>
+  <data name="optSeletedRecords.Text" xml:space="preserve">
+    <value>Enregistrements sélectionnés :</value>
   </data>
-  <data name="lblEyear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="optEntireDb.Text" xml:space="preserve">
+    <value>Base de données entière</value>
   </data>
-  <data name="lblByear.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lblBkpFile.Text" xml:space="preserve">
+    <value>Fichier de sauvegarde</value>
   </data>
-  <data name="lblByear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>167, 113</value>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>Aide</value>
   </data>
-  <data name="lblByear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>65, 13</value>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Annuler</value>
   </data>
-  <data name="lblByear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="cmdStart.Text" xml:space="preserve">
+    <value>Démarrer</value>
   </data>
-  <data name="lblV4.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="optV3MysqlDb.Text" xml:space="preserve">
+    <value>CLIMSOFT V3 MySQL Database - au sein du même serveur)</value>
   </data>
-  <data name="lblV4.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>306, 41</value>
+  <data name="optV3Backup.Text" xml:space="preserve">
+    <value>CLIMSOFT V3 Backup</value>
   </data>
-  <data name="lblV4.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>35, 13</value>
+  <data name="lblMessages.Text" xml:space="preserve">
+    <value>Messages</value>
   </data>
-  <data name="lblV4.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="chkboxReplace.Text" xml:space="preserve">
+    <value>Remplacer les enregistrements existants</value>
   </data>
-  <data name="txtV4db.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>345, 37</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Migration des données</value>
   </data>
-  <data name="txtV4db.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>185, 20</value>
-  </data>
-  <data name="txtV4db.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="txtV3db.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>72, 37</value>
-  </data>
-  <data name="txtV3db.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>219, 20</value>
-  </data>
-  <data name="txtV3db.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblV3.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblV3.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>36, 41</value>
-  </data>
-  <data name="lblV3.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>35, 13</value>
-  </data>
-  <data name="lblV3.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="optSeletedRecords.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optSeletedRecords.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>33, 111</value>
-  </data>
-  <data name="optSeletedRecords.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>113, 17</value>
-  </data>
-  <data name="optSeletedRecords.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="optEntireDb.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optEntireDb.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>33, 76</value>
-  </data>
-  <data name="optEntireDb.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>101, 17</value>
-  </data>
-  <data name="optEntireDb.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="grpV3MysqlDb.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>24, 44</value>
-  </data>
-  <data name="grpV3MysqlDb.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>555, 154</value>
-  </data>
-  <data name="grpV3MysqlDb.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="cmdCSV.BackgroundImage" xml:space="preserve" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAIAAADZrBkAAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vAAADrwBlbxySQAAAOBJREFUOE9jOH/tKRkIuzaN1JkMnl3uDZvQxOEIu7ajF2/j14mirWvtGd6gfqBq
-        ZJQ3+zCyGghC0QbUAzR+y8mbQDaQAdQDtBPIvrw4Gg2haAOqm7H1IpAB0QN34emzd5ERujZk2+AITQ8Q
-        oWsDWgXxG4SLphqO0LWhITTVcIRF25UViWiKMBG6tqvLk4BCWBHQuFtnD2DRdu7ak9s7W5GVoqHrm2ux
-        aLtw/dmDi7uQ1WGi2yc3YHHkuatPrq/LR1aHhq6tysCm7dqT+8cXI6vDRLf2TgaSKNqIR/TUdu0pACWu
-        2YBZsaogAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="cmdCSV.BackgroundImageLayout" xml:space="preserve" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="cmdCSV.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>439, 32</value>
-  </data>
-  <data name="cmdCSV.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>36, 29</value>
-  </data>
-  <data name="cmdCSV.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lblBkpFile.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblBkpFile.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>6, 40</value>
-  </data>
-  <data name="lblBkpFile.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>63, 13</value>
-  </data>
-  <data name="lblBkpFile.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="txtBkpFile.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>80, 36</value>
-  </data>
-  <data name="txtBkpFile.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>362, 20</value>
-  </data>
-  <data name="txtBkpFile.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="grpV3Backup.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="grpV3Backup.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>24, 236</value>
-  </data>
-  <data name="grpV3Backup.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>555, 98</value>
-  </data>
-  <data name="grpV3Backup.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lstMsgs.HorizontalScrollbar" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lstMsgs.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>585, 44</value>
-  </data>
-  <data name="lstMsgs.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>381, 290</value>
-  </data>
-  <data name="lstMsgs.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="cmdHelp.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>485, 3</value>
-  </data>
-  <data name="cmdHelp.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>71, 23</value>
-  </data>
-  <data name="cmdHelp.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="cmdCancel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>368, 3</value>
-  </data>
-  <data name="cmdCancel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>71, 23</value>
-  </data>
-  <data name="cmdCancel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="cmdStart.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>231, 3</value>
-  </data>
-  <data name="cmdStart.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>71, 23</value>
-  </data>
-  <data name="cmdStart.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="pnlCommands.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="pnlCommands.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>0, 366</value>
-  </data>
-  <data name="pnlCommands.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>978, 31</value>
-  </data>
-  <data name="pnlCommands.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="optV3MysqlDb.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optV3MysqlDb.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>25, 23</value>
-  </data>
-  <data name="optV3MysqlDb.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>301, 17</value>
-  </data>
-  <data name="optV3MysqlDb.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="optV3Backup.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optV3Backup.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>24, 213</value>
-  </data>
-  <data name="optV3Backup.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>134, 17</value>
-  </data>
-  <data name="optV3Backup.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="lblMessages.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblMessages.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>691, 28</value>
-  </data>
-  <data name="lblMessages.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>55, 13</value>
-  </data>
-  <data name="lblMessages.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="chkboxReplace.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkboxReplace.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>25, 340</value>
-  </data>
-  <data name="chkboxReplace.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>148, 17</value>
-  </data>
-  <data name="chkboxReplace.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>978, 397</value>
-  </data>
-  <metadata name="OpenFileBackup.TrayLocation" xml:space="preserve" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" xml:space="preserve" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>25</value>
-  </metadata>
 </root>

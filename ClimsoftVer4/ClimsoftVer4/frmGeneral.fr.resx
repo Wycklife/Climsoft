@@ -12,49 +12,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="cmdHelp.HelpNavigator" xml:space="preserve" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
-    <value>Topic</value>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>Aide</value>
   </data>
-  <data name="cmdHelp.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>691, 526</value>
+  <data name="cmdClose.Text" xml:space="preserve">
+    <value>Fermer</value>
   </data>
-  <data name="cmdHelp.ShowHelp" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>frmGeneralForm</value>
   </data>
-  <data name="cmdHelp.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="cmdHelp.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="cmdClose.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>610, 526</value>
-  </data>
-  <data name="cmdClose.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="cmdClose.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>784, 561</value>
-  </data>
-  <data name="$this.HelpNavigator" xml:space="preserve" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
-    <value>Topic</value>
-  </data>
-  <data name="$this.ShowHelp" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <metadata name="HelpProvider1.TrayLocation" xml:space="preserve" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" xml:space="preserve" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>84</value>
-  </metadata>
 </root>

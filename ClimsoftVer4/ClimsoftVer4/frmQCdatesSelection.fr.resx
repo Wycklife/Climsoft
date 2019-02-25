@@ -12,163 +12,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="txtBeginYear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>213, 40</value>
+  <data name="lblBeginYear.Text" xml:space="preserve">
+    <value>Commencer l’année :</value>
   </data>
-  <data name="txtBeginYear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+  <data name="lblEndYear.Text" xml:space="preserve">
+    <value>Année de fin :</value>
   </data>
-  <data name="txtBeginYear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="lblBeginMonth.Text" xml:space="preserve">
+    <value>Commencer le mois :</value>
   </data>
-  <data name="txtEndYear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>213, 80</value>
+  <data name="lblEndMonth.Text" xml:space="preserve">
+    <value>Fin mois</value>
   </data>
-  <data name="txtEndYear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>W!!ÔK !!W</value>
   </data>
-  <data name="txtEndYear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Annuler</value>
   </data>
-  <data name="txtBeginMonth.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>213, 120</value>
+  <data name="btnHelp.Text" xml:space="preserve">
+    <value>Aide</value>
   </data>
-  <data name="txtBeginMonth.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+  <data name="lblQCtype.Text" xml:space="preserve">
+    <value>Type de CQ</value>
   </data>
-  <data name="txtBeginMonth.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Spécifiez la plage de dates pour QC</value>
   </data>
-  <data name="txtEndMonth.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>213, 160</value>
-  </data>
-  <data name="txtEndMonth.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="txtEndMonth.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lblBeginYear.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblBeginYear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>126, 43</value>
-  </data>
-  <data name="lblBeginYear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>62, 13</value>
-  </data>
-  <data name="lblBeginYear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lblEndYear.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblEndYear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>126, 80</value>
-  </data>
-  <data name="lblEndYear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>54, 13</value>
-  </data>
-  <data name="lblEndYear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lblBeginMonth.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblBeginMonth.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>126, 120</value>
-  </data>
-  <data name="lblBeginMonth.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>70, 13</value>
-  </data>
-  <data name="lblBeginMonth.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lblEndMonth.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblEndMonth.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>126, 160</value>
-  </data>
-  <data name="lblEndMonth.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>59, 13</value>
-  </data>
-  <data name="lblEndMonth.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="btnOK.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>50, 195</value>
-  </data>
-  <data name="btnOK.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnOK.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="btnCancel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>144, 195</value>
-  </data>
-  <data name="btnCancel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnCancel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="btnHelp.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>238, 195</value>
-  </data>
-  <data name="btnHelp.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnHelp.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="lblQCtype.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblQCtype.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>26, 9</value>
-  </data>
-  <data name="lblQCtype.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>99, 13</value>
-  </data>
-  <data name="lblQCtype.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="lblProcessingStatus.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblProcessingStatus.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>99, 225</value>
-  </data>
-  <data name="lblProcessingStatus.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>0, 13</value>
-  </data>
-  <data name="lblProcessingStatus.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="LstViewStations.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>335, 19</value>
-  </data>
-  <data name="LstViewStations.RightToLeft" xml:space="preserve" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="LstViewStations.RightToLeftLayout" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LstViewStations.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>321, 286</value>
-  </data>
-  <data name="LstViewStations.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>668, 317</value>
-  </data>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

@@ -12,55 +12,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="txtDataTransferProgress1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>70, 47</value>
+  <data name="lblDataTransferProgress.Text" xml:space="preserve">
+    <value>Transfert de données en cours</value>
   </data>
-  <data name="txtDataTransferProgress1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>273, 20</value>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Fermer</value>
   </data>
-  <data name="txtDataTransferProgress1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Cours de transfert de données</value>
   </data>
-  <data name="lblDataTransferProgress.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblDataTransferProgress.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>93, 84</value>
-  </data>
-  <data name="lblDataTransferProgress.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>122, 13</value>
-  </data>
-  <data name="lblDataTransferProgress.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="btnClose.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>287, 97</value>
-  </data>
-  <data name="btnClose.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>56, 23</value>
-  </data>
-  <data name="btnClose.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lblTableRecords.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblTableRecords.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>93, 20</value>
-  </data>
-  <data name="lblTableRecords.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>0, 13</value>
-  </data>
-  <data name="lblTableRecords.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>377, 132</value>
-  </data>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

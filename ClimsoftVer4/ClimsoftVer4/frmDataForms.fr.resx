@@ -12,52 +12,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="lstvForms.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+  <data name="cmdApply.Text" xml:space="preserve">
+    <value>Applique</value>
   </data>
-  <data name="lstvForms.RightToLeft" xml:space="preserve" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>Aide</value>
   </data>
-  <data name="lstvForms.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>685, 329</value>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Annuler</value>
   </data>
-  <data name="lstvForms.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Formulaires de données</value>
   </data>
-  <data name="cmdApply.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>422, 347</value>
-  </data>
-  <data name="cmdApply.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>69, 27</value>
-  </data>
-  <data name="cmdApply.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="cmdHelp.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>614, 347</value>
-  </data>
-  <data name="cmdHelp.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>69, 27</value>
-  </data>
-  <data name="cmdHelp.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="cmdCancel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>518, 347</value>
-  </data>
-  <data name="cmdCancel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>69, 27</value>
-  </data>
-  <data name="cmdCancel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>697, 385</value>
-  </data>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

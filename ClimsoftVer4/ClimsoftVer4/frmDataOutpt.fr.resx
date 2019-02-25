@@ -12,130 +12,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="TextBox1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>111, 90</value>
+  <data name="RadioButton1.Text" xml:space="preserve">
+    <value>Enregistrer dans le fichier</value>
   </data>
-  <data name="TextBox1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>213, 20</value>
+  <data name="optView.Text" xml:space="preserve">
+    <value>Afficher</value>
   </data>
-  <data name="TextBox1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="lblOutputOptions.Text" xml:space="preserve">
+    <value>Options de sortie</value>
   </data>
-  <data name="RadioButton1.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="RadioButton4.Text" xml:space="preserve">
+    <value>Grand Format</value>
   </data>
-  <data name="RadioButton1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>16, 94</value>
+  <data name="pnlLayerout.Text" xml:space="preserve">
+    <value>Sortie Layerout</value>
   </data>
-  <data name="RadioButton1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>81, 17</value>
+  <data name="RadioButton3.Text" xml:space="preserve">
+    <value>RadioButton3</value>
   </data>
-  <data name="RadioButton1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Sortie de produits de données</value>
   </data>
-  <data name="optView.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optView.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>16, 44</value>
-  </data>
-  <data name="optView.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 17</value>
-  </data>
-  <data name="optView.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lblOutputOptions.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblOutputOptions.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
-  </data>
-  <data name="lblOutputOptions.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="lblOutputOptions.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>102, 15</value>
-  </data>
-  <data name="lblOutputOptions.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="pnlOutPuttype.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>271, 50</value>
-  </data>
-  <data name="pnlOutPuttype.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>367, 234</value>
-  </data>
-  <data name="pnlOutPuttype.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="RadioButton4.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="RadioButton4.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>21, 79</value>
-  </data>
-  <data name="RadioButton4.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>85, 17</value>
-  </data>
-  <data name="RadioButton4.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="optLongFormat.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optLongFormat.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>21, 36</value>
-  </data>
-  <data name="optLongFormat.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>14, 13</value>
-  </data>
-  <data name="optLongFormat.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="pnlLayerout.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="pnlLayerout.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
-  </data>
-  <data name="pnlLayerout.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>3, 1</value>
-  </data>
-  <data name="pnlLayerout.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>108, 15</value>
-  </data>
-  <data name="pnlLayerout.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="pnlLayout.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>12, 50</value>
-  </data>
-  <data name="pnlLayout.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>164, 233</value>
-  </data>
-  <data name="pnlLayout.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="RadioButton3.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="RadioButton3.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>283, 306</value>
-  </data>
-  <data name="RadioButton3.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>90, 17</value>
-  </data>
-  <data name="RadioButton3.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>677, 349</value>
-  </data>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

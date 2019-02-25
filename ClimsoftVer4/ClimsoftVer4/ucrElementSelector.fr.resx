@@ -12,40 +12,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="cmsElementsNames.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>192, 22</value>
+  <data name="cmsElementsNames.Text" xml:space="preserve">
+    <value>Noms d’élément</value>
   </data>
-  <data name="cmsElementIDs.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>192, 22</value>
+  <data name="cmsElementIDs.Text" xml:space="preserve">
+    <value>Identificateurs</value>
   </data>
-  <data name="cmsElemntIDName.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>192, 22</value>
+  <data name="cmsElemntIDName.Text" xml:space="preserve">
+    <value>ID et nom de l’élément</value>
   </data>
-  <data name="ToolStripSeparator2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>189, 6</value>
+  <data name="cmsElementSortByID.Text" xml:space="preserve">
+    <value>Tri par ID</value>
   </data>
-  <data name="cmsElementSortByID.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>192, 22</value>
+  <data name="cmsElementSortyByName.Text" xml:space="preserve">
+    <value>Trier par nom d’élément</value>
   </data>
-  <data name="cmsElementSortyByName.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>192, 22</value>
+  <data name="cmsElementsFilter.Text" xml:space="preserve">
+    <value>Stations de filtration</value>
   </data>
-  <data name="cmsElementsFilter.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>192, 22</value>
-  </data>
-  <data name="ToolStripSeparator1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>189, 6</value>
-  </data>
-  <data name="cmsElement.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>193, 148</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <metadata name="cmsElement.TrayLocation" xml:space="preserve" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

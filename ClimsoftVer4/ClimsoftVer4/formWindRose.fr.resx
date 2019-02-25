@@ -12,181 +12,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="lblPredifined.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lblPredifined.Text" xml:space="preserve">
+    <value>Période</value>
   </data>
-  <data name="lblPredifined.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  <data name="optYear.Text" xml:space="preserve">
+    <value>YEAR</value>
   </data>
-  <data name="lblPredifined.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>-1, 0</value>
+  <data name="optSeason.Text" xml:space="preserve">
+    <value>Saison</value>
   </data>
-  <data name="lblPredifined.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>43, 13</value>
+  <data name="optWeekly.Text" xml:space="preserve">
+    <value>Jour ouvrable</value>
   </data>
-  <data name="lblPredifined.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="optsingle.Text" xml:space="preserve">
+    <value>Simple</value>
   </data>
-  <data name="optYear.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lblProvider.Text" xml:space="preserve">
+    <value>Fournisseur</value>
   </data>
-  <data name="optYear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>14, 125</value>
+  <data name="lblTile.Text" xml:space="preserve">
+    <value>Titre</value>
   </data>
-  <data name="optYear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>47, 17</value>
+  <data name="lbllabel.Text" xml:space="preserve">
+    <value>Étiquettes de la Rose des vents</value>
   </data>
-  <data name="optYear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="lblThreshold.Text" xml:space="preserve">
+    <value>Seuil</value>
   </data>
-  <data name="optSeason.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Traçage de la Rose des vents</value>
   </data>
-  <data name="optSeason.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>14, 92</value>
-  </data>
-  <data name="optSeason.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>61, 17</value>
-  </data>
-  <data name="optSeason.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="optWeekly.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optWeekly.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>14, 59</value>
-  </data>
-  <data name="optWeekly.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>71, 17</value>
-  </data>
-  <data name="optWeekly.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="optsingle.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="optsingle.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>14, 26</value>
-  </data>
-  <data name="optsingle.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>54, 17</value>
-  </data>
-  <data name="optsingle.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="pnlWindrose.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>23, 54</value>
-  </data>
-  <data name="pnlWindrose.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>181, 165</value>
-  </data>
-  <data name="pnlWindrose.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="lblProvider.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblProvider.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="lblProvider.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>4, 95</value>
-  </data>
-  <data name="lblProvider.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>59, 16</value>
-  </data>
-  <data name="lblProvider.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="TextBox2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>76, 91</value>
-  </data>
-  <data name="TextBox2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>270, 20</value>
-  </data>
-  <data name="TextBox2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lblTile.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblTile.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="lblTile.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>4, 45</value>
-  </data>
-  <data name="lblTile.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>34, 16</value>
-  </data>
-  <data name="lblTile.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="txtTitle.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>76, 41</value>
-  </data>
-  <data name="txtTitle.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>270, 20</value>
-  </data>
-  <data name="txtTitle.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lbllabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbllabel.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="lbllabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="lbllabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>110, 13</value>
-  </data>
-  <data name="lbllabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Panel1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>266, 54</value>
-  </data>
-  <data name="Panel1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>368, 165</value>
-  </data>
-  <data name="Panel1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="TextBox1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>97, 244</value>
-  </data>
-  <data name="TextBox1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>69, 20</value>
-  </data>
-  <data name="TextBox1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lblThreshold.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblThreshold.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="lblThreshold.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>25, 245</value>
-  </data>
-  <data name="lblThreshold.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>69, 16</value>
-  </data>
-  <data name="lblThreshold.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>661, 352</value>
-  </data>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

@@ -12,94 +12,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="cmdHelp.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>349, 5</value>
+  <data name="cmdHelp.Text" xml:space="preserve">
+    <value>Aide</value>
   </data>
-  <data name="cmdHelp.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>60, 25</value>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Annuler</value>
   </data>
-  <data name="cmdHelp.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+  <data name="cmdOK.Text" xml:space="preserve">
+    <value>W!!ÔK !!W</value>
+  </data>
+  <data name="lblStartMonth.Text" xml:space="preserve">
+    <value>Mois de départ</value>
+  </data>
+  <data name="cmbStartMonth.Text" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cmdCancel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>239, 5</value>
-  </data>
-  <data name="cmdCancel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>60, 25</value>
-  </data>
-  <data name="cmdCancel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="cmdOK.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>131, 5</value>
-  </data>
-  <data name="cmdOK.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>60, 25</value>
-  </data>
-  <data name="cmdOK.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="grpCommands.Dock" xml:space="preserve" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="grpCommands.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>0, 103</value>
-  </data>
-  <data name="grpCommands.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>526, 30</value>
-  </data>
-  <data name="grpCommands.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblStartMonth.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblStartMonth.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>36, 49</value>
-  </data>
-  <data name="lblStartMonth.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>62, 13</value>
-  </data>
-  <data name="lblStartMonth.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="cmbStartMonth.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>104, 45</value>
-  </data>
-  <data name="cmbStartMonth.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>49, 21</value>
-  </data>
-  <data name="cmbStartMonth.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="cmbEndMonth.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>381, 45</value>
-  </data>
-  <data name="cmbEndMonth.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>49, 21</value>
-  </data>
-  <data name="cmbEndMonth.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
+  <data name="cmbEndMonth.Text" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="lblEndMonth.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lblEndMonth.Text" xml:space="preserve">
+    <value>Mois de départ</value>
   </data>
-  <data name="lblEndMonth.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>313, 49</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CPT saison mois</value>
   </data>
-  <data name="lblEndMonth.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>62, 13</value>
-  </data>
-  <data name="lblEndMonth.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>526, 133</value>
-  </data>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

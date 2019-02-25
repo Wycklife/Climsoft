@@ -12,88 +12,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="userName.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>160, 49</value>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Nom d'utilisateur</value>
   </data>
-  <data name="userName.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>162, 20</value>
+  <data name="btnDatabaseConnect.Text" xml:space="preserve">
+    <value>Se connecter</value>
   </data>
-  <data name="userName.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Mot de p.</value>
   </data>
-  <data name="Label2.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Fermer</value>
   </data>
-  <data name="Label2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>50, 52</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Connexion à la base de données MySQL</value>
   </data>
-  <data name="Label2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>55, 13</value>
-  </data>
-  <data name="Label2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btnDatabaseConnect.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>160, 127</value>
-  </data>
-  <data name="btnDatabaseConnect.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnDatabaseConnect.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="passWord.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>160, 92</value>
-  </data>
-  <data name="passWord.PasswordChar" xml:space="preserve" type="System.Char, mscorlib">
-    <value>*</value>
-  </data>
-  <data name="passWord.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>162, 20</value>
-  </data>
-  <data name="passWord.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="Label3.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label3.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>52, 95</value>
-  </data>
-  <data name="Label3.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>53, 13</value>
-  </data>
-  <data name="Label3.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="btnClose.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>246, 127</value>
-  </data>
-  <data name="btnClose.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnClose.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="txtDbParameters.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>160, 12</value>
-  </data>
-  <data name="txtDbParameters.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>162, 20</value>
-  </data>
-  <data name="txtDbParameters.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="txtDbParameters.Visible" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>371, 172</value>
-  </data>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

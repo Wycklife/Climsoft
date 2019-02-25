@@ -12,25 +12,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="cmsHour24.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>157, 22</value>
+  <data name="cmsHour24.Text" xml:space="preserve">
+    <value>Vue en 24 heures</value>
   </data>
-  <data name="cmsHour12.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>157, 22</value>
+  <data name="cmsHour12.Text" xml:space="preserve">
+    <value>Vue à 12hrs</value>
   </data>
-  <data name="cmsHour.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>158, 48</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>139, 25</value>
-  </data>
-  <metadata name="cmsHour.TrayLocation" xml:space="preserve" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

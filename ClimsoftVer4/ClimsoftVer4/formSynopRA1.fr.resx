@@ -12,1930 +12,220 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="YyyyLabel.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="YyyyLabel.Text" xml:space="preserve">
+    <value>Année :</value>
   </data>
-  <data name="YyyyLabel.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>350, 27</value>
+  <data name="Val_Elem106Label.Text" xml:space="preserve">
+    <value>Station niveau pression-Po</value>
   </data>
-  <data name="YyyyLabel.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>32, 13</value>
+  <data name="Val_Elem107Label.Text" xml:space="preserve">
+    <value>Pression réduite à MSL-P</value>
   </data>
-  <data name="YyyyLabel.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>63</value>
+  <data name="Val_Elem400Label.Text" xml:space="preserve">
+    <value>3hr pression changement-P3</value>
   </data>
-  <data name="Val_Elem106Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Val_Elem814Label.Text" xml:space="preserve">
+    <value>3hr pression caractéristique</value>
   </data>
-  <data name="Val_Elem106Label.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
+  <data name="Val_Elem399Label.Text" xml:space="preserve">
+    <value>24hr pression changement-P24</value>
   </data>
-  <data name="Val_Elem106Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>18, 67</value>
+  <data name="Val_Elem301Label.Text" xml:space="preserve">
+    <value>Pression standard niveau - un</value>
   </data>
-  <data name="Val_Elem106Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>129, 13</value>
+  <data name="Val_Elem196Label.Text" xml:space="preserve">
+    <value>Hauteur du géopotentiel-hhh</value>
   </data>
-  <data name="Val_Elem106Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>201</value>
+  <data name="Val_Elem101Label.Text" xml:space="preserve">
+    <value>DryBulb Temp-TTT</value>
   </data>
-  <data name="Val_Elem107Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Val_Elem102Label.Text" xml:space="preserve">
+    <value>Wetbulb Temp-ainsi</value>
   </data>
-  <data name="Val_Elem107Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 92</value>
+  <data name="Val_Elem103Label.Text" xml:space="preserve">
+    <value>Point de rosée de Temp-TdTdTd</value>
   </data>
-  <data name="Val_Elem107Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>142, 13</value>
+  <data name="Val_Elem105Label.Text" xml:space="preserve">
+    <value>Humidité relative-U</value>
   </data>
-  <data name="Val_Elem107Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>202</value>
+  <data name="Val_Elem110Label.Text" xml:space="preserve">
+    <value>Visibilité horizontale-VV</value>
   </data>
-  <data name="Val_Elem400Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Val_Elem167Label.Text" xml:space="preserve">
+    <value>PresentWx</value>
   </data>
-  <data name="Val_Elem400Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>21, 117</value>
+  <data name="Val_Elem197Label.Text" xml:space="preserve">
+    <value>PastWx1</value>
   </data>
-  <data name="Val_Elem400Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>119, 13</value>
+  <data name="Val_Elem193Label.Text" xml:space="preserve">
+    <value>PastWx2</value>
   </data>
-  <data name="Val_Elem400Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>115</value>
+  <data name="Val_Elem119Label.Text" xml:space="preserve">
+    <value>Portée verticale 1</value>
   </data>
-  <data name="Val_Elem814Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Val_Elem116Label.Text" xml:space="preserve">
+    <value>Amt nuage Lvl1-N1</value>
   </data>
-  <data name="Val_Elem814Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 142</value>
+  <data name="Val_Elem117Label.Text" xml:space="preserve">
+    <value>Type de nuage Lvl1-C1</value>
   </data>
-  <data name="Val_Elem814Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>133, 13</value>
+  <data name="Val_Elem118Label.Text" xml:space="preserve">
+    <value>Nuage Ht Lvl1-HsHs1</value>
   </data>
-  <data name="Val_Elem814Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>117</value>
+  <data name="Val_Elem123Label.Text" xml:space="preserve">
+    <value>Portée verticale 2</value>
   </data>
-  <data name="Val_Elem399Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Val_Elem120Label.Text" xml:space="preserve">
+    <value>Nuage Amt Lvl2-N2</value>
   </data>
-  <data name="Val_Elem399Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 167</value>
+  <data name="Val_Elem121Label.Text" xml:space="preserve">
+    <value>Type de nuages Lv2-C2</value>
   </data>
-  <data name="Val_Elem399Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>131, 13</value>
+  <data name="Val_Elem122Label.Text" xml:space="preserve">
+    <value>Nuage Ht Lvl2-HsHs2</value>
   </data>
-  <data name="Val_Elem399Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>119</value>
+  <data name="Val_Elem127Label.Text" xml:space="preserve">
+    <value>3 important vertical</value>
   </data>
-  <data name="Val_Elem301Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Val_Elem124Label.Text" xml:space="preserve">
+    <value>Amt nuage Lvl3-N3</value>
   </data>
-  <data name="Val_Elem301Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 192</value>
+  <data name="Val_Elem125Label.Text" xml:space="preserve">
+    <value>Type de nuage Lvl3-C3</value>
   </data>
-  <data name="Val_Elem301Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>135, 13</value>
+  <data name="Val_Elem126Label.Text" xml:space="preserve">
+    <value>Nuage Ht Lvl3-HsHs3</value>
   </data>
-  <data name="Val_Elem301Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>121</value>
+  <data name="Val_Elem002Label.Text" xml:space="preserve">
+    <value>Tmax</value>
   </data>
-  <data name="Val_Elem196Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Val_Elem003Label.Text" xml:space="preserve">
+    <value>TMin</value>
   </data>
-  <data name="Val_Elem196Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 217</value>
+  <data name="Val_Elem099Label.Text" xml:space="preserve">
+    <value>Herbe Min Temp</value>
   </data>
-  <data name="Val_Elem196Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>122, 13</value>
+  <data name="Val_Elem018Label.Text" xml:space="preserve">
+    <value>Évaporation</value>
   </data>
-  <data name="Val_Elem196Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>123</value>
+  <data name="Val_Elem084Label.Text" xml:space="preserve">
+    <value>SSS - 24h</value>
   </data>
-  <data name="Val_Elem101Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Val_Elem132Label.Text" xml:space="preserve">
+    <value>SSS - 1hr</value>
   </data>
-  <data name="Val_Elem101Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 242</value>
+  <data name="Val_Elem112Label.Text" xml:space="preserve">
+    <value>Direction du vent-dd</value>
   </data>
-  <data name="Val_Elem101Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>98, 13</value>
+  <data name="Val_Elem005Label.Text" xml:space="preserve">
+    <value>PRECIP - 24h</value>
   </data>
-  <data name="Val_Elem101Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>125</value>
+  <data name="Val_Elem174Label.Text" xml:space="preserve">
+    <value>PRECIP - 3 h</value>
   </data>
-  <data name="Val_Elem102Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Val_Elem176Label.Text" xml:space="preserve">
+    <value>Nuages bas Hght-h</value>
   </data>
-  <data name="Val_Elem102Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 267</value>
+  <data name="Val_Elem114Label.Text" xml:space="preserve">
+    <value>Nuageuse totale couverture - N</value>
   </data>
-  <data name="Val_Elem102Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>125, 13</value>
+  <data name="Val_Elem111Label.Text" xml:space="preserve">
+    <value>Vent - fff</value>
   </data>
-  <data name="Val_Elem102Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>127</value>
+  <data name="Val_Elem115Label.Text" xml:space="preserve">
+    <value>Portée verticale</value>
   </data>
-  <data name="Val_Elem103Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Val_Elem177Label.Text" xml:space="preserve">
+    <value>Nuages bas Lvl montant-Nh</value>
   </data>
-  <data name="Val_Elem103Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 292</value>
+  <data name="Val_Elem178Label.Text" xml:space="preserve">
+    <value>Nuages bas Lvl Type-CL</value>
   </data>
-  <data name="Val_Elem103Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>125, 13</value>
+  <data name="Val_Elem179Label.Text" xml:space="preserve">
+    <value>Lvl moyen nuages Type-CM</value>
   </data>
-  <data name="Val_Elem103Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>129</value>
+  <data name="Val_Elem180Label.Text" xml:space="preserve">
+    <value>Haut Lvl nuages Type-CH</value>
   </data>
-  <data name="Val_Elem105Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Val_Elem131Label.Text" xml:space="preserve">
+    <value>Portée verticale 4</value>
   </data>
-  <data name="Val_Elem105Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 317</value>
+  <data name="Val_Elem128Label.Text" xml:space="preserve">
+    <value>Amt nuage Lvl4-N4</value>
   </data>
-  <data name="Val_Elem105Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 13</value>
+  <data name="Val_Elem129Label.Text" xml:space="preserve">
+    <value>Type de nuage Lvl4-C4</value>
   </data>
-  <data name="Val_Elem105Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>131</value>
+  <data name="Val_Elem130Label.Text" xml:space="preserve">
+    <value>Nuage Ht Lvl4-Hshs4</value>
   </data>
-  <data name="Val_Elem110Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Val_Elem046Label.Text" xml:space="preserve">
+    <value>Insolation - Rad</value>
   </data>
-  <data name="Val_Elem110Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 342</value>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Fermer</value>
   </data>
-  <data name="Val_Elem110Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>110, 13</value>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Effacer</value>
   </data>
-  <data name="Val_Elem110Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>90</value>
+  <data name="btnCommit.Text" xml:space="preserve">
+    <value>Enregistrer</value>
   </data>
-  <data name="Val_Elem167Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Supprimer</value>
   </data>
-  <data name="Val_Elem167Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>519, 67</value>
+  <data name="btnAddNew.Text" xml:space="preserve">
+    <value>Ajouter nouveau</value>
   </data>
-  <data name="Val_Elem167Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>59, 13</value>
+  <data name="btnUpdate.Text" xml:space="preserve">
+    <value>Mise à jour</value>
   </data>
-  <data name="Val_Elem167Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>103</value>
+  <data name="btnMovePrevious.Text" xml:space="preserve">
+    <value>&lt;&lt;</value>
   </data>
-  <data name="Val_Elem197Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnMoveFirst.Text" xml:space="preserve">
+    <value>| &lt; &lt;</value>
   </data>
-  <data name="Val_Elem197Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>519, 92</value>
+  <data name="btnMoveLast.Text" xml:space="preserve">
+    <value>&gt; &gt;|</value>
   </data>
-  <data name="Val_Elem197Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 13</value>
+  <data name="btnMoveNext.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
   </data>
-  <data name="Val_Elem197Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>145</value>
+  <data name="btnHelp.Text" xml:space="preserve">
+    <value>Aide</value>
   </data>
-  <data name="Val_Elem193Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Mois :</value>
   </data>
-  <data name="Val_Elem193Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>519, 117</value>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Jour :</value>
   </data>
-  <data name="Val_Elem193Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 13</value>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Heure :</value>
   </data>
-  <data name="Val_Elem193Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>147</value>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Identificateur de station</value>
   </data>
-  <data name="Val_Elem119Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="txtSequencer.Text" xml:space="preserve">
+    <value>seq_month_day_synoptime</value>
   </data>
-  <data name="Val_Elem119Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>278, 67</value>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Sequencer</value>
   </data>
-  <data name="Val_Elem119Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>112, 13</value>
+  <data name="btnUpload.Text" xml:space="preserve">
+    <value>Charger</value>
   </data>
-  <data name="Val_Elem119Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>159</value>
+  <data name="btnView.Text" xml:space="preserve">
+    <value>Afficher</value>
   </data>
-  <data name="Val_Elem116Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnTDCF.Text" xml:space="preserve">
+    <value>FCDT</value>
   </data>
-  <data name="Val_Elem116Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>285, 92</value>
+  <data name="chkRepeatEntry.Text" xml:space="preserve">
+    <value>Entrée de clé de Mode répétition</value>
   </data>
-  <data name="Val_Elem116Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>95, 13</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Données synoptiques pour de nombreux éléments pour l’OMM - RA1</value>
   </data>
-  <data name="Val_Elem116Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>61</value>
-  </data>
-  <data name="Val_Elem117Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem117Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>286, 117</value>
-  </data>
-  <data name="Val_Elem117Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 13</value>
-  </data>
-  <data name="Val_Elem117Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>63</value>
-  </data>
-  <data name="Val_Elem118Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem118Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>285, 142</value>
-  </data>
-  <data name="Val_Elem118Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>106, 13</value>
-  </data>
-  <data name="Val_Elem118Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>65</value>
-  </data>
-  <data name="Val_Elem123Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem123Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>278, 167</value>
-  </data>
-  <data name="Val_Elem123Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>112, 13</value>
-  </data>
-  <data name="Val_Elem123Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>67</value>
-  </data>
-  <data name="Val_Elem120Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem120Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>287, 192</value>
-  </data>
-  <data name="Val_Elem120Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>95, 13</value>
-  </data>
-  <data name="Val_Elem120Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>69</value>
-  </data>
-  <data name="Val_Elem121Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem121Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>287, 217</value>
-  </data>
-  <data name="Val_Elem121Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>98, 13</value>
-  </data>
-  <data name="Val_Elem121Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>71</value>
-  </data>
-  <data name="Val_Elem122Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem122Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>287, 242</value>
-  </data>
-  <data name="Val_Elem122Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>106, 13</value>
-  </data>
-  <data name="Val_Elem122Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>73</value>
-  </data>
-  <data name="Val_Elem127Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem127Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>278, 267</value>
-  </data>
-  <data name="Val_Elem127Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>103, 13</value>
-  </data>
-  <data name="Val_Elem127Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>75</value>
-  </data>
-  <data name="Val_Elem124Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem124Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>283, 292</value>
-  </data>
-  <data name="Val_Elem124Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>95, 13</value>
-  </data>
-  <data name="Val_Elem124Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>77</value>
-  </data>
-  <data name="Val_Elem125Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem125Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>283, 317</value>
-  </data>
-  <data name="Val_Elem125Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 13</value>
-  </data>
-  <data name="Val_Elem125Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>79</value>
-  </data>
-  <data name="Val_Elem126Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem126Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>283, 342</value>
-  </data>
-  <data name="Val_Elem126Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>106, 13</value>
-  </data>
-  <data name="Val_Elem126Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>81</value>
-  </data>
-  <data name="Val_Elem002Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem002Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>519, 142</value>
-  </data>
-  <data name="Val_Elem002Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>33, 13</value>
-  </data>
-  <data name="Val_Elem002Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>91</value>
-  </data>
-  <data name="Val_Elem003Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem003Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>519, 167</value>
-  </data>
-  <data name="Val_Elem003Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>30, 13</value>
-  </data>
-  <data name="Val_Elem003Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>93</value>
-  </data>
-  <data name="Val_Elem099Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem099Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>519, 192</value>
-  </data>
-  <data name="Val_Elem099Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>84, 13</value>
-  </data>
-  <data name="Val_Elem099Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>95</value>
-  </data>
-  <data name="Val_Elem018Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem018Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>519, 217</value>
-  </data>
-  <data name="Val_Elem018Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>64, 13</value>
-  </data>
-  <data name="Val_Elem018Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>97</value>
-  </data>
-  <data name="Val_Elem084Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem084Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>519, 242</value>
-  </data>
-  <data name="Val_Elem084Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>54, 13</value>
-  </data>
-  <data name="Val_Elem084Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>99</value>
-  </data>
-  <data name="Val_Elem132Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem132Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>519, 267</value>
-  </data>
-  <data name="Val_Elem132Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 13</value>
-  </data>
-  <data name="Val_Elem132Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>101</value>
-  </data>
-  <data name="Val_Elem112Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem112Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>519, 342</value>
-  </data>
-  <data name="Val_Elem112Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>92, 13</value>
-  </data>
-  <data name="Val_Elem112Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>99</value>
-  </data>
-  <data name="Val_Elem005Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem005Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>519, 292</value>
-  </data>
-  <data name="Val_Elem005Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>63, 13</value>
-  </data>
-  <data name="Val_Elem005Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>103</value>
-  </data>
-  <data name="Val_Elem174Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem174Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>519, 317</value>
-  </data>
-  <data name="Val_Elem174Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>57, 13</value>
-  </data>
-  <data name="Val_Elem174Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>105</value>
-  </data>
-  <data name="Val_Elem176Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem176Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>21, 367</value>
-  </data>
-  <data name="Val_Elem176Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>92, 13</value>
-  </data>
-  <data name="Val_Elem176Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>133</value>
-  </data>
-  <data name="Val_Elem114Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem114Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 392</value>
-  </data>
-  <data name="Val_Elem114Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>106, 13</value>
-  </data>
-  <data name="Val_Elem114Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>91</value>
-  </data>
-  <data name="Val_Elem111Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem111Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>519, 367</value>
-  </data>
-  <data name="Val_Elem111Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>84, 13</value>
-  </data>
-  <data name="Val_Elem111Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>101</value>
-  </data>
-  <data name="Val_Elem115Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem115Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 417</value>
-  </data>
-  <data name="Val_Elem115Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>103, 13</value>
-  </data>
-  <data name="Val_Elem115Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>149</value>
-  </data>
-  <data name="Val_Elem177Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem177Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 442</value>
-  </data>
-  <data name="Val_Elem177Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>135, 13</value>
-  </data>
-  <data name="Val_Elem177Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>151</value>
-  </data>
-  <data name="Val_Elem178Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem178Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 467</value>
-  </data>
-  <data name="Val_Elem178Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>122, 13</value>
-  </data>
-  <data name="Val_Elem178Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>153</value>
-  </data>
-  <data name="Val_Elem179Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem179Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 492</value>
-  </data>
-  <data name="Val_Elem179Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>142, 13</value>
-  </data>
-  <data name="Val_Elem179Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>155</value>
-  </data>
-  <data name="Val_Elem180Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem180Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>20, 517</value>
-  </data>
-  <data name="Val_Elem180Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>126, 13</value>
-  </data>
-  <data name="Val_Elem180Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>157</value>
-  </data>
-  <data name="Val_Elem131Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem131Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>278, 367</value>
-  </data>
-  <data name="Val_Elem131Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>112, 13</value>
-  </data>
-  <data name="Val_Elem131Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>83</value>
-  </data>
-  <data name="Val_Elem128Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem128Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>289, 392</value>
-  </data>
-  <data name="Val_Elem128Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>95, 13</value>
-  </data>
-  <data name="Val_Elem128Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>85</value>
-  </data>
-  <data name="Val_Elem129Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem129Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>289, 417</value>
-  </data>
-  <data name="Val_Elem129Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>100, 13</value>
-  </data>
-  <data name="Val_Elem129Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>87</value>
-  </data>
-  <data name="Val_Elem130Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem130Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>289, 442</value>
-  </data>
-  <data name="Val_Elem130Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>104, 13</value>
-  </data>
-  <data name="Val_Elem130Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>89</value>
-  </data>
-  <data name="Val_Elem046Label.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Val_Elem046Label.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>519, 392</value>
-  </data>
-  <data name="Val_Elem046Label.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>81, 13</value>
-  </data>
-  <data name="Val_Elem046Label.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>107</value>
-  </data>
-  <data name="txtYear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>386, 24</value>
-  </data>
-  <data name="txtYear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>40, 20</value>
-  </data>
-  <data name="txtYear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="txtVal_Elem106Field005.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>163, 63</value>
-  </data>
-  <data name="txtVal_Elem106Field005.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem106Field005.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="txtVal_Elem107Field006.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>163, 88</value>
-  </data>
-  <data name="txtVal_Elem107Field006.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem107Field006.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="txtVal_Elem400Field007.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>163, 113</value>
-  </data>
-  <data name="txtVal_Elem400Field007.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem400Field007.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="txtVal_Elem814Field008.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>164, 138</value>
-  </data>
-  <data name="txtVal_Elem814Field008.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem814Field008.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="txtVal_Elem399Field009.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>164, 163</value>
-  </data>
-  <data name="txtVal_Elem399Field009.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem399Field009.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="txtVal_Elem301Field010.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>164, 188</value>
-  </data>
-  <data name="txtVal_Elem301Field010.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem301Field010.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="txtVal_Elem185Field011.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>164, 213</value>
-  </data>
-  <data name="txtVal_Elem185Field011.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem185Field011.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="txtVal_Elem101Field012.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>164, 238</value>
-  </data>
-  <data name="txtVal_Elem101Field012.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem101Field012.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="txtVal_Elem102Field013.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>164, 263</value>
-  </data>
-  <data name="txtVal_Elem102Field013.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem102Field013.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="txtVal_Elem103Field014.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>164, 288</value>
-  </data>
-  <data name="txtVal_Elem103Field014.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem103Field014.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="txtVal_Elem105Field015.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>164, 313</value>
-  </data>
-  <data name="txtVal_Elem105Field015.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem105Field015.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="txtVal_Elem110Field017.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>164, 338</value>
-  </data>
-  <data name="txtVal_Elem110Field017.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem110Field017.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="txtVal_Elem167Field021.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>617, 63</value>
-  </data>
-  <data name="txtVal_Elem167Field021.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem167Field021.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="txtVal_Elem197Field022.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>617, 88</value>
-  </data>
-  <data name="txtVal_Elem197Field022.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem197Field022.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>42</value>
-  </data>
-  <data name="txtVal_Elem193Field023.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>618, 113</value>
-  </data>
-  <data name="txtVal_Elem193Field023.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem193Field023.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="txtVal_Elem119Field029.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>396, 63</value>
-  </data>
-  <data name="txtVal_Elem119Field029.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem119Field029.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="txtVal_Elem116Field030.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>396, 88</value>
-  </data>
-  <data name="txtVal_Elem116Field030.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem116Field030.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="txtVal_Elem117Field031.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>397, 113</value>
-  </data>
-  <data name="txtVal_Elem117Field031.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem117Field031.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="txtVal_Elem118Field032.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>396, 138</value>
-  </data>
-  <data name="txtVal_Elem118Field032.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem118Field032.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="txtVal_Elem123Field033.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>396, 163</value>
-  </data>
-  <data name="txtVal_Elem123Field033.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem123Field033.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="txtVal_Elem120Field034.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>396, 188</value>
-  </data>
-  <data name="txtVal_Elem120Field034.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem120Field034.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="txtVal_Elem121Field035.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>396, 213</value>
-  </data>
-  <data name="txtVal_Elem121Field035.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem121Field035.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="txtVal_Elem122Field036.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>396, 238</value>
-  </data>
-  <data name="txtVal_Elem122Field036.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem122Field036.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="txtVal_Elem127Field037.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>396, 263</value>
-  </data>
-  <data name="txtVal_Elem127Field037.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem127Field037.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>33</value>
-  </data>
-  <data name="txtVal_Elem124Field038.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>396, 288</value>
-  </data>
-  <data name="txtVal_Elem124Field038.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem124Field038.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="txtVal_Elem125Field039.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>396, 313</value>
-  </data>
-  <data name="txtVal_Elem125Field039.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem125Field039.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>35</value>
-  </data>
-  <data name="txtVal_Elem126Field040.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>396, 338</value>
-  </data>
-  <data name="txtVal_Elem126Field040.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem126Field040.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="txtVal_Elem002Field045.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>617, 138</value>
-  </data>
-  <data name="txtVal_Elem002Field045.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem002Field045.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>44</value>
-  </data>
-  <data name="txtVal_Elem003Field046.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>617, 163</value>
-  </data>
-  <data name="txtVal_Elem003Field046.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem003Field046.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>45</value>
-  </data>
-  <data name="txtVal_Elem099Field047.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>617, 188</value>
-  </data>
-  <data name="txtVal_Elem099Field047.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem099Field047.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>46</value>
-  </data>
-  <data name="txtVal_Elem018Field048.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>617, 213</value>
-  </data>
-  <data name="txtVal_Elem018Field048.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem018Field048.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>47</value>
-  </data>
-  <data name="txtVal_Elem084Field049.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>617, 238</value>
-  </data>
-  <data name="txtVal_Elem084Field049.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem084Field049.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>48</value>
-  </data>
-  <data name="txtVal_Elem132Field050.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>617, 263</value>
-  </data>
-  <data name="txtVal_Elem132Field050.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem132Field050.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>49</value>
-  </data>
-  <data name="btnClose.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>551, 604</value>
-  </data>
-  <data name="btnClose.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>64, 23</value>
-  </data>
-  <data name="btnClose.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>59</value>
-  </data>
-  <data name="btnClear.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btnClear.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>323, 604</value>
-  </data>
-  <data name="btnClear.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>64, 23</value>
-  </data>
-  <data name="btnClear.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>58</value>
-  </data>
-  <data name="btnCommit.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btnCommit.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>95, 604</value>
-  </data>
-  <data name="btnCommit.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>64, 23</value>
-  </data>
-  <data name="btnCommit.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>55</value>
-  </data>
-  <data name="btnDelete.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>247, 604</value>
-  </data>
-  <data name="btnDelete.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>64, 23</value>
-  </data>
-  <data name="btnDelete.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>57</value>
-  </data>
-  <data name="btnAddNew.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>19, 604</value>
-  </data>
-  <data name="btnAddNew.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>64, 23</value>
-  </data>
-  <data name="btnAddNew.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>56</value>
-  </data>
-  <data name="btnUpdate.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>171, 604</value>
-  </data>
-  <data name="btnUpdate.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>64, 23</value>
-  </data>
-  <data name="btnUpdate.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>56</value>
-  </data>
-  <data name="btnMovePrevious.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="btnMovePrevious.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>275, 571</value>
-  </data>
-  <data name="btnMovePrevious.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>46, 23</value>
-  </data>
-  <data name="btnMovePrevious.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>124</value>
-  </data>
-  <data name="btnMoveFirst.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="btnMoveFirst.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>228, 571</value>
-  </data>
-  <data name="btnMoveFirst.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>41, 23</value>
-  </data>
-  <data name="btnMoveFirst.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>123</value>
-  </data>
-  <data name="btnMoveLast.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="btnMoveLast.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>518, 571</value>
-  </data>
-  <data name="btnMoveLast.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>41, 23</value>
-  </data>
-  <data name="btnMoveLast.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>122</value>
-  </data>
-  <data name="recNumberTextBox.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>327, 573</value>
-  </data>
-  <data name="recNumberTextBox.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>141, 20</value>
-  </data>
-  <data name="recNumberTextBox.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>121</value>
-  </data>
-  <data name="btnMoveNext.Font" xml:space="preserve" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="btnMoveNext.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>474, 571</value>
-  </data>
-  <data name="btnMoveNext.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>38, 23</value>
-  </data>
-  <data name="btnMoveNext.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>120</value>
-  </data>
-  <data name="btnHelp.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>627, 604</value>
-  </data>
-  <data name="btnHelp.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>64, 23</value>
-  </data>
-  <data name="btnHelp.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>60</value>
-  </data>
-  <data name="txtFlag106Field054.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>219, 63</value>
-  </data>
-  <data name="txtFlag106Field054.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag106Field054.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>131</value>
-  </data>
-  <data name="txtFlag107Field055.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>219, 88</value>
-  </data>
-  <data name="txtFlag107Field055.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag107Field055.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>132</value>
-  </data>
-  <data name="txtFlag400Field056.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>219, 113</value>
-  </data>
-  <data name="txtFlag400Field056.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag400Field056.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>133</value>
-  </data>
-  <data name="txtFlag814Field057.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>220, 138</value>
-  </data>
-  <data name="txtFlag814Field057.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag814Field057.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>134</value>
-  </data>
-  <data name="txtFlag399Field058.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>220, 163</value>
-  </data>
-  <data name="txtFlag399Field058.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag399Field058.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>135</value>
-  </data>
-  <data name="txtFlag301Field059.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>220, 188</value>
-  </data>
-  <data name="txtFlag301Field059.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag301Field059.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>136</value>
-  </data>
-  <data name="txtFlag185Field060.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>220, 213</value>
-  </data>
-  <data name="txtFlag185Field060.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag185Field060.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>137</value>
-  </data>
-  <data name="txtFlag101Field061.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>220, 238</value>
-  </data>
-  <data name="txtFlag101Field061.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag101Field061.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>138</value>
-  </data>
-  <data name="txtFlag102Field062.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>220, 263</value>
-  </data>
-  <data name="txtFlag102Field062.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag102Field062.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>139</value>
-  </data>
-  <data name="txtFlag103Field063.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>220, 288</value>
-  </data>
-  <data name="txtFlag103Field063.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag103Field063.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>140</value>
-  </data>
-  <data name="txtFlag105Field064.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>220, 313</value>
-  </data>
-  <data name="txtFlag105Field064.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag105Field064.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>141</value>
-  </data>
-  <data name="txtFlag110Field066.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>220, 338</value>
-  </data>
-  <data name="txtFlag110Field066.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag110Field066.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>143</value>
-  </data>
-  <data name="txtFlag122Field085.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>450, 238</value>
-  </data>
-  <data name="txtFlag122Field085.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag122Field085.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>162</value>
-  </data>
-  <data name="txtFlag121Field084.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>450, 213</value>
-  </data>
-  <data name="txtFlag121Field084.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag121Field084.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>161</value>
-  </data>
-  <data name="txtFlag120Field083.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>450, 188</value>
-  </data>
-  <data name="txtFlag120Field083.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag120Field083.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>160</value>
-  </data>
-  <data name="txtFlag123Field082.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>450, 163</value>
-  </data>
-  <data name="txtFlag123Field082.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag123Field082.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>159</value>
-  </data>
-  <data name="txtFlag118Field081.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>450, 138</value>
-  </data>
-  <data name="txtFlag118Field081.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag118Field081.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>158</value>
-  </data>
-  <data name="txtFlag117Field080.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>451, 113</value>
-  </data>
-  <data name="txtFlag117Field080.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag117Field080.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>157</value>
-  </data>
-  <data name="txtFlag116Field079.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>450, 88</value>
-  </data>
-  <data name="txtFlag116Field079.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag116Field079.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>156</value>
-  </data>
-  <data name="txtFlag119Field078.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>450, 63</value>
-  </data>
-  <data name="txtFlag119Field078.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag119Field078.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>155</value>
-  </data>
-  <data name="txtFlag197Field071.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>671, 88</value>
-  </data>
-  <data name="txtFlag197Field071.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag197Field071.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>148</value>
-  </data>
-  <data name="txtFlag167Field070.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>671, 63</value>
-  </data>
-  <data name="txtFlag167Field070.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag167Field070.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>147</value>
-  </data>
-  <data name="txtFlag132Field099.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>671, 263</value>
-  </data>
-  <data name="txtFlag132Field099.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag132Field099.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>176</value>
-  </data>
-  <data name="txtFlag084Field098.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>671, 238</value>
-  </data>
-  <data name="txtFlag084Field098.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag084Field098.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>175</value>
-  </data>
-  <data name="txtFlag018Field097.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>671, 213</value>
-  </data>
-  <data name="txtFlag018Field097.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag018Field097.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>174</value>
-  </data>
-  <data name="txtFlag099Field096.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>671, 188</value>
-  </data>
-  <data name="txtFlag099Field096.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag099Field096.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>173</value>
-  </data>
-  <data name="txtFlag003Field095.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>671, 163</value>
-  </data>
-  <data name="txtFlag003Field095.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag003Field095.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>172</value>
-  </data>
-  <data name="txtFlag002Field094.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>671, 138</value>
-  </data>
-  <data name="txtFlag002Field094.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag002Field094.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>171</value>
-  </data>
-  <data name="txtFlag126Field089.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>450, 338</value>
-  </data>
-  <data name="txtFlag126Field089.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag126Field089.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>166</value>
-  </data>
-  <data name="txtFlag125Field088.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>450, 313</value>
-  </data>
-  <data name="txtFlag125Field088.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag125Field088.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>165</value>
-  </data>
-  <data name="txtFlag124Field087.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>450, 288</value>
-  </data>
-  <data name="txtFlag124Field087.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag124Field087.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>164</value>
-  </data>
-  <data name="txtFlag127Field086.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>450, 263</value>
-  </data>
-  <data name="txtFlag127Field086.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag127Field086.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>163</value>
-  </data>
-  <data name="cboHour.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>657, 23</value>
-  </data>
-  <data name="cboHour.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>39, 21</value>
-  </data>
-  <data name="cboHour.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="cboDay.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>568, 23</value>
-  </data>
-  <data name="cboDay.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>39, 21</value>
-  </data>
-  <data name="cboDay.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="cboMonth.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>482, 24</value>
-  </data>
-  <data name="cboMonth.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>41, 21</value>
-  </data>
-  <data name="cboMonth.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="Label1.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label1.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>436, 26</value>
-  </data>
-  <data name="Label1.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>40, 13</value>
-  </data>
-  <data name="Label1.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>183</value>
-  </data>
-  <data name="Label2.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label2.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>533, 27</value>
-  </data>
-  <data name="Label2.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>29, 13</value>
-  </data>
-  <data name="Label2.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>184</value>
-  </data>
-  <data name="Label3.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label3.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>613, 26</value>
-  </data>
-  <data name="Label3.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>33, 13</value>
-  </data>
-  <data name="Label3.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>185</value>
-  </data>
-  <data name="cboStation.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>123, 23</value>
-  </data>
-  <data name="cboStation.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>202, 21</value>
-  </data>
-  <data name="cboStation.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Label4.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label4.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>34, 25</value>
-  </data>
-  <data name="Label4.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>83, 13</value>
-  </data>
-  <data name="Label4.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>204</value>
-  </data>
-  <data name="txtSequencer.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>300, 636</value>
-  </data>
-  <data name="txtSequencer.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>175, 20</value>
-  </data>
-  <data name="txtSequencer.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>205</value>
-  </data>
-  <data name="Label5.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Label5.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>235, 639</value>
-  </data>
-  <data name="Label5.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>59, 13</value>
-  </data>
-  <data name="Label5.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>206</value>
-  </data>
-  <data name="btnUpload.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>617, 633</value>
-  </data>
-  <data name="btnUpload.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnUpload.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>207</value>
-  </data>
-  <data name="btnView.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>399, 604</value>
-  </data>
-  <data name="btnView.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>64, 23</value>
-  </data>
-  <data name="btnView.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>661</value>
-  </data>
-  <data name="btnTDCF.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>475, 604</value>
-  </data>
-  <data name="btnTDCF.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>64, 23</value>
-  </data>
-  <data name="btnTDCF.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>662</value>
-  </data>
-  <data name="txtFlag193Field072.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>671, 113</value>
-  </data>
-  <data name="txtFlag193Field072.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag193Field072.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>149</value>
-  </data>
-  <data name="chkRepeatEntry.AutoSize" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkRepeatEntry.Enabled" xml:space="preserve" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="chkRepeatEntry.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>21, 639</value>
-  </data>
-  <data name="chkRepeatEntry.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>139, 17</value>
-  </data>
-  <data name="chkRepeatEntry.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>663</value>
-  </data>
-  <data name="txtVal_Elem112Field019.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>617, 338</value>
-  </data>
-  <data name="txtVal_Elem112Field019.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem112Field019.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>52</value>
-  </data>
-  <data name="txtVal_Elem005Field051.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>617, 288</value>
-  </data>
-  <data name="txtVal_Elem005Field051.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem005Field051.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>50</value>
-  </data>
-  <data name="txtVal_Elem174Field052.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>617, 313</value>
-  </data>
-  <data name="txtVal_Elem174Field052.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem174Field052.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="txtFlag112Field068.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>671, 338</value>
-  </data>
-  <data name="txtFlag112Field068.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag112Field068.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>145</value>
-  </data>
-  <data name="txtFlag005Field100.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>671, 288</value>
-  </data>
-  <data name="txtFlag005Field100.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag005Field100.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>177</value>
-  </data>
-  <data name="txtFlag174Field101.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>671, 313</value>
-  </data>
-  <data name="txtFlag174Field101.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag174Field101.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>178</value>
-  </data>
-  <data name="txtVal_Elem192Field016.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>165, 363</value>
-  </data>
-  <data name="txtVal_Elem192Field016.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem192Field016.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="txtVal_Elem114Field018.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>164, 388</value>
-  </data>
-  <data name="txtVal_Elem114Field018.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem114Field018.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="txtVal_Elem111Field020.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>617, 363</value>
-  </data>
-  <data name="txtVal_Elem111Field020.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem111Field020.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>53</value>
-  </data>
-  <data name="txtVal_Elem115Field024.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>165, 413</value>
-  </data>
-  <data name="txtVal_Elem115Field024.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem115Field024.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="txtVal_Elem168Field025.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>165, 438</value>
-  </data>
-  <data name="txtVal_Elem168Field025.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem168Field025.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="txtVal_Elem169Field026.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>165, 463</value>
-  </data>
-  <data name="txtVal_Elem169Field026.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem169Field026.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="txtVal_Elem170Field027.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>165, 488</value>
-  </data>
-  <data name="txtVal_Elem170Field027.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem170Field027.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="txtVal_Elem171Field028.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>165, 513</value>
-  </data>
-  <data name="txtVal_Elem171Field028.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="txtVal_Elem171Field028.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="txtVal_Elem131Field041.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>396, 363</value>
-  </data>
-  <data name="txtVal_Elem131Field041.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem131Field041.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="txtVal_Elem128Field042.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>396, 388</value>
-  </data>
-  <data name="txtVal_Elem128Field042.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem128Field042.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="txtVal_Elem129Field043.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>396, 413</value>
-  </data>
-  <data name="txtVal_Elem129Field043.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem129Field043.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
-  <data name="txtVal_Elem130Field044.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>396, 438</value>
-  </data>
-  <data name="txtVal_Elem130Field044.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem130Field044.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>40</value>
-  </data>
-  <data name="txtVal_Elem046Field053.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>617, 388</value>
-  </data>
-  <data name="txtVal_Elem046Field053.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="txtVal_Elem046Field053.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>54</value>
-  </data>
-  <data name="txtFlag192Field065.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>221, 363</value>
-  </data>
-  <data name="txtFlag192Field065.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag192Field065.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>142</value>
-  </data>
-  <data name="txtFlag114Field067.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>220, 388</value>
-  </data>
-  <data name="txtFlag114Field067.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag114Field067.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>144</value>
-  </data>
-  <data name="txtFlag111Field069.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>671, 363</value>
-  </data>
-  <data name="txtFlag111Field069.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag111Field069.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>146</value>
-  </data>
-  <data name="txtFlag115Field073.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>221, 413</value>
-  </data>
-  <data name="txtFlag115Field073.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag115Field073.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>150</value>
-  </data>
-  <data name="txtFlag168Field074.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>221, 438</value>
-  </data>
-  <data name="txtFlag168Field074.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag168Field074.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>151</value>
-  </data>
-  <data name="txtFlag178Field075.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>221, 463</value>
-  </data>
-  <data name="txtFlag178Field075.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag178Field075.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>152</value>
-  </data>
-  <data name="txtFlag179Field076.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>221, 488</value>
-  </data>
-  <data name="txtFlag179Field076.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag179Field076.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>153</value>
-  </data>
-  <data name="txtFlag180Field077.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>221, 513</value>
-  </data>
-  <data name="txtFlag180Field077.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag180Field077.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>154</value>
-  </data>
-  <data name="txtFlag131Field090.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>450, 363</value>
-  </data>
-  <data name="txtFlag131Field090.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag131Field090.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>167</value>
-  </data>
-  <data name="txtFlag128Field091.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>450, 388</value>
-  </data>
-  <data name="txtFlag128Field091.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag128Field091.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>168</value>
-  </data>
-  <data name="txtFlag129Field092.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>450, 413</value>
-  </data>
-  <data name="txtFlag129Field092.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag129Field092.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>169</value>
-  </data>
-  <data name="txtFlag130Field093.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>450, 438</value>
-  </data>
-  <data name="txtFlag130Field093.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag130Field093.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>170</value>
-  </data>
-  <data name="txtFlag046Field102.Location" xml:space="preserve" type="System.Drawing.Point, System.Drawing">
-    <value>671, 388</value>
-  </data>
-  <data name="txtFlag046Field102.Size" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>26, 20</value>
-  </data>
-  <data name="txtFlag046Field102.TabIndex" xml:space="preserve" type="System.Int32, mscorlib">
-    <value>179</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" xml:space="preserve" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" xml:space="preserve" type="System.Drawing.Size, System.Drawing">
-    <value>717, 662</value>
-  </data>
-  <metadata name="YyyyLabel.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem106Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem107Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem400Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem814Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem399Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem301Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem196Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem101Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem102Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem103Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem105Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem110Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem167Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem197Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem193Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem119Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem116Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem117Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem118Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem123Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem120Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem121Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem122Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem127Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem124Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem125Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem126Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem002Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem003Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem099Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem018Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem084Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem132Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem112Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem005Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem174Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem176Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem114Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem111Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem115Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem177Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem178Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem179Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem180Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem131Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem128Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem129Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem130Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="Val_Elem046Label.GenerateMember" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="$this.Localizable" xml:space="preserve" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>
