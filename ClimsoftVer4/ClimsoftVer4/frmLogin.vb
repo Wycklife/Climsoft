@@ -13,7 +13,8 @@
 '
 ' You should have received a copy of the GNU General Public License
 ' along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
+Imports System.Globalization
+Imports System.Threading
 Imports ClimsoftVer4.Translations
 
 
@@ -135,6 +136,8 @@ Public Class frmLogin
     'End Sub
 
     Private Sub LoginForm_Load(sender As Object, e As EventArgs) Handles Me.Load
+        Thread.CurrentThread.CurrentCulture = New CultureInfo("fr-FR")
+        Thread.CurrentThread.CurrentUICulture = New CultureInfo("fr-FR")
         '-------Code for translation added 20160207,ASM
         'Translate text for controls on login form.
         'Other Translation after successful login will come from language translation table stored in database
@@ -204,17 +207,8 @@ Public Class frmLogin
 
 
     Private Sub lblDbdetails_Click(sender As Object, e As EventArgs) Handles lblDbdetails.Click
-        If lblDbdetails.Text = "Show and Configure Database Connection........" Then
-            'cmbDatabases.Visible = True
-            'sr.Close()
-            line = cmbDatabases.Text
-            Server_db_port(line)
-            'lblDbdetails.Text = "Hide Database Details........"
-        Else
-            frmLaunchPad.Close()
-            cmbDatabases.Visible = False
-            lblDbdetails.Text = "Show and Configure Database Connection........"
-        End If
+        line = cmbDatabases.Text
+        Server_db_port(line)
     End Sub
 
     Private Sub cmbDatabases_Click(sender As Object, e As EventArgs) Handles cmbDatabases.Click
