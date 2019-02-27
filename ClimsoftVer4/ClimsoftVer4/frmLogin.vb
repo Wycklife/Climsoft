@@ -136,8 +136,6 @@ Public Class frmLogin
     'End Sub
 
     Private Sub LoginForm_Load(sender As Object, e As EventArgs) Handles Me.Load
-        Thread.CurrentThread.CurrentCulture = New CultureInfo("pt-PT")
-        Thread.CurrentThread.CurrentUICulture = New CultureInfo("pt-PT")
         '-------Code for translation added 20160207,ASM
         'Translate text for controls on login form.
         'Other Translation after successful login will come from language translation table stored in database

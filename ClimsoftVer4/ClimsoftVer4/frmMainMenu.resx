@@ -260,6 +260,9 @@
   <data name="mnuToolsModifyForms.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="SelectLanguageToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="SelectLanguageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>242, 24</value>
   </data>
@@ -334,6 +337,9 @@
   </data>
   <data name="mnuTools.Text" xml:space="preserve">
     <value>Tools</value>
+  </data>
+  <data name="mnuLanguageTranslation.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="mnuLanguageTranslation.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 23</value>

@@ -225,8 +225,8 @@ Partial Class frmMainMenu
         '
         'SelectLanguageToolStripMenuItem
         '
-        Me.SelectLanguageToolStripMenuItem.Name = "SelectLanguageToolStripMenuItem"
         resources.ApplyResources(Me.SelectLanguageToolStripMenuItem, "SelectLanguageToolStripMenuItem")
+        Me.SelectLanguageToolStripMenuItem.Name = "SelectLanguageToolStripMenuItem"
         Me.SelectLanguageToolStripMenuItem.Tag = "Select_Language"
         '
         'GenerlSettingsToolStripMenuItem
@@ -283,8 +283,8 @@ Partial Class frmMainMenu
         '
         'mnuLanguageTranslation
         '
-        Me.mnuLanguageTranslation.Name = "mnuLanguageTranslation"
         resources.ApplyResources(Me.mnuLanguageTranslation, "mnuLanguageTranslation")
+        Me.mnuLanguageTranslation.Name = "mnuLanguageTranslation"
         '
         'mnuHelp
         '
