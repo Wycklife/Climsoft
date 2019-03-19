@@ -73,175 +73,135 @@ Partial Class frmDBUtilities
         'MenuStrip1
         '
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ImportToolStripMenuItem, Me.ExternalDataToolStripMenuItem, Me.GenerateValuesToolStripMenuItem, Me.BackupToolStripMenuItem, Me.RestoreToolStripMenuItem, Me.OptionsToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        resources.ApplyResources(Me.MenuStrip1, "MenuStrip1")
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(852, 24)
-        Me.MenuStrip1.TabIndex = 1
-        Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ImportToolStripMenuItem
         '
         Me.ImportToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ObsInitialToFinalToolStripMenuItem})
         Me.ImportToolStripMenuItem.Name = "ImportToolStripMenuItem"
-        Me.ImportToolStripMenuItem.Size = New System.Drawing.Size(57, 20)
-        Me.ImportToolStripMenuItem.Text = "Upload"
+        resources.ApplyResources(Me.ImportToolStripMenuItem, "ImportToolStripMenuItem")
         '
         'ObsInitialToFinalToolStripMenuItem
         '
         Me.ObsInitialToFinalToolStripMenuItem.Name = "ObsInitialToFinalToolStripMenuItem"
-        Me.ObsInitialToFinalToolStripMenuItem.Size = New System.Drawing.Size(169, 22)
-        Me.ObsInitialToFinalToolStripMenuItem.Text = "Obs Initial to Final"
+        resources.ApplyResources(Me.ObsInitialToFinalToolStripMenuItem, "ObsInitialToFinalToolStripMenuItem")
         '
         'ExternalDataToolStripMenuItem
         '
         Me.ExternalDataToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CLICOMDailyToolStripMenuItem, Me.AWSToolStripMenuItem, Me.NOAAGTSToolStripMenuItem, Me.DailyToolStripMenuItem, Me.CLIMSOFTV3ToolStripMenuItem})
         Me.ExternalDataToolStripMenuItem.Name = "ExternalDataToolStripMenuItem"
-        Me.ExternalDataToolStripMenuItem.Size = New System.Drawing.Size(87, 20)
-        Me.ExternalDataToolStripMenuItem.Text = "External Data"
+        resources.ApplyResources(Me.ExternalDataToolStripMenuItem, "ExternalDataToolStripMenuItem")
         '
         'CLICOMDailyToolStripMenuItem
         '
         Me.CLICOMDailyToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DailyToolStripMenuItem1, Me.SynopToolStripMenuItem, Me.HourlyToolStripMenuItem})
         Me.CLICOMDailyToolStripMenuItem.Name = "CLICOMDailyToolStripMenuItem"
-        Me.CLICOMDailyToolStripMenuItem.Size = New System.Drawing.Size(153, 22)
-        Me.CLICOMDailyToolStripMenuItem.Text = "CLICOM"
+        resources.ApplyResources(Me.CLICOMDailyToolStripMenuItem, "CLICOMDailyToolStripMenuItem")
         '
         'DailyToolStripMenuItem1
         '
         Me.DailyToolStripMenuItem1.Name = "DailyToolStripMenuItem1"
-        Me.DailyToolStripMenuItem1.Size = New System.Drawing.Size(120, 22)
-        Me.DailyToolStripMenuItem1.Text = "Daily"
+        resources.ApplyResources(Me.DailyToolStripMenuItem1, "DailyToolStripMenuItem1")
         '
         'SynopToolStripMenuItem
         '
         Me.SynopToolStripMenuItem.Name = "SynopToolStripMenuItem"
-        Me.SynopToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
-        Me.SynopToolStripMenuItem.Text = "Synoptic"
+        resources.ApplyResources(Me.SynopToolStripMenuItem, "SynopToolStripMenuItem")
         '
         'HourlyToolStripMenuItem
         '
         Me.HourlyToolStripMenuItem.Name = "HourlyToolStripMenuItem"
-        Me.HourlyToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
-        Me.HourlyToolStripMenuItem.Text = "Hourly"
+        resources.ApplyResources(Me.HourlyToolStripMenuItem, "HourlyToolStripMenuItem")
         '
         'AWSToolStripMenuItem
         '
         Me.AWSToolStripMenuItem.Name = "AWSToolStripMenuItem"
-        Me.AWSToolStripMenuItem.Size = New System.Drawing.Size(153, 22)
-        Me.AWSToolStripMenuItem.Text = "AWS "
+        resources.ApplyResources(Me.AWSToolStripMenuItem, "AWSToolStripMenuItem")
         '
         'NOAAGTSToolStripMenuItem
         '
         Me.NOAAGTSToolStripMenuItem.Name = "NOAAGTSToolStripMenuItem"
-        Me.NOAAGTSToolStripMenuItem.Size = New System.Drawing.Size(153, 22)
-        Me.NOAAGTSToolStripMenuItem.Text = "NOAA GTS"
+        resources.ApplyResources(Me.NOAAGTSToolStripMenuItem, "NOAAGTSToolStripMenuItem")
         '
         'DailyToolStripMenuItem
         '
         Me.DailyToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripHourly, Me.ToolStripDaily, Me.ToolStripSynoptic, Me.MultipleElementColumnsToolStripMenuItem, Me.MonthlyToolStripMenuItem2})
         Me.DailyToolStripMenuItem.Name = "DailyToolStripMenuItem"
-        Me.DailyToolStripMenuItem.Size = New System.Drawing.Size(153, 22)
-        Me.DailyToolStripMenuItem.Text = "Text Files"
+        resources.ApplyResources(Me.DailyToolStripMenuItem, "DailyToolStripMenuItem")
         '
         'ToolStripHourly
         '
         Me.ToolStripHourly.Name = "ToolStripHourly"
-        Me.ToolStripHourly.Size = New System.Drawing.Size(215, 22)
-        Me.ToolStripHourly.Text = "Hourly"
+        resources.ApplyResources(Me.ToolStripHourly, "ToolStripHourly")
         '
         'ToolStripDaily
         '
         Me.ToolStripDaily.Name = "ToolStripDaily"
-        Me.ToolStripDaily.Size = New System.Drawing.Size(215, 22)
-        Me.ToolStripDaily.Text = "Daily"
+        resources.ApplyResources(Me.ToolStripDaily, "ToolStripDaily")
         '
         'ToolStripSynoptic
         '
         Me.ToolStripSynoptic.Name = "ToolStripSynoptic"
-        Me.ToolStripSynoptic.Size = New System.Drawing.Size(215, 22)
-        Me.ToolStripSynoptic.Text = "Synoptic"
-        Me.ToolStripSynoptic.Visible = False
+        resources.ApplyResources(Me.ToolStripSynoptic, "ToolStripSynoptic")
         '
         'MultipleElementColumnsToolStripMenuItem
         '
         Me.MultipleElementColumnsToolStripMenuItem.Name = "MultipleElementColumnsToolStripMenuItem"
-        Me.MultipleElementColumnsToolStripMenuItem.Size = New System.Drawing.Size(215, 22)
-        Me.MultipleElementColumnsToolStripMenuItem.Text = "Multiple Element Columns"
+        resources.ApplyResources(Me.MultipleElementColumnsToolStripMenuItem, "MultipleElementColumnsToolStripMenuItem")
         '
         'MonthlyToolStripMenuItem2
         '
-        Me.MonthlyToolStripMenuItem2.Enabled = False
+        resources.ApplyResources(Me.MonthlyToolStripMenuItem2, "MonthlyToolStripMenuItem2")
         Me.MonthlyToolStripMenuItem2.Name = "MonthlyToolStripMenuItem2"
-        Me.MonthlyToolStripMenuItem2.Size = New System.Drawing.Size(215, 22)
-        Me.MonthlyToolStripMenuItem2.Text = "Monthly"
-        Me.MonthlyToolStripMenuItem2.Visible = False
         '
         'CLIMSOFTV3ToolStripMenuItem
         '
         Me.CLIMSOFTV3ToolStripMenuItem.Name = "CLIMSOFTV3ToolStripMenuItem"
-        Me.CLIMSOFTV3ToolStripMenuItem.Size = New System.Drawing.Size(153, 22)
-        Me.CLIMSOFTV3ToolStripMenuItem.Text = "Data Migration"
+        resources.ApplyResources(Me.CLIMSOFTV3ToolStripMenuItem, "CLIMSOFTV3ToolStripMenuItem")
         '
         'GenerateValuesToolStripMenuItem
         '
         Me.GenerateValuesToolStripMenuItem.Name = "GenerateValuesToolStripMenuItem"
-        Me.GenerateValuesToolStripMenuItem.Size = New System.Drawing.Size(103, 20)
-        Me.GenerateValuesToolStripMenuItem.Text = "Generate Values"
-        Me.GenerateValuesToolStripMenuItem.Visible = False
+        resources.ApplyResources(Me.GenerateValuesToolStripMenuItem, "GenerateValuesToolStripMenuItem")
         '
         'BackupToolStripMenuItem
         '
         Me.BackupToolStripMenuItem.Name = "BackupToolStripMenuItem"
-        Me.BackupToolStripMenuItem.Size = New System.Drawing.Size(58, 20)
-        Me.BackupToolStripMenuItem.Text = "Backup"
+        resources.ApplyResources(Me.BackupToolStripMenuItem, "BackupToolStripMenuItem")
         '
         'RestoreToolStripMenuItem
         '
         Me.RestoreToolStripMenuItem.Name = "RestoreToolStripMenuItem"
-        Me.RestoreToolStripMenuItem.Size = New System.Drawing.Size(58, 20)
-        Me.RestoreToolStripMenuItem.Text = "Restore"
+        resources.ApplyResources(Me.RestoreToolStripMenuItem, "RestoreToolStripMenuItem")
         '
         'OptionsToolStripMenuItem
         '
         Me.OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem"
-        Me.OptionsToolStripMenuItem.Size = New System.Drawing.Size(61, 20)
-        Me.OptionsToolStripMenuItem.Text = "Options"
-        Me.OptionsToolStripMenuItem.Visible = False
+        resources.ApplyResources(Me.OptionsToolStripMenuItem, "OptionsToolStripMenuItem")
         '
         'Panel1
         '
         Me.Panel1.Controls.Add(Me.btnClose)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel1.Location = New System.Drawing.Point(0, 396)
+        resources.ApplyResources(Me.Panel1, "Panel1")
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(852, 27)
-        Me.Panel1.TabIndex = 3
         '
         'btnClose
         '
-        Me.btnClose.Location = New System.Drawing.Point(305, 0)
+        resources.ApplyResources(Me.btnClose, "btnClose")
         Me.btnClose.Name = "btnClose"
-        Me.btnClose.Size = New System.Drawing.Size(67, 27)
-        Me.btnClose.TabIndex = 1
-        Me.btnClose.Text = "Close"
         '
         'Dbtpanel2
         '
         Me.Dbtpanel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Dbtpanel2.Controls.Add(Me.ProgressBarDb)
-        Me.Dbtpanel2.Location = New System.Drawing.Point(444, 52)
+        resources.ApplyResources(Me.Dbtpanel2, "Dbtpanel2")
         Me.Dbtpanel2.Name = "Dbtpanel2"
-        Me.Dbtpanel2.Padding = New System.Windows.Forms.Padding(2)
-        Me.Dbtpanel2.Size = New System.Drawing.Size(396, 338)
-        Me.Dbtpanel2.TabIndex = 5
         '
         'ProgressBarDb
         '
-        Me.ProgressBarDb.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.ProgressBarDb.Location = New System.Drawing.Point(2, 311)
+        resources.ApplyResources(Me.ProgressBarDb, "ProgressBarDb")
         Me.ProgressBarDb.Name = "ProgressBarDb"
-        Me.ProgressBarDb.Size = New System.Drawing.Size(388, 21)
-        Me.ProgressBarDb.TabIndex = 0
         '
         'OpenFileDialog1
         '
@@ -250,66 +210,46 @@ Partial Class frmDBUtilities
         'ToolStrip1
         '
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripLabel1, Me.cmbDb, Me.ToolStripButton1})
-        Me.ToolStrip1.Location = New System.Drawing.Point(0, 24)
+        resources.ApplyResources(Me.ToolStrip1, "ToolStrip1")
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(852, 25)
-        Me.ToolStrip1.TabIndex = 6
-        Me.ToolStrip1.Text = "ToolStrip1"
         '
         'ToolStripLabel1
         '
         Me.ToolStripLabel1.Name = "ToolStripLabel1"
-        Me.ToolStripLabel1.Size = New System.Drawing.Size(55, 22)
-        Me.ToolStripLabel1.Text = "Database"
-        Me.ToolStripLabel1.Visible = False
+        resources.ApplyResources(Me.ToolStripLabel1, "ToolStripLabel1")
         '
         'cmbDb
         '
-        Me.cmbDb.Items.AddRange(New Object() {"Initial", "Final"})
+        Me.cmbDb.Items.AddRange(New Object() {resources.GetString("cmbDb.Items"), resources.GetString("cmbDb.Items1")})
         Me.cmbDb.Name = "cmbDb"
-        Me.cmbDb.Size = New System.Drawing.Size(121, 25)
-        Me.cmbDb.Visible = False
+        resources.ApplyResources(Me.cmbDb, "cmbDb")
         '
         'ToolStripButton1
         '
         Me.ToolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.ToolStripButton1.Image = CType(resources.GetObject("ToolStripButton1.Image"), System.Drawing.Image)
-        Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
+        resources.ApplyResources(Me.ToolStripButton1, "ToolStripButton1")
         Me.ToolStripButton1.Name = "ToolStripButton1"
-        Me.ToolStripButton1.Size = New System.Drawing.Size(23, 22)
-        Me.ToolStripButton1.Text = "ToolStripButton1"
-        Me.ToolStripButton1.Visible = False
         '
         'Dbtpanel1
         '
         Me.Dbtpanel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Dbtpanel1.Controls.Add(Me.grpbxUpload)
-        Me.Dbtpanel1.Location = New System.Drawing.Point(12, 52)
+        resources.ApplyResources(Me.Dbtpanel1, "Dbtpanel1")
         Me.Dbtpanel1.Name = "Dbtpanel1"
-        Me.Dbtpanel1.Padding = New System.Windows.Forms.Padding(2)
-        Me.Dbtpanel1.Size = New System.Drawing.Size(426, 338)
-        Me.Dbtpanel1.TabIndex = 7
         '
         'grpbxUpload
         '
         Me.grpbxUpload.Controls.Add(Me.cmdUpload)
         Me.grpbxUpload.Controls.Add(Me.ListView1)
-        Me.grpbxUpload.Location = New System.Drawing.Point(2, 311)
+        resources.ApplyResources(Me.grpbxUpload, "grpbxUpload")
         Me.grpbxUpload.Name = "grpbxUpload"
-        Me.grpbxUpload.Size = New System.Drawing.Size(421, 24)
-        Me.grpbxUpload.TabIndex = 7
         Me.grpbxUpload.TabStop = False
-        Me.grpbxUpload.Visible = False
         '
         'cmdUpload
         '
-        Me.cmdUpload.Location = New System.Drawing.Point(167, 6)
+        resources.ApplyResources(Me.cmdUpload, "cmdUpload")
         Me.cmdUpload.Name = "cmdUpload"
-        Me.cmdUpload.Size = New System.Drawing.Size(87, 19)
-        Me.cmdUpload.TabIndex = 7
-        Me.cmdUpload.Text = "Start Upload"
         Me.cmdUpload.UseVisualStyleBackColor = True
-        Me.cmdUpload.Visible = False
         '
         'ListView1
         '
@@ -318,34 +258,26 @@ Partial Class frmDBUtilities
         Me.ListView1.CheckBoxes = True
         Me.ListView1.GridLines = True
         Me.ListView1.LabelEdit = True
-        Me.ListView1.Location = New System.Drawing.Point(0, -313)
+        resources.ApplyResources(Me.ListView1, "ListView1")
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.ListView1.Size = New System.Drawing.Size(412, 305)
-        Me.ListView1.TabIndex = 5
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
-        Me.ListView1.Visible = False
         '
         'frmDBUtilities
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(852, 423)
         Me.Controls.Add(Me.Dbtpanel1)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.Dbtpanel2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmDBUtilities"
         Me.ShowInTaskbar = False
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
-        Me.Text = "Database Utilities"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
