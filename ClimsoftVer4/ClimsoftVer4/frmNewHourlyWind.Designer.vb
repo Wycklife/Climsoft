@@ -43,13 +43,13 @@ Partial Class frmNewHourlyWind
         Me.btnHourSelection = New System.Windows.Forms.Button()
         Me.lblSequencer = New System.Windows.Forms.Label()
         Me.txtSequencer = New System.Windows.Forms.TextBox()
+        Me.chkRepeatEntry = New System.Windows.Forms.CheckBox()
         Me.ucrHourlyWind = New ClimsoftVer4.ucrHourlyWind()
         Me.ucrNavigation = New ClimsoftVer4.ucrNavigation()
         Me.ucrDay = New ClimsoftVer4.ucrDay()
         Me.ucrMonth = New ClimsoftVer4.ucrMonth()
         Me.ucrYearSelector = New ClimsoftVer4.ucrYearSelector()
         Me.ucrStationSelector = New ClimsoftVer4.ucrStationSelector()
-        Me.chkRepeatEntry = New System.Windows.Forms.CheckBox()
         lblYear = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
@@ -167,6 +167,12 @@ Partial Class frmNewHourlyWind
         resources.ApplyResources(Me.txtSequencer, "txtSequencer")
         Me.txtSequencer.Name = "txtSequencer"
         '
+        'chkRepeatEntry
+        '
+        resources.ApplyResources(Me.chkRepeatEntry, "chkRepeatEntry")
+        Me.chkRepeatEntry.Name = "chkRepeatEntry"
+        Me.chkRepeatEntry.UseVisualStyleBackColor = True
+        '
         'ucrHourlyWind
         '
         resources.ApplyResources(Me.ucrHourlyWind, "ucrHourlyWind")
@@ -196,12 +202,6 @@ Partial Class frmNewHourlyWind
         '
         resources.ApplyResources(Me.ucrStationSelector, "ucrStationSelector")
         Me.ucrStationSelector.Name = "ucrStationSelector"
-        '
-        'chkRepeatEntry
-        '
-        resources.ApplyResources(Me.chkRepeatEntry, "chkRepeatEntry")
-        Me.chkRepeatEntry.Name = "chkRepeatEntry"
-        Me.chkRepeatEntry.UseVisualStyleBackColor = True
         '
         'frmNewHourlyWind
         '

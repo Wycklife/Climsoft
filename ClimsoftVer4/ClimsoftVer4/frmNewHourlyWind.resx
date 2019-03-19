@@ -124,6 +124,10 @@
   <data name="lblYear.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblYear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblYear.Location" type="System.Drawing.Point, System.Drawing">
     <value>270, 7</value>
@@ -152,6 +156,9 @@
   <data name="lblStationSelector.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblStationSelector.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="lblStationSelector.Location" type="System.Drawing.Point, System.Drawing">
     <value>67, 7</value>
   </data>
@@ -178,6 +185,9 @@
   </data>
   <data name="lblDay.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="lblDay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="lblDay.Location" type="System.Drawing.Point, System.Drawing">
     <value>476, 7</value>
@@ -206,6 +216,9 @@
   <data name="lblMonth.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblMonth.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="lblMonth.Location" type="System.Drawing.Point, System.Drawing">
     <value>358, 7</value>
   </data>
@@ -229,6 +242,9 @@
   </data>
   <data name="&gt;&gt;lblMonth.ZOrder" xml:space="preserve">
     <value>25</value>
+  </data>
+  <data name="btnView.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnView.Location" type="System.Drawing.Point, System.Drawing">
     <value>410, 508</value>
@@ -254,6 +270,9 @@
   <data name="&gt;&gt;btnView.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="btnUpload.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnUpload.Location" type="System.Drawing.Point, System.Drawing">
     <value>569, 532</value>
   </data>
@@ -277,6 +296,9 @@
   </data>
   <data name="&gt;&gt;btnUpload.ZOrder" xml:space="preserve">
     <value>10</value>
+  </data>
+  <data name="btnHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnHelp.Location" type="System.Drawing.Point, System.Drawing">
     <value>573, 508</value>
@@ -305,6 +327,9 @@
   <data name="btnClear.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="btnClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnClear.Location" type="System.Drawing.Point, System.Drawing">
     <value>329, 508</value>
   </data>
@@ -328,6 +353,9 @@
   </data>
   <data name="&gt;&gt;btnClear.ZOrder" xml:space="preserve">
     <value>12</value>
+  </data>
+  <data name="btnSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
     <value>86, 508</value>
@@ -353,6 +381,9 @@
   <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
+  <data name="btnDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
     <value>249, 508</value>
   </data>
@@ -376,6 +407,9 @@
   </data>
   <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve">
     <value>14</value>
+  </data>
+  <data name="btnAddNew.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnAddNew.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 508</value>
@@ -401,6 +435,9 @@
   <data name="&gt;&gt;btnAddNew.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
+  <data name="btnUpdate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnUpdate.Location" type="System.Drawing.Point, System.Drawing">
     <value>167, 508</value>
   </data>
@@ -424,6 +461,9 @@
   </data>
   <data name="&gt;&gt;btnUpdate.ZOrder" xml:space="preserve">
     <value>16</value>
+  </data>
+  <data name="btnClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
     <value>491, 508</value>
@@ -453,7 +493,7 @@
     <value>False</value>
   </data>
   <data name="txtSpeedDigits.Location" type="System.Drawing.Point, System.Drawing">
-    <value>557, 52</value>
+    <value>572, 52</value>
   </data>
   <data name="txtSpeedDigits.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 20</value>
@@ -506,8 +546,11 @@
   <data name="lblSpeedDigits.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblSpeedDigits.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="lblSpeedDigits.Location" type="System.Drawing.Point, System.Drawing">
-    <value>431, 54</value>
+    <value>423, 54</value>
   </data>
   <data name="lblSpeedDigits.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 13</value>
@@ -533,6 +576,9 @@
   <data name="lblDirectionDigits.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblDirectionDigits.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="lblDirectionDigits.Location" type="System.Drawing.Point, System.Drawing">
     <value>249, 54</value>
   </data>
@@ -556,6 +602,9 @@
   </data>
   <data name="&gt;&gt;lblDirectionDigits.ZOrder" xml:space="preserve">
     <value>7</value>
+  </data>
+  <data name="btnHourSelection.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnHourSelection.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 49</value>
@@ -583,6 +632,9 @@
   </data>
   <data name="lblSequencer.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="lblSequencer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="lblSequencer.Location" type="System.Drawing.Point, System.Drawing">
     <value>180, 542</value>
@@ -632,10 +684,42 @@
   <data name="&gt;&gt;txtSequencer.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="chkRepeatEntry.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkRepeatEntry.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkRepeatEntry.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRepeatEntry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 541</value>
+  </data>
+  <data name="chkRepeatEntry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 17</value>
+  </data>
+  <data name="chkRepeatEntry.TabIndex" type="System.Int32, mscorlib">
+    <value>686</value>
+  </data>
+  <data name="chkRepeatEntry.Text" xml:space="preserve">
+    <value>Repeat Entry</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatEntry.Name" xml:space="preserve">
+    <value>chkRepeatEntry</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatEntry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatEntry.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkRepeatEntry.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="ucrHourlyWind.Location" type="System.Drawing.Point, System.Drawing">
     <value>24, 76</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ucrHourlyWind.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
   </data>
@@ -776,36 +860,6 @@
   </data>
   <data name="&gt;&gt;ucrStationSelector.ZOrder" xml:space="preserve">
     <value>22</value>
-  </data>
-  <data name="chkRepeatEntry.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkRepeatEntry.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="chkRepeatEntry.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 541</value>
-  </data>
-  <data name="chkRepeatEntry.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 17</value>
-  </data>
-  <data name="chkRepeatEntry.TabIndex" type="System.Int32, mscorlib">
-    <value>686</value>
-  </data>
-  <data name="chkRepeatEntry.Text" xml:space="preserve">
-    <value>Repeat Entry</value>
-  </data>
-  <data name="&gt;&gt;chkRepeatEntry.Name" xml:space="preserve">
-    <value>chkRepeatEntry</value>
-  </data>
-  <data name="&gt;&gt;chkRepeatEntry.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkRepeatEntry.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;chkRepeatEntry.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

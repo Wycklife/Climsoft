@@ -798,7 +798,7 @@
     <value>True</value>
   </data>
   <data name="lblFlag.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 9</value>
+    <value>208, 9</value>
   </data>
   <data name="lblFlag.Size" type="System.Drawing.Size, System.Drawing">
     <value>27, 13</value>
@@ -1561,7 +1561,7 @@
     <value>True</value>
   </data>
   <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>491, 9</value>
+    <value>477, 9</value>
   </data>
   <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>27, 13</value>
