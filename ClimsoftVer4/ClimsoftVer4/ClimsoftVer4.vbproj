@@ -647,6 +647,12 @@
     <Compile Include="ucrDaySelectorNew.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="ucrElementSelectorNew.Designer.vb">
+      <DependentUpon>ucrElementSelectorNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucrElementSelectorNew.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="ucrHourlyWind.Designer.vb">
       <DependentUpon>ucrHourlyWind.vb</DependentUpon>
     </Compile>
@@ -767,6 +773,12 @@
     <Compile Include="ucrMetadataStationNew.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="ucrMetadataStationocationHistory.Designer.vb">
+      <DependentUpon>ucrMetadataStationocationHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucrMetadataStationocationHistory.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="ucrMetadataStationQualifierNew.Designer.vb">
       <DependentUpon>ucrMetadataStationQualifierNew.vb</DependentUpon>
     </Compile>
@@ -825,6 +837,12 @@
       <DependentUpon>ucrNavigator.vb</DependentUpon>
     </Compile>
     <Compile Include="ucrNavigator.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucrStationSelectorNew.Designer.vb">
+      <DependentUpon>ucrStationSelectorNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucrStationSelectorNew.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ucrSynopticRA1.Designer.vb">
@@ -1196,6 +1214,9 @@
     <EmbeddedResource Include="ucrDaySelectorNew.resx">
       <DependentUpon>ucrDaySelectorNew.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucrElementSelectorNew.resx">
+      <DependentUpon>ucrElementSelectorNew.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucrHourlyWind.resx">
       <DependentUpon>ucrHourlyWind.vb</DependentUpon>
     </EmbeddedResource>
@@ -1250,6 +1271,9 @@
     <EmbeddedResource Include="ucrMetadataStationLocationHistory.resx">
       <DependentUpon>ucrMetadataStationLocationHistory.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucrMetadataStationLocationHistoryNew.resx">
+      <DependentUpon>ucrMetadataStationLocationHistoryNew.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucrMetadataStationNew.resx">
       <DependentUpon>ucrMetadataStationNew.vb</DependentUpon>
     </EmbeddedResource>
@@ -1285,6 +1309,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucrPage.resx">
       <DependentUpon>ucrPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucrStationSelectorNew.resx">
+      <DependentUpon>ucrStationSelectorNew.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucrSynopticRA1.resx">
       <DependentUpon>ucrSynopticRA1.vb</DependentUpon>
