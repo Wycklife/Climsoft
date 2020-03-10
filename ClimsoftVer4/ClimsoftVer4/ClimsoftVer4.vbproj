@@ -94,6 +94,8 @@
     <Compile Include="clsHelp.vb" />
     <Compile Include="clsClimsoftSettings.vb" />
     <Compile Include="clsLanguageTranslation.vb" />
+    <Compile Include="clsOperator.vb" />
+    <Compile Include="clsPermission.vb" />
     <Compile Include="clsProducts.vb" />
     <Compile Include="clsTableFilter.vb" />
     <Compile Include="dataEntryGlobalRoutines.vb" />
@@ -611,10 +613,22 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ClsShiftCells.vb" />
+    <Compile Include="ucrAction.Designer.vb">
+      <DependentUpon>ucrAction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucrAction.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="ucrBaseDataLink.Designer.vb">
       <DependentUpon>ucrBaseDataLink.vb</DependentUpon>
     </Compile>
     <Compile Include="ucrBaseDataLink.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucrButton.Designer.vb">
+      <DependentUpon>ucrButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucrButton.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ucrCheck.Designer.vb">
@@ -1199,8 +1213,14 @@
     <EmbeddedResource Include="sdgFilter.resx">
       <DependentUpon>sdgFilter.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucrAction.resx">
+      <DependentUpon>ucrAction.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucrBaseDataLink.resx">
       <DependentUpon>ucrBaseDataLink.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucrButton.resx">
+      <DependentUpon>ucrButton.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucrCheck.resx">
       <DependentUpon>ucrCheck.vb</DependentUpon>
