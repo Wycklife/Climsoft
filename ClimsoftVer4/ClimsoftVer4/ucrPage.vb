@@ -10,44 +10,60 @@
     Protected WithEvents btnCancel As Button
     Protected WithEvents btnView As Button
     Protected WithEvents btnUpload As Button
+    Protected iSaveActionTypeID As Integer
+    Protected iDeleteActionTypeID As Integer
+    Protected iUpdateActionTypeID As Integer
+    Protected iAddNewActionTypeID As Integer
+    Protected iClearActionTypeID As Integer
+    Protected iCancelActionTypeID As Integer
+    Protected iUploadActionTypeID As Integer
+    Protected iViewActionTypeID As Integer
 
     Private Sub ucrPage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If bFirstLoad Then
             SetValueControlsList()
-            bFirstLoad = False
+            'bFirstLoad = False
         End If
     End Sub
 
-    Public Sub SetUpButtonAddNew(newBtn As Button)
+    Public Sub SetUpButtonAddNew(newBtn As Button, iNewAddNewActionTypeID As Integer)
         btnAddNew = newBtn
+        iAddNewActionTypeID = iNewAddNewActionTypeID
     End Sub
 
-    Public Sub SetUpButtonSave(newBtn As Button)
+    Public Sub SetUpButtonSave(newBtn As Button, iNewSaveActionTypeID As Integer)
         btnSave = newBtn
+        iSaveActionTypeID = iNewSaveActionTypeID
     End Sub
 
-    Public Sub SetUpButtonUpdate(newBtn As Button)
+    Public Sub SetUpButtonUpdate(newBtn As Button, iNewUpdateActionTypeID As Integer)
         btnUpdate = newBtn
+        iUpdateActionTypeID = iNewUpdateActionTypeID
     End Sub
 
-    Public Sub SetUpButtonDelete(newBtn As Button)
+    Public Sub SetUpButtonDelete(newBtn As Button, iNewDeleteActionTypeID As Integer)
         btnDelete = newBtn
+        iDeleteActionTypeID = iNewDeleteActionTypeID
     End Sub
 
-    Public Sub SetUpButtonClear(newBtn As Button)
+    Public Sub SetUpButtonClear(newBtn As Button, iNewClearActionTypeID As Integer)
         btnClear = newBtn
+        iClearActionTypeID = iNewClearActionTypeID
     End Sub
 
-    Public Sub SetUpButtonCancel(newBtn As Button)
+    Public Sub SetUpButtonCancel(newBtn As Button, iNewCancelActionTypeID As Integer)
         btnCancel = newBtn
+        iCancelActionTypeID = iNewCancelActionTypeID
     End Sub
 
-    Public Sub SetUpButtonView(newBtn As Button)
+    Public Sub SetUpButtonView(newBtn As Button, iNewViewActionTypeID As Integer)
         btnView = newBtn
+        iViewActionTypeID = iNewViewActionTypeID
     End Sub
 
-    Public Sub SetUpButtonUpload(newBtn As Button)
+    Public Sub SetUpButtonUpload(newBtn As Button, iNewUploadActionTypeID As Integer)
         btnUpload = newBtn
+        iUpdateActionTypeID = iNewUploadActionTypeID
     End Sub
 
     Public Sub SetUpNavigator(newUcrNavigator As ucrNavigator)
@@ -64,7 +80,7 @@
         Next
     End Sub
 
-    Public Sub SetDataIdentifier(strDataIdentifier As Object)
+    Public Sub SetDataIdentifier(objDataIdentifier As Object)
         'specifies the identifier that would be usd by the datastructure to get the data 
     End Sub
 
@@ -97,12 +113,70 @@
     End Sub
     Public Overridable Sub SaveRecord()
         'todo. calls the save record method of the datastructure
+
+        Try
+            'todo. calls the validateValue method of the data structure
+            'If Not ValidateValue() Then
+            'Exit Sub
+            'End If
+
+            'Confirm if you want to continue and save data from key-entry form to database table
+            If MessageBox.Show("Do you want to continue and commit to database table?", "Save Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
+                'todo. have the insert method in the  datastructure
+                'If InsertRecord() Then
+                'todo have the GoToNewRecord in the ucrNavigator
+                'ucrNavigator.GoToNewRecord()
+                SaveEnable()
+                    MessageBox.Show("New record added to database table!", "Save Record", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                End If
+            'End If
+        Catch ex As Exception
+            MessageBox.Show("New Record has NOT been added to database table. Error: " & ex.Message, "Save Record", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
     Public Overridable Sub UpdateRecord()
         'todo. calls the update record method of the datastructure
+
+        Try
+            'todo. calls the validateValue method of the data structure 
+            'and displays the error message
+            'if there is errors then don't proceed with updating
+
+            'If Not datastructure.ValidateValue() Then
+            ' display message then exit sub 
+            'Exit Sub
+            'End If
+
+            'Dispaly a  message box cheecking if the user wants to update the record.If true then
+            'If ucrNavigator.UpdateRecord() then Display a message displayiny SuccessfulUpdate of the record
+        Catch ex As Exception
+            MessageBox.Show("Record has NOT been updated. Error: " & ex.Message, "Update Record", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
     Public Overridable Sub DeleteRecord()
-        'todo. calls the delete record method of the datastructure
+        'todo. calls the delete record method of the datastructure ie datastructure.DeleteRecords
+
+        Try
+            'todo. calls the validateValue method of the data structure 
+            'and displays the error message
+            'if there is errors then don't proceed with saving
+
+            'If Not datastructure.ValidateValue() Then
+            ' display message then exit sub 
+            'Exit Sub
+            'End If
+
+            If MessageBox.Show("Are you sure you want to delete this record?", "Delete Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
+                'todo. calls the DeleteRecord method of the data structure
+                'If DeleteRecord() return True Then
+                'If the records can be deleted ,through ucrNavigator.RemoveRecords method ,then
+                'enable the Delete button through the SaveEnable() method
+                'If the record has been deleted succesfully then display a massage indicating succesful deletion
+                MessageBox.Show("Record has been deleted", "Delete Record", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Record has NOT been deleted. Error: " & ex.Message, "Delete Record", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
     End Sub
     Public Overridable Sub Cancel()
         'todo. cancel the entry of the records and goes back to the record that was previously selected
@@ -111,6 +185,11 @@
     Public Overridable Sub Clear()
         'Either clear the controls which will clear the datastrucre 
         'or call the datastructure clear function which will inturn clear the controls
+
+        'todo. have a method,Movefirst(),in the ucrNavigator for moving to the first record of the datatable
+        'Move to the first record of datatable through ucrNavigator.MoveFirst()
+        'Enable appropriate base buttons through the saveEnable() function
+
 
     End Sub
 
@@ -140,8 +219,29 @@
 
     End Sub
 
+    Private Sub SaveEnable()
+        btnAddNew.Enabled = True
+        btnSave.Enabled = False
+        btnClear.Enabled = False
+        btnDelete.Enabled = False
+        btnUpdate.Enabled = False
+
+        'todo. have the ucrNavigator contain the position of the selected row and number of maximum rows for the current record 
+        'todo. in th ucrNavigator have the variable having the position of the current row and maximum row available
+        'If there is no selected row then disable the Delete and Update buttons .At the same time Enable the Clear and Save buttons
+        'If the maximum row is 0,Enable the save Button and Disable the AddNew button
+        'If the maximum row is greater than 0 then Enable the Delete and Update buttons
+    End Sub
+
     Private Sub btnAddNew_Click(sender As Object, e As EventArgs) Handles btnAddNew.Click
-        AddNewRecord()
+        'AddNewRecord()
+        'todo have a method,NewRecord(),in ucrNavigator for Adding a new record
+
+        'ucrNavigator.NewRecord()
+        'Enable the required buttons using the saveEnable() method
+
+        '#Not sure if this funtion below is necessary
+        'ucrDataLinkInstrumentID.GetFocus()
     End Sub
 
     Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
