@@ -1,11 +1,12 @@
-﻿Public Class clsPermission
+﻿Public Class ClsPermission
 
     Private objPermissionDataStructure As Object
 
 
-    Public Function GetPermissionTypeName(iActionTypeId As Integer) As String
+    Public Function GetPermissionType(iActionTypeId As Integer) As ClsGlobals.PermissionTypes
         'todo. get the permission type name from the PermissionDataStructure
-        Return ""
+
+        Return ClsGlobals.PermissionTypes.Disabled
     End Function
 
     Public Function IsVisibleFormDaily2() As Boolean

@@ -9,12 +9,30 @@
         End Set
     End Property
 
-    Private Sub btn_Click(sender As Object, e As EventArgs) Handles btn.Click
+    Private Sub Btn_Click(sender As Object, e As EventArgs) Handles btn.Click
         Dim iActionOperatorId As Integer
+        Dim objTempOperator As ClsOperator
 
-        'todo. set the operator id for the validated operator responsible for the action 
+        'set the operator id for the validated operator responsible for the action 
+        If enumPermissionType = ClsGlobals.PermissionTypes.Disabled Then
+            Exit Sub
+        ElseIf enumPermissionType = ClsGlobals.PermissionTypes.WithApproval Then
+            'todo. prompt the user to supply the credentials for an authorised operator
+            'todo. if credentials are correct 
+            'todo. then set up the temporary operator and get the operator id
+            iActionOperatorId = objTempOperator.GetOperatorId
+        ElseIf enumPermissionType = ClsGlobals.PermissionTypes.SameOperator Then
+            'todo. check if the current operator is the one who entered the data. if true then do the following
+            iActionOperatorId = ClsGlobals.objOperatorInstance.GetOperatorId
+        ElseIf enumPermissionType = ClsGlobals.PermissionTypes.WithApprovalSameOperator Then
+            'todo
+            iActionOperatorId = ClsGlobals.objOperatorInstance.GetOperatorId
+        End If
 
         OnEvtDoAction(Me, ActionTypeId, iActionOperatorId)
 
     End Sub
+
+
+
 End Class

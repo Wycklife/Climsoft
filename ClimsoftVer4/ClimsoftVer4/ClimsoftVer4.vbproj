@@ -91,11 +91,12 @@
     <Compile Include="ClsCloneFunctions.vb" />
     <Compile Include="clsDataCall.vb" />
     <Compile Include="clsDataConnection.vb" />
+    <Compile Include="ClsGlobals.vb" />
     <Compile Include="clsHelp.vb" />
     <Compile Include="clsClimsoftSettings.vb" />
     <Compile Include="clsLanguageTranslation.vb" />
-    <Compile Include="clsOperator.vb" />
-    <Compile Include="clsPermission.vb" />
+    <Compile Include="ClsOperator.vb" />
+    <Compile Include="ClsPermission.vb" />
     <Compile Include="clsProducts.vb" />
     <Compile Include="clsTableFilter.vb" />
     <Compile Include="dataEntryGlobalRoutines.vb" />
