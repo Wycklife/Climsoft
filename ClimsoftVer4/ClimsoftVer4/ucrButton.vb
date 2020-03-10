@@ -13,19 +13,18 @@
         Dim iActionOperatorId As Integer
         Dim objTempOperator As ClsOperator
 
-
-        'todo. set the operator id for the validated operator responsible for the action 
+        'set the operator id for the validated operator responsible for the action 
         If enumPermissionType = ClsGlobals.PermissionTypes.Disabled Then
             Exit Sub
-        ElseIf enumPermissionType = ClsGlobals.PermissionTypes.DataOwner Then
-            'todo. check if the current operator is the one who entered the data. if true then do the following
-            iActionOperatorId = ClsGlobals.objOperatorInstance.GetOperatorId
-        ElseIf enumPermissionType = ClsGlobals.PermissionTypes.WithPermission Then
+        ElseIf enumPermissionType = ClsGlobals.PermissionTypes.WithApproval Then
             'todo. prompt the user to supply the credentials for an authorised operator
             'todo. if credentials are correct 
             'todo. then set up the temporary operator and get the operator id
             iActionOperatorId = objTempOperator.GetOperatorId
-        ElseIf enumPermissionType = ClsGlobals.PermissionTypes.WithPermissionDataOwner Then
+        ElseIf enumPermissionType = ClsGlobals.PermissionTypes.SameOperator Then
+            'todo. check if the current operator is the one who entered the data. if true then do the following
+            iActionOperatorId = ClsGlobals.objOperatorInstance.GetOperatorId
+        ElseIf enumPermissionType = ClsGlobals.PermissionTypes.WithApprovalSameOperator Then
             'todo
             iActionOperatorId = ClsGlobals.objOperatorInstance.GetOperatorId
         End If

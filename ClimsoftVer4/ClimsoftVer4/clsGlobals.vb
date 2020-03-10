@@ -4,9 +4,9 @@
     Public Enum PermissionTypes
         Enabled = 1
         Disabled = 2
-        DataOwner = 3
-        WithPermission = 4
-        WithPermissionDataOwner = 5
+        WithApproval = 3
+        SameOperator = 4
+        WithApprovalSameOperator = 5
     End Enum
 
 End Class
