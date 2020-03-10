@@ -1,15 +1,23 @@
 ﻿Public Class ucrMetadataStationNew
+    Private iNwSaveActionTypeID As Integer
+    Private iNwDeleteActionTypeID As Integer
+    Private iNwUpdateActionTypeID As Integer
+    Private iNwAddNewActionTypeID As Integer
+    Private iNwClearActionTypeID As Integer
+    Private iNwCancelActionTypeID As Integer
+    Private iNwUploadActionTypeID As Integer
+    Private iNwViewActionTypeID As Integer
     Private Sub ucrMetadataStationNew_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If bFirstLoad Then
 
-            SetUpButtonAddNew(btnAddNew)
-            SetUpButtonSave(btnSave)
-            SetUpButtonCancel(btnCancel)
-            SetUpButtonClear(btnClear)
-            SetUpButtonDelete(btnDelete)
-            SetUpButtonUpdate(btnUpdate)
-            SetUpButtonUpload(btnUpload)
-            SetUpButtonView(btnView)
+            SetUpButtonAddNew(btnAddNew, iNwAddNewActionTypeID)
+            SetUpButtonSave(btnSave, iNwSaveActionTypeID)
+            SetUpButtonCancel(btnCancel, iNwCancelActionTypeID)
+            SetUpButtonClear(btnClear, iNwClearActionTypeID)
+            SetUpButtonDelete(btnDelete, iNwDeleteActionTypeID)
+            SetUpButtonUpdate(btnUpdate, iNwUpdateActionTypeID)
+            SetUpButtonUpload(btnUpload, iNwUploadActionTypeID)
+            SetUpButtonView(btnView, iNwViewActionTypeID)
             SetUpNavigator(ucrNavigator)
 
             'todo pass in the data identifier here in place of nothing. 

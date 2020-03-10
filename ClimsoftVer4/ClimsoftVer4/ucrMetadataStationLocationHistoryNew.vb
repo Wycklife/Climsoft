@@ -1,14 +1,22 @@
 ﻿Public Class ucrMetadataStationLocationHistoryNew
+    Private iNwSaveActionTypeID As Integer
+    Private iNwDeleteActionTypeID As Integer
+    Private iNwUpdateActionTypeID As Integer
+    Private iNwAddNewActionTypeID As Integer
+    Private iNwClearActionTypeID As Integer
+    Private iNwCancelActionTypeID As Integer
+    Private iNwUploadActionTypeID As Integer
+    Private iNwViewActionTypeID As Integer
     Private Sub ucrMetadataStationLocationHistoryNew_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If bFirstLoad Then
-            SetUpButtonAddNew(btnAddNew)
-            SetUpButtonCancel(btnCancel)
-            SetUpButtonCancel(btnClear)
-            SetUpButtonDelete(btnDelete)
-            SetUpButtonSave(btnSave)
-            SetUpButtonUpdate(btnUpdate)
-            SetUpButtonUpload(btnUpload)
-            SetUpButtonView(btnView)
+            SetUpButtonAddNew(btnAddNew, iNwAddNewActionTypeID)
+            SetUpButtonCancel(btnCancel, iNwCancelActionTypeID)
+            SetUpButtonCancel(btnClear, iNwClearActionTypeID)
+            SetUpButtonDelete(btnDelete, iNwDeleteActionTypeID)
+            SetUpButtonSave(btnSave, iNwSaveActionTypeID)
+            SetUpButtonUpdate(btnUpdate, iNwUpdateActionTypeID)
+            SetUpButtonUpload(btnUpload, iNwUploadActionTypeID)
+            SetUpButtonView(btnView, iNwViewActionTypeID)
             SetUpNavigator(ucrNavigator)
             SetUpValueControls()
 
