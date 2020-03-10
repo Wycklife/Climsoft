@@ -1,8 +1,8 @@
-﻿Public Class clsOperator
+﻿Public Class ClsOperator
     Private iOperatorId As Integer
     Private strOperatorName As String
     Private objOperatorDataStructure As Object
-    Private objPermission As clsPermission
+    Private objPermission As ClsPermission
 
 
     Public Function GetOperatorId() As Integer
@@ -13,7 +13,7 @@
         Return strOperatorName
     End Function
 
-    Public Function GetPermission() As Object
+    Public Function GetPermission() As ClsPermission
         Return objPermission
     End Function
 
