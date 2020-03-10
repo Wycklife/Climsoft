@@ -686,6 +686,12 @@
     <Compile Include="ucrHourly.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="ucrInstrumentSelector.Designer.vb">
+      <DependentUpon>ucrInstrumentSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucrInstrumentSelector.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="ucrKenyaAgromet.Designer.vb">
       <DependentUpon>ucrKenyaAgromet.vb</DependentUpon>
     </Compile>
@@ -1249,6 +1255,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucrHourly.resx">
       <DependentUpon>ucrHourly.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucrInstrumentSelector.resx">
+      <DependentUpon>ucrInstrumentSelector.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucrKenyaAgromet.resx">
       <DependentUpon>ucrKenyaAgromet.vb</DependentUpon>

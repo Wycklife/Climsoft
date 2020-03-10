@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class ucrMetadataStationElementNew
     Inherits ClimsoftVer4.ucrPage
 
     'UserControl overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class ucrMetadataStationElementNew
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.lblstation = New System.Windows.Forms.Label()
         Me.lblElement = New System.Windows.Forms.Label()
@@ -39,7 +39,6 @@ Partial Class ucrMetadataStationElementNew
         Me.btnSave = New System.Windows.Forms.Button()
         Me.ucrNavigator = New ClimsoftVer4.ucrNavigator()
         Me.ucrStationSelectorStationID = New ClimsoftVer4.ucrStationSelectorNew()
-        Me.ucrComboBoxInstrumentID = New ClimsoftVer4.ucrComboboxNew()
         Me.ucrTextBoxInstrumentType = New ClimsoftVer4.ucrTextBoxNew()
         Me.ucrComboBoxScheduleClass = New ClimsoftVer4.ucrComboboxNew()
         Me.ucrTextBoxHeight = New ClimsoftVer4.ucrTextBoxNew()
@@ -47,6 +46,7 @@ Partial Class ucrMetadataStationElementNew
         Me.ucrDatePickerBeginDate = New ClimsoftVer4.ucrDatePicker()
         Me.lblStationElement = New System.Windows.Forms.Label()
         Me.ucrElementSelectorElementID = New ClimsoftVer4.ucrElementSelectorNew()
+        Me.ucrInstrumentSelectorID = New ClimsoftVer4.ucrInstrumentSelector()
         Me.GroupBox7.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -204,13 +204,6 @@ Partial Class ucrMetadataStationElementNew
         Me.ucrStationSelectorStationID.Size = New System.Drawing.Size(178, 24)
         Me.ucrStationSelectorStationID.TabIndex = 21
         '
-        'ucrComboBoxInstrumentID
-        '
-        Me.ucrComboBoxInstrumentID.Location = New System.Drawing.Point(242, 140)
-        Me.ucrComboBoxInstrumentID.Name = "ucrComboBoxInstrumentID"
-        Me.ucrComboBoxInstrumentID.Size = New System.Drawing.Size(178, 21)
-        Me.ucrComboBoxInstrumentID.TabIndex = 22
-        '
         'ucrTextBoxInstrumentType
         '
         Me.ucrTextBoxInstrumentType.Location = New System.Drawing.Point(243, 171)
@@ -267,10 +260,18 @@ Partial Class ucrMetadataStationElementNew
         Me.ucrElementSelectorElementID.Size = New System.Drawing.Size(178, 21)
         Me.ucrElementSelectorElementID.TabIndex = 29
         '
+        'ucrInstrumentSelectorID
+        '
+        Me.ucrInstrumentSelectorID.Location = New System.Drawing.Point(242, 139)
+        Me.ucrInstrumentSelectorID.Name = "ucrInstrumentSelectorID"
+        Me.ucrInstrumentSelectorID.Size = New System.Drawing.Size(178, 21)
+        Me.ucrInstrumentSelectorID.TabIndex = 30
+        '
         'ucrMetadataStationElementNew
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.ucrInstrumentSelectorID)
         Me.Controls.Add(Me.ucrElementSelectorElementID)
         Me.Controls.Add(Me.lblStationElement)
         Me.Controls.Add(Me.ucrDatePickerBeginDate)
@@ -278,7 +279,6 @@ Partial Class ucrMetadataStationElementNew
         Me.Controls.Add(Me.ucrTextBoxHeight)
         Me.Controls.Add(Me.ucrComboBoxScheduleClass)
         Me.Controls.Add(Me.ucrTextBoxInstrumentType)
-        Me.Controls.Add(Me.ucrComboBoxInstrumentID)
         Me.Controls.Add(Me.ucrStationSelectorStationID)
         Me.Controls.Add(Me.ucrNavigator)
         Me.Controls.Add(Me.GroupBox7)
@@ -315,7 +315,6 @@ Partial Class ucrMetadataStationElementNew
     Friend WithEvents btnSave As Button
     Friend WithEvents ucrNavigator As ucrNavigator
     Friend WithEvents ucrStationSelectorStationID As ucrStationSelectorNew
-    Friend WithEvents ucrComboBoxInstrumentID As ucrComboboxNew
     Friend WithEvents ucrTextBoxInstrumentType As ucrTextBoxNew
     Friend WithEvents ucrComboBoxScheduleClass As ucrComboboxNew
     Friend WithEvents ucrTextBoxHeight As ucrTextBoxNew
@@ -323,4 +322,5 @@ Partial Class ucrMetadataStationElementNew
     Friend WithEvents ucrDatePickerBeginDate As ucrDatePicker
     Friend WithEvents lblStationElement As Label
     Friend WithEvents ucrElementSelectorElementID As ucrElementSelectorNew
+    Friend WithEvents ucrInstrumentSelectorID As ucrInstrumentSelector
 End Class

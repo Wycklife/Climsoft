@@ -1,7 +1,26 @@
 ﻿Public Class ucrStationSelectorNew
-    '
+    Private ucrLinkedElement As ucrElementSelectorNew
+    Private ucrLinkedInstrument As ucrInstrumentSelector
+    '?Load statement?
+
+    Public Sub setInstrumentLink(ucrInstrumentSelector As ucrInstrumentSelector)
+        ucrLinkedInstrument = ucrInstrumentSelector
+        AddHandler ucrLinkedInstrument.evtValueChanged, AddressOf InstrumentEvtValueChanged
+    End Sub
+
+    Public Sub SetElementLink(ucrElementSelector As ucrElementSelectorNew)
+        ucrLinkedElement = ucrElementSelector
+        AddHandler ucrLinkedElement.evtValueChanged, AddressOf ElementEvtValueChanged
+    End Sub
+    Private Sub ElementEvtValueChanged()
+        'TODO. Filter out the  elements specific for the selected station
+    End Sub
+
+    Private Sub InstrumentEvtValueChanged()
+        'TODO.Filter out the instruments specific for the selected station
+    End Sub
     Public Overrides Sub PopulateControl()
-        'Fill the selector combo box with the list of required values ie station ID or station Name
+        'TODO Fill the selector combo box with the list of required values ie station ID or station Name
     End Sub
 
     Public Overrides Function ValidateValue() As Boolean
@@ -27,7 +46,7 @@
     End Sub
 
     Private Sub cmsFilterStations_Click(sender As Object, e As EventArgs) Handles cmsFilterStations.Click
-        ' TODOD SetDataTable() in sdgFilter needs to be created
+        ' TODO SetDataTable() in sdgFilter needs to be created
         'sdgFilter.SetDataTable(dtbStations)
         sdgFilter.ShowDialog()
         PopulateControl()
@@ -56,7 +75,4 @@
         'cmsStationSortByID.Checked = False
         'cmsStationSortyByName.Checked = True
     End Sub
-
-
-
 End Class
