@@ -9,9 +9,9 @@
         End Set
     End Property
 
-    Private Sub btn_Click(sender As Object, e As EventArgs) Handles btn.Click
+    Private Sub Btn_Click(sender As Object, e As EventArgs) Handles btn.Click
         Dim iActionOperatorId As Integer
-        Dim tempOperator As ClsOperator
+        Dim objTempOperator As ClsOperator
 
 
         'todo. set the operator id for the validated operator responsible for the action 
@@ -24,7 +24,7 @@
             'todo. prompt the user to supply the credentials for an authorised operator
             'todo. if credentials are correct 
             'todo. then set up the temporary operator and get the operator id
-            iActionOperatorId = tempOperator.GetOperatorId
+            iActionOperatorId = objTempOperator.GetOperatorId
         ElseIf enumPermissionType = ClsGlobals.PermissionTypes.WithPermissionDataOwner Then
             'todo
             iActionOperatorId = ClsGlobals.objOperatorInstance.GetOperatorId
@@ -33,4 +33,7 @@
         OnEvtDoAction(Me, ActionTypeId, iActionOperatorId)
 
     End Sub
+
+
+
 End Class

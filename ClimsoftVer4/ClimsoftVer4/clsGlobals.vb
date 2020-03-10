@@ -1,5 +1,5 @@
 ﻿Public Class ClsGlobals
-    Public Shared objOperatorInstance As ClsOperator
+    Public Shared objOperatorInstance As ClsOperator 'this is instantiated during the login
 
     Public Enum PermissionTypes
         Enabled = 1
