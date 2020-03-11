@@ -199,7 +199,7 @@ Public Class frmLoginNew
             'instantiate operator and validate username and password
             ClsGlobals.objOperatorInstance = New ClsOperator()
             If Not ClsGlobals.objOperatorInstance.Login(strUsername, strPassword) Then
-                MsgBox("Access denied. Please try again.")
+                MsgBox("Access denied. Wrong username or password. Please try again.")
                 'Move cursor to password box and clear password to encourage the user to try again
                 txtPassword.Text = ""
                 txtPassword.Select()
