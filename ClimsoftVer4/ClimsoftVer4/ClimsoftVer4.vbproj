@@ -626,10 +626,10 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ClsShiftCells.vb" />
-    <Compile Include="ucrAction.Designer.vb">
-      <DependentUpon>ucrAction.vb</DependentUpon>
+    <Compile Include="ucrActionNew.Designer.vb">
+      <DependentUpon>ucrActionNew.vb</DependentUpon>
     </Compile>
-    <Compile Include="ucrAction.vb">
+    <Compile Include="ucrActionNew.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ucrBaseDataLink.Designer.vb">
@@ -1232,8 +1232,8 @@
     <EmbeddedResource Include="sdgFilter.resx">
       <DependentUpon>sdgFilter.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucrAction.resx">
-      <DependentUpon>ucrAction.vb</DependentUpon>
+    <EmbeddedResource Include="ucrActionNew.resx">
+      <DependentUpon>ucrActionNew.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucrBaseDataLink.resx">
       <DependentUpon>ucrBaseDataLink.vb</DependentUpon>

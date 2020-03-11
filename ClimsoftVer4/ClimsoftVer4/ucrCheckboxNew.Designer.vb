@@ -43,7 +43,6 @@ Partial Class ucrCheckboxNew
         Me.Name = "ucrCheckboxNew"
         Me.Size = New System.Drawing.Size(150, 21)
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 

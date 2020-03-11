@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class ucrAction
-    Inherits ClimsoftVer4.ucrValueView
+Partial Class ucrActionNew
+    Inherits System.Windows.Forms.UserControl
 
     'UserControl overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -22,16 +22,14 @@ Partial Class ucrAction
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'ucrAction
+        'ucrActionNew
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.Name = "ucrAction"
-        Me.Size = New System.Drawing.Size(150, 49)
-        CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Name = "ucrActionNew"
+        Me.Size = New System.Drawing.Size(130, 36)
         Me.ResumeLayout(False)
 
     End Sub

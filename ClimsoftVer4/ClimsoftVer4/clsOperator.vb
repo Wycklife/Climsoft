@@ -22,7 +22,7 @@
         Return False
     End Function
 
-    Public Function Login() As Boolean
+    Public Function Login(strUsername As String, strPassword As String) As Boolean
         'todo.authenticate the operator in the database
         'todo. then get the operator details 
 

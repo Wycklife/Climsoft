@@ -22,11 +22,11 @@ Partial Class frmDatabaseConnectionsNew
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.cmdOK = New System.Windows.Forms.Button()
+        Me.btnOK = New System.Windows.Forms.Button()
         Me.grpCurrentSelection = New System.Windows.Forms.GroupBox()
-        Me.cmdMakeDefault = New System.Windows.Forms.Button()
-        Me.cmdTest = New System.Windows.Forms.Button()
-        Me.cmdRemove = New System.Windows.Forms.Button()
+        Me.btnMakeDefault = New System.Windows.Forms.Button()
+        Me.btnTest = New System.Windows.Forms.Button()
+        Me.btnRemove = New System.Windows.Forms.Button()
         Me.grpDefaults = New System.Windows.Forms.GroupBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -38,8 +38,8 @@ Partial Class frmDatabaseConnectionsNew
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.cmdCancel = New System.Windows.Forms.Button()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.btnCancel = New System.Windows.Forms.Button()
+        Me.dataGridConnections = New System.Windows.Forms.DataGridView()
         Me.connection = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.server = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.database = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -48,23 +48,23 @@ Partial Class frmDatabaseConnectionsNew
         Me.password = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.grpCurrentSelection.SuspendLayout()
         Me.grpDefaults.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dataGridConnections, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'cmdOK
+        'btnOK
         '
-        Me.cmdOK.Location = New System.Drawing.Point(476, 315)
-        Me.cmdOK.Name = "cmdOK"
-        Me.cmdOK.Size = New System.Drawing.Size(75, 23)
-        Me.cmdOK.TabIndex = 13
-        Me.cmdOK.Text = "OK"
-        Me.cmdOK.UseVisualStyleBackColor = True
+        Me.btnOK.Location = New System.Drawing.Point(476, 315)
+        Me.btnOK.Name = "btnOK"
+        Me.btnOK.Size = New System.Drawing.Size(75, 23)
+        Me.btnOK.TabIndex = 13
+        Me.btnOK.Text = "OK"
+        Me.btnOK.UseVisualStyleBackColor = True
         '
         'grpCurrentSelection
         '
-        Me.grpCurrentSelection.Controls.Add(Me.cmdMakeDefault)
-        Me.grpCurrentSelection.Controls.Add(Me.cmdTest)
-        Me.grpCurrentSelection.Controls.Add(Me.cmdRemove)
+        Me.grpCurrentSelection.Controls.Add(Me.btnMakeDefault)
+        Me.grpCurrentSelection.Controls.Add(Me.btnTest)
+        Me.grpCurrentSelection.Controls.Add(Me.btnRemove)
         Me.grpCurrentSelection.Enabled = False
         Me.grpCurrentSelection.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.grpCurrentSelection.Location = New System.Drawing.Point(476, 194)
@@ -74,36 +74,36 @@ Partial Class frmDatabaseConnectionsNew
         Me.grpCurrentSelection.TabStop = False
         Me.grpCurrentSelection.Text = "Current selection"
         '
-        'cmdMakeDefault
+        'btnMakeDefault
         '
-        Me.cmdMakeDefault.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdMakeDefault.Location = New System.Drawing.Point(21, 23)
-        Me.cmdMakeDefault.Name = "cmdMakeDefault"
-        Me.cmdMakeDefault.Size = New System.Drawing.Size(117, 23)
-        Me.cmdMakeDefault.TabIndex = 5
-        Me.cmdMakeDefault.Text = "Make default"
-        Me.cmdMakeDefault.UseVisualStyleBackColor = True
+        Me.btnMakeDefault.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMakeDefault.Location = New System.Drawing.Point(21, 23)
+        Me.btnMakeDefault.Name = "btnMakeDefault"
+        Me.btnMakeDefault.Size = New System.Drawing.Size(117, 23)
+        Me.btnMakeDefault.TabIndex = 5
+        Me.btnMakeDefault.Text = "Make default"
+        Me.btnMakeDefault.UseVisualStyleBackColor = True
         '
-        'cmdTest
+        'btnTest
         '
-        Me.cmdTest.Enabled = False
-        Me.cmdTest.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdTest.Location = New System.Drawing.Point(21, 52)
-        Me.cmdTest.Name = "cmdTest"
-        Me.cmdTest.Size = New System.Drawing.Size(117, 23)
-        Me.cmdTest.TabIndex = 4
-        Me.cmdTest.Text = "Test connection"
-        Me.cmdTest.UseVisualStyleBackColor = True
+        Me.btnTest.Enabled = False
+        Me.btnTest.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTest.Location = New System.Drawing.Point(21, 52)
+        Me.btnTest.Name = "btnTest"
+        Me.btnTest.Size = New System.Drawing.Size(117, 23)
+        Me.btnTest.TabIndex = 4
+        Me.btnTest.Text = "Test connection"
+        Me.btnTest.UseVisualStyleBackColor = True
         '
-        'cmdRemove
+        'btnRemove
         '
-        Me.cmdRemove.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdRemove.Location = New System.Drawing.Point(21, 81)
-        Me.cmdRemove.Name = "cmdRemove"
-        Me.cmdRemove.Size = New System.Drawing.Size(117, 23)
-        Me.cmdRemove.TabIndex = 3
-        Me.cmdRemove.Text = "Remove connection"
-        Me.cmdRemove.UseVisualStyleBackColor = True
+        Me.btnRemove.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnRemove.Location = New System.Drawing.Point(21, 81)
+        Me.btnRemove.Name = "btnRemove"
+        Me.btnRemove.Size = New System.Drawing.Size(117, 23)
+        Me.btnRemove.TabIndex = 3
+        Me.btnRemove.Text = "Remove connection"
+        Me.btnRemove.UseVisualStyleBackColor = True
         '
         'grpDefaults
         '
@@ -220,25 +220,25 @@ Partial Class frmDatabaseConnectionsNew
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Server address"
         '
-        'cmdCancel
+        'btnCancel
         '
-        Me.cmdCancel.Location = New System.Drawing.Point(557, 315)
-        Me.cmdCancel.Name = "cmdCancel"
-        Me.cmdCancel.Size = New System.Drawing.Size(75, 23)
-        Me.cmdCancel.TabIndex = 10
-        Me.cmdCancel.Text = "Cancel"
-        Me.cmdCancel.UseVisualStyleBackColor = True
+        Me.btnCancel.Location = New System.Drawing.Point(557, 315)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(75, 23)
+        Me.btnCancel.TabIndex = 10
+        Me.btnCancel.Text = "Cancel"
+        Me.btnCancel.UseVisualStyleBackColor = True
         '
-        'DataGridView1
+        'dataGridConnections
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.connection, Me.server, Me.database, Me.port, Me.username, Me.password})
-        Me.DataGridView1.Location = New System.Drawing.Point(5, 6)
-        Me.DataGridView1.MultiSelect = False
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.DataGridView1.Size = New System.Drawing.Size(811, 181)
-        Me.DataGridView1.TabIndex = 9
+        Me.dataGridConnections.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dataGridConnections.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.connection, Me.server, Me.database, Me.port, Me.username, Me.password})
+        Me.dataGridConnections.Location = New System.Drawing.Point(5, 6)
+        Me.dataGridConnections.MultiSelect = False
+        Me.dataGridConnections.Name = "dataGridConnections"
+        Me.dataGridConnections.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.dataGridConnections.Size = New System.Drawing.Size(811, 181)
+        Me.dataGridConnections.TabIndex = 9
         '
         'connection
         '
@@ -279,27 +279,27 @@ Partial Class frmDatabaseConnectionsNew
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(820, 342)
-        Me.Controls.Add(Me.cmdOK)
+        Me.Controls.Add(Me.btnOK)
         Me.Controls.Add(Me.grpCurrentSelection)
         Me.Controls.Add(Me.grpDefaults)
-        Me.Controls.Add(Me.cmdCancel)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.btnCancel)
+        Me.Controls.Add(Me.dataGridConnections)
         Me.MinimizeBox = False
         Me.Name = "frmDatabaseConnectionsNew"
         Me.Text = "Database Connections"
         Me.grpCurrentSelection.ResumeLayout(False)
         Me.grpDefaults.ResumeLayout(False)
         Me.grpDefaults.PerformLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dataGridConnections, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents cmdOK As Button
+    Friend WithEvents btnOK As Button
     Friend WithEvents grpCurrentSelection As GroupBox
-    Friend WithEvents cmdMakeDefault As Button
-    Friend WithEvents cmdTest As Button
-    Friend WithEvents cmdRemove As Button
+    Friend WithEvents btnMakeDefault As Button
+    Friend WithEvents btnTest As Button
+    Friend WithEvents btnRemove As Button
     Friend WithEvents grpDefaults As GroupBox
     Friend WithEvents Label10 As Label
     Friend WithEvents Label9 As Label
@@ -311,8 +311,8 @@ Partial Class frmDatabaseConnectionsNew
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents cmdCancel As Button
-    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents btnCancel As Button
+    Friend WithEvents dataGridConnections As DataGridView
     Friend WithEvents connection As DataGridViewTextBoxColumn
     Friend WithEvents server As DataGridViewTextBoxColumn
     Friend WithEvents database As DataGridViewTextBoxColumn
