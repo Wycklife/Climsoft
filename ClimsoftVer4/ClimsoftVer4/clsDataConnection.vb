@@ -100,7 +100,7 @@ Public Class clsDataConnection
     Public Shared Sub WriteConnectionDetails(dctNewConnectionDetails As Dictionary(Of String, String))
         Dim dInfo As IO.DirectoryInfo
         Dim dSecurity As DirectorySecurity
-        Dim builder As New Common.DbConnectionStringBuilder()
+        Dim builder As New System.Data.Common.DbConnectionStringBuilder()
 
         Try
             'If `filePath` already exists then Create() will clear the current contents

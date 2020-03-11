@@ -19,7 +19,7 @@
 
     Public Function SaveOperator() As Boolean
         'todo. use the data save the updated details of the operator
-        Return False
+        Return True
     End Function
 
     Public Function Login(strUsername As String, strPassword As String) As Boolean
