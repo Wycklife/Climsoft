@@ -124,6 +124,12 @@
     <Compile Include="frmDatabaseConnections.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmDatabaseConnectionsNew.Designer.vb">
+      <DependentUpon>frmDatabaseConnectionsNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDatabaseConnectionsNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmElementSequencerMonthly.Designer.vb">
       <DependentUpon>frmElementSequencerMonthly.vb</DependentUpon>
     </Compile>
@@ -134,6 +140,12 @@
       <DependentUpon>frmEntryForms.vb</DependentUpon>
     </Compile>
     <Compile Include="frmEntryForms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginNew.Designer.vb">
+      <DependentUpon>frmLoginNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginNew.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmNewAgrometKenya.Designer.vb">
@@ -964,11 +976,17 @@
     <EmbeddedResource Include="frmDatabaseConnections.resx">
       <DependentUpon>frmDatabaseConnections.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDatabaseConnectionsNew.resx">
+      <DependentUpon>frmDatabaseConnectionsNew.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmElementSequencerMonthly.resx">
       <DependentUpon>frmElementSequencerMonthly.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEntryForms.resx">
       <DependentUpon>frmEntryForms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginNew.resx">
+      <DependentUpon>frmLoginNew.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNewAgrometKenya.resx">
       <DependentUpon>frmNewAgrometKenya.vb</DependentUpon>
