@@ -31,12 +31,6 @@ Partial Class ucrMetadataStationElementNew
         Me.lblBdate = New System.Windows.Forms.Label()
         Me.lblEdate = New System.Windows.Forms.Label()
         Me.GroupBox7 = New System.Windows.Forms.GroupBox()
-        Me.btnClear = New System.Windows.Forms.Button()
-        Me.btnAddNew = New System.Windows.Forms.Button()
-        Me.btnView = New System.Windows.Forms.Button()
-        Me.btnDelete = New System.Windows.Forms.Button()
-        Me.btnUpdate = New System.Windows.Forms.Button()
-        Me.btnSave = New System.Windows.Forms.Button()
         Me.ucrNavigator = New ClimsoftVer4.ucrNavigator()
         Me.ucrStationSelectorStationID = New ClimsoftVer4.ucrStationSelectorNew()
         Me.ucrComboBoxInstrumentID = New ClimsoftVer4.ucrComboboxNew()
@@ -47,6 +41,12 @@ Partial Class ucrMetadataStationElementNew
         Me.ucrDatePickerBeginDate = New ClimsoftVer4.ucrDatePicker()
         Me.lblStationElement = New System.Windows.Forms.Label()
         Me.ucrElementSelectorElementID = New ClimsoftVer4.ucrElementSelectorNew()
+        Me.ucrBtnDelete = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnClear = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnView = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnAddNew = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnUpdate = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnSave = New ClimsoftVer4.ucrButton()
         Me.GroupBox7.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -124,71 +124,17 @@ Partial Class ucrMetadataStationElementNew
         '
         'GroupBox7
         '
-        Me.GroupBox7.Controls.Add(Me.btnClear)
-        Me.GroupBox7.Controls.Add(Me.btnAddNew)
-        Me.GroupBox7.Controls.Add(Me.btnView)
-        Me.GroupBox7.Controls.Add(Me.btnDelete)
-        Me.GroupBox7.Controls.Add(Me.btnUpdate)
-        Me.GroupBox7.Controls.Add(Me.btnSave)
+        Me.GroupBox7.Controls.Add(Me.ucrBtnDelete)
+        Me.GroupBox7.Controls.Add(Me.ucrBtnClear)
+        Me.GroupBox7.Controls.Add(Me.ucrBtnView)
+        Me.GroupBox7.Controls.Add(Me.ucrBtnAddNew)
+        Me.GroupBox7.Controls.Add(Me.ucrBtnUpdate)
+        Me.GroupBox7.Controls.Add(Me.ucrBtnSave)
         Me.GroupBox7.Location = New System.Drawing.Point(0, 363)
         Me.GroupBox7.Name = "GroupBox7"
         Me.GroupBox7.Size = New System.Drawing.Size(643, 41)
         Me.GroupBox7.TabIndex = 19
         Me.GroupBox7.TabStop = False
-        '
-        'btnClear
-        '
-        Me.btnClear.Location = New System.Drawing.Point(443, 10)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(75, 23)
-        Me.btnClear.TabIndex = 4
-        Me.btnClear.Text = "Clear"
-        Me.btnClear.UseVisualStyleBackColor = True
-        '
-        'btnAddNew
-        '
-        Me.btnAddNew.Location = New System.Drawing.Point(19, 10)
-        Me.btnAddNew.Name = "btnAddNew"
-        Me.btnAddNew.Size = New System.Drawing.Size(75, 23)
-        Me.btnAddNew.TabIndex = 0
-        Me.btnAddNew.Text = "AddNew"
-        Me.btnAddNew.UseVisualStyleBackColor = True
-        '
-        'btnView
-        '
-        Me.btnView.Location = New System.Drawing.Point(549, 10)
-        Me.btnView.Name = "btnView"
-        Me.btnView.Size = New System.Drawing.Size(75, 23)
-        Me.btnView.TabIndex = 5
-        Me.btnView.Text = "View"
-        Me.btnView.UseVisualStyleBackColor = True
-        '
-        'btnDelete
-        '
-        Me.btnDelete.Location = New System.Drawing.Point(337, 10)
-        Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelete.TabIndex = 3
-        Me.btnDelete.Text = "Delete"
-        Me.btnDelete.UseVisualStyleBackColor = True
-        '
-        'btnUpdate
-        '
-        Me.btnUpdate.Location = New System.Drawing.Point(231, 10)
-        Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(75, 23)
-        Me.btnUpdate.TabIndex = 2
-        Me.btnUpdate.Text = "Update"
-        Me.btnUpdate.UseVisualStyleBackColor = True
-        '
-        'btnSave
-        '
-        Me.btnSave.Location = New System.Drawing.Point(125, 10)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(75, 23)
-        Me.btnSave.TabIndex = 1
-        Me.btnSave.Text = "Save"
-        Me.btnSave.UseVisualStyleBackColor = True
         '
         'ucrNavigator
         '
@@ -267,6 +213,60 @@ Partial Class ucrMetadataStationElementNew
         Me.ucrElementSelectorElementID.Size = New System.Drawing.Size(178, 21)
         Me.ucrElementSelectorElementID.TabIndex = 29
         '
+        'ucrBtnDelete
+        '
+        Me.ucrBtnDelete.ActionTypeId = 0
+        Me.ucrBtnDelete.ButtonText = "Delete"
+        Me.ucrBtnDelete.Location = New System.Drawing.Point(337, 10)
+        Me.ucrBtnDelete.Name = "ucrBtnDelete"
+        Me.ucrBtnDelete.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnDelete.TabIndex = 83
+        '
+        'ucrBtnClear
+        '
+        Me.ucrBtnClear.ActionTypeId = 0
+        Me.ucrBtnClear.ButtonText = "Clear"
+        Me.ucrBtnClear.Location = New System.Drawing.Point(443, 10)
+        Me.ucrBtnClear.Name = "ucrBtnClear"
+        Me.ucrBtnClear.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnClear.TabIndex = 85
+        '
+        'ucrBtnView
+        '
+        Me.ucrBtnView.ActionTypeId = 0
+        Me.ucrBtnView.ButtonText = "View"
+        Me.ucrBtnView.Location = New System.Drawing.Point(549, 10)
+        Me.ucrBtnView.Name = "ucrBtnView"
+        Me.ucrBtnView.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnView.TabIndex = 82
+        '
+        'ucrBtnAddNew
+        '
+        Me.ucrBtnAddNew.ActionTypeId = 0
+        Me.ucrBtnAddNew.ButtonText = "AddNew"
+        Me.ucrBtnAddNew.Location = New System.Drawing.Point(19, 10)
+        Me.ucrBtnAddNew.Name = "ucrBtnAddNew"
+        Me.ucrBtnAddNew.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnAddNew.TabIndex = 86
+        '
+        'ucrBtnUpdate
+        '
+        Me.ucrBtnUpdate.ActionTypeId = 0
+        Me.ucrBtnUpdate.ButtonText = "Update"
+        Me.ucrBtnUpdate.Location = New System.Drawing.Point(231, 10)
+        Me.ucrBtnUpdate.Name = "ucrBtnUpdate"
+        Me.ucrBtnUpdate.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnUpdate.TabIndex = 81
+        '
+        'ucrBtnSave
+        '
+        Me.ucrBtnSave.ActionTypeId = 0
+        Me.ucrBtnSave.ButtonText = "Save"
+        Me.ucrBtnSave.Location = New System.Drawing.Point(125, 10)
+        Me.ucrBtnSave.Name = "ucrBtnSave"
+        Me.ucrBtnSave.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnSave.TabIndex = 84
+        '
         'ucrMetadataStationElementNew
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -307,12 +307,6 @@ Partial Class ucrMetadataStationElementNew
     Friend WithEvents lblBdate As Label
     Friend WithEvents lblEdate As Label
     Friend WithEvents GroupBox7 As GroupBox
-    Friend WithEvents btnClear As Button
-    Friend WithEvents btnAddNew As Button
-    Friend WithEvents btnView As Button
-    Friend WithEvents btnDelete As Button
-    Friend WithEvents btnUpdate As Button
-    Friend WithEvents btnSave As Button
     Friend WithEvents ucrNavigator As ucrNavigator
     Friend WithEvents ucrStationSelectorStationID As ucrStationSelectorNew
     Friend WithEvents ucrComboBoxInstrumentID As ucrComboboxNew
@@ -323,4 +317,10 @@ Partial Class ucrMetadataStationElementNew
     Friend WithEvents ucrDatePickerBeginDate As ucrDatePicker
     Friend WithEvents lblStationElement As Label
     Friend WithEvents ucrElementSelectorElementID As ucrElementSelectorNew
+    Friend WithEvents ucrBtnDelete As ucrButton
+    Friend WithEvents ucrBtnClear As ucrButton
+    Friend WithEvents ucrBtnView As ucrButton
+    Friend WithEvents ucrBtnAddNew As ucrButton
+    Friend WithEvents ucrBtnUpdate As ucrButton
+    Friend WithEvents ucrBtnSave As ucrButton
 End Class

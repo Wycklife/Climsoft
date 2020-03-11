@@ -1,21 +1,13 @@
 ﻿Public Class ucrMetadataScheduleClassNew
-    Private iNwSaveActionTypeID As Integer
-    Private iNwDeleteActionTypeID As Integer
-    Private iNwUpdateActionTypeID As Integer
-    Private iNwAddNewActionTypeID As Integer
-    Private iNwClearActionTypeID As Integer
-    Private iNwCancelActionTypeID As Integer
-    Private iNwUploadActionTypeID As Integer
-    Private iNwViewActionTypeID As Integer
     Private Sub ucrMetadataScheduleClassNew_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If bFirstLoad Then
 
-            SetUpButtonAddNew(btnAddNew, iNwAddNewActionTypeID)
-            SetUpButtonSave(btnSave, iNwSaveActionTypeID)
-            SetUpButtonUpdate(btnUpdate, iNwUpdateActionTypeID)
-            SetUpButtonDelete(btnDelete, iNwDeleteActionTypeID)
-            SetUpButtonClear(btnClear, iNwClearActionTypeID)
-            SetUpButtonView(btnView, iNwViewActionTypeID)
+            SetUpButtonAddNew(ucrBtnAddNew)
+            SetUpButtonSave(ucrBtnSave)
+            SetUpButtonUpdate(ucrBtnUpdate)
+            SetUpButtonDelete(ucrBtnDelete)
+            SetUpButtonClear(ucrBtnClear)
+            SetUpButtonView(ucrBtnView)
 
             'todo pass in the data identifier here in place of nothing.
             'This will be used by the data definition

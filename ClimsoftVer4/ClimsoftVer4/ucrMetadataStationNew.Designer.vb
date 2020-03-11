@@ -60,6 +60,14 @@ Partial Class ucrMetadataStationNew
         Me.UcrDatePickerClosing = New ClimsoftVer4.ucrDatePickerNew()
         Me.lblStation = New System.Windows.Forms.Label()
         Me.grpComputationDD = New System.Windows.Forms.GroupBox()
+        Me.UcrComboboxEW = New ClimsoftVer4.ucrComboboxNew()
+        Me.UcrComboboxNS = New ClimsoftVer4.ucrComboboxNew()
+        Me.UcrTextBoxSecondsLongitude = New ClimsoftVer4.ucrTextBoxNew()
+        Me.ucrTextBoxDegreeLongitude = New ClimsoftVer4.ucrTextBoxNew()
+        Me.ucrTextBoxMinusLatitude = New ClimsoftVer4.ucrTextBoxNew()
+        Me.UcrTextBoxSecondsLatitude = New ClimsoftVer4.ucrTextBoxNew()
+        Me.ucrTextBoxMinusLongitude = New ClimsoftVer4.ucrTextBoxNew()
+        Me.UcrTextBoxDegreeLatitude = New ClimsoftVer4.ucrTextBoxNew()
         Me.lblEW = New System.Windows.Forms.Label()
         Me.lblNS = New System.Windows.Forms.Label()
         Me.lblSecondsLon = New System.Windows.Forms.Label()
@@ -68,23 +76,15 @@ Partial Class ucrMetadataStationNew
         Me.lblMinutesLat = New System.Windows.Forms.Label()
         Me.lblDegreesLon = New System.Windows.Forms.Label()
         Me.lblDegreesLat = New System.Windows.Forms.Label()
-        Me.UcrTextBoxDegreeLatitude = New ClimsoftVer4.ucrTextBoxNew()
-        Me.ucrTextBoxMinusLongitude = New ClimsoftVer4.ucrTextBoxNew()
-        Me.UcrTextBoxSecondsLatitude = New ClimsoftVer4.ucrTextBoxNew()
-        Me.ucrTextBoxMinusLatitude = New ClimsoftVer4.ucrTextBoxNew()
-        Me.ucrTextBoxDegreeLongitude = New ClimsoftVer4.ucrTextBoxNew()
-        Me.UcrTextBoxSecondsLongitude = New ClimsoftVer4.ucrTextBoxNew()
-        Me.UcrComboboxNS = New ClimsoftVer4.ucrComboboxNew()
-        Me.UcrComboboxEW = New ClimsoftVer4.ucrComboboxNew()
         Me.UcrNavigatorStation = New ClimsoftVer4.ucrNavigator()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.btnClear = New System.Windows.Forms.Button()
-        Me.btnImport = New System.Windows.Forms.Button()
-        Me.btnAddNew = New System.Windows.Forms.Button()
-        Me.btnView = New System.Windows.Forms.Button()
-        Me.btnDelete = New System.Windows.Forms.Button()
-        Me.btnUpdate = New System.Windows.Forms.Button()
-        Me.btnSave = New System.Windows.Forms.Button()
+        Me.ucrBtnDelete = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnClear = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnView = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnAddNew = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnUpdate = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnSave = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnImport = New ClimsoftVer4.ucrButton()
         Me.grpComputationDD.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -430,6 +430,68 @@ Partial Class ucrMetadataStationNew
         Me.grpComputationDD.TabStop = False
         Me.grpComputationDD.Text = "Latitude and Longitude Decimal Degrees Computation"
         '
+        'UcrComboboxEW
+        '
+        Me.UcrComboboxEW.Location = New System.Drawing.Point(395, 38)
+        Me.UcrComboboxEW.Name = "UcrComboboxEW"
+        Me.UcrComboboxEW.Size = New System.Drawing.Size(53, 21)
+        Me.UcrComboboxEW.TabIndex = 57
+        '
+        'UcrComboboxNS
+        '
+        Me.UcrComboboxNS.Location = New System.Drawing.Point(395, 15)
+        Me.UcrComboboxNS.Name = "UcrComboboxNS"
+        Me.UcrComboboxNS.Size = New System.Drawing.Size(53, 21)
+        Me.UcrComboboxNS.TabIndex = 56
+        '
+        'UcrTextBoxSecondsLongitude
+        '
+        Me.UcrTextBoxSecondsLongitude.Location = New System.Drawing.Point(295, 43)
+        Me.UcrTextBoxSecondsLongitude.Name = "UcrTextBoxSecondsLongitude"
+        Me.UcrTextBoxSecondsLongitude.Size = New System.Drawing.Size(59, 20)
+        Me.UcrTextBoxSecondsLongitude.TabIndex = 55
+        Me.UcrTextBoxSecondsLongitude.TextboxValue = ""
+        '
+        'ucrTextBoxDegreeLongitude
+        '
+        Me.ucrTextBoxDegreeLongitude.Location = New System.Drawing.Point(56, 44)
+        Me.ucrTextBoxDegreeLongitude.Name = "ucrTextBoxDegreeLongitude"
+        Me.ucrTextBoxDegreeLongitude.Size = New System.Drawing.Size(59, 20)
+        Me.ucrTextBoxDegreeLongitude.TabIndex = 54
+        Me.ucrTextBoxDegreeLongitude.TextboxValue = ""
+        '
+        'ucrTextBoxMinusLatitude
+        '
+        Me.ucrTextBoxMinusLatitude.Location = New System.Drawing.Point(173, 18)
+        Me.ucrTextBoxMinusLatitude.Name = "ucrTextBoxMinusLatitude"
+        Me.ucrTextBoxMinusLatitude.Size = New System.Drawing.Size(59, 20)
+        Me.ucrTextBoxMinusLatitude.TabIndex = 53
+        Me.ucrTextBoxMinusLatitude.TextboxValue = ""
+        '
+        'UcrTextBoxSecondsLatitude
+        '
+        Me.UcrTextBoxSecondsLatitude.Location = New System.Drawing.Point(295, 15)
+        Me.UcrTextBoxSecondsLatitude.Name = "UcrTextBoxSecondsLatitude"
+        Me.UcrTextBoxSecondsLatitude.Size = New System.Drawing.Size(59, 20)
+        Me.UcrTextBoxSecondsLatitude.TabIndex = 52
+        Me.UcrTextBoxSecondsLatitude.TextboxValue = ""
+        '
+        'ucrTextBoxMinusLongitude
+        '
+        Me.ucrTextBoxMinusLongitude.Location = New System.Drawing.Point(173, 43)
+        Me.ucrTextBoxMinusLongitude.Name = "ucrTextBoxMinusLongitude"
+        Me.ucrTextBoxMinusLongitude.Size = New System.Drawing.Size(59, 20)
+        Me.ucrTextBoxMinusLongitude.TabIndex = 51
+        Me.ucrTextBoxMinusLongitude.TextboxValue = ""
+        '
+        'UcrTextBoxDegreeLatitude
+        '
+        Me.UcrTextBoxDegreeLatitude.Location = New System.Drawing.Point(56, 18)
+        Me.UcrTextBoxDegreeLatitude.Name = "UcrTextBoxDegreeLatitude"
+        Me.UcrTextBoxDegreeLatitude.Size = New System.Drawing.Size(59, 20)
+        Me.UcrTextBoxDegreeLatitude.TabIndex = 50
+        Me.UcrTextBoxDegreeLatitude.TextboxValue = ""
+        '
         'lblEW
         '
         Me.lblEW.AutoSize = True
@@ -502,68 +564,6 @@ Partial Class ucrMetadataStationNew
         Me.lblDegreesLat.TabIndex = 0
         Me.lblDegreesLat.Text = "Degrees"
         '
-        'UcrTextBoxDegreeLatitude
-        '
-        Me.UcrTextBoxDegreeLatitude.Location = New System.Drawing.Point(56, 18)
-        Me.UcrTextBoxDegreeLatitude.Name = "UcrTextBoxDegreeLatitude"
-        Me.UcrTextBoxDegreeLatitude.Size = New System.Drawing.Size(59, 20)
-        Me.UcrTextBoxDegreeLatitude.TabIndex = 50
-        Me.UcrTextBoxDegreeLatitude.TextboxValue = ""
-        '
-        'ucrTextBoxMinusLongitude
-        '
-        Me.ucrTextBoxMinusLongitude.Location = New System.Drawing.Point(173, 43)
-        Me.ucrTextBoxMinusLongitude.Name = "ucrTextBoxMinusLongitude"
-        Me.ucrTextBoxMinusLongitude.Size = New System.Drawing.Size(59, 20)
-        Me.ucrTextBoxMinusLongitude.TabIndex = 51
-        Me.ucrTextBoxMinusLongitude.TextboxValue = ""
-        '
-        'UcrTextBoxSecondsLatitude
-        '
-        Me.UcrTextBoxSecondsLatitude.Location = New System.Drawing.Point(295, 15)
-        Me.UcrTextBoxSecondsLatitude.Name = "UcrTextBoxSecondsLatitude"
-        Me.UcrTextBoxSecondsLatitude.Size = New System.Drawing.Size(59, 20)
-        Me.UcrTextBoxSecondsLatitude.TabIndex = 52
-        Me.UcrTextBoxSecondsLatitude.TextboxValue = ""
-        '
-        'ucrTextBoxMinusLatitude
-        '
-        Me.ucrTextBoxMinusLatitude.Location = New System.Drawing.Point(173, 18)
-        Me.ucrTextBoxMinusLatitude.Name = "ucrTextBoxMinusLatitude"
-        Me.ucrTextBoxMinusLatitude.Size = New System.Drawing.Size(59, 20)
-        Me.ucrTextBoxMinusLatitude.TabIndex = 53
-        Me.ucrTextBoxMinusLatitude.TextboxValue = ""
-        '
-        'ucrTextBoxDegreeLongitude
-        '
-        Me.ucrTextBoxDegreeLongitude.Location = New System.Drawing.Point(56, 44)
-        Me.ucrTextBoxDegreeLongitude.Name = "ucrTextBoxDegreeLongitude"
-        Me.ucrTextBoxDegreeLongitude.Size = New System.Drawing.Size(59, 20)
-        Me.ucrTextBoxDegreeLongitude.TabIndex = 54
-        Me.ucrTextBoxDegreeLongitude.TextboxValue = ""
-        '
-        'UcrTextBoxSecondsLongitude
-        '
-        Me.UcrTextBoxSecondsLongitude.Location = New System.Drawing.Point(295, 43)
-        Me.UcrTextBoxSecondsLongitude.Name = "UcrTextBoxSecondsLongitude"
-        Me.UcrTextBoxSecondsLongitude.Size = New System.Drawing.Size(59, 20)
-        Me.UcrTextBoxSecondsLongitude.TabIndex = 55
-        Me.UcrTextBoxSecondsLongitude.TextboxValue = ""
-        '
-        'UcrComboboxNS
-        '
-        Me.UcrComboboxNS.Location = New System.Drawing.Point(395, 15)
-        Me.UcrComboboxNS.Name = "UcrComboboxNS"
-        Me.UcrComboboxNS.Size = New System.Drawing.Size(53, 21)
-        Me.UcrComboboxNS.TabIndex = 56
-        '
-        'UcrComboboxEW
-        '
-        Me.UcrComboboxEW.Location = New System.Drawing.Point(395, 38)
-        Me.UcrComboboxEW.Name = "UcrComboboxEW"
-        Me.UcrComboboxEW.Size = New System.Drawing.Size(53, 21)
-        Me.UcrComboboxEW.TabIndex = 57
-        '
         'UcrNavigatorStation
         '
         Me.UcrNavigatorStation.Location = New System.Drawing.Point(199, 452)
@@ -574,80 +574,80 @@ Partial Class ucrMetadataStationNew
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Panel2.Controls.Add(Me.btnClear)
-        Me.Panel2.Controls.Add(Me.btnImport)
-        Me.Panel2.Controls.Add(Me.btnAddNew)
-        Me.Panel2.Controls.Add(Me.btnView)
-        Me.Panel2.Controls.Add(Me.btnDelete)
-        Me.Panel2.Controls.Add(Me.btnUpdate)
-        Me.Panel2.Controls.Add(Me.btnSave)
+        Me.Panel2.Controls.Add(Me.ucrBtnImport)
+        Me.Panel2.Controls.Add(Me.ucrBtnDelete)
+        Me.Panel2.Controls.Add(Me.ucrBtnClear)
+        Me.Panel2.Controls.Add(Me.ucrBtnView)
+        Me.Panel2.Controls.Add(Me.ucrBtnAddNew)
+        Me.Panel2.Controls.Add(Me.ucrBtnUpdate)
+        Me.Panel2.Controls.Add(Me.ucrBtnSave)
         Me.Panel2.Location = New System.Drawing.Point(7, 412)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(721, 29)
         Me.Panel2.TabIndex = 51
         '
-        'btnClear
+        'ucrBtnDelete
         '
-        Me.btnClear.Location = New System.Drawing.Point(424, 0)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(75, 23)
-        Me.btnClear.TabIndex = 4
-        Me.btnClear.Text = "Clear"
-        Me.btnClear.UseVisualStyleBackColor = True
+        Me.ucrBtnDelete.ActionTypeId = 0
+        Me.ucrBtnDelete.ButtonText = "Delete"
+        Me.ucrBtnDelete.Location = New System.Drawing.Point(323, 0)
+        Me.ucrBtnDelete.Name = "ucrBtnDelete"
+        Me.ucrBtnDelete.Size = New System.Drawing.Size(81, 27)
+        Me.ucrBtnDelete.TabIndex = 83
         '
-        'btnImport
+        'ucrBtnClear
         '
-        Me.btnImport.Location = New System.Drawing.Point(626, 0)
-        Me.btnImport.Name = "btnImport"
-        Me.btnImport.Size = New System.Drawing.Size(75, 23)
-        Me.btnImport.TabIndex = 6
-        Me.btnImport.Text = "Import"
-        Me.btnImport.UseVisualStyleBackColor = True
+        Me.ucrBtnClear.ActionTypeId = 0
+        Me.ucrBtnClear.ButtonText = "Clear"
+        Me.ucrBtnClear.Location = New System.Drawing.Point(424, 0)
+        Me.ucrBtnClear.Name = "ucrBtnClear"
+        Me.ucrBtnClear.Size = New System.Drawing.Size(81, 27)
+        Me.ucrBtnClear.TabIndex = 85
         '
-        'btnAddNew
+        'ucrBtnView
         '
-        Me.btnAddNew.Location = New System.Drawing.Point(20, 0)
-        Me.btnAddNew.Name = "btnAddNew"
-        Me.btnAddNew.Size = New System.Drawing.Size(75, 23)
-        Me.btnAddNew.TabIndex = 0
-        Me.btnAddNew.Text = "AddNew"
-        Me.btnAddNew.UseVisualStyleBackColor = True
+        Me.ucrBtnView.ActionTypeId = 0
+        Me.ucrBtnView.ButtonText = "View"
+        Me.ucrBtnView.Location = New System.Drawing.Point(525, 0)
+        Me.ucrBtnView.Name = "ucrBtnView"
+        Me.ucrBtnView.Size = New System.Drawing.Size(81, 27)
+        Me.ucrBtnView.TabIndex = 82
         '
-        'btnView
+        'ucrBtnAddNew
         '
-        Me.btnView.Location = New System.Drawing.Point(525, 0)
-        Me.btnView.Name = "btnView"
-        Me.btnView.Size = New System.Drawing.Size(75, 23)
-        Me.btnView.TabIndex = 5
-        Me.btnView.Text = "View"
-        Me.btnView.UseVisualStyleBackColor = True
+        Me.ucrBtnAddNew.ActionTypeId = 0
+        Me.ucrBtnAddNew.ButtonText = "AddNew"
+        Me.ucrBtnAddNew.Location = New System.Drawing.Point(20, 0)
+        Me.ucrBtnAddNew.Name = "ucrBtnAddNew"
+        Me.ucrBtnAddNew.Size = New System.Drawing.Size(81, 27)
+        Me.ucrBtnAddNew.TabIndex = 86
         '
-        'btnDelete
+        'ucrBtnUpdate
         '
-        Me.btnDelete.Location = New System.Drawing.Point(323, 0)
-        Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelete.TabIndex = 3
-        Me.btnDelete.Text = "Delete"
-        Me.btnDelete.UseVisualStyleBackColor = True
+        Me.ucrBtnUpdate.ActionTypeId = 0
+        Me.ucrBtnUpdate.ButtonText = "Update"
+        Me.ucrBtnUpdate.Location = New System.Drawing.Point(222, 0)
+        Me.ucrBtnUpdate.Name = "ucrBtnUpdate"
+        Me.ucrBtnUpdate.Size = New System.Drawing.Size(81, 27)
+        Me.ucrBtnUpdate.TabIndex = 81
         '
-        'btnUpdate
+        'ucrBtnSave
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(222, 0)
-        Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(75, 23)
-        Me.btnUpdate.TabIndex = 2
-        Me.btnUpdate.Text = "Update"
-        Me.btnUpdate.UseVisualStyleBackColor = True
+        Me.ucrBtnSave.ActionTypeId = 0
+        Me.ucrBtnSave.ButtonText = "Save"
+        Me.ucrBtnSave.Location = New System.Drawing.Point(121, 0)
+        Me.ucrBtnSave.Name = "ucrBtnSave"
+        Me.ucrBtnSave.Size = New System.Drawing.Size(81, 27)
+        Me.ucrBtnSave.TabIndex = 84
         '
-        'btnSave
+        'ucrBtnImport
         '
-        Me.btnSave.Location = New System.Drawing.Point(121, 0)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(75, 23)
-        Me.btnSave.TabIndex = 1
-        Me.btnSave.Text = "Save"
-        Me.btnSave.UseVisualStyleBackColor = True
+        Me.ucrBtnImport.ActionTypeId = 0
+        Me.ucrBtnImport.ButtonText = "Import"
+        Me.ucrBtnImport.Location = New System.Drawing.Point(626, 0)
+        Me.ucrBtnImport.Name = "ucrBtnImport"
+        Me.ucrBtnImport.Size = New System.Drawing.Size(81, 27)
+        Me.ucrBtnImport.TabIndex = 87
         '
         'ucrMetadataStationNew
         '
@@ -760,11 +760,11 @@ Partial Class ucrMetadataStationNew
     Friend WithEvents UcrComboboxEW As ucrComboboxNew
     Friend WithEvents UcrNavigatorStation As ucrNavigator
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents btnClear As Button
-    Friend WithEvents btnImport As Button
-    Friend WithEvents btnAddNew As Button
-    Friend WithEvents btnView As Button
-    Friend WithEvents btnDelete As Button
-    Friend WithEvents btnUpdate As Button
-    Friend WithEvents btnSave As Button
+    Friend WithEvents ucrBtnDelete As ucrButton
+    Friend WithEvents ucrBtnClear As ucrButton
+    Friend WithEvents ucrBtnView As ucrButton
+    Friend WithEvents ucrBtnAddNew As ucrButton
+    Friend WithEvents ucrBtnUpdate As ucrButton
+    Friend WithEvents ucrBtnSave As ucrButton
+    Friend WithEvents ucrBtnImport As ucrButton
 End Class
