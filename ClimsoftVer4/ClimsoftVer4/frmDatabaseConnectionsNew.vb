@@ -13,8 +13,6 @@
 '
 ' You should have received a copy of the GNU General Public License
 ' along with this program.  If not, see <http://www.gnu.org/licenses/>.
-Imports System.Security.AccessControl
-Imports System.Security.Principal
 Public Class frmDatabaseConnectionsNew
     Private Sub frmDatabaseConnectionsNew_Load(sender As Object, e As EventArgs) Handles Me.Load
         Dim builder As New System.Data.Common.DbConnectionStringBuilder()
@@ -84,8 +82,8 @@ Public Class frmDatabaseConnectionsNew
             ' Server address: Match one or more letters, numbers or hyphen or
             '                 match numbers and period allowing IP addresses (otherwise abort save)
             If String.IsNullOrEmpty(strServer) OrElse
-                Not System.Text.RegularExpressions.Regex.IsMatch(strServer, "^[a-zA-Z0-9-]+$") And
-                Not System.Text.RegularExpressions.Regex.IsMatch(strServer, "^[0-9.]+$") Then
+                (Not System.Text.RegularExpressions.Regex.IsMatch(strServer, "^[a-zA-Z0-9-]+$") AndAlso
+                 Not System.Text.RegularExpressions.Regex.IsMatch(strServer, "^[0-9.]+$")) Then
 
                 MsgBox("Unable to save connection information due to connection """ & strConnectionName & """" &
                        Environment.NewLine & Environment.NewLine &
@@ -95,8 +93,7 @@ Public Class frmDatabaseConnectionsNew
             End If
 
             ' Database name: Match one or more letters, numbers or underscores (otherwise abort save)
-            If String.IsNullOrEmpty(strDatabase) OrElse
-                Not System.Text.RegularExpressions.Regex.IsMatch(strDatabase, "^[a-zA-Z0-9_]+$") Then
+            If String.IsNullOrEmpty(strDatabase) OrElse Not System.Text.RegularExpressions.Regex.IsMatch(strDatabase, "^[a-zA-Z0-9_]+$") Then
 
                 MsgBox("Unable to save connection information due to connection """ & strConnectionName & """" &
                        Environment.NewLine & Environment.NewLine &
@@ -105,8 +102,7 @@ Public Class frmDatabaseConnectionsNew
             End If
 
             ' Port number: Match one or more numbers (otherwise abort save)
-            If String.IsNullOrEmpty(strPort) OrElse
-                Not System.Text.RegularExpressions.Regex.IsMatch(strPort, "^[0-9]+$") Then
+            If String.IsNullOrEmpty(strPort) OrElse Not System.Text.RegularExpressions.Regex.IsMatch(strPort, "^[0-9]+$") Then
 
                 MsgBox("Unable to save connection information due to connection """ & strConnectionName & """" &
                        Environment.NewLine & Environment.NewLine &
@@ -127,6 +123,7 @@ Public Class frmDatabaseConnectionsNew
             'todo. what should be done to the password ?? unmask the password 
 
             'use the builder to construct the connection string in the approrpriate format in preparation for storage
+            builder.Clear()
             builder.Add("server", strServer)
             builder.Add("database", strDatabase)
             builder.Add("port", strPort)
@@ -194,7 +191,7 @@ Public Class frmDatabaseConnectionsNew
             builder.Add("database", row.Cells(2).Value)
             builder.Add("port", row.Cells(3).Value)
             builder.Add("uid", row.Cells(4).Value)
-            builder.Add("pwd", row.Cells(5).Value)
+            builder.Add("pwd", row.Cells(5).Value) ' do more processing to get the password
 
             conn.ConnectionString = builder.ConnectionString & ";Convert Zero Datetime=True"
             conn.Open()
