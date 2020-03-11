@@ -8,19 +8,13 @@
         'todo set the permission type name from the global operator instance
         enumPermissionType = ClsGlobals.objOperatorInstance.GetPermission().GetPermissionType(ActionTypeId)
 
-        If enumPermissionType = ClsGlobals.PermissionTypes.Enabled Then
-            Me.Enabled = True
-        ElseIf enumPermissionType = ClsGlobals.PermissionTypes.Disabled Then
+        If enumPermissionType = ClsGlobals.PermissionTypes.Disabled Then
             Me.Enabled = False
-        ElseIf enumPermissionType = ClsGlobals.PermissionTypes.WithApproval Then
-            Me.Enabled = True
-        ElseIf enumPermissionType = ClsGlobals.PermissionTypes.SameOperator Then
-            'todo. check if the current operator is the one who entered the data. if true then do the following
-            Me.Enabled = True
-        ElseIf enumPermissionType = ClsGlobals.PermissionTypes.WithApprovalSameOperator Then
-            'todo. check if the current operator is the one who entered the data. if true then do the following
+        Else
             Me.Enabled = True
         End If
+
+
 
     End Sub
 
