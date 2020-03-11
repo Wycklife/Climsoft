@@ -15,14 +15,6 @@
 ' along with this program.  If not, see <http://www.gnu.org/licenses/>.
 Public Class frmLoginNew
     Public HTMLHelp As New clsHelp
-    Public ReadOnly connectionDetails As New List(Of String)
-
-
-    ' Get Application Data folder to all users, e.g. C:\ProgramData
-    ' Storing config.inf here ensures that it will still be available when Climsoft is updated
-    Private commonPath As String = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData)
-    Public directoryPath As String = IO.Path.Combine(commonPath, "Climsoft4")
-    Public filePath As String = IO.Path.Combine(directoryPath, "config.inf")
 
     Private Sub frmLoginNew_Load(sender As Object, e As EventArgs) Handles Me.Load
         '-------Code for translation added 20160207,ASM
@@ -79,112 +71,47 @@ Public Class frmLoginNew
 
     End Sub
 
-
-
     Private Sub RefreshDatabasesAndAddToCombobox()
-        Dim parts As String()
-
-        'Read the configuration file for the latest details
-        ReadConnectionDetails()
+        'dictionary of Key = connection name , Value = "connection details"
+        Dim dctConnectionDetails As Dictionary(Of String, String)
 
         Try
-            'Clear and then populate Database combobox from connectionDetails
+            'Clear and then populate combobox 
             cboDatabases.Items.Clear()
-            For Each line As String In connectionDetails
-                parts = line.Split("|")
-                cboDatabases.Items.Add(parts(0))
-            Next
 
-            If cboDatabases.Items.Count > 0 Then
+            'Read the configuration file for the latest details
+            dctConnectionDetails = clsDataConnection.ReadConnectionDetails
+
+            If dctConnectionDetails.Count > 0 Then
+                'set the connection details to be shown by the combobox
+                cboDatabases.DataSource = New BindingSource(dctConnectionDetails, Nothing)
+                cboDatabases.ValueMember = "Value"
+                cboDatabases.DisplayMember = "Key"
                 cboDatabases.SelectedIndex = 0
             End If
-
         Catch
             'todo. display message??
         End Try
     End Sub
 
-    Private Sub ReadConnectionDetails()
-        Dim builder As New Common.DbConnectionStringBuilder()
-
-        'Update connectionDetails
-        connectionDetails.Clear()
-
-        If IO.File.Exists(filePath) Then
-            Using r As IO.StreamReader = New IO.StreamReader(filePath)
-                Dim line As String
-                line = r.ReadLine
-                Do While (Not line Is Nothing)
-                    ' A valid line should contain a connection name, a pipe character `|` and a connection string
-                    Dim parts As String() = line.Split("|")
-                    ' To be here, we know that line is not empty, therefore there must be a part(0)
-                    Try
-                        ' Attempt to offer the second part (if it exists) to a connection string builder
-                        builder.ConnectionString = parts(1)
-                        connectionDetails.Add(line)
-                    Catch ex As Exception
-                        ' If a line cannot be read for any reason then we skip it. It is invalid, therefore it will
-                        ' not be displayed and it will not be written back to the file.
-                    End Try
-                    line = r.ReadLine
-                Loop
-            End Using
-        ElseIf IO.File.Exists("config.inf") Then
-            ' In the case where `filePath` does NOT exist, attempt to read legacy connection information
-            ' from the folder Climsoft is installed in (in previous versoins this file was also called `config.inf`)
-            Using r As IO.StreamReader = New IO.StreamReader("config.inf")
-                Dim line As String
-                line = r.ReadLine
-                Try
-                    builder.ConnectionString = line
-                    connectionDetails.Add("Climsoft4|" & line)
-                Catch ex As Exception
-                    ' If a line cannot be read for any reason then we skip it. It is invalid, therefore it will
-                    ' not be displayed and it will not be written back to the file.
-                End Try
-            End Using
-        Else
-            connectionDetails.Add("Default database|" & My.Settings.defaultDatabase)
-        End If
-    End Sub
-
     Private Sub SetUpAndOpenDatabaseConnection()
-        Dim connectionString As String
-        Dim builder As New Common.DbConnectionStringBuilder()
-        Dim dbChoice As String
-        Dim password As String
-        Dim username As String
-        Dim parts As String()
 
-        If cboDatabases.Items.Count > 0 Then
+        If cboDatabases.Items.Count < 1 Then
             MsgBox("Please set up database connections in 'manage database connections' ")
             Exit Sub
         End If
 
-        dbChoice = cboDatabases.SelectedItem
-        connectionString = ""
-        If String.IsNullOrEmpty(dbChoice) Then
+        If cboDatabases.SelectedIndex < 0 Then
             MsgBox("Please select a database from the list, or manage database connections")
             Exit Sub
-        Else
-            For Each connection As String In connectionDetails
-                parts = connection.Split("|")
-                If parts(0) = dbChoice Then
-                    connectionString = parts(1)
-                    'username = txtUsername.Text 'todo
-                    'password = txtPassword.Text
-                End If
-            Next
         End If
 
-
-        'open connection and check if it's a valid connection
+        'try to open connection 
         Try
-            builder.ConnectionString = connectionString
-            clsDataConnection.OpenNewConnection(builder.ConnectionString & ";Convert Zero Datetime=True")
-            ' The connection string has historically been stored in this control
-            ' There are other locations in the software that may access this
-            frmLogin.txtusrpwd.Text = builder.ConnectionString & ";Convert Zero Datetime=True"
+            clsDataConnection.OpenNewConnection(cboDatabases.SelectedValue & ";Convert Zero Datetime=True")
+            'The connection string has historically been stored in this control
+            'So this is set up here because there are other locations in the software that may access this
+            frmLogin.txtusrpwd.Text = clsDataConnection.GetConnectionString
         Catch ex As Exception
             If ex.Message.IndexOf("Access denied for user") >= 0 Then
                 MsgBox("Access denied. Please try again.")
@@ -259,19 +186,20 @@ Public Class frmLoginNew
             strPassword = txtPassword.Text
 
             'Ensure username and password are not empty
-            If String.IsNullOrEmpty(strUsername) Or String.IsNullOrEmpty(strPassword) Then
+            If String.IsNullOrEmpty(strUsername) OrElse String.IsNullOrEmpty(strPassword) Then
                 MsgBox("Please enter a username and password")
                 Exit Sub
             End If
 
             If Not clsDataConnection.IsValidConnection Then
-                MsgBox("Please set up a valid connection")
+                MsgBox("Please set up a valid database connection")
                 Exit Sub
             End If
 
+            'instantiate operator and validate username and password
             ClsGlobals.objOperatorInstance = New ClsOperator()
             If Not ClsGlobals.objOperatorInstance.Login(strUsername, strPassword) Then
-                MsgBox("Access denied. Please try again.")
+                MsgBox("Access denied. Wrong username or password. Please try again.")
                 'Move cursor to password box and clear password to encourage the user to try again
                 txtPassword.Text = ""
                 txtPassword.Select()
@@ -292,12 +220,8 @@ Public Class frmLoginNew
     End Sub
 
     Private Sub Cancel_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCancel.Click
-        'Me.Close()
+        'Me.Close() ??
         Application.Exit()
-    End Sub
-
-    Private Sub frmLoginNew_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
-        UpdateRememberedUsername()
     End Sub
 
     Private Sub lblDbdetails_Click(sender As Object, e As EventArgs) Handles lblDbdetails.Click

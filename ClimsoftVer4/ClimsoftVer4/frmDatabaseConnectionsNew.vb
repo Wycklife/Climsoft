@@ -13,8 +13,6 @@
 '
 ' You should have received a copy of the GNU General Public License
 ' along with this program.  If not, see <http://www.gnu.org/licenses/>.
-Imports System.Security.AccessControl
-Imports System.Security.Principal
 Public Class frmDatabaseConnectionsNew
     Private Sub frmDatabaseConnectionsNew_Load(sender As Object, e As EventArgs) Handles Me.Load
         Dim builder As New System.Data.Common.DbConnectionStringBuilder()
@@ -41,10 +39,9 @@ Public Class frmDatabaseConnectionsNew
         Next
     End Sub
 
-    Private Sub cmdOK_Click(sender As Object, e As EventArgs) Handles btnOK.Click
-        Dim builder As New Common.DbConnectionStringBuilder()
+    Private Sub btnOK_Click(sender As Object, e As EventArgs) Handles btnOK.Click
+        Dim builder As New System.Data.Common.DbConnectionStringBuilder()
         Dim dctConnectionDetails As New Dictionary(Of String, String)
-        Dim strConnectrionString As String
         Dim strConnectionName As String
         Dim strDatabase As String
         Dim strPort As String
@@ -85,8 +82,8 @@ Public Class frmDatabaseConnectionsNew
             ' Server address: Match one or more letters, numbers or hyphen or
             '                 match numbers and period allowing IP addresses (otherwise abort save)
             If String.IsNullOrEmpty(strServer) OrElse
-                Not System.Text.RegularExpressions.Regex.IsMatch(strServer, "^[a-zA-Z0-9-]+$") And
-                Not System.Text.RegularExpressions.Regex.IsMatch(strServer, "^[0-9.]+$") Then
+                (Not System.Text.RegularExpressions.Regex.IsMatch(strServer, "^[a-zA-Z0-9-]+$") AndAlso
+                 Not System.Text.RegularExpressions.Regex.IsMatch(strServer, "^[0-9.]+$")) Then
 
                 MsgBox("Unable to save connection information due to connection """ & strConnectionName & """" &
                        Environment.NewLine & Environment.NewLine &
@@ -96,8 +93,7 @@ Public Class frmDatabaseConnectionsNew
             End If
 
             ' Database name: Match one or more letters, numbers or underscores (otherwise abort save)
-            If String.IsNullOrEmpty(strDatabase) OrElse
-                Not System.Text.RegularExpressions.Regex.IsMatch(strDatabase, "^[a-zA-Z0-9_]+$") Then
+            If String.IsNullOrEmpty(strDatabase) OrElse Not System.Text.RegularExpressions.Regex.IsMatch(strDatabase, "^[a-zA-Z0-9_]+$") Then
 
                 MsgBox("Unable to save connection information due to connection """ & strConnectionName & """" &
                        Environment.NewLine & Environment.NewLine &
@@ -106,8 +102,7 @@ Public Class frmDatabaseConnectionsNew
             End If
 
             ' Port number: Match one or more numbers (otherwise abort save)
-            If String.IsNullOrEmpty(strPort) OrElse
-                Not System.Text.RegularExpressions.Regex.IsMatch(strPort, "^[0-9]+$") Then
+            If String.IsNullOrEmpty(strPort) OrElse Not System.Text.RegularExpressions.Regex.IsMatch(strPort, "^[0-9]+$") Then
 
                 MsgBox("Unable to save connection information due to connection """ & strConnectionName & """" &
                        Environment.NewLine & Environment.NewLine &
@@ -127,20 +122,31 @@ Public Class frmDatabaseConnectionsNew
 
             'todo. what should be done to the password ?? unmask the password 
 
-            strConnectrionString = "server=" & strServer & ";database=" & strDatabase & ";port=" & strPort & ";uid=" & strUsername & ";pwd=" & strPassword
-            dctConnectionDetails.Add(strConnectionName, strConnectrionString)
+            'use the builder to construct the connection string in the approrpriate format in preparation for storage
+            builder.Clear()
+            builder.Add("server", strServer)
+            builder.Add("database", strDatabase)
+            builder.Add("port", strPort)
+            builder.Add("uid", strUsername)
+            builder.Add("pwd", strPassword)
+
+            'builder.ConnectionString = "server=" & strServer & ";database=" & strDatabase & ";port=" & strPort & ";uid=" & strUsername & ";pwd=" & strPassword
+            dctConnectionDetails.Add(strConnectionName, builder.ConnectionString)
         Next
 
 
-        'after validating all the rows. 
-        clsDataConnection.WriteConnectionDetails(dctConnectionDetails)
+        'after validating all the rows write the details
+        If dctConnectionDetails.Count > 0 Then
+            clsDataConnection.WriteConnectionDetails(dctConnectionDetails)
+        End If
 
 
         Me.Close()
+
     End Sub
 
     Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
-        Close()
+        Me.Close()
     End Sub
 
     Private Sub dataGridConnections_SelectionChanged(sender As Object, e As EventArgs) Handles dataGridConnections.SelectionChanged
@@ -159,6 +165,8 @@ Public Class frmDatabaseConnectionsNew
         Dim colIndex As Integer
         Dim row As DataGridViewRow
         Try
+            'this just takes the selected row and sets it as the first row in the datagrid, 
+            'thus when saving it becomes the first to be saved which makes it to always be the first slected in the login form
             colIndex = dataGridConnections.SelectedCells(0).OwningColumn.Index
             row = dataGridConnections.Rows(dataGridConnections.CurrentCell.RowIndex)
             dataGridConnections.Rows.Remove(row)
@@ -173,11 +181,19 @@ Public Class frmDatabaseConnectionsNew
 
     Private Sub btnTest_Click(sender As Object, e As EventArgs) Handles btnTest.Click
         Dim conn As New MySql.Data.MySqlClient.MySqlConnection
-        Dim strConnectionString As String
-        Dim builder As New Common.DbConnectionStringBuilder() 'todo.
+        Dim builder As New System.Data.Common.DbConnectionStringBuilder()
+        Dim row As DataGridViewRow
         Try
-            'todo
-            conn.ConnectionString = strConnectionString
+            row = dataGridConnections.Rows(dataGridConnections.CurrentCell.RowIndex)
+
+            'use the builder to construct the connection string in the approrpriate format in preparation for storage
+            builder.Add("server", row.Cells(1).Value)
+            builder.Add("database", row.Cells(2).Value)
+            builder.Add("port", row.Cells(3).Value)
+            builder.Add("uid", row.Cells(4).Value)
+            builder.Add("pwd", row.Cells(5).Value) ' do more processing to get the password
+
+            conn.ConnectionString = builder.ConnectionString & ";Convert Zero Datetime=True"
             conn.Open()
         Catch ex As Exception
             If ex.Message.IndexOf("Access denied for user") >= 0 Then
