@@ -1,6 +1,6 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class ucrButton
-    Inherits ClimsoftVer4.ucrAction
+    Inherits ClimsoftVer4.ucrActionNew
 
     'UserControl overrides dispose to clean up the component list.
     <System.Diagnostics.DebuggerNonUserCode()> _
@@ -23,7 +23,6 @@ Partial Class ucrButton
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.btn = New System.Windows.Forms.Button()
-        CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btn
@@ -43,7 +42,6 @@ Partial Class ucrButton
         Me.Controls.Add(Me.btn)
         Me.Name = "ucrButton"
         Me.Size = New System.Drawing.Size(55, 20)
-        CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
