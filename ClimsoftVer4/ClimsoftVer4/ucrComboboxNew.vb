@@ -15,6 +15,9 @@
         End If
     End Sub
 
+    Public Overrides Sub PopulateControl()
+        'Todo. Fill the control 
+    End Sub
     Private Sub cboValues_KeyDown(sender As Object, e As KeyEventArgs) Handles cboValues.KeyDown
         OnevtKeyDown(Me, e)
     End Sub
@@ -40,11 +43,6 @@
 
     Public Overrides Sub SetValueToDataStructure()
         'todo. writes value to the datastructure
-    End Sub
-
-    Public Overrides Sub SetValue(objNewValue As Object)
-        'todo. set value to the control 
-        OnevtValueChanged(Me, Nothing)
     End Sub
 
     Public Overrides Function GetValue(Optional objSpecification As Object = Nothing) As Object
@@ -79,7 +77,9 @@
     End Sub
 
     Public Sub SetDisplayMember(strDisplay As String)
-        'TODO
+        'TODO. Check if the datastructure contains the data table with list of required station or elements.This
+        'will be used by the selector for stations and selector for elements
+        'If the datatable contains a column with the required type eg elements or stations then fill the combobox with the column contents ie list of elements or list of stations
     End Sub
 
     Public Sub SetValueMember(strValue As String)
@@ -109,6 +109,11 @@
         bFillFromDataBase = False
     End Sub
 
+    Public Sub SortBy(strCol As String)
+        'TODO. if the datatable is not empty then sort the Datatable
+        'Datatable Sorting affects cboValues.SelectedValue
+        'thus SuppressChange And retain previous cboValues.SelectedValue 
+    End Sub
     Public Sub SetPossibleValues(strColumnName As String, tColumnType As Type, lstValues As IEnumerable(Of Object))
         SetPossibleValues(New DataTable)
         'todo.
@@ -120,4 +125,14 @@
         'PopulateControl()
     End Sub
 
+    Public Overrides Sub SetValue(objNewValue As Object)
+        'If IsDBNull(objNewValue) OrElse String.IsNullOrEmpty(objNewValue) Then set the cboValues.Text =objNewValue
+        'else For Each rTemp As DataRow In dtbRecords.Rows
+        'Calling ToString to prevent invalid casting
+        'If rTemp.Item(cboValues.ValueMember).ToString = objNewValue.ToString Then
+        'set the text using the display column
+        'cboValues.Text = rTemp.Item(cboValues.DisplayMember)
+        OnevtValueChanged(Me, Nothing)
+
+    End Sub
 End Class

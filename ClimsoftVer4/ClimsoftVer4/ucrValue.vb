@@ -18,6 +18,9 @@
 
     End Sub
 
+    Public Overridable Sub PopulateControl()
+        'Todo. get the data from the datastructure
+    End Sub
     Public Sub SetDataIdentifier(objDataIdentifier As Object)
         'specifies the identifier that would be usd by the datastructure to get the data 
         'the identifier will have a field name
@@ -117,5 +120,4 @@
             RaiseEvent evtValueChanged(sender, e)
         End If
     End Sub
-
 End Class

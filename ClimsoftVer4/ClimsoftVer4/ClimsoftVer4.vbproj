@@ -91,9 +91,12 @@
     <Compile Include="ClsCloneFunctions.vb" />
     <Compile Include="clsDataCall.vb" />
     <Compile Include="clsDataConnection.vb" />
+    <Compile Include="ClsGlobals.vb" />
     <Compile Include="clsHelp.vb" />
     <Compile Include="clsClimsoftSettings.vb" />
     <Compile Include="clsLanguageTranslation.vb" />
+    <Compile Include="ClsOperator.vb" />
+    <Compile Include="ClsPermission.vb" />
     <Compile Include="clsProducts.vb" />
     <Compile Include="clsTableFilter.vb" />
     <Compile Include="dataEntryGlobalRoutines.vb" />
@@ -121,6 +124,12 @@
     <Compile Include="frmDatabaseConnections.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmDatabaseConnectionsNew.Designer.vb">
+      <DependentUpon>frmDatabaseConnectionsNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDatabaseConnectionsNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmElementSequencerMonthly.Designer.vb">
       <DependentUpon>frmElementSequencerMonthly.vb</DependentUpon>
     </Compile>
@@ -131,6 +140,12 @@
       <DependentUpon>frmEntryForms.vb</DependentUpon>
     </Compile>
     <Compile Include="frmEntryForms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginNew.Designer.vb">
+      <DependentUpon>frmLoginNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginNew.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmNewAgrometKenya.Designer.vb">
@@ -500,6 +515,12 @@
     <Compile Include="frmMonitoring.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmNewUploadSelection.Designer.vb">
+      <DependentUpon>frmNewUploadSelection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewUploadSelection.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmPlotter.designer.vb">
       <DependentUpon>frmPlotter.vb</DependentUpon>
     </Compile>
@@ -605,10 +626,22 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ClsShiftCells.vb" />
+    <Compile Include="ucrAction.Designer.vb">
+      <DependentUpon>ucrAction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucrAction.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="ucrBaseDataLink.Designer.vb">
       <DependentUpon>ucrBaseDataLink.vb</DependentUpon>
     </Compile>
     <Compile Include="ucrBaseDataLink.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucrButton.Designer.vb">
+      <DependentUpon>ucrButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucrButton.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ucrCheck.Designer.vb">
@@ -943,11 +976,17 @@
     <EmbeddedResource Include="frmDatabaseConnections.resx">
       <DependentUpon>frmDatabaseConnections.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDatabaseConnectionsNew.resx">
+      <DependentUpon>frmDatabaseConnectionsNew.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmElementSequencerMonthly.resx">
       <DependentUpon>frmElementSequencerMonthly.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEntryForms.resx">
       <DependentUpon>frmEntryForms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginNew.resx">
+      <DependentUpon>frmLoginNew.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNewAgrometKenya.resx">
       <DependentUpon>frmNewAgrometKenya.vb</DependentUpon>
@@ -1193,8 +1232,14 @@
     <EmbeddedResource Include="sdgFilter.resx">
       <DependentUpon>sdgFilter.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucrAction.resx">
+      <DependentUpon>ucrAction.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucrBaseDataLink.resx">
       <DependentUpon>ucrBaseDataLink.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucrButton.resx">
+      <DependentUpon>ucrButton.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucrCheck.resx">
       <DependentUpon>ucrCheck.vb</DependentUpon>
