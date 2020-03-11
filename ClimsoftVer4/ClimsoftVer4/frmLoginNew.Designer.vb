@@ -25,11 +25,11 @@ Partial Class frmLoginNew
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmLoginNew))
         Me.chkRememberUsername = New System.Windows.Forms.CheckBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.cmdHelp = New System.Windows.Forms.Button()
+        Me.btnHelp = New System.Windows.Forms.Button()
         Me.lblDbdetails = New System.Windows.Forms.Label()
-        Me.cmbDatabases = New System.Windows.Forms.ComboBox()
-        Me.Cancel = New System.Windows.Forms.Button()
-        Me.OK = New System.Windows.Forms.Button()
+        Me.cboDatabases = New System.Windows.Forms.ComboBox()
+        Me.btnCancel = New System.Windows.Forms.Button()
+        Me.btnOk = New System.Windows.Forms.Button()
         Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.txtUsername = New System.Windows.Forms.TextBox()
         Me.lblPassword = New System.Windows.Forms.Label()
@@ -59,16 +59,16 @@ Partial Class frmLoginNew
         Me.Label1.Text = "&Database"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'cmdHelp
+        'btnHelp
         '
-        Me.cmdHelp.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.cmdHelp.Location = New System.Drawing.Point(446, 219)
-        Me.cmdHelp.Name = "cmdHelp"
-        Me.cmdHelp.Size = New System.Drawing.Size(67, 23)
-        Me.cmdHelp.TabIndex = 21
-        Me.cmdHelp.Tag = "Help"
-        Me.cmdHelp.Text = "&Help"
-        Me.cmdHelp.Visible = False
+        Me.btnHelp.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnHelp.Location = New System.Drawing.Point(446, 219)
+        Me.btnHelp.Name = "btnHelp"
+        Me.btnHelp.Size = New System.Drawing.Size(67, 23)
+        Me.btnHelp.TabIndex = 21
+        Me.btnHelp.Tag = "Help"
+        Me.btnHelp.Text = "&Help"
+        Me.btnHelp.Visible = False
         '
         'lblDbdetails
         '
@@ -81,33 +81,33 @@ Partial Class frmLoginNew
         Me.lblDbdetails.Tag = ""
         Me.lblDbdetails.Text = "Manage database connections"
         '
-        'cmbDatabases
+        'cboDatabases
         '
-        Me.cmbDatabases.BackColor = System.Drawing.SystemColors.Menu
-        Me.cmbDatabases.FormattingEnabled = True
-        Me.cmbDatabases.Location = New System.Drawing.Point(219, 162)
-        Me.cmbDatabases.Name = "cmbDatabases"
-        Me.cmbDatabases.Size = New System.Drawing.Size(222, 21)
-        Me.cmbDatabases.TabIndex = 19
+        Me.cboDatabases.BackColor = System.Drawing.SystemColors.Menu
+        Me.cboDatabases.FormattingEnabled = True
+        Me.cboDatabases.Location = New System.Drawing.Point(219, 162)
+        Me.cboDatabases.Name = "cboDatabases"
+        Me.cboDatabases.Size = New System.Drawing.Size(222, 21)
+        Me.cboDatabases.TabIndex = 19
         '
-        'Cancel
+        'btnCancel
         '
-        Me.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.Cancel.Location = New System.Drawing.Point(343, 219)
-        Me.Cancel.Name = "Cancel"
-        Me.Cancel.Size = New System.Drawing.Size(67, 23)
-        Me.Cancel.TabIndex = 18
-        Me.Cancel.Tag = "Cancel"
-        Me.Cancel.Text = "&Cancel"
+        Me.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnCancel.Location = New System.Drawing.Point(343, 219)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(67, 23)
+        Me.btnCancel.TabIndex = 18
+        Me.btnCancel.Tag = "Cancel"
+        Me.btnCancel.Text = "&Cancel"
         '
-        'OK
+        'btnOk
         '
-        Me.OK.Location = New System.Drawing.Point(240, 219)
-        Me.OK.Name = "OK"
-        Me.OK.Size = New System.Drawing.Size(67, 23)
-        Me.OK.TabIndex = 17
-        Me.OK.Tag = "OK"
-        Me.OK.Text = "&OK"
+        Me.btnOk.Location = New System.Drawing.Point(240, 219)
+        Me.btnOk.Name = "btnOk"
+        Me.btnOk.Size = New System.Drawing.Size(67, 23)
+        Me.btnOk.TabIndex = 17
+        Me.btnOk.Tag = "OK"
+        Me.btnOk.Text = "&OK"
         '
         'txtPassword
         '
@@ -161,18 +161,18 @@ Partial Class frmLoginNew
         '
         'frmLoginNew
         '
-        Me.AcceptButton = Me.OK
+        Me.AcceptButton = Me.btnOk
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.CancelButton = Me.Cancel
+        Me.CancelButton = Me.btnCancel
         Me.ClientSize = New System.Drawing.Size(539, 251)
         Me.Controls.Add(Me.chkRememberUsername)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.cmdHelp)
+        Me.Controls.Add(Me.btnHelp)
         Me.Controls.Add(Me.lblDbdetails)
-        Me.Controls.Add(Me.cmbDatabases)
-        Me.Controls.Add(Me.Cancel)
-        Me.Controls.Add(Me.OK)
+        Me.Controls.Add(Me.cboDatabases)
+        Me.Controls.Add(Me.btnCancel)
+        Me.Controls.Add(Me.btnOk)
         Me.Controls.Add(Me.txtPassword)
         Me.Controls.Add(Me.txtUsername)
         Me.Controls.Add(Me.lblPassword)
@@ -194,11 +194,11 @@ Partial Class frmLoginNew
 
     Friend WithEvents chkRememberUsername As CheckBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents cmdHelp As Button
+    Friend WithEvents btnHelp As Button
     Friend WithEvents lblDbdetails As Label
-    Friend WithEvents cmbDatabases As ComboBox
-    Friend WithEvents Cancel As Button
-    Friend WithEvents OK As Button
+    Friend WithEvents cboDatabases As ComboBox
+    Friend WithEvents btnCancel As Button
+    Friend WithEvents btnOk As Button
     Friend WithEvents txtPassword As TextBox
     Friend WithEvents txtUsername As TextBox
     Friend WithEvents lblPassword As Label

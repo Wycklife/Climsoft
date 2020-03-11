@@ -307,7 +307,7 @@ Public Class frmMainMenu
     End Sub
 
     Private Sub frmMainMenu_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
-        clsDataConnection.closeConnection()
+        clsDataConnection.CloseConnection()
         End
     End Sub
 
