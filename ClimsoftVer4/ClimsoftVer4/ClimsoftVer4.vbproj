@@ -722,12 +722,6 @@
     <Compile Include="ucrMetadataInstrumentNew.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucrMetadataInstrumentsNew.Designer.vb">
-      <DependentUpon>ucrMetadataInstrumentsNew.vb</DependentUpon>
-    </Compile>
-    <Compile Include="ucrMetadataInstrumentsNew.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Include="ucrMetadataPaperArchive.Designer.vb">
       <DependentUpon>ucrMetadataPaperArchive.vb</DependentUpon>
     </Compile>
@@ -1273,9 +1267,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucrMetadataInstrumentNew.resx">
       <DependentUpon>ucrMetadataInstrumentNew.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ucrMetadataInstrumentsNew.resx">
-      <DependentUpon>ucrMetadataInstrumentsNew.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucrMetadataPaperArchive.resx">
       <DependentUpon>ucrMetadataPaperArchive.vb</DependentUpon>

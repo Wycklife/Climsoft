@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class ucrMetadataPhysicalFeatureNew
     Inherits ClimsoftVer4.ucrPage
 
     'UserControl overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class ucrMetadataPhysicalFeatureNew
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.lblStationID = New System.Windows.Forms.Label()
         Me.lblBeginDate = New System.Windows.Forms.Label()
@@ -29,12 +29,12 @@ Partial Class ucrMetadataPhysicalFeatureNew
         Me.lblFeatureClass = New System.Windows.Forms.Label()
         Me.lblFeatureImageFile = New System.Windows.Forms.Label()
         Me.grpPhysicalFeature = New System.Windows.Forms.GroupBox()
-        Me.btnClear = New System.Windows.Forms.Button()
-        Me.btnView = New System.Windows.Forms.Button()
-        Me.btnDelete = New System.Windows.Forms.Button()
-        Me.btnUpdate = New System.Windows.Forms.Button()
-        Me.btnSave = New System.Windows.Forms.Button()
-        Me.btnAddNew = New System.Windows.Forms.Button()
+        Me.ucrBtnView = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnClear = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnDelete = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnUpdate = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnSave = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnAddNew = New ClimsoftVer4.ucrButton()
         Me.ucrNavigator = New ClimsoftVer4.ucrNavigator()
         Me.pbFeaturePicture = New System.Windows.Forms.PictureBox()
         Me.btnOpenFile = New System.Windows.Forms.Button()
@@ -106,71 +106,83 @@ Partial Class ucrMetadataPhysicalFeatureNew
         '
         'grpPhysicalFeature
         '
-        Me.grpPhysicalFeature.Controls.Add(Me.btnClear)
-        Me.grpPhysicalFeature.Controls.Add(Me.btnView)
-        Me.grpPhysicalFeature.Controls.Add(Me.btnDelete)
-        Me.grpPhysicalFeature.Controls.Add(Me.btnUpdate)
-        Me.grpPhysicalFeature.Controls.Add(Me.btnSave)
-        Me.grpPhysicalFeature.Controls.Add(Me.btnAddNew)
+        Me.grpPhysicalFeature.Controls.Add(Me.ucrBtnView)
+        Me.grpPhysicalFeature.Controls.Add(Me.ucrBtnClear)
+        Me.grpPhysicalFeature.Controls.Add(Me.ucrBtnDelete)
+        Me.grpPhysicalFeature.Controls.Add(Me.ucrBtnUpdate)
+        Me.grpPhysicalFeature.Controls.Add(Me.ucrBtnSave)
+        Me.grpPhysicalFeature.Controls.Add(Me.ucrBtnAddNew)
         Me.grpPhysicalFeature.Location = New System.Drawing.Point(3, 352)
         Me.grpPhysicalFeature.Name = "grpPhysicalFeature"
         Me.grpPhysicalFeature.Size = New System.Drawing.Size(611, 34)
         Me.grpPhysicalFeature.TabIndex = 18
         Me.grpPhysicalFeature.TabStop = False
         '
-        'btnClear
+        'ucrBtnView
         '
-        Me.btnClear.Location = New System.Drawing.Point(416, 7)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(75, 23)
-        Me.btnClear.TabIndex = 4
-        Me.btnClear.Text = "Clear"
-        Me.btnClear.UseVisualStyleBackColor = True
+        Me.ucrBtnView.ActionTypeId = 0
+        Me.ucrBtnView.ButtonText = "View"
+        Me.ucrBtnView.FieldName = Nothing
+        Me.ucrBtnView.KeyControl = False
+        Me.ucrBtnView.Location = New System.Drawing.Point(515, 7)
+        Me.ucrBtnView.Name = "ucrBtnView"
+        Me.ucrBtnView.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnView.TabIndex = 37
         '
-        'btnView
+        'ucrBtnClear
         '
-        Me.btnView.Location = New System.Drawing.Point(515, 7)
-        Me.btnView.Name = "btnView"
-        Me.btnView.Size = New System.Drawing.Size(75, 23)
-        Me.btnView.TabIndex = 5
-        Me.btnView.Text = "View"
-        Me.btnView.UseVisualStyleBackColor = True
+        Me.ucrBtnClear.ActionTypeId = 0
+        Me.ucrBtnClear.ButtonText = "Clear"
+        Me.ucrBtnClear.FieldName = Nothing
+        Me.ucrBtnClear.KeyControl = False
+        Me.ucrBtnClear.Location = New System.Drawing.Point(416, 7)
+        Me.ucrBtnClear.Name = "ucrBtnClear"
+        Me.ucrBtnClear.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnClear.TabIndex = 36
         '
-        'btnDelete
+        'ucrBtnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(317, 7)
-        Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelete.TabIndex = 3
-        Me.btnDelete.Text = "Delete"
-        Me.btnDelete.UseVisualStyleBackColor = True
+        Me.ucrBtnDelete.ActionTypeId = 0
+        Me.ucrBtnDelete.ButtonText = "Delete"
+        Me.ucrBtnDelete.FieldName = Nothing
+        Me.ucrBtnDelete.KeyControl = False
+        Me.ucrBtnDelete.Location = New System.Drawing.Point(317, 7)
+        Me.ucrBtnDelete.Name = "ucrBtnDelete"
+        Me.ucrBtnDelete.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnDelete.TabIndex = 35
         '
-        'btnUpdate
+        'ucrBtnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(218, 7)
-        Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(75, 23)
-        Me.btnUpdate.TabIndex = 2
-        Me.btnUpdate.Text = "Update"
-        Me.btnUpdate.UseVisualStyleBackColor = True
+        Me.ucrBtnUpdate.ActionTypeId = 0
+        Me.ucrBtnUpdate.ButtonText = "Update"
+        Me.ucrBtnUpdate.FieldName = Nothing
+        Me.ucrBtnUpdate.KeyControl = False
+        Me.ucrBtnUpdate.Location = New System.Drawing.Point(218, 7)
+        Me.ucrBtnUpdate.Name = "ucrBtnUpdate"
+        Me.ucrBtnUpdate.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnUpdate.TabIndex = 34
         '
-        'btnSave
+        'ucrBtnSave
         '
-        Me.btnSave.Location = New System.Drawing.Point(119, 7)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(75, 23)
-        Me.btnSave.TabIndex = 1
-        Me.btnSave.Text = "Save"
-        Me.btnSave.UseVisualStyleBackColor = True
+        Me.ucrBtnSave.ActionTypeId = 0
+        Me.ucrBtnSave.ButtonText = "Save"
+        Me.ucrBtnSave.FieldName = Nothing
+        Me.ucrBtnSave.KeyControl = False
+        Me.ucrBtnSave.Location = New System.Drawing.Point(119, 7)
+        Me.ucrBtnSave.Name = "ucrBtnSave"
+        Me.ucrBtnSave.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnSave.TabIndex = 33
         '
-        'btnAddNew
+        'ucrBtnAddNew
         '
-        Me.btnAddNew.Location = New System.Drawing.Point(20, 7)
-        Me.btnAddNew.Name = "btnAddNew"
-        Me.btnAddNew.Size = New System.Drawing.Size(75, 23)
-        Me.btnAddNew.TabIndex = 0
-        Me.btnAddNew.Text = "AddNew"
-        Me.btnAddNew.UseVisualStyleBackColor = True
+        Me.ucrBtnAddNew.ActionTypeId = 0
+        Me.ucrBtnAddNew.ButtonText = "AddNew"
+        Me.ucrBtnAddNew.FieldName = Nothing
+        Me.ucrBtnAddNew.KeyControl = False
+        Me.ucrBtnAddNew.Location = New System.Drawing.Point(20, 7)
+        Me.ucrBtnAddNew.Name = "ucrBtnAddNew"
+        Me.ucrBtnAddNew.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnAddNew.TabIndex = 32
         '
         'ucrNavigator
         '
@@ -307,12 +319,6 @@ Partial Class ucrMetadataPhysicalFeatureNew
     Friend WithEvents lblFeatureClass As Label
     Friend WithEvents lblFeatureImageFile As Label
     Friend WithEvents grpPhysicalFeature As GroupBox
-    Friend WithEvents btnClear As Button
-    Friend WithEvents btnView As Button
-    Friend WithEvents btnDelete As Button
-    Friend WithEvents btnUpdate As Button
-    Friend WithEvents btnSave As Button
-    Friend WithEvents btnAddNew As Button
     Friend WithEvents ucrNavigator As ucrNavigator
     Friend WithEvents pbFeaturePicture As PictureBox
     Friend WithEvents btnOpenFile As Button
@@ -324,4 +330,10 @@ Partial Class ucrMetadataPhysicalFeatureNew
     Friend WithEvents ucrDatePickerEndDate As ucrDatePickerNew
     Friend WithEvents ucrStationSelectorStationID As ucrStationSelectorNew
     Friend WithEvents lblPhysicalFeature As Label
+    Friend WithEvents ucrBtnAddNew As ucrButton
+    Friend WithEvents ucrBtnSave As ucrButton
+    Friend WithEvents ucrBtnUpdate As ucrButton
+    Friend WithEvents ucrBtnDelete As ucrButton
+    Friend WithEvents ucrBtnClear As ucrButton
+    Friend WithEvents ucrBtnView As ucrButton
 End Class

@@ -28,13 +28,13 @@ Partial Class ucrMetadataPaperArchiveNew
         Me.lbldescri = New System.Windows.Forms.Label()
         Me.ucrTextBoxNewDescription = New ClimsoftVer4.ucrTextBoxNew()
         Me.GroupBox13 = New System.Windows.Forms.GroupBox()
-        Me.btnClear = New System.Windows.Forms.Button()
-        Me.btnView = New System.Windows.Forms.Button()
-        Me.btnDelete = New System.Windows.Forms.Button()
-        Me.btnUpdate = New System.Windows.Forms.Button()
-        Me.btnSave = New System.Windows.Forms.Button()
-        Me.btnAddNew = New System.Windows.Forms.Button()
         Me.ucrNavigatorPaperArchive = New ClimsoftVer4.ucrNavigator()
+        Me.ucrBtnAddNew = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnSave = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnView = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnClear = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnDelete = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnUpdate = New ClimsoftVer4.ucrButton()
         Me.GroupBox13.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -42,138 +42,138 @@ Partial Class ucrMetadataPaperArchiveNew
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(299, 21)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Location = New System.Drawing.Point(224, 17)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(214, 20)
+        Me.Label7.Size = New System.Drawing.Size(175, 16)
         Me.Label7.TabIndex = 1
         Me.Label7.Text = "Paper Archive Definition"
         '
         'lblFormId
         '
         Me.lblFormId.AutoSize = True
-        Me.lblFormId.Location = New System.Drawing.Point(269, 126)
-        Me.lblFormId.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblFormId.Location = New System.Drawing.Point(202, 102)
         Me.lblFormId.Name = "lblFormId"
-        Me.lblFormId.Size = New System.Drawing.Size(57, 17)
+        Me.lblFormId.Size = New System.Drawing.Size(44, 13)
         Me.lblFormId.TabIndex = 2
         Me.lblFormId.Text = "Form ID"
         '
         'ucrTextboxNewFormID
         '
-        Me.ucrTextboxNewFormID.Location = New System.Drawing.Point(371, 122)
-        Me.ucrTextboxNewFormID.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.ucrTextboxNewFormID.Location = New System.Drawing.Point(278, 99)
+        Me.ucrTextboxNewFormID.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ucrTextboxNewFormID.Name = "ucrTextboxNewFormID"
-        Me.ucrTextboxNewFormID.Size = New System.Drawing.Size(181, 25)
+        Me.ucrTextboxNewFormID.Size = New System.Drawing.Size(136, 20)
         Me.ucrTextboxNewFormID.TabIndex = 3
         Me.ucrTextboxNewFormID.TextboxValue = ""
         '
         'lbldescri
         '
         Me.lbldescri.AutoSize = True
-        Me.lbldescri.Location = New System.Drawing.Point(269, 176)
-        Me.lbldescri.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbldescri.Location = New System.Drawing.Point(202, 143)
         Me.lbldescri.Name = "lbldescri"
-        Me.lbldescri.Size = New System.Drawing.Size(79, 17)
+        Me.lbldescri.Size = New System.Drawing.Size(60, 13)
         Me.lbldescri.TabIndex = 4
         Me.lbldescri.Text = "Description"
         '
         'ucrTextBoxNewDescription
         '
-        Me.ucrTextBoxNewDescription.Location = New System.Drawing.Point(371, 174)
-        Me.ucrTextBoxNewDescription.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.ucrTextBoxNewDescription.Location = New System.Drawing.Point(278, 141)
+        Me.ucrTextBoxNewDescription.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ucrTextBoxNewDescription.Name = "ucrTextBoxNewDescription"
-        Me.ucrTextBoxNewDescription.Size = New System.Drawing.Size(181, 25)
+        Me.ucrTextBoxNewDescription.Size = New System.Drawing.Size(136, 20)
         Me.ucrTextBoxNewDescription.TabIndex = 5
         Me.ucrTextBoxNewDescription.TextboxValue = ""
         '
         'GroupBox13
         '
-        Me.GroupBox13.Controls.Add(Me.btnClear)
-        Me.GroupBox13.Controls.Add(Me.btnView)
-        Me.GroupBox13.Controls.Add(Me.btnDelete)
-        Me.GroupBox13.Controls.Add(Me.btnUpdate)
-        Me.GroupBox13.Controls.Add(Me.btnSave)
-        Me.GroupBox13.Controls.Add(Me.btnAddNew)
-        Me.GroupBox13.Location = New System.Drawing.Point(8, 297)
-        Me.GroupBox13.Margin = New System.Windows.Forms.Padding(4)
+        Me.GroupBox13.Controls.Add(Me.ucrBtnView)
+        Me.GroupBox13.Controls.Add(Me.ucrBtnClear)
+        Me.GroupBox13.Controls.Add(Me.ucrBtnDelete)
+        Me.GroupBox13.Controls.Add(Me.ucrBtnUpdate)
+        Me.GroupBox13.Controls.Add(Me.ucrBtnSave)
+        Me.GroupBox13.Controls.Add(Me.ucrBtnAddNew)
+        Me.GroupBox13.Location = New System.Drawing.Point(6, 241)
         Me.GroupBox13.Name = "GroupBox13"
-        Me.GroupBox13.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox13.Size = New System.Drawing.Size(808, 42)
+        Me.GroupBox13.Size = New System.Drawing.Size(606, 34)
         Me.GroupBox13.TabIndex = 6
         Me.GroupBox13.TabStop = False
         '
-        'btnClear
-        '
-        Me.btnClear.Location = New System.Drawing.Point(537, 6)
-        Me.btnClear.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(108, 33)
-        Me.btnClear.TabIndex = 4
-        Me.btnClear.Text = "Clear"
-        Me.btnClear.UseVisualStyleBackColor = True
-        '
-        'btnView
-        '
-        Me.btnView.Location = New System.Drawing.Point(664, 6)
-        Me.btnView.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnView.Name = "btnView"
-        Me.btnView.Size = New System.Drawing.Size(108, 33)
-        Me.btnView.TabIndex = 5
-        Me.btnView.Text = "View"
-        Me.btnView.UseVisualStyleBackColor = True
-        '
-        'btnDelete
-        '
-        Me.btnDelete.Location = New System.Drawing.Point(411, 6)
-        Me.btnDelete.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(108, 33)
-        Me.btnDelete.TabIndex = 3
-        Me.btnDelete.Text = "Delete"
-        Me.btnDelete.UseVisualStyleBackColor = True
-        '
-        'btnUpdate
-        '
-        Me.btnUpdate.Location = New System.Drawing.Point(284, 6)
-        Me.btnUpdate.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(108, 33)
-        Me.btnUpdate.TabIndex = 2
-        Me.btnUpdate.Text = "Update"
-        Me.btnUpdate.UseVisualStyleBackColor = True
-        '
-        'btnSave
-        '
-        Me.btnSave.Location = New System.Drawing.Point(157, 6)
-        Me.btnSave.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(108, 33)
-        Me.btnSave.TabIndex = 1
-        Me.btnSave.Text = "Save"
-        Me.btnSave.UseVisualStyleBackColor = True
-        '
-        'btnAddNew
-        '
-        Me.btnAddNew.Location = New System.Drawing.Point(31, 6)
-        Me.btnAddNew.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnAddNew.Name = "btnAddNew"
-        Me.btnAddNew.Size = New System.Drawing.Size(108, 33)
-        Me.btnAddNew.TabIndex = 0
-        Me.btnAddNew.Text = "AddNew"
-        Me.btnAddNew.UseVisualStyleBackColor = True
-        '
         'ucrNavigatorPaperArchive
         '
-        Me.ucrNavigatorPaperArchive.Location = New System.Drawing.Point(187, 352)
-        Me.ucrNavigatorPaperArchive.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ucrNavigatorPaperArchive.Location = New System.Drawing.Point(140, 286)
         Me.ucrNavigatorPaperArchive.Name = "ucrNavigatorPaperArchive"
-        Me.ucrNavigatorPaperArchive.Size = New System.Drawing.Size(448, 31)
+        Me.ucrNavigatorPaperArchive.Size = New System.Drawing.Size(336, 25)
         Me.ucrNavigatorPaperArchive.TabIndex = 8
+        '
+        'ucrBtnAddNew
+        '
+        Me.ucrBtnAddNew.ActionTypeId = 0
+        Me.ucrBtnAddNew.ButtonText = "AddNew"
+        Me.ucrBtnAddNew.FieldName = Nothing
+        Me.ucrBtnAddNew.KeyControl = False
+        Me.ucrBtnAddNew.Location = New System.Drawing.Point(31, 7)
+        Me.ucrBtnAddNew.Name = "ucrBtnAddNew"
+        Me.ucrBtnAddNew.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnAddNew.TabIndex = 32
+        '
+        'ucrBtnSave
+        '
+        Me.ucrBtnSave.ActionTypeId = 0
+        Me.ucrBtnSave.ButtonText = "Save"
+        Me.ucrBtnSave.FieldName = Nothing
+        Me.ucrBtnSave.KeyControl = False
+        Me.ucrBtnSave.Location = New System.Drawing.Point(118, 5)
+        Me.ucrBtnSave.Name = "ucrBtnSave"
+        Me.ucrBtnSave.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnSave.TabIndex = 33
+        '
+        'ucrBtnView
+        '
+        Me.ucrBtnView.ActionTypeId = 0
+        Me.ucrBtnView.ButtonText = "View"
+        Me.ucrBtnView.FieldName = Nothing
+        Me.ucrBtnView.KeyControl = False
+        Me.ucrBtnView.Location = New System.Drawing.Point(498, 5)
+        Me.ucrBtnView.Name = "ucrBtnView"
+        Me.ucrBtnView.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnView.TabIndex = 40
+        '
+        'ucrBtnClear
+        '
+        Me.ucrBtnClear.ActionTypeId = 0
+        Me.ucrBtnClear.ButtonText = "Clear"
+        Me.ucrBtnClear.FieldName = Nothing
+        Me.ucrBtnClear.KeyControl = False
+        Me.ucrBtnClear.Location = New System.Drawing.Point(403, 5)
+        Me.ucrBtnClear.Name = "ucrBtnClear"
+        Me.ucrBtnClear.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnClear.TabIndex = 39
+        '
+        'ucrBtnDelete
+        '
+        Me.ucrBtnDelete.ActionTypeId = 0
+        Me.ucrBtnDelete.ButtonText = "Delete"
+        Me.ucrBtnDelete.FieldName = Nothing
+        Me.ucrBtnDelete.KeyControl = False
+        Me.ucrBtnDelete.Location = New System.Drawing.Point(308, 5)
+        Me.ucrBtnDelete.Name = "ucrBtnDelete"
+        Me.ucrBtnDelete.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnDelete.TabIndex = 38
+        '
+        'ucrBtnUpdate
+        '
+        Me.ucrBtnUpdate.ActionTypeId = 0
+        Me.ucrBtnUpdate.ButtonText = "Update"
+        Me.ucrBtnUpdate.FieldName = Nothing
+        Me.ucrBtnUpdate.KeyControl = False
+        Me.ucrBtnUpdate.Location = New System.Drawing.Point(213, 5)
+        Me.ucrBtnUpdate.Name = "ucrBtnUpdate"
+        Me.ucrBtnUpdate.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnUpdate.TabIndex = 37
         '
         'ucrMetadataPaperArchiveNew
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.ucrNavigatorPaperArchive)
         Me.Controls.Add(Me.GroupBox13)
@@ -182,9 +182,9 @@ Partial Class ucrMetadataPaperArchiveNew
         Me.Controls.Add(Me.ucrTextboxNewFormID)
         Me.Controls.Add(Me.lblFormId)
         Me.Controls.Add(Me.Label7)
-        Me.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "ucrMetadataPaperArchiveNew"
-        Me.Size = New System.Drawing.Size(823, 389)
+        Me.Size = New System.Drawing.Size(617, 316)
         Me.GroupBox13.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -197,11 +197,11 @@ Partial Class ucrMetadataPaperArchiveNew
     Friend WithEvents lbldescri As Label
     Friend WithEvents ucrTextBoxNewDescription As ucrTextBoxNew
     Friend WithEvents GroupBox13 As GroupBox
-    Friend WithEvents btnClear As Button
-    Friend WithEvents btnView As Button
-    Friend WithEvents btnDelete As Button
-    Friend WithEvents btnUpdate As Button
-    Friend WithEvents btnSave As Button
-    Friend WithEvents btnAddNew As Button
     Friend WithEvents ucrNavigatorPaperArchive As ucrNavigator
+    Friend WithEvents ucrBtnAddNew As ucrButton
+    Friend WithEvents ucrBtnSave As ucrButton
+    Friend WithEvents ucrBtnView As ucrButton
+    Friend WithEvents ucrBtnClear As ucrButton
+    Friend WithEvents ucrBtnDelete As ucrButton
+    Friend WithEvents ucrBtnUpdate As ucrButton
 End Class

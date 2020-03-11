@@ -4,19 +4,15 @@
     Private iNwUpdateActionTypeID As Integer
     Private iNwAddNewActionTypeID As Integer
     Private iNwClearActionTypeID As Integer
-    Private iNwCancelActionTypeID As Integer
-    Private iNwUploadActionTypeID As Integer
     Private iNwViewActionTypeID As Integer
     Private Sub ucrMetadataPhysicalFeatureNew_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If bFirstLoad Then
-            SetUpButtonAddNew(btnAddNew, iNwAddNewActionTypeID)
-            SetUpButtonAddNew(btnCancel, iNwCancelActionTypeID)
-            SetUpButtonClear(btnClear, iNwClearActionTypeID)
-            SetUpButtonDelete(btnDelete, iNwDeleteActionTypeID)
-            SetUpButtonSave(btnSave, iNwSaveActionTypeID)
-            SetUpButtonUpdate(btnUpdate, iNwUpdateActionTypeID)
-            SetUpButtonUpload(btnUpload, iNwUploadActionTypeID)
-            SetUpButtonView(btnView, iNwViewActionTypeID)
+            SetUpButtonAddNew(ucrBtnAddNew, iNwAddNewActionTypeID)
+            SetUpButtonClear(ucrBtnClear, iNwClearActionTypeID)
+            SetUpButtonDelete(ucrBtnDelete, iNwDeleteActionTypeID)
+            SetUpButtonSave(ucrBtnSave, iNwSaveActionTypeID)
+            SetUpButtonUpdate(ucrBtnUpdate, iNwUpdateActionTypeID)
+            SetUpButtonView(ucrBtnView, iNwViewActionTypeID)
             SetUpNavigator(MyBase.ucrNavigator)
             SetUpValueControls()
 

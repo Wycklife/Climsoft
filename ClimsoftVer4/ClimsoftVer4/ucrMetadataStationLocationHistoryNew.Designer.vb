@@ -36,12 +36,6 @@ Partial Class ucrMetadataStationLocationHistoryNew
         Me.AdministrationRegionLabel = New System.Windows.Forms.Label()
         Me.DrainageBasinLabel = New System.Windows.Forms.Label()
         Me.grpCommandStationLocationHistory = New System.Windows.Forms.GroupBox()
-        Me.btnClear = New System.Windows.Forms.Button()
-        Me.btnAddNew = New System.Windows.Forms.Button()
-        Me.btnView = New System.Windows.Forms.Button()
-        Me.btnDelete = New System.Windows.Forms.Button()
-        Me.btnUpdate = New System.Windows.Forms.Button()
-        Me.btnSave = New System.Windows.Forms.Button()
         Me.ucrNavigator = New ClimsoftVer4.ucrNavigator()
         Me.ucrDatePickerOpeningDate = New ClimsoftVer4.ucrDatePickerNew()
         Me.ucrDatePickerClosingDate = New ClimsoftVer4.ucrDatePickerNew()
@@ -55,6 +49,12 @@ Partial Class ucrMetadataStationLocationHistoryNew
         Me.ucrTextBoxElevation = New ClimsoftVer4.ucrTextBoxNew()
         Me.ucrTextBoxAuthority = New ClimsoftVer4.ucrTextBoxNew()
         Me.ucrTextBoxDrainageBasin = New ClimsoftVer4.ucrTextBoxNew()
+        Me.ucrBtnView = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnDelete = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnUpdate = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnAddNew = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnSave = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnClear = New ClimsoftVer4.ucrButton()
         Me.grpCommandStationLocationHistory.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -178,71 +178,17 @@ Partial Class ucrMetadataStationLocationHistoryNew
         '
         'grpCommandStationLocationHistory
         '
-        Me.grpCommandStationLocationHistory.Controls.Add(Me.btnClear)
-        Me.grpCommandStationLocationHistory.Controls.Add(Me.btnAddNew)
-        Me.grpCommandStationLocationHistory.Controls.Add(Me.btnView)
-        Me.grpCommandStationLocationHistory.Controls.Add(Me.btnDelete)
-        Me.grpCommandStationLocationHistory.Controls.Add(Me.btnUpdate)
-        Me.grpCommandStationLocationHistory.Controls.Add(Me.btnSave)
+        Me.grpCommandStationLocationHistory.Controls.Add(Me.ucrBtnView)
+        Me.grpCommandStationLocationHistory.Controls.Add(Me.ucrBtnDelete)
+        Me.grpCommandStationLocationHistory.Controls.Add(Me.ucrBtnUpdate)
+        Me.grpCommandStationLocationHistory.Controls.Add(Me.ucrBtnAddNew)
+        Me.grpCommandStationLocationHistory.Controls.Add(Me.ucrBtnSave)
+        Me.grpCommandStationLocationHistory.Controls.Add(Me.ucrBtnClear)
         Me.grpCommandStationLocationHistory.Location = New System.Drawing.Point(37, 391)
         Me.grpCommandStationLocationHistory.Name = "grpCommandStationLocationHistory"
         Me.grpCommandStationLocationHistory.Size = New System.Drawing.Size(601, 31)
         Me.grpCommandStationLocationHistory.TabIndex = 25
         Me.grpCommandStationLocationHistory.TabStop = False
-        '
-        'btnClear
-        '
-        Me.btnClear.Location = New System.Drawing.Point(408, 6)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(75, 23)
-        Me.btnClear.TabIndex = 4
-        Me.btnClear.Text = "Clear"
-        Me.btnClear.UseVisualStyleBackColor = True
-        '
-        'btnAddNew
-        '
-        Me.btnAddNew.Location = New System.Drawing.Point(20, 4)
-        Me.btnAddNew.Name = "btnAddNew"
-        Me.btnAddNew.Size = New System.Drawing.Size(75, 23)
-        Me.btnAddNew.TabIndex = 0
-        Me.btnAddNew.Text = "AddNew"
-        Me.btnAddNew.UseVisualStyleBackColor = True
-        '
-        'btnView
-        '
-        Me.btnView.Location = New System.Drawing.Point(505, 5)
-        Me.btnView.Name = "btnView"
-        Me.btnView.Size = New System.Drawing.Size(75, 23)
-        Me.btnView.TabIndex = 5
-        Me.btnView.Text = "View"
-        Me.btnView.UseVisualStyleBackColor = True
-        '
-        'btnDelete
-        '
-        Me.btnDelete.Location = New System.Drawing.Point(311, 5)
-        Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(75, 23)
-        Me.btnDelete.TabIndex = 3
-        Me.btnDelete.Text = "Delete"
-        Me.btnDelete.UseVisualStyleBackColor = True
-        '
-        'btnUpdate
-        '
-        Me.btnUpdate.Location = New System.Drawing.Point(214, 5)
-        Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(75, 23)
-        Me.btnUpdate.TabIndex = 2
-        Me.btnUpdate.Text = "Update"
-        Me.btnUpdate.UseVisualStyleBackColor = True
-        '
-        'btnSave
-        '
-        Me.btnSave.Location = New System.Drawing.Point(117, 5)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(75, 23)
-        Me.btnSave.TabIndex = 1
-        Me.btnSave.Text = "Save"
-        Me.btnSave.UseVisualStyleBackColor = True
         '
         'ucrNavigator
         '
@@ -267,9 +213,9 @@ Partial Class ucrMetadataStationLocationHistoryNew
         '
         'ucrStationSelectorStation
         '
-        Me.ucrStationSelectorStation.Location = New System.Drawing.Point(271, 39)
+        Me.ucrStationSelectorStation.Location = New System.Drawing.Point(275, 39)
         Me.ucrStationSelectorStation.Name = "ucrStationSelectorStation"
-        Me.ucrStationSelectorStation.Size = New System.Drawing.Size(133, 27)
+        Me.ucrStationSelectorStation.Size = New System.Drawing.Size(129, 27)
         Me.ucrStationSelectorStation.TabIndex = 29
         '
         'ucrTextBoxStationType
@@ -344,6 +290,72 @@ Partial Class ucrMetadataStationLocationHistoryNew
         Me.ucrTextBoxDrainageBasin.TabIndex = 38
         Me.ucrTextBoxDrainageBasin.TextboxValue = ""
         '
+        'ucrBtnView
+        '
+        Me.ucrBtnView.ActionTypeId = 0
+        Me.ucrBtnView.ButtonText = "View"
+        Me.ucrBtnView.FieldName = Nothing
+        Me.ucrBtnView.KeyControl = False
+        Me.ucrBtnView.Location = New System.Drawing.Point(505, 5)
+        Me.ucrBtnView.Name = "ucrBtnView"
+        Me.ucrBtnView.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnView.TabIndex = 61
+        '
+        'ucrBtnDelete
+        '
+        Me.ucrBtnDelete.ActionTypeId = 0
+        Me.ucrBtnDelete.ButtonText = "Delete"
+        Me.ucrBtnDelete.FieldName = Nothing
+        Me.ucrBtnDelete.KeyControl = False
+        Me.ucrBtnDelete.Location = New System.Drawing.Point(311, 5)
+        Me.ucrBtnDelete.Name = "ucrBtnDelete"
+        Me.ucrBtnDelete.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnDelete.TabIndex = 63
+        '
+        'ucrBtnUpdate
+        '
+        Me.ucrBtnUpdate.ActionTypeId = 0
+        Me.ucrBtnUpdate.ButtonText = "Update"
+        Me.ucrBtnUpdate.FieldName = Nothing
+        Me.ucrBtnUpdate.KeyControl = False
+        Me.ucrBtnUpdate.Location = New System.Drawing.Point(214, 5)
+        Me.ucrBtnUpdate.Name = "ucrBtnUpdate"
+        Me.ucrBtnUpdate.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnUpdate.TabIndex = 64
+        '
+        'ucrBtnAddNew
+        '
+        Me.ucrBtnAddNew.ActionTypeId = 0
+        Me.ucrBtnAddNew.ButtonText = "AdddNew"
+        Me.ucrBtnAddNew.FieldName = Nothing
+        Me.ucrBtnAddNew.KeyControl = False
+        Me.ucrBtnAddNew.Location = New System.Drawing.Point(20, 4)
+        Me.ucrBtnAddNew.Name = "ucrBtnAddNew"
+        Me.ucrBtnAddNew.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnAddNew.TabIndex = 59
+        '
+        'ucrBtnSave
+        '
+        Me.ucrBtnSave.ActionTypeId = 0
+        Me.ucrBtnSave.ButtonText = "Save"
+        Me.ucrBtnSave.FieldName = Nothing
+        Me.ucrBtnSave.KeyControl = False
+        Me.ucrBtnSave.Location = New System.Drawing.Point(117, 5)
+        Me.ucrBtnSave.Name = "ucrBtnSave"
+        Me.ucrBtnSave.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnSave.TabIndex = 60
+        '
+        'ucrBtnClear
+        '
+        Me.ucrBtnClear.ActionTypeId = 0
+        Me.ucrBtnClear.ButtonText = "Clear"
+        Me.ucrBtnClear.FieldName = Nothing
+        Me.ucrBtnClear.KeyControl = False
+        Me.ucrBtnClear.Location = New System.Drawing.Point(408, 6)
+        Me.ucrBtnClear.Name = "ucrBtnClear"
+        Me.ucrBtnClear.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnClear.TabIndex = 62
+        '
         'ucrMetadataStationLocationHistoryNew
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -397,12 +409,6 @@ Partial Class ucrMetadataStationLocationHistoryNew
     Friend WithEvents AdministrationRegionLabel As Label
     Friend WithEvents DrainageBasinLabel As Label
     Friend WithEvents grpCommandStationLocationHistory As GroupBox
-    Friend WithEvents btnClear As Button
-    Friend WithEvents btnAddNew As Button
-    Friend WithEvents btnView As Button
-    Friend WithEvents btnDelete As Button
-    Friend WithEvents btnUpdate As Button
-    Friend WithEvents btnSave As Button
     Friend WithEvents ucrNavigator As ucrNavigator
     Friend WithEvents ucrDatePickerOpeningDate As ucrDatePickerNew
     Friend WithEvents ucrDatePickerClosingDate As ucrDatePickerNew
@@ -416,4 +422,10 @@ Partial Class ucrMetadataStationLocationHistoryNew
     Friend WithEvents ucrTextBoxElevation As ucrTextBoxNew
     Friend WithEvents ucrTextBoxAuthority As ucrTextBoxNew
     Friend WithEvents ucrTextBoxDrainageBasin As ucrTextBoxNew
+    Friend WithEvents ucrBtnView As ucrButton
+    Friend WithEvents ucrBtnDelete As ucrButton
+    Friend WithEvents ucrBtnUpdate As ucrButton
+    Friend WithEvents ucrBtnAddNew As ucrButton
+    Friend WithEvents ucrBtnSave As ucrButton
+    Friend WithEvents ucrBtnClear As ucrButton
 End Class

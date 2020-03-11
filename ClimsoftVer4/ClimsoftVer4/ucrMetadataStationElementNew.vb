@@ -1,22 +1,12 @@
 ﻿Public Class ucrMetadataStationElementNew
-    Private iNwSaveActionTypeID As Integer
-    Private iNwDeleteActionTypeID As Integer
-    Private iNwUpdateActionTypeID As Integer
-    Private iNwAddNewActionTypeID As Integer
-    Private iNwClearActionTypeID As Integer
-    Private iNwCancelActionTypeID As Integer
-    Private iNwUploadActionTypeID As Integer
-    Private iNwViewActionTypeID As Integer
     Private Sub ucrMetadataStationElementNew_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If bFirstLoad Then
-            SetUpButtonAddNew(btnAddNew, iNwAddNewActionTypeID)
-            SetUpButtonCancel(btnCancel, iNwCancelActionTypeID)
-            SetUpButtonClear(btnClear, iNwClearActionTypeID)
-            SetUpButtonDelete(btnDelete, iNwDeleteActionTypeID)
-            SetUpButtonSave(btnSave, iNwSaveActionTypeID)
-            SetUpButtonUpdate(btnUpdate, iNwUpdateActionTypeID)
-            SetUpButtonUpload(btnUpload, iNwUploadActionTypeID)
-            SetUpButtonView(btnView, iNwViewActionTypeID)
+            SetUpButtonAddNew(ucrBtnAddNew, ucrBtnAddNew.ActionTypeId)
+            SetUpButtonClear(ucrBtnClear, ucrBtnClear.ActionTypeId)
+            SetUpButtonDelete(ucrBtnDelete, ucrBtnDelete.ActionTypeId)
+            SetUpButtonSave(ucrBtnSave, ucrBtnSave.ActionTypeId)
+            SetUpButtonUpdate(ucrBtnUpdate, ucrBtnUpdate.ActionTypeId)
+            SetUpButtonView(ucrBtnView, ucrBtnView.ActionTypeId)
             SetUpValueControls()
             SetUpNavigator(ucrNavigator)
 
