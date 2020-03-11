@@ -806,12 +806,6 @@
     <Compile Include="ucrMetadataStationNew.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucrMetadataStationocationHistory.Designer.vb">
-      <DependentUpon>ucrMetadataStationocationHistory.vb</DependentUpon>
-    </Compile>
-    <Compile Include="ucrMetadataStationocationHistory.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Include="ucrMetadataStationQualifierNew.Designer.vb">
       <DependentUpon>ucrMetadataStationQualifierNew.vb</DependentUpon>
     </Compile>

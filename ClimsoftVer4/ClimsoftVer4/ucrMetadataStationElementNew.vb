@@ -1,12 +1,12 @@
 ﻿Public Class ucrMetadataStationElementNew
     Private Sub ucrMetadataStationElementNew_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If bFirstLoad Then
-            SetUpButtonAddNew(ucrBtnAddNew, ucrBtnAddNew.ActionTypeId)
-            SetUpButtonClear(ucrBtnClear, ucrBtnClear.ActionTypeId)
-            SetUpButtonDelete(ucrBtnDelete, ucrBtnDelete.ActionTypeId)
-            SetUpButtonSave(ucrBtnSave, ucrBtnSave.ActionTypeId)
-            SetUpButtonUpdate(ucrBtnUpdate, ucrBtnUpdate.ActionTypeId)
-            SetUpButtonView(ucrBtnView, ucrBtnView.ActionTypeId)
+            SetUpButtonAddNew(ucrBtnAddNew)
+            SetUpButtonClear(ucrBtnClear)
+            SetUpButtonDelete(ucrBtnDelete)
+            SetUpButtonSave(ucrBtnSave)
+            SetUpButtonUpdate(ucrBtnUpdate)
+            SetUpButtonView(ucrBtnView)
             SetUpValueControls()
             SetUpNavigator(ucrNavigator)
 

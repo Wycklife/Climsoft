@@ -26,48 +26,48 @@
         End If
     End Sub
 
-    Public Sub SetUpButtonAddNew(newBtn As ucrButton, iNewAddNewActionTypeID As Integer)
+    Public Sub SetUpButtonAddNew(newBtn As ucrButton)
         btnAddNew = newBtn
-        iAddNewActionTypeID = iNewAddNewActionTypeID
+        iAddNewActionTypeID = newBtn.ActionTypeId
     End Sub
 
-    Public Sub SetUpButtonSave(newBtn As ucrButton, iNewSaveActionTypeID As Integer)
+    Public Sub SetUpButtonSave(newBtn As ucrButton)
         btnSave = newBtn
-        iSaveActionTypeID = iNewSaveActionTypeID
+        iSaveActionTypeID = newBtn.ActionTypeId
     End Sub
 
-    Public Sub SetUpButtonUpdate(newBtn As ucrButton, iNewUpdateActionTypeID As Integer)
+    Public Sub SetUpButtonUpdate(newBtn As ucrButton)
         btnUpdate = newBtn
-        iUpdateActionTypeID = iNewUpdateActionTypeID
+        iUpdateActionTypeID = newBtn.ActionTypeId
     End Sub
 
-    Public Sub SetUpButtonDelete(newBtn As ucrButton, iNewDeleteActionTypeID As Integer)
+    Public Sub SetUpButtonDelete(newBtn As ucrButton)
         btnDelete = newBtn
-        iDeleteActionTypeID = iNewDeleteActionTypeID
+        iDeleteActionTypeID = newBtn.ActionTypeId
     End Sub
 
-    Public Sub SetUpButtonClear(newBtn As ucrButton, iNewClearActionTypeID As Integer)
+    Public Sub SetUpButtonClear(newBtn As ucrButton)
         btnClear = newBtn
-        iClearActionTypeID = iNewClearActionTypeID
+        iClearActionTypeID = newBtn.ActionTypeId
     End Sub
 
-    Public Sub SetUpButtonImport(newBtn As ucrButton, iNewImportActionTypeID As Integer)
+    Public Sub SetUpButtonImport(newBtn As ucrButton)
         btnClear = newBtn
-        iClearActionTypeID = iNewImportActionTypeID
+        iClearActionTypeID = newBtn.ActionTypeId
     End Sub
-    Public Sub SetUpButtonCancel(newBtn As ucrButton, iNewCancelActionTypeID As Integer)
+    Public Sub SetUpButtonCancel(newBtn As ucrButton)
         btnCancel = newBtn
-        iCancelActionTypeID = iNewCancelActionTypeID
+        iCancelActionTypeID = newBtn.ActionTypeId
     End Sub
 
-    Public Sub SetUpButtonView(newBtn As ucrButton, iNewViewActionTypeID As Integer)
+    Public Sub SetUpButtonView(newBtn As ucrButton)
         btnView = newBtn
-        iViewActionTypeID = iNewViewActionTypeID
+        iViewActionTypeID = newBtn.ActionTypeId
     End Sub
 
-    Public Sub SetUpButtonUpload(newBtn As ucrButton, iNewUploadActionTypeID As Integer)
+    Public Sub SetUpButtonUpload(newBtn As ucrButton)
         btnUpload = newBtn
-        iUpdateActionTypeID = iNewUploadActionTypeID
+        iUpdateActionTypeID = newBtn.ActionTypeId
     End Sub
 
     Public Sub SetUpNavigator(newUcrNavigator As ucrNavigator)

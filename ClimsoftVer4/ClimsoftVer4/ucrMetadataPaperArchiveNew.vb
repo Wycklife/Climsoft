@@ -2,12 +2,12 @@
     Private Sub ucrMetadataPaperArchiveNew_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If bFirstLoad Then
 
-            SetUpButtonAddNew(ucrBtnAddNew, ucrBtnAddNew.ActionTypeId)
-            SetUpButtonSave(ucrBtnSave, ucrBtnSave.ActionTypeId)
-            SetUpButtonUpdate(ucrBtnUpdate, ucrBtnUpdate.ActionTypeId)
-            SetUpButtonDelete(ucrBtnDelete, ucrBtnDelete.ActionTypeId)
-            SetUpButtonClear(ucrBtnClear, ucrBtnClear.ActionTypeId)
-            SetUpButtonView(ucrBtnView, ucrBtnView.ActionTypeId)
+            SetUpButtonAddNew(ucrBtnAddNew)
+            SetUpButtonSave(ucrBtnSave)
+            SetUpButtonUpdate(ucrBtnUpdate)
+            SetUpButtonDelete(ucrBtnDelete)
+            SetUpButtonClear(ucrBtnClear)
+            SetUpButtonView(ucrBtnView)
 
             'todo pass in the data identifier here in place of nothing.
             'This will be used by the data definition

@@ -1,12 +1,12 @@
 ﻿Public Class ucrMetadataStationLocationHistoryNew
     Private Sub ucrMetadataStationLocationHistoryNew_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If bFirstLoad Then
-            SetUpButtonAddNew(ucrBtnAddNew, ucrBtnAddNew.ActionTypeId)
-            SetUpButtonCancel(ucrBtnClear, ucrBtnClear.ActionTypeId)
-            SetUpButtonDelete(ucrBtnDelete, ucrBtnDelete.ActionTypeId)
-            SetUpButtonSave(ucrBtnSave, ucrBtnSave.ActionTypeId)
-            SetUpButtonUpdate(ucrBtnUpdate, ucrBtnUpdate.ActionTypeId)
-            SetUpButtonView(ucrBtnView, ucrBtnView.ActionTypeId)
+            SetUpButtonAddNew(ucrBtnAddNew)
+            SetUpButtonCancel(ucrBtnClear)
+            SetUpButtonDelete(ucrBtnDelete)
+            SetUpButtonSave(ucrBtnSave)
+            SetUpButtonUpdate(ucrBtnUpdate)
+            SetUpButtonView(ucrBtnView)
             SetUpNavigator(ucrNavigator)
             SetUpValueControls()
 

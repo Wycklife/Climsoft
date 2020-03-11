@@ -2,13 +2,13 @@
     Private Sub ucrMetadataStationNew_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If bFirstLoad Then
 
-            SetUpButtonAddNew(ucrBtnAddNew, ucrBtnAddNew.ActionTypeId)
-            SetUpButtonSave(ucrBtnSave, ucrBtnSave.ActionTypeId)
-            SetUpButtonClear(ucrBtnClear, ucrBtnClear.ActionTypeId)
-            SetUpButtonDelete(ucrBtnDelete, ucrBtnDelete.ActionTypeId)
-            SetUpButtonUpdate(ucrBtnUpdate, ucrBtnUpdate.ActionTypeId)
-            SetUpButtonImport(ucrBtnImport, ucrBtnImport.ActionTypeId)
-            SetUpButtonView(ucrBtnView, ucrBtnView.ActionTypeId)
+            SetUpButtonAddNew(ucrBtnAddNew)
+            SetUpButtonSave(ucrBtnSave)
+            SetUpButtonClear(ucrBtnClear)
+            SetUpButtonDelete(ucrBtnDelete)
+            SetUpButtonUpdate(ucrBtnUpdate)
+            SetUpButtonImport(ucrBtnImport)
+            SetUpButtonView(ucrBtnView)
             SetUpNavigator(ucrNavigator)
 
             'todo pass in the data identifier here in place of nothing. 
