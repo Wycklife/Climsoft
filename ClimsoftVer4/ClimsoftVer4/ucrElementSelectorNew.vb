@@ -1,35 +1,88 @@
 ﻿Public Class ucrElementSelectorNew
+    Private ucrLinkedStation As ucrStationSelectorNew
+    Private ucrLinkedInstrument As ucrInstrumentSelectorNew
+
+    Public Sub setInstrumentLink(ucrInstrumentSelector As ucrInstrumentSelectorNew)
+        ucrLinkedInstrument = ucrInstrumentSelector
+        AddHandler ucrLinkedInstrument.evtValueChanged, AddressOf InstrumentEvtValueChanged
+    End Sub
+
+    Public Sub SetStationLink(ucrStationSelector As ucrStationSelectorNew)
+        ucrLinkedStation = ucrStationSelector
+        AddHandler ucrLinkedStation.evtValueChanged, AddressOf StationEvtValueChanged
+    End Sub
+    Private Sub StationEvtValueChanged()
+        'TODO.Filter out the stations with the specific elements and update the station selectors combo box with the 
+        'relevant stations
+    End Sub
+
+    Private Sub InstrumentEvtValueChanged()
+        'TODO.Filter out the instrument for the seleected element and update the instrument selector with those 
+        'instrument
+    End Sub
+
+    Public Overrides Sub PopulateControl()
+        'TODO Fills the elementSelector combobox with the list of elements
+
+    End Sub
+
     Public Overrides Function ValidateValue() As Boolean
-        Dim bValid As Boolean
-        'TODO validate values while setting the back color to indicate if the value is valid or invalid
-        Return bValid
+        'TODO..Validates the user input values
     End Function
 
     Public Sub SetViewTypeAsElements()
-        'TODO set view type as the element name
+        'TODO. Refer to the SetDisplayMember(),in UcrComboBoxNew,while passing in the elementNames to get the list of specified IDS
+        'SetDisplayMember(strElementName)
     End Sub
 
     Public Sub SetViewTypeAsIDs()
-        'TODO set the view type as the element ID
+        'TODO. Refer to the SetDisplayMember(),in UcrComboBoxNew,while passing in theelementID to get the list of specified IDS
+        'SetDisplayMember(strElementId)
     End Sub
 
     Public Sub SetViewTypeAsIDsAndElements()
-        'TODO set the view type as the elements ID and element name
+        'TODO. Refer to the SetDisplayMember(),in UcrComboBoxNew,while passing in the element names and IDs to get the list of specified IDS
+        'SetDisplayMember(strIDsAndElements)
     End Sub
 
     Private Sub SortByID()
-        'TODO sort by the elemnts ID using the sortBY() function
+        'use the sortBy(),with ElementID as the argument,function in ucrComboboxNew to sort the Elements
         'SortBy(strElementId)
-        cmsElementSortByID.Checked = True
-        cmsElementSortyByName.Checked = False
+        'cmsElementSortByID.Checked = True
+        'cmsElementSortyByName.Checked = False
     End Sub
 
     Private Sub SortByElementName()
-        'TODO sort by the elemnts Name using the ,sortBY(), function
-        'SortBy(strElementId)
+        'use the sortBy(),with ElementName as the argument,function in ucrComboboxNew to sort the Elements
         'SortBy(strElementName)
-        cmsElementSortByID.Checked = False
-        cmsElementSortyByName.Checked = True
+        'cmsElementSortByID.Checked = False
+        'cmsElementSortyByName.Checked = True
     End Sub
 
+    Private Sub cmsElementsNames_Click(sender As Object, e As EventArgs) Handles cmsElementNames.Click
+        SetViewTypeAsElements()
+    End Sub
+
+    Private Sub cmsElementIDs_Click(sender As Object, e As EventArgs) Handles cmsElementIDs.Click
+        SetViewTypeAsIDs()
+    End Sub
+
+    Private Sub cmsElemntIDName_Click(sender As Object, e As EventArgs) Handles cmsElementIDAndStation.Click
+        SetViewTypeAsIDsAndElements()
+    End Sub
+
+    Private Sub tsmSortByID_Click(sender As Object, e As EventArgs) Handles cmsElementSortByID.Click
+        SortByID()
+    End Sub
+
+    Private Sub cmsElementSortyByName_Click(sender As Object, e As EventArgs) Handles cmsElementSortyByName.Click
+        SortByElementName()
+    End Sub
+
+    Private Sub cmsElementsFilter_Click(sender As Object, e As EventArgs) Handles cmsFilterElements.Click
+        ' TODOD SetDataTable() in sdgFilter needs to be created
+        'sdgFilter.SetDataTable(dtbElements)
+        'sdgFilter.ShowDialog()
+        'PopulateControl()
+    End Sub
 End Class
