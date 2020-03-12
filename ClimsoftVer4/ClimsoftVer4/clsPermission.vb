@@ -10,57 +10,57 @@
     End Function
 
 
-    Public Function IsMenuAdministrationDisabled() As Boolean
+    Public Function IsMenuAdministrationEnabled() As Boolean
         'todo.
         Return False
     End Function
 
-    Public Function IsMenuToolsDisabled() As Boolean
+    Public Function IsMenuToolsEnabled() As Boolean
         'todo.
         Return False
     End Function
 
-    Public Function IsMenuLanguageTranslationsDisabled() As Boolean
+    Public Function IsMenuLanguageTranslationsEnabled() As Boolean
         'todo.
         Return False
     End Function
 
-    Public Function IsMenuQCsDisabled() As Boolean
+    Public Function IsMenuQCsEnabled() As Boolean
         'todo.
         Return False
     End Function
 
-    Public Function IsMenuSettingsAwsDisabled() As Boolean
+    Public Function IsMenuSettingsAwsEnabled() As Boolean
         'todo.
         Return False
     End Function
 
-    Public Function IsMenuUserManagementDisabled() As Boolean
+    Public Function IsMenuUserManagementEnabled() As Boolean
         'todo.
         Return False
     End Function
 
-    Public Function IsMenuProductsDisabled() As Boolean
+    Public Function IsMenuProductsEnabled() As Boolean
         'todo.
         Return False
     End Function
 
-    Public Function IsMenuMetadataDisabled() As Boolean
+    Public Function IsMenuMetadataEnabled() As Boolean
         'todo.
         Return False
     End Function
 
-    Public Function IsMenuDatatransferDisabled() As Boolean
+    Public Function IsMenuDatatransferEnabled() As Boolean
         'todo.
         Return False
     End Function
 
-    Public Function IsMenuKeyEntryDisabled() As Boolean
+    Public Function IsMenuKeyEntryEnabled() As Boolean
         'todo.
         Return False
     End Function
 
-    Public Function IsMenuPaperArchiveDisabled() As Boolean
+    Public Function IsMenuPaperArchiveEnabled() As Boolean
         'todo.
         Return False
     End Function
