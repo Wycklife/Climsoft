@@ -2,14 +2,14 @@
     Protected bFirstLoad As Boolean = True
     Protected lstUcrValues As New List(Of ucrValue)
     Protected ucrNavigator As ucrNavigator
-    Protected WithEvents btnAddNew As Button
-    Protected WithEvents btnSave As Button
-    Protected WithEvents btnUpdate As Button
-    Protected WithEvents btnDelete As Button
-    Protected WithEvents btnClear As Button
-    Protected WithEvents btnCancel As Button
-    Protected WithEvents btnView As Button
-    Protected WithEvents btnUpload As Button
+    Protected WithEvents btnAddNew As ucrButton
+    Protected WithEvents btnSave As ucrButton
+    Protected WithEvents btnUpdate As ucrButton
+    Protected WithEvents btnDelete As ucrButton
+    Protected WithEvents btnClear As ucrButton
+    Protected WithEvents btnCancel As ucrButton
+    Protected WithEvents btnView As ucrButton
+    Protected WithEvents btnUpload As ucrButton
     Protected iSaveActionTypeID As Integer
     Protected iDeleteActionTypeID As Integer
     Protected iUpdateActionTypeID As Integer
@@ -26,44 +26,49 @@
         End If
     End Sub
 
-    Public Sub SetUpButtonAddNew(newBtn As Button, iNewAddNewActionTypeID As Integer)
-        btnAddNew = newBtn
-        iAddNewActionTypeID = iNewAddNewActionTypeID
+    Public Sub SetUpButtonAddNew(newAddNewBtn As ucrButton)
+        btnAddNew = newAddNewBtn
+        iAddNewActionTypeID = newAddNewBtn.ActionTypeId
     End Sub
 
-    Public Sub SetUpButtonSave(newBtn As Button, iNewSaveActionTypeID As Integer)
-        btnSave = newBtn
-        iSaveActionTypeID = iNewSaveActionTypeID
+    Public Sub SetUpButtonSave(newSaveBtn As ucrButton)
+        btnSave = newSaveBtn
+        iSaveActionTypeID = newSaveBtn.ActionTypeId
     End Sub
 
-    Public Sub SetUpButtonUpdate(newBtn As Button, iNewUpdateActionTypeID As Integer)
-        btnUpdate = newBtn
-        iUpdateActionTypeID = iNewUpdateActionTypeID
+    Public Sub SetUpButtonUpdate(newUpdateBtn As ucrButton)
+        btnUpdate = newUpdateBtn
+        iUpdateActionTypeID = newUpdateBtn.ActionTypeId
     End Sub
 
-    Public Sub SetUpButtonDelete(newBtn As Button, iNewDeleteActionTypeID As Integer)
-        btnDelete = newBtn
-        iDeleteActionTypeID = iNewDeleteActionTypeID
+    Public Sub SetUpButtonDelete(newDeleteBtn As ucrButton)
+        btnDelete = newDeleteBtn
+        iDeleteActionTypeID = newDeleteBtn.ActionTypeId
     End Sub
 
-    Public Sub SetUpButtonClear(newBtn As Button, iNewClearActionTypeID As Integer)
-        btnClear = newBtn
-        iClearActionTypeID = iNewClearActionTypeID
+    Public Sub SetUpButtonClear(newClearBtn As ucrButton)
+        btnClear = newClearBtn
+        iClearActionTypeID = newClearBtn.ActionTypeId
     End Sub
 
-    Public Sub SetUpButtonCancel(newBtn As Button, iNewCancelActionTypeID As Integer)
-        btnCancel = newBtn
-        iCancelActionTypeID = iNewCancelActionTypeID
+    Public Sub SetUpButtonCancel(newCancelBtn As ucrButton)
+        btnCancel = newCancelBtn
+        iCancelActionTypeID = newCancelBtn.ActionTypeId
     End Sub
 
-    Public Sub SetUpButtonView(newBtn As Button, iNewViewActionTypeID As Integer)
-        btnView = newBtn
-        iViewActionTypeID = iNewViewActionTypeID
+    Public Sub SetUpButtonView(newViewBtn As ucrButton)
+        btnView = newViewBtn
+        iViewActionTypeID = newViewBtn.ActionTypeId
     End Sub
 
-    Public Sub SetUpButtonUpload(newBtn As Button, iNewUploadActionTypeID As Integer)
-        btnUpload = newBtn
-        iUpdateActionTypeID = iNewUploadActionTypeID
+    Public Sub SetUpButtonUpload(newUploadBtn As ucrButton)
+        btnUpload = newUploadBtn
+        iUpdateActionTypeID = newUploadBtn.ActionTypeId
+    End Sub
+
+    Public Sub SetUpButtonImport(newImportBtn As ucrButton)
+        btnUpload = newImportBtn
+        iUpdateActionTypeID = newImportBtn.ActionTypeId
     End Sub
 
     Public Sub SetUpNavigator(newUcrNavigator As ucrNavigator)

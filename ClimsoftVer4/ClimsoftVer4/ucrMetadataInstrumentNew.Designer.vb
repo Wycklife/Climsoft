@@ -49,16 +49,16 @@ Partial Class ucrMetadataInstrumentNew
         Me.ucrTextBoxNewImageFile = New ClimsoftVer4.ucrTextBoxNew()
         Me.btnOpenFile = New System.Windows.Forms.Button()
         Me.grpCommand2 = New System.Windows.Forms.GroupBox()
-        Me.btnClear = New System.Windows.Forms.Button()
-        Me.btnAddNew = New System.Windows.Forms.Button()
-        Me.btnView = New System.Windows.Forms.Button()
-        Me.btnDelete = New System.Windows.Forms.Button()
-        Me.btnUpdate = New System.Windows.Forms.Button()
-        Me.btnSave = New System.Windows.Forms.Button()
         Me.ucrNavigatorInstrument = New ClimsoftVer4.ucrNavigator()
         Me.pbInstrument = New System.Windows.Forms.PictureBox()
         Me.lblInstrumentPic = New System.Windows.Forms.Label()
         Me.lblInstruments = New System.Windows.Forms.Label()
+        Me.ucrBtnDelete = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnClear = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnView = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnAddNew = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnUpdate = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnSave = New ClimsoftVer4.ucrButton()
         Me.grpCommand2.SuspendLayout()
         CType(Me.pbInstrument, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -66,328 +66,251 @@ Partial Class ucrMetadataInstrumentNew
         'lblInstrumentID
         '
         Me.lblInstrumentID.AutoSize = True
-        Me.lblInstrumentID.Location = New System.Drawing.Point(39, 66)
-        Me.lblInstrumentID.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblInstrumentID.Location = New System.Drawing.Point(29, 54)
         Me.lblInstrumentID.Name = "lblInstrumentID"
-        Me.lblInstrumentID.Size = New System.Drawing.Size(91, 17)
+        Me.lblInstrumentID.Size = New System.Drawing.Size(70, 13)
         Me.lblInstrumentID.TabIndex = 2
         Me.lblInstrumentID.Text = "Instrument ID"
         '
         'ucrDatalinkInstrument
         '
-        Me.ucrDatalinkInstrument.Location = New System.Drawing.Point(176, 57)
-        Me.ucrDatalinkInstrument.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.ucrDatalinkInstrument.Location = New System.Drawing.Point(132, 46)
+        Me.ucrDatalinkInstrument.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ucrDatalinkInstrument.Name = "ucrDatalinkInstrument"
-        Me.ucrDatalinkInstrument.Size = New System.Drawing.Size(185, 26)
+        Me.ucrDatalinkInstrument.Size = New System.Drawing.Size(139, 21)
         Me.ucrDatalinkInstrument.TabIndex = 3
         '
         'lblInstrumentName
         '
         Me.lblInstrumentName.AutoSize = True
-        Me.lblInstrumentName.Location = New System.Drawing.Point(39, 101)
-        Me.lblInstrumentName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblInstrumentName.Location = New System.Drawing.Point(29, 82)
         Me.lblInstrumentName.Name = "lblInstrumentName"
-        Me.lblInstrumentName.Size = New System.Drawing.Size(45, 17)
+        Me.lblInstrumentName.Size = New System.Drawing.Size(35, 13)
         Me.lblInstrumentName.TabIndex = 4
         Me.lblInstrumentName.Text = "Name"
         '
         'ucrTextBoxNewInstrumentName
         '
-        Me.ucrTextBoxNewInstrumentName.Location = New System.Drawing.Point(176, 92)
-        Me.ucrTextBoxNewInstrumentName.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.ucrTextBoxNewInstrumentName.Location = New System.Drawing.Point(132, 75)
+        Me.ucrTextBoxNewInstrumentName.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ucrTextBoxNewInstrumentName.Name = "ucrTextBoxNewInstrumentName"
-        Me.ucrTextBoxNewInstrumentName.Size = New System.Drawing.Size(185, 25)
+        Me.ucrTextBoxNewInstrumentName.Size = New System.Drawing.Size(139, 20)
         Me.ucrTextBoxNewInstrumentName.TabIndex = 5
         Me.ucrTextBoxNewInstrumentName.TextboxValue = ""
         '
         'lblInstrumentAbbreviation
         '
         Me.lblInstrumentAbbreviation.AutoSize = True
-        Me.lblInstrumentAbbreviation.Location = New System.Drawing.Point(39, 135)
-        Me.lblInstrumentAbbreviation.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblInstrumentAbbreviation.Location = New System.Drawing.Point(29, 110)
         Me.lblInstrumentAbbreviation.Name = "lblInstrumentAbbreviation"
-        Me.lblInstrumentAbbreviation.Size = New System.Drawing.Size(87, 17)
+        Me.lblInstrumentAbbreviation.Size = New System.Drawing.Size(66, 13)
         Me.lblInstrumentAbbreviation.TabIndex = 6
         Me.lblInstrumentAbbreviation.Text = "Abbreviation"
         '
         'ucrTextBoxNewAbbreviation
         '
-        Me.ucrTextBoxNewAbbreviation.Location = New System.Drawing.Point(176, 133)
-        Me.ucrTextBoxNewAbbreviation.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.ucrTextBoxNewAbbreviation.Location = New System.Drawing.Point(132, 108)
+        Me.ucrTextBoxNewAbbreviation.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ucrTextBoxNewAbbreviation.Name = "ucrTextBoxNewAbbreviation"
-        Me.ucrTextBoxNewAbbreviation.Size = New System.Drawing.Size(185, 25)
+        Me.ucrTextBoxNewAbbreviation.Size = New System.Drawing.Size(139, 20)
         Me.ucrTextBoxNewAbbreviation.TabIndex = 7
         Me.ucrTextBoxNewAbbreviation.TextboxValue = ""
         '
         'lbStationID
         '
         Me.lbStationID.AutoSize = True
-        Me.lbStationID.Location = New System.Drawing.Point(39, 170)
-        Me.lbStationID.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lbStationID.Location = New System.Drawing.Point(29, 138)
         Me.lbStationID.Name = "lbStationID"
-        Me.lbStationID.Size = New System.Drawing.Size(69, 17)
+        Me.lbStationID.Size = New System.Drawing.Size(54, 13)
         Me.lbStationID.TabIndex = 8
         Me.lbStationID.Text = "Station ID"
         '
         'ucrStationSelector
         '
-        Me.ucrStationSelector.Location = New System.Drawing.Point(176, 170)
-        Me.ucrStationSelector.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.ucrStationSelector.Location = New System.Drawing.Point(132, 138)
+        Me.ucrStationSelector.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ucrStationSelector.Name = "ucrStationSelector"
-        Me.ucrStationSelector.Size = New System.Drawing.Size(185, 26)
+        Me.ucrStationSelector.Size = New System.Drawing.Size(139, 21)
         Me.ucrStationSelector.TabIndex = 9
         '
         'lblSerialNumber
         '
         Me.lblSerialNumber.AutoSize = True
-        Me.lblSerialNumber.Location = New System.Drawing.Point(39, 204)
-        Me.lblSerialNumber.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblSerialNumber.Location = New System.Drawing.Point(29, 166)
         Me.lblSerialNumber.Name = "lblSerialNumber"
-        Me.lblSerialNumber.Size = New System.Drawing.Size(98, 17)
+        Me.lblSerialNumber.Size = New System.Drawing.Size(73, 13)
         Me.lblSerialNumber.TabIndex = 10
         Me.lblSerialNumber.Text = "Serial Number"
         '
         'ucrTextBoxNewSerialNumber
         '
-        Me.ucrTextBoxNewSerialNumber.Location = New System.Drawing.Point(176, 204)
-        Me.ucrTextBoxNewSerialNumber.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.ucrTextBoxNewSerialNumber.Location = New System.Drawing.Point(132, 166)
+        Me.ucrTextBoxNewSerialNumber.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ucrTextBoxNewSerialNumber.Name = "ucrTextBoxNewSerialNumber"
-        Me.ucrTextBoxNewSerialNumber.Size = New System.Drawing.Size(185, 25)
+        Me.ucrTextBoxNewSerialNumber.Size = New System.Drawing.Size(139, 20)
         Me.ucrTextBoxNewSerialNumber.TabIndex = 11
         Me.ucrTextBoxNewSerialNumber.TextboxValue = ""
         '
         'lblModel
         '
         Me.lblModel.AutoSize = True
-        Me.lblModel.Location = New System.Drawing.Point(39, 239)
-        Me.lblModel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblModel.Location = New System.Drawing.Point(29, 194)
         Me.lblModel.Name = "lblModel"
-        Me.lblModel.Size = New System.Drawing.Size(46, 17)
+        Me.lblModel.Size = New System.Drawing.Size(36, 13)
         Me.lblModel.TabIndex = 12
         Me.lblModel.Text = "Model"
         '
         'ucrTextBoxNewModel
         '
-        Me.ucrTextBoxNewModel.Location = New System.Drawing.Point(176, 239)
-        Me.ucrTextBoxNewModel.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.ucrTextBoxNewModel.Location = New System.Drawing.Point(132, 194)
+        Me.ucrTextBoxNewModel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ucrTextBoxNewModel.Name = "ucrTextBoxNewModel"
-        Me.ucrTextBoxNewModel.Size = New System.Drawing.Size(185, 25)
+        Me.ucrTextBoxNewModel.Size = New System.Drawing.Size(139, 20)
         Me.ucrTextBoxNewModel.TabIndex = 13
         Me.ucrTextBoxNewModel.TextboxValue = ""
         '
         'lblManufacturer
         '
         Me.lblManufacturer.AutoSize = True
-        Me.lblManufacturer.Location = New System.Drawing.Point(39, 273)
-        Me.lblManufacturer.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblManufacturer.Location = New System.Drawing.Point(29, 222)
         Me.lblManufacturer.Name = "lblManufacturer"
-        Me.lblManufacturer.Size = New System.Drawing.Size(92, 17)
+        Me.lblManufacturer.Size = New System.Drawing.Size(70, 13)
         Me.lblManufacturer.TabIndex = 14
         Me.lblManufacturer.Text = "Manufacturer"
         '
         'ucrTextBoxNewManufacturer
         '
-        Me.ucrTextBoxNewManufacturer.Location = New System.Drawing.Point(176, 273)
-        Me.ucrTextBoxNewManufacturer.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.ucrTextBoxNewManufacturer.Location = New System.Drawing.Point(132, 222)
+        Me.ucrTextBoxNewManufacturer.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ucrTextBoxNewManufacturer.Name = "ucrTextBoxNewManufacturer"
-        Me.ucrTextBoxNewManufacturer.Size = New System.Drawing.Size(185, 25)
+        Me.ucrTextBoxNewManufacturer.Size = New System.Drawing.Size(139, 20)
         Me.ucrTextBoxNewManufacturer.TabIndex = 15
         Me.ucrTextBoxNewManufacturer.TextboxValue = ""
         '
         'lblUncertainity
         '
         Me.lblUncertainity.AutoSize = True
-        Me.lblUncertainity.Location = New System.Drawing.Point(39, 308)
-        Me.lblUncertainity.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblUncertainity.Location = New System.Drawing.Point(29, 250)
         Me.lblUncertainity.Name = "lblUncertainity"
-        Me.lblUncertainity.Size = New System.Drawing.Size(83, 17)
+        Me.lblUncertainity.Size = New System.Drawing.Size(63, 13)
         Me.lblUncertainity.TabIndex = 16
         Me.lblUncertainity.Text = "Uncertainity"
         '
         'ucrTextBoxNewUncertainity
         '
-        Me.ucrTextBoxNewUncertainity.Location = New System.Drawing.Point(176, 308)
-        Me.ucrTextBoxNewUncertainity.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.ucrTextBoxNewUncertainity.Location = New System.Drawing.Point(132, 250)
+        Me.ucrTextBoxNewUncertainity.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ucrTextBoxNewUncertainity.Name = "ucrTextBoxNewUncertainity"
-        Me.ucrTextBoxNewUncertainity.Size = New System.Drawing.Size(185, 25)
+        Me.ucrTextBoxNewUncertainity.Size = New System.Drawing.Size(139, 20)
         Me.ucrTextBoxNewUncertainity.TabIndex = 17
         Me.ucrTextBoxNewUncertainity.TextboxValue = ""
         '
         'lblIinstallationDate
         '
         Me.lblIinstallationDate.AutoSize = True
-        Me.lblIinstallationDate.Location = New System.Drawing.Point(39, 342)
-        Me.lblIinstallationDate.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblIinstallationDate.Location = New System.Drawing.Point(29, 278)
         Me.lblIinstallationDate.Name = "lblIinstallationDate"
-        Me.lblIinstallationDate.Size = New System.Drawing.Size(109, 17)
+        Me.lblIinstallationDate.Size = New System.Drawing.Size(83, 13)
         Me.lblIinstallationDate.TabIndex = 18
         Me.lblIinstallationDate.Text = "Installation Date"
         '
         'ucrDatePickerNewInstallationDate
         '
-        Me.ucrDatePickerNewInstallationDate.Location = New System.Drawing.Point(176, 342)
-        Me.ucrDatePickerNewInstallationDate.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.ucrDatePickerNewInstallationDate.Location = New System.Drawing.Point(132, 278)
+        Me.ucrDatePickerNewInstallationDate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ucrDatePickerNewInstallationDate.Name = "ucrDatePickerNewInstallationDate"
-        Me.ucrDatePickerNewInstallationDate.Size = New System.Drawing.Size(185, 28)
+        Me.ucrDatePickerNewInstallationDate.Size = New System.Drawing.Size(139, 23)
         Me.ucrDatePickerNewInstallationDate.TabIndex = 19
         '
         'lblDeinstallationDate
         '
         Me.lblDeinstallationDate.AutoSize = True
-        Me.lblDeinstallationDate.Location = New System.Drawing.Point(37, 377)
-        Me.lblDeinstallationDate.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblDeinstallationDate.Location = New System.Drawing.Point(28, 306)
         Me.lblDeinstallationDate.Name = "lblDeinstallationDate"
-        Me.lblDeinstallationDate.Size = New System.Drawing.Size(127, 17)
+        Me.lblDeinstallationDate.Size = New System.Drawing.Size(96, 13)
         Me.lblDeinstallationDate.TabIndex = 20
         Me.lblDeinstallationDate.Text = "Deinstallation Date"
         '
         'ucrDatePickerNewDeinstallationDate
         '
-        Me.ucrDatePickerNewDeinstallationDate.Location = New System.Drawing.Point(173, 373)
-        Me.ucrDatePickerNewDeinstallationDate.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.ucrDatePickerNewDeinstallationDate.Location = New System.Drawing.Point(130, 303)
+        Me.ucrDatePickerNewDeinstallationDate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ucrDatePickerNewDeinstallationDate.Name = "ucrDatePickerNewDeinstallationDate"
-        Me.ucrDatePickerNewDeinstallationDate.Size = New System.Drawing.Size(185, 28)
+        Me.ucrDatePickerNewDeinstallationDate.Size = New System.Drawing.Size(139, 23)
         Me.ucrDatePickerNewDeinstallationDate.TabIndex = 21
         '
         'lblInstalledAt
         '
         Me.lblInstalledAt.AutoSize = True
-        Me.lblInstalledAt.Location = New System.Drawing.Point(37, 411)
-        Me.lblInstalledAt.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblInstalledAt.Location = New System.Drawing.Point(28, 334)
         Me.lblInstalledAt.Name = "lblInstalledAt"
-        Me.lblInstalledAt.Size = New System.Drawing.Size(49, 17)
+        Me.lblInstalledAt.Size = New System.Drawing.Size(38, 13)
         Me.lblInstalledAt.TabIndex = 22
         Me.lblInstalledAt.Text = "Height"
         '
         'ucrTextBoxNewHeight
         '
-        Me.ucrTextBoxNewHeight.Location = New System.Drawing.Point(176, 411)
-        Me.ucrTextBoxNewHeight.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.ucrTextBoxNewHeight.Location = New System.Drawing.Point(132, 334)
+        Me.ucrTextBoxNewHeight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ucrTextBoxNewHeight.Name = "ucrTextBoxNewHeight"
-        Me.ucrTextBoxNewHeight.Size = New System.Drawing.Size(68, 25)
+        Me.ucrTextBoxNewHeight.Size = New System.Drawing.Size(51, 20)
         Me.ucrTextBoxNewHeight.TabIndex = 23
         Me.ucrTextBoxNewHeight.TextboxValue = ""
         '
         'lblImageFile
         '
         Me.lblImageFile.AutoSize = True
-        Me.lblImageFile.Location = New System.Drawing.Point(37, 446)
-        Me.lblImageFile.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblImageFile.Location = New System.Drawing.Point(28, 362)
         Me.lblImageFile.Name = "lblImageFile"
-        Me.lblImageFile.Size = New System.Drawing.Size(72, 17)
+        Me.lblImageFile.Size = New System.Drawing.Size(55, 13)
         Me.lblImageFile.TabIndex = 24
         Me.lblImageFile.Text = "Image File"
         '
         'ucrTextBoxNewImageFile
         '
-        Me.ucrTextBoxNewImageFile.Location = New System.Drawing.Point(176, 446)
-        Me.ucrTextBoxNewImageFile.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.ucrTextBoxNewImageFile.Location = New System.Drawing.Point(132, 362)
+        Me.ucrTextBoxNewImageFile.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ucrTextBoxNewImageFile.Name = "ucrTextBoxNewImageFile"
-        Me.ucrTextBoxNewImageFile.Size = New System.Drawing.Size(401, 25)
+        Me.ucrTextBoxNewImageFile.Size = New System.Drawing.Size(301, 20)
         Me.ucrTextBoxNewImageFile.TabIndex = 25
         Me.ucrTextBoxNewImageFile.TextboxValue = ""
         '
         'btnOpenFile
         '
-        Me.btnOpenFile.Location = New System.Drawing.Point(588, 441)
-        Me.btnOpenFile.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnOpenFile.Location = New System.Drawing.Point(441, 358)
         Me.btnOpenFile.Name = "btnOpenFile"
-        Me.btnOpenFile.Size = New System.Drawing.Size(63, 36)
+        Me.btnOpenFile.Size = New System.Drawing.Size(47, 29)
         Me.btnOpenFile.TabIndex = 26
         Me.btnOpenFile.Text = "Open"
         Me.btnOpenFile.UseVisualStyleBackColor = True
         '
         'grpCommand2
         '
-        Me.grpCommand2.Controls.Add(Me.btnClear)
-        Me.grpCommand2.Controls.Add(Me.btnAddNew)
-        Me.grpCommand2.Controls.Add(Me.btnView)
-        Me.grpCommand2.Controls.Add(Me.btnDelete)
-        Me.grpCommand2.Controls.Add(Me.btnUpdate)
-        Me.grpCommand2.Controls.Add(Me.btnSave)
-        Me.grpCommand2.Location = New System.Drawing.Point(4, 497)
-        Me.grpCommand2.Margin = New System.Windows.Forms.Padding(4)
+        Me.grpCommand2.Controls.Add(Me.ucrBtnDelete)
+        Me.grpCommand2.Controls.Add(Me.ucrBtnClear)
+        Me.grpCommand2.Controls.Add(Me.ucrBtnView)
+        Me.grpCommand2.Controls.Add(Me.ucrBtnAddNew)
+        Me.grpCommand2.Controls.Add(Me.ucrBtnUpdate)
+        Me.grpCommand2.Controls.Add(Me.ucrBtnSave)
+        Me.grpCommand2.Location = New System.Drawing.Point(3, 404)
         Me.grpCommand2.Name = "grpCommand2"
-        Me.grpCommand2.Padding = New System.Windows.Forms.Padding(4)
-        Me.grpCommand2.Size = New System.Drawing.Size(893, 38)
+        Me.grpCommand2.Size = New System.Drawing.Size(670, 31)
         Me.grpCommand2.TabIndex = 28
         Me.grpCommand2.TabStop = False
         '
-        'btnClear
-        '
-        Me.btnClear.Location = New System.Drawing.Point(625, 6)
-        Me.btnClear.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(100, 28)
-        Me.btnClear.TabIndex = 4
-        Me.btnClear.Text = "Clear"
-        Me.btnClear.UseVisualStyleBackColor = True
-        '
-        'btnAddNew
-        '
-        Me.btnAddNew.Location = New System.Drawing.Point(39, 5)
-        Me.btnAddNew.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnAddNew.Name = "btnAddNew"
-        Me.btnAddNew.Size = New System.Drawing.Size(100, 28)
-        Me.btnAddNew.TabIndex = 0
-        Me.btnAddNew.Text = "AddNew"
-        Me.btnAddNew.UseVisualStyleBackColor = True
-        '
-        'btnView
-        '
-        Me.btnView.Location = New System.Drawing.Point(772, 7)
-        Me.btnView.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnView.Name = "btnView"
-        Me.btnView.Size = New System.Drawing.Size(100, 28)
-        Me.btnView.TabIndex = 5
-        Me.btnView.Text = "View"
-        Me.btnView.UseVisualStyleBackColor = True
-        '
-        'btnDelete
-        '
-        Me.btnDelete.Location = New System.Drawing.Point(479, 6)
-        Me.btnDelete.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(100, 28)
-        Me.btnDelete.TabIndex = 3
-        Me.btnDelete.Text = "Delete"
-        Me.btnDelete.UseVisualStyleBackColor = True
-        '
-        'btnUpdate
-        '
-        Me.btnUpdate.Location = New System.Drawing.Point(332, 6)
-        Me.btnUpdate.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(100, 28)
-        Me.btnUpdate.TabIndex = 2
-        Me.btnUpdate.Text = "Update"
-        Me.btnUpdate.UseVisualStyleBackColor = True
-        '
-        'btnSave
-        '
-        Me.btnSave.Location = New System.Drawing.Point(185, 6)
-        Me.btnSave.Margin = New System.Windows.Forms.Padding(4)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(100, 28)
-        Me.btnSave.TabIndex = 1
-        Me.btnSave.Text = "Save"
-        Me.btnSave.UseVisualStyleBackColor = True
-        '
         'ucrNavigatorInstrument
         '
-        Me.ucrNavigatorInstrument.Location = New System.Drawing.Point(227, 546)
-        Me.ucrNavigatorInstrument.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ucrNavigatorInstrument.Location = New System.Drawing.Point(170, 444)
         Me.ucrNavigatorInstrument.Name = "ucrNavigatorInstrument"
-        Me.ucrNavigatorInstrument.Size = New System.Drawing.Size(448, 31)
+        Me.ucrNavigatorInstrument.Size = New System.Drawing.Size(336, 25)
         Me.ucrNavigatorInstrument.TabIndex = 29
         '
         'pbInstrument
         '
         Me.pbInstrument.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.pbInstrument.Location = New System.Drawing.Point(493, 57)
-        Me.pbInstrument.Margin = New System.Windows.Forms.Padding(4)
+        Me.pbInstrument.Location = New System.Drawing.Point(370, 46)
         Me.pbInstrument.Name = "pbInstrument"
-        Me.pbInstrument.Size = New System.Drawing.Size(383, 357)
+        Me.pbInstrument.Size = New System.Drawing.Size(288, 291)
         Me.pbInstrument.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pbInstrument.TabIndex = 91
         Me.pbInstrument.TabStop = False
@@ -395,10 +318,9 @@ Partial Class ucrMetadataInstrumentNew
         'lblInstrumentPic
         '
         Me.lblInstrumentPic.AutoSize = True
-        Me.lblInstrumentPic.Location = New System.Drawing.Point(649, 414)
-        Me.lblInstrumentPic.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblInstrumentPic.Location = New System.Drawing.Point(487, 336)
         Me.lblInstrumentPic.Name = "lblInstrumentPic"
-        Me.lblInstrumentPic.Size = New System.Drawing.Size(122, 17)
+        Me.lblInstrumentPic.Size = New System.Drawing.Size(92, 13)
         Me.lblInstrumentPic.TabIndex = 92
         Me.lblInstrumentPic.Text = "Instrument Picture"
         '
@@ -406,16 +328,69 @@ Partial Class ucrMetadataInstrumentNew
         '
         Me.lblInstruments.AutoSize = True
         Me.lblInstruments.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblInstruments.Location = New System.Drawing.Point(401, 14)
-        Me.lblInstruments.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblInstruments.Location = New System.Drawing.Point(301, 11)
         Me.lblInstruments.Name = "lblInstruments"
-        Me.lblInstruments.Size = New System.Drawing.Size(87, 18)
+        Me.lblInstruments.Size = New System.Drawing.Size(75, 15)
         Me.lblInstruments.TabIndex = 93
         Me.lblInstruments.Text = "Instrument"
         '
+        'ucrBtnDelete
+        '
+        Me.ucrBtnDelete.ActionTypeId = 0
+        Me.ucrBtnDelete.ButtonText = "Delete"
+        Me.ucrBtnDelete.Location = New System.Drawing.Point(359, 5)
+        Me.ucrBtnDelete.Name = "ucrBtnDelete"
+        Me.ucrBtnDelete.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnDelete.TabIndex = 59
+        '
+        'ucrBtnClear
+        '
+        Me.ucrBtnClear.ActionTypeId = 0
+        Me.ucrBtnClear.ButtonText = "Clear"
+        Me.ucrBtnClear.Location = New System.Drawing.Point(469, 5)
+        Me.ucrBtnClear.Name = "ucrBtnClear"
+        Me.ucrBtnClear.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnClear.TabIndex = 61
+        '
+        'ucrBtnView
+        '
+        Me.ucrBtnView.ActionTypeId = 0
+        Me.ucrBtnView.ButtonText = "View"
+        Me.ucrBtnView.Location = New System.Drawing.Point(579, 6)
+        Me.ucrBtnView.Name = "ucrBtnView"
+        Me.ucrBtnView.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnView.TabIndex = 58
+        '
+        'ucrBtnAddNew
+        '
+        Me.ucrBtnAddNew.ActionTypeId = 0
+        Me.ucrBtnAddNew.ButtonText = "AddNew"
+        Me.ucrBtnAddNew.Location = New System.Drawing.Point(29, 4)
+        Me.ucrBtnAddNew.Name = "ucrBtnAddNew"
+        Me.ucrBtnAddNew.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnAddNew.TabIndex = 62
+        '
+        'ucrBtnUpdate
+        '
+        Me.ucrBtnUpdate.ActionTypeId = 0
+        Me.ucrBtnUpdate.ButtonText = "Update"
+        Me.ucrBtnUpdate.Location = New System.Drawing.Point(249, 5)
+        Me.ucrBtnUpdate.Name = "ucrBtnUpdate"
+        Me.ucrBtnUpdate.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnUpdate.TabIndex = 57
+        '
+        'ucrBtnSave
+        '
+        Me.ucrBtnSave.ActionTypeId = 0
+        Me.ucrBtnSave.ButtonText = "Save"
+        Me.ucrBtnSave.Location = New System.Drawing.Point(139, 5)
+        Me.ucrBtnSave.Name = "ucrBtnSave"
+        Me.ucrBtnSave.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnSave.TabIndex = 60
+        '
         'ucrMetadataInstrumentNew
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.lblInstruments)
         Me.Controls.Add(Me.lblInstrumentPic)
@@ -447,9 +422,9 @@ Partial Class ucrMetadataInstrumentNew
         Me.Controls.Add(Me.lblInstrumentName)
         Me.Controls.Add(Me.ucrDatalinkInstrument)
         Me.Controls.Add(Me.lblInstrumentID)
-        Me.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "ucrMetadataInstrumentNew"
-        Me.Size = New System.Drawing.Size(901, 588)
+        Me.Size = New System.Drawing.Size(676, 478)
         Me.grpCommand2.ResumeLayout(False)
         CType(Me.pbInstrument, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -483,14 +458,14 @@ Partial Class ucrMetadataInstrumentNew
     Friend WithEvents ucrTextBoxNewImageFile As ucrTextBoxNew
     Friend WithEvents btnOpenFile As Button
     Friend WithEvents grpCommand2 As GroupBox
-    Friend WithEvents btnClear As Button
-    Friend WithEvents btnAddNew As Button
-    Friend WithEvents btnView As Button
-    Friend WithEvents btnDelete As Button
-    Friend WithEvents btnUpdate As Button
-    Friend WithEvents btnSave As Button
     Friend WithEvents ucrNavigatorInstrument As ucrNavigator
     Friend WithEvents pbInstrument As PictureBox
     Friend WithEvents lblInstrumentPic As Label
     Friend WithEvents lblInstruments As Label
+    Friend WithEvents ucrBtnDelete As ucrButton
+    Friend WithEvents ucrBtnClear As ucrButton
+    Friend WithEvents ucrBtnView As ucrButton
+    Friend WithEvents ucrBtnAddNew As ucrButton
+    Friend WithEvents ucrBtnUpdate As ucrButton
+    Friend WithEvents ucrBtnSave As ucrButton
 End Class
