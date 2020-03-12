@@ -148,6 +148,12 @@
     <Compile Include="frmLoginNew.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmMainMenuNew.Designer.vb">
+      <DependentUpon>frmMainMenuNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainMenuNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmNewAgrometKenya.Designer.vb">
       <DependentUpon>frmNewAgrometKenya.vb</DependentUpon>
     </Compile>
@@ -987,6 +993,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmLoginNew.resx">
       <DependentUpon>frmLoginNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainMenuNew.resx">
+      <DependentUpon>frmMainMenuNew.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNewAgrometKenya.resx">
       <DependentUpon>frmNewAgrometKenya.vb</DependentUpon>
