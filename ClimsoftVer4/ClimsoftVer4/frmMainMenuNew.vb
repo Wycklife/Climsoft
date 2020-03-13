@@ -17,89 +17,70 @@
 Imports ClimsoftVer4.Translations
 Public Class frmMainMenuNew
     Private Sub frmMainMenu_Load(sender As Object, e As EventArgs) Handles Me.Load
-        Dim usrName, usrRole As String
-        Dim i, maxRows As Integer
-        usrRole = ""
-        usrName = frmLogin.txtUsername.Text
-        maxRows = dsClimsoftUserRoles.Tables("userRoles").Rows.Count
 
-        Try
-            'Get the role for the logged in user from the climsoftusers table
-            If maxRows > 0 Then
-                For i = 0 To maxRows - 1
-                    If dsClimsoftUserRoles.Tables("userRoles").Rows(i).Item("userName") = usrName Then
-                        usrRole = dsClimsoftUserRoles.Tables("userRoles").Rows(i).Item("userRole")
-                        userGroup = usrRole
-                    End If
-                Next i
-                'Disable controls that do not correspond to the user role
-                mnuAdministration.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuAdministrationEnabled
-                mnuTools.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuToolsEnabled
-                mnuLanguageTranslation.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuLanguageTranslationsEnabled
-                mnuQC.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuQCsEnabled
-                mnuProducts.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuProductsEnabled
-                cmdDataTransfer.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuDatatransferEnabled
-                cmdSettingsAWS.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuSettingsAwsEnabled
-                cmdUserManagement.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuUserManagementEnabled
-                cmdQC.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuQCsEnabled
-                cmdProducts.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuProductsEnabled
-                cmdMetadata.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuMetadataEnabled
-                cmdKeyEntry.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuKeyEntryEnabled
-                cmdPaperArchive.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuPaperArchiveEnabled
+        'Disable controls that do not correspond to the user role
+        mnuAdministration.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuAdministrationEnabled
+        mnuTools.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuToolsEnabled
+        mnuLanguageTranslation.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuLanguageTranslationsEnabled
+        mnuQC.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuQCsEnabled
+        mnuProducts.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuProductsEnabled
+        mnuInputKeyEntry.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuKeyEntryEnabled
+        mnuInputPaperArchive.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuPaperArchiveEnabled
 
-            End If
-        Catch ex As Exception
-            MsgBox(ex.Message, MsgBoxStyle.Exclamation)
-        End Try
-        autoTranslate(Me)
+        btnKeyEntry.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuKeyEntryEnabled
+        btnPaperArchive.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuPaperArchiveEnabled
+        btnDataTransfer.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuDatatransferEnabled
+        btnSettingsAWS.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuSettingsAwsEnabled
+        btnUserManagement.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuUserManagementEnabled
+        btnQC.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuQCsEnabled
+        btnProducts.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuProductsEnabled
+        btnMetadata.Enabled = ClsGlobals.objOperatorInstance.GetPermission.IsMenuMetadataEnabled
+
         frmGeneral.HTMLHelp.HelpPage = "welcome.htm"
 
     End Sub
 
 
-    Private Sub cmdKeyEntry_Click(sender As Object, e As EventArgs) Handles cmdKeyEntry.Click
-        ' The icon has been changed
+    Private Sub btnKeyEntry_Click(sender As Object, e As EventArgs) Handles btnKeyEntry.Click
         frmKeyEntry.ShowDialog()
-
     End Sub
 
-    Private Sub cmdPaperArchive_Click(sender As Object, e As EventArgs) Handles cmdPaperArchive.Click
+    Private Sub btnPaperArchive_Click(sender As Object, e As EventArgs) Handles btnPaperArchive.Click
         formPaperArchive.Show()
     End Sub
 
-    Private Sub cmdDataTransfer_Click(sender As Object, e As EventArgs) Handles cmdDataTransfer.Click
+    Private Sub btnDataTransfer_Click(sender As Object, e As EventArgs) Handles btnDataTransfer.Click
         frmDBUtilities.ShowDialog()
     End Sub
 
-    Private Sub cmdQC_Click(sender As Object, e As EventArgs) Handles cmdQC.Click
+    Private Sub btnQC_Click(sender As Object, e As EventArgs) Handles btnQC.Click
         frmQC.ShowDialog()
     End Sub
 
-    Private Sub cmdProducts_Click(sender As Object, e As EventArgs) Handles cmdProducts.Click
+    Private Sub btnProducts_Click(sender As Object, e As EventArgs) Handles btnProducts.Click
         frmProducts.ShowDialog()
     End Sub
 
-    Private Sub cmdUserManagement_Click(sender As Object, e As EventArgs) Handles cmdUserManagement.Click
+    Private Sub btnUserManagement_Click(sender As Object, e As EventArgs) Handles btnUserManagement.Click
         'frmUsers.Show()
         frmUserManagement.Show()
     End Sub
 
-    Private Sub cmdMetadata_Click(sender As Object, e As EventArgs) Handles cmdMetadata.Click
+    Private Sub btnMetadata_Click(sender As Object, e As EventArgs) Handles btnMetadata.Click
         'frmLaunchPad.ShowDialog()
         formMetadata.Show()
     End Sub
 
-    Private Sub cmdSettingsAWS_Click(sender As Object, e As EventArgs) Handles cmdSettingsAWS.Click
+    Private Sub btnSettingsAWS_Click(sender As Object, e As EventArgs) Handles btnSettingsAWS.Click
         formAWSRealTime.Show()
     End Sub
 
-    Private Sub cmdRedCloseButton_Click(sender As Object, e As EventArgs) Handles cmdRedCloseButton.Click
+    Private Sub btnRedCloseButton_Click(sender As Object, e As EventArgs) Handles btnCloseButton.Click
         Application.Exit()
     End Sub
 
 
     ' Methods for menu items.
-
     ' Input Menu items
     Private Sub mnuInputKeyEntry_Click(sender As Object, e As EventArgs) Handles mnuInputKeyEntry.Click
         frmKeyEntry.ShowDialog()
@@ -132,10 +113,6 @@ Public Class frmMainMenuNew
         formOptions.Show()
     End Sub
 
-    Private Sub mnuToolsModifyForms_Click(sender As Object, e As EventArgs) Handles mnuToolsModifyForms.Click
-
-    End Sub
-
     Private Sub SelectLanguageToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SelectLanguageToolStripMenuItem.Click
         frmLanguage.ShowDialog()
         ' When dialog is closed - update language in this window (will any other windows also be open?)
@@ -146,7 +123,6 @@ Public Class frmMainMenuNew
     Private Sub mnuHelpContents_Click(sender As Object, e As EventArgs) Handles mnuHelpContents.Click
         'HTMLHelp.HelpPage = "aboutclimsoft4.htm"
         Help.ShowHelp(Me, Application.StartupPath & "\" & frmGeneral.HelpProvider1.HelpNamespace, frmGeneral.HTMLHelp.HelpPage)
-
     End Sub
 
     Private Sub DataFormsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DataFormsToolStripMenuItem.Click
@@ -208,7 +184,6 @@ Public Class frmMainMenuNew
         frmTDCFindicators.Show()
     End Sub
 
-
     Private Sub MetadataToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MetadataToolStripMenuItem.Click
         formMetadata.Show()
     End Sub
@@ -222,6 +197,7 @@ Public Class frmMainMenuNew
     End Sub
 
     Private Sub UserRecordsToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles UserRecordsToolStripMenuItem1.Click
+        'todo. check on what this does
         With frmMonitoring
             .grpPerformance.Enabled = False
             .grpVerify.Enabled = False
@@ -232,12 +208,11 @@ Public Class frmMainMenuNew
             .optUsers.Enabled = False
             .Show()
         End With
-
     End Sub
 
     Private Sub frmMainMenu_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        'closes the opened database connection
         clsDataConnection.CloseConnection()
-        End
     End Sub
 
     Private Sub MonthlyToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MonthlyToolStripMenuItem.Click
