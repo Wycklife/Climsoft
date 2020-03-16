@@ -189,8 +189,10 @@ Partial Class frmUserManagementNew
         Me.Controls.Add(Me.txtPassword)
         Me.Controls.Add(Me.cboUserRole)
         Me.Controls.Add(Me.txtUserName)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "frmUserManagementNew"
-        Me.Text = "frmUserManagementNew"
+        Me.Text = "User Management"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
