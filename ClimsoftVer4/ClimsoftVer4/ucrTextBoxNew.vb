@@ -89,6 +89,7 @@
         txtBox.ReadOnly = True
     End Sub
 
+    'Sets the size of the textbox in the control
     Public Sub SetSize(Size As Point)
         'txtBox.Size = New Size(Size)
         Me.Size = New Size(Size)

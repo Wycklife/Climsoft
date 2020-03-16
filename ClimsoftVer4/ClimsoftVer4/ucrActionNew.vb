@@ -1,6 +1,6 @@
 ﻿Public Class ucrActionNew
     Public Event EvtDoAction(sender As Object, iActionTypeId As Integer, iActionOperator As Integer)
-    Public Property ActionTypeId() As Integer
+    Public Property ActionTypeId() As ClsGlobals.EnumActionCode
     Protected enumPermissionType As ClsGlobals.PermissionTypes
 
     Private Sub ucrAction_Load(sender As Object, e As EventArgs) Handles Me.Load
