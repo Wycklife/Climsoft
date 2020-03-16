@@ -650,6 +650,12 @@
     <Compile Include="ucrBaseDataLink.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="ucrBaseDataLinkNew.Designer.vb">
+      <DependentUpon>ucrBaseDataLinkNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucrBaseDataLinkNew.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="ucrButton.Designer.vb">
       <DependentUpon>ucrButton.vb</DependentUpon>
     </Compile>
@@ -1406,6 +1412,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application1.Designer.vb</LastGenOutput>

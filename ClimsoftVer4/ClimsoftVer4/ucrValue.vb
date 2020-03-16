@@ -12,14 +12,23 @@
     Protected clInValidColor As Color = Color.Red 'used to set the default back color to show when the value input is invalid 
     Public bValidate As Boolean = True 'switches the validation on and off
     Public bValidateSilently As Boolean = True 'this will inhibit showing message boxes when invalid values are written 
-
-
+    Public bValidateEmpty As Boolean = False
+    Protected strValidationType As ClsGlobals.EnumValidationType = ClsGlobals.EnumValidationType.None
+    Protected objDefaultValue As Object = Nothing
     Private Sub ucrValue_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
-
-    Public Overridable Sub PopulateControl()
+    Public Function HasDefaultValue() As Boolean
+        Return Not IsNothing(GetDefaultValue())
+    End Function
+    Public Overridable Sub UpdateValueChoices()
         'Todo. get the data from the datastructure
+    End Sub
+    Public Overridable Function GetDefaultValue() As Object
+        Return objDefaultValue
+    End Function
+    Public Overridable Sub SelectDefaultValue()
+        SetValue(GetDefaultValue())
     End Sub
     Public Sub SetDataIdentifier(objDataIdentifier As Object)
         'specifies the identifier that would be usd by the datastructure to get the data 

@@ -9,4 +9,21 @@
         WithApprovalSameOperator = 5
     End Enum
 
+
+
+    Public Enum EnumValidationType
+        Exist = 1
+        Flag = 2
+        Numeric = 3
+        None = 4
+    End Enum
+
+    Public Enum EnumActionCode
+        Update = 1
+        Delete = 2
+        AddNew = 3
+        Save = 4
+    End Enum
+
+
 End Class
