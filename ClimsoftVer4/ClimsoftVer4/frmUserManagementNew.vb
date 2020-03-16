@@ -3,38 +3,35 @@
         PopulateDataGridWithUsers()
     End Sub
 
+    Private Sub txtUserName_TextChanged(sender As Object, e As EventArgs) Handles txtUserName.TextChanged
+        btnAddNew.Enabled = IsValidUsername(True) AndAlso IsValidUserRole(False) AndAlso IsValidPassword(False)
+    End Sub
 
-    Private Sub txtConfirmPassword_TextChanged(sender As Object, e As EventArgs) Handles txtPassword.TextChanged, txtConfirmPassword.TextChanged
-
-        btnAddNew.Enabled = ValidateNewUser()
-
+    Private Sub txtPassword_TextChanged(sender As Object, e As EventArgs) Handles txtPassword.TextChanged, txtConfirmPassword.TextChanged
+        btnAddNew.Enabled = IsValidUsername(False) AndAlso IsValidUserRole(False) AndAlso IsValidPassword(True)
     End Sub
 
     Private Sub btnAddNew_Click(sender As Object, e As EventArgs) Handles btnAddNew.Click
 
-        If Not ValidateNewUser() Then
+        If Not IsValidUsername(True) OrElse IsValidUserRole(True) OrElse IsValidPassword(True) Then
             MsgBox("Invalid user credentials")
             Exit Sub
         End If
         'todo. get the permissions of the user role 
         'todo. grant the permissions to the user
 
-        If cboUserRole.Text = "ClimsoftAdmin" Then
-        ElseIf cboUserRole.Text = "ClimsoftOperator" Then
-        ElseIf cboUserRole.Text = "ClimsoftRainfall" Then
-        ElseIf cboUserRole.Text = "ClimsoftOperatorSupervisor" Then
-            '4. Operator Supervisor
-        ElseIf cboUserRole.Text = "ClimsoftQC" Then
-            '5 QC
-        ElseIf cboUserRole.Text = "ClimsoftMetadata" Then
-            '6. Metadata
-        ElseIf cboUserRole.Text = "ClimsoftProducts" Then
-            '7. Products
-        ElseIf cboUserRole.Text = "ClimsoftDeveloper" Then
-            '8. Developer
-        ElseIf cboUserRole.Text = "ClimsoftTranslator" Then
-            '9. Translator
-        End If
+        'If cboUserRole.Text = "ClimsoftAdmin" Then
+        'ElseIf cboUserRole.Text = "ClimsoftOperator" Then
+        'ElseIf cboUserRole.Text = "ClimsoftRainfall" Then
+        'ElseIf cboUserRole.Text = "ClimsoftOperatorSupervisor" Then
+        'ElseIf cboUserRole.Text = "ClimsoftQC" Then
+        'ElseIf cboUserRole.Text = "ClimsoftMetadata" Then
+        'ElseIf cboUserRole.Text = "ClimsoftProducts" Then
+        'ElseIf cboUserRole.Text = "ClimsoftDeveloper" Then
+        'ElseIf cboUserRole.Text = "ClimsoftTranslator" Then
+        'End If
+
+
     End Sub
 
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
@@ -51,12 +48,12 @@
 
     End Sub
 
-    Public Function ValidateNewUser() As Boolean
-        Return IsValidNewUsername() AndAlso IsValidPassword() AndAlso IsValidUserRole()
-    End Function
 
-    Public Function IsValidNewUsername() As Boolean
+    Public Function IsValidUsername(Optional bValidateSilently As Boolean = False) As Boolean
         If String.IsNullOrWhiteSpace(txtUserName.Text) Then
+            If Not bValidateSilently Then
+                'todo. give feedback
+            End If
             Return False
         End If
 
@@ -65,9 +62,32 @@
         Return True
     End Function
 
-    Public Function IsValidPassword() As Boolean
-        If String.IsNullOrWhiteSpace(txtConfirmPassword.Text) OrElse String.IsNullOrWhiteSpace(txtPassword.Text) OrElse
-           txtPassword.Text <> txtConfirmPassword.Text OrElse txtPassword.Text < 6 Then
+    Public Function IsValidPassword(Optional bValidateSilently As Boolean = False) As Boolean
+        If String.IsNullOrWhiteSpace(txtPassword.Text) Then
+            If Not bValidateSilently Then
+                'todo. give feedback
+            End If
+            Return False
+        End If
+
+        If String.IsNullOrWhiteSpace(txtConfirmPassword.Text) Then
+            If Not bValidateSilently Then
+                'todo. give feedback
+            End If
+            Return False
+        End If
+
+        If txtPassword.Text <> txtConfirmPassword.Text Then
+            If Not bValidateSilently Then
+                'todo. give feedback
+            End If
+            Return False
+        End If
+
+        If txtPassword.Text < 6 Then
+            If Not bValidateSilently Then
+                'todo. give feedback
+            End If
             Return False
         End If
 
@@ -78,8 +98,15 @@
         Return True
     End Function
 
-    Public Function IsValidUserRole() As Boolean
-        Return cboUserRole.SelectedIndex >= 0
+    Public Function IsValidUserRole(Optional bValidateSilently As Boolean = False) As Boolean
+        If cboUserRole.SelectedIndex < 0 Then
+            If Not bValidateSilently Then
+                'todo. give feedback
+            End If
+            Return False
+        End If
+
+        Return True
     End Function
 
 
