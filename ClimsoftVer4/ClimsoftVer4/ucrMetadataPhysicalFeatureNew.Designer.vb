@@ -29,6 +29,12 @@ Partial Class ucrMetadataPhysicalFeatureNew
         Me.lblFeatureClass = New System.Windows.Forms.Label()
         Me.lblFeatureImageFile = New System.Windows.Forms.Label()
         Me.grpPhysicalFeature = New System.Windows.Forms.GroupBox()
+        Me.ucrBtnDelete = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnClear = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnView = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnAddNew = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnUpdate = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnSave = New ClimsoftVer4.ucrButton()
         Me.ucrNavigator = New ClimsoftVer4.ucrNavigator()
         Me.pbFeaturePicture = New System.Windows.Forms.PictureBox()
         Me.btnOpenFile = New System.Windows.Forms.Button()
@@ -40,12 +46,6 @@ Partial Class ucrMetadataPhysicalFeatureNew
         Me.ucrDatePickerEndDate = New ClimsoftVer4.ucrDatePickerNew()
         Me.ucrStationSelectorStationID = New ClimsoftVer4.ucrStationSelectorNew()
         Me.lblPhysicalFeature = New System.Windows.Forms.Label()
-        Me.ucrBtnDelete = New ClimsoftVer4.ucrButton()
-        Me.ucrBtnClear = New ClimsoftVer4.ucrButton()
-        Me.ucrBtnView = New ClimsoftVer4.ucrButton()
-        Me.ucrBtnAddNew = New ClimsoftVer4.ucrButton()
-        Me.ucrBtnUpdate = New ClimsoftVer4.ucrButton()
-        Me.ucrBtnSave = New ClimsoftVer4.ucrButton()
         Me.grpPhysicalFeature.SuspendLayout()
         CType(Me.pbFeaturePicture, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -117,6 +117,58 @@ Partial Class ucrMetadataPhysicalFeatureNew
         Me.grpPhysicalFeature.Size = New System.Drawing.Size(611, 34)
         Me.grpPhysicalFeature.TabIndex = 18
         Me.grpPhysicalFeature.TabStop = False
+        '
+        'ucrBtnDelete
+        '
+        Me.ucrBtnDelete.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.Delete
+        Me.ucrBtnDelete.ButtonText = "Delete"
+        Me.ucrBtnDelete.Location = New System.Drawing.Point(317, 7)
+        Me.ucrBtnDelete.Name = "ucrBtnDelete"
+        Me.ucrBtnDelete.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnDelete.TabIndex = 71
+        '
+        'ucrBtnClear
+        '
+        Me.ucrBtnClear.ButtonText = "Clear"
+        Me.ucrBtnClear.Location = New System.Drawing.Point(416, 7)
+        Me.ucrBtnClear.Name = "ucrBtnClear"
+        Me.ucrBtnClear.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnClear.TabIndex = 73
+        '
+        'ucrBtnView
+        '
+        Me.ucrBtnView.ButtonText = "View"
+        Me.ucrBtnView.Location = New System.Drawing.Point(515, 7)
+        Me.ucrBtnView.Name = "ucrBtnView"
+        Me.ucrBtnView.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnView.TabIndex = 70
+        '
+        'ucrBtnAddNew
+        '
+        Me.ucrBtnAddNew.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.AddNew
+        Me.ucrBtnAddNew.ButtonText = "AddNew"
+        Me.ucrBtnAddNew.Location = New System.Drawing.Point(20, 7)
+        Me.ucrBtnAddNew.Name = "ucrBtnAddNew"
+        Me.ucrBtnAddNew.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnAddNew.TabIndex = 74
+        '
+        'ucrBtnUpdate
+        '
+        Me.ucrBtnUpdate.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.Update
+        Me.ucrBtnUpdate.ButtonText = "Update"
+        Me.ucrBtnUpdate.Location = New System.Drawing.Point(218, 7)
+        Me.ucrBtnUpdate.Name = "ucrBtnUpdate"
+        Me.ucrBtnUpdate.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnUpdate.TabIndex = 69
+        '
+        'ucrBtnSave
+        '
+        Me.ucrBtnSave.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.Save
+        Me.ucrBtnSave.ButtonText = "Save"
+        Me.ucrBtnSave.Location = New System.Drawing.Point(119, 7)
+        Me.ucrBtnSave.Name = "ucrBtnSave"
+        Me.ucrBtnSave.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnSave.TabIndex = 72
         '
         'ucrNavigator
         '
@@ -214,60 +266,6 @@ Partial Class ucrMetadataPhysicalFeatureNew
         Me.lblPhysicalFeature.Size = New System.Drawing.Size(124, 16)
         Me.lblPhysicalFeature.TabIndex = 92
         Me.lblPhysicalFeature.Text = "Physical Feature"
-        '
-        'ucrBtnDelete
-        '
-        Me.ucrBtnDelete.ActionTypeId = 0
-        Me.ucrBtnDelete.ButtonText = "Delete"
-        Me.ucrBtnDelete.Location = New System.Drawing.Point(317, 7)
-        Me.ucrBtnDelete.Name = "ucrBtnDelete"
-        Me.ucrBtnDelete.Size = New System.Drawing.Size(75, 23)
-        Me.ucrBtnDelete.TabIndex = 71
-        '
-        'ucrBtnClear
-        '
-        Me.ucrBtnClear.ActionTypeId = 0
-        Me.ucrBtnClear.ButtonText = "Clear"
-        Me.ucrBtnClear.Location = New System.Drawing.Point(416, 7)
-        Me.ucrBtnClear.Name = "ucrBtnClear"
-        Me.ucrBtnClear.Size = New System.Drawing.Size(75, 23)
-        Me.ucrBtnClear.TabIndex = 73
-        '
-        'ucrBtnView
-        '
-        Me.ucrBtnView.ActionTypeId = 0
-        Me.ucrBtnView.ButtonText = "View"
-        Me.ucrBtnView.Location = New System.Drawing.Point(515, 7)
-        Me.ucrBtnView.Name = "ucrBtnView"
-        Me.ucrBtnView.Size = New System.Drawing.Size(75, 23)
-        Me.ucrBtnView.TabIndex = 70
-        '
-        'ucrBtnAddNew
-        '
-        Me.ucrBtnAddNew.ActionTypeId = 0
-        Me.ucrBtnAddNew.ButtonText = "AddNew"
-        Me.ucrBtnAddNew.Location = New System.Drawing.Point(20, 7)
-        Me.ucrBtnAddNew.Name = "ucrBtnAddNew"
-        Me.ucrBtnAddNew.Size = New System.Drawing.Size(75, 23)
-        Me.ucrBtnAddNew.TabIndex = 74
-        '
-        'ucrBtnUpdate
-        '
-        Me.ucrBtnUpdate.ActionTypeId = 0
-        Me.ucrBtnUpdate.ButtonText = "Update"
-        Me.ucrBtnUpdate.Location = New System.Drawing.Point(218, 7)
-        Me.ucrBtnUpdate.Name = "ucrBtnUpdate"
-        Me.ucrBtnUpdate.Size = New System.Drawing.Size(75, 23)
-        Me.ucrBtnUpdate.TabIndex = 69
-        '
-        'ucrBtnSave
-        '
-        Me.ucrBtnSave.ActionTypeId = 0
-        Me.ucrBtnSave.ButtonText = "Save"
-        Me.ucrBtnSave.Location = New System.Drawing.Point(119, 7)
-        Me.ucrBtnSave.Name = "ucrBtnSave"
-        Me.ucrBtnSave.Size = New System.Drawing.Size(75, 23)
-        Me.ucrBtnSave.TabIndex = 72
         '
         'ucrMetadataPhysicalFeatureNew
         '
