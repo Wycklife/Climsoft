@@ -8,7 +8,7 @@
     End Sub
 
     Private Sub txtPassword_TextChanged(sender As Object, e As EventArgs) Handles txtPassword.TextChanged, txtConfirmPassword.TextChanged
-        btnAddNew.Enabled = IsValidUsername(False) AndAlso IsValidUserRole(False) AndAlso IsValidPassword(True)
+        btnAddNew.Enabled = IsValidUsername(False) AndAlso IsValidUserRole(False) AndAlso IsValidPassword(False)
     End Sub
 
     Private Sub btnAddNew_Click(sender As Object, e As EventArgs) Handles btnAddNew.Click
@@ -52,7 +52,7 @@
     Public Function IsValidUsername(Optional bValidateSilently As Boolean = False) As Boolean
         If String.IsNullOrWhiteSpace(txtUserName.Text) Then
             If Not bValidateSilently Then
-                'todo. give feedback
+                MsgBox("Enter username")
             End If
             Return False
         End If
@@ -65,28 +65,28 @@
     Public Function IsValidPassword(Optional bValidateSilently As Boolean = False) As Boolean
         If String.IsNullOrWhiteSpace(txtPassword.Text) Then
             If Not bValidateSilently Then
-                'todo. give feedback
+                MsgBox("Enter password")
             End If
             Return False
         End If
 
         If String.IsNullOrWhiteSpace(txtConfirmPassword.Text) Then
             If Not bValidateSilently Then
-                'todo. give feedback
+                MsgBox("Enter confirmation password")
             End If
             Return False
         End If
 
         If txtPassword.Text <> txtConfirmPassword.Text Then
             If Not bValidateSilently Then
-                'todo. give feedback
+                MsgBox("Wrong confirmation of password!")
             End If
             Return False
         End If
 
         If txtPassword.Text < 6 Then
             If Not bValidateSilently Then
-                'todo. give feedback
+                MsgBox("Password length must be >=6 characters!")
             End If
             Return False
         End If
@@ -101,7 +101,7 @@
     Public Function IsValidUserRole(Optional bValidateSilently As Boolean = False) As Boolean
         If cboUserRole.SelectedIndex < 0 Then
             If Not bValidateSilently Then
-                'todo. give feedback
+                MsgBox("Enter a valid user role")
             End If
             Return False
         End If

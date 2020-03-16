@@ -154,9 +154,11 @@ Public Class clsDataConnection
                             Continue For
                         End If
 
+                        'todo. encrypt the password and store it separetely
+
 
                         'only save valid connection string values
-                        'A valid connection detail should contain a connection name, a pipe character `|` and a connection string
+                        'A valid connection detail should contain a connection name, a pipe character `|` and a connection string excluding the password
                         writer.WriteLine(kvp.Key & "|" & builder.ConnectionString)
 
                     Catch ex As Exception
@@ -173,6 +175,7 @@ Public Class clsDataConnection
         End Try
 
     End Sub
+
 
 
     'temporary code for visual studio design time
