@@ -31,6 +31,12 @@ Partial Class ucrMetadataStationElementNew
         Me.lblBdate = New System.Windows.Forms.Label()
         Me.lblEdate = New System.Windows.Forms.Label()
         Me.GroupBox7 = New System.Windows.Forms.GroupBox()
+        Me.ucrBtnDelete = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnClear = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnView = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnAddNew = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnUpdate = New ClimsoftVer4.ucrButton()
+        Me.ucrBtnSave = New ClimsoftVer4.ucrButton()
         Me.ucrNavigator = New ClimsoftVer4.ucrNavigator()
         Me.ucrStationSelectorStationID = New ClimsoftVer4.ucrStationSelectorNew()
         Me.ucrComboBoxInstrumentID = New ClimsoftVer4.ucrComboboxNew()
@@ -41,12 +47,6 @@ Partial Class ucrMetadataStationElementNew
         Me.ucrDatePickerBeginDate = New ClimsoftVer4.ucrDatePicker()
         Me.lblStationElement = New System.Windows.Forms.Label()
         Me.ucrElementSelectorElementID = New ClimsoftVer4.ucrElementSelectorNew()
-        Me.ucrBtnDelete = New ClimsoftVer4.ucrButton()
-        Me.ucrBtnClear = New ClimsoftVer4.ucrButton()
-        Me.ucrBtnView = New ClimsoftVer4.ucrButton()
-        Me.ucrBtnAddNew = New ClimsoftVer4.ucrButton()
-        Me.ucrBtnUpdate = New ClimsoftVer4.ucrButton()
-        Me.ucrBtnSave = New ClimsoftVer4.ucrButton()
         Me.GroupBox7.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -136,6 +136,58 @@ Partial Class ucrMetadataStationElementNew
         Me.GroupBox7.TabIndex = 19
         Me.GroupBox7.TabStop = False
         '
+        'ucrBtnDelete
+        '
+        Me.ucrBtnDelete.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.Delete
+        Me.ucrBtnDelete.ButtonText = "Delete"
+        Me.ucrBtnDelete.Location = New System.Drawing.Point(337, 10)
+        Me.ucrBtnDelete.Name = "ucrBtnDelete"
+        Me.ucrBtnDelete.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnDelete.TabIndex = 83
+        '
+        'ucrBtnClear
+        '
+        Me.ucrBtnClear.ButtonText = "Clear"
+        Me.ucrBtnClear.Location = New System.Drawing.Point(443, 10)
+        Me.ucrBtnClear.Name = "ucrBtnClear"
+        Me.ucrBtnClear.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnClear.TabIndex = 85
+        '
+        'ucrBtnView
+        '
+        Me.ucrBtnView.ButtonText = "View"
+        Me.ucrBtnView.Location = New System.Drawing.Point(549, 10)
+        Me.ucrBtnView.Name = "ucrBtnView"
+        Me.ucrBtnView.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnView.TabIndex = 82
+        '
+        'ucrBtnAddNew
+        '
+        Me.ucrBtnAddNew.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.AddNew
+        Me.ucrBtnAddNew.ButtonText = "AddNew"
+        Me.ucrBtnAddNew.Location = New System.Drawing.Point(19, 10)
+        Me.ucrBtnAddNew.Name = "ucrBtnAddNew"
+        Me.ucrBtnAddNew.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnAddNew.TabIndex = 86
+        '
+        'ucrBtnUpdate
+        '
+        Me.ucrBtnUpdate.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.Update
+        Me.ucrBtnUpdate.ButtonText = "Update"
+        Me.ucrBtnUpdate.Location = New System.Drawing.Point(231, 10)
+        Me.ucrBtnUpdate.Name = "ucrBtnUpdate"
+        Me.ucrBtnUpdate.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnUpdate.TabIndex = 81
+        '
+        'ucrBtnSave
+        '
+        Me.ucrBtnSave.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.Save
+        Me.ucrBtnSave.ButtonText = "Save"
+        Me.ucrBtnSave.Location = New System.Drawing.Point(125, 10)
+        Me.ucrBtnSave.Name = "ucrBtnSave"
+        Me.ucrBtnSave.Size = New System.Drawing.Size(75, 23)
+        Me.ucrBtnSave.TabIndex = 84
+        '
         'ucrNavigator
         '
         Me.ucrNavigator.Location = New System.Drawing.Point(138, 412)
@@ -212,60 +264,6 @@ Partial Class ucrMetadataStationElementNew
         Me.ucrElementSelectorElementID.Name = "ucrElementSelectorElementID"
         Me.ucrElementSelectorElementID.Size = New System.Drawing.Size(178, 21)
         Me.ucrElementSelectorElementID.TabIndex = 29
-        '
-        'ucrBtnDelete
-        '
-        Me.ucrBtnDelete.ActionTypeId = 0
-        Me.ucrBtnDelete.ButtonText = "Delete"
-        Me.ucrBtnDelete.Location = New System.Drawing.Point(337, 10)
-        Me.ucrBtnDelete.Name = "ucrBtnDelete"
-        Me.ucrBtnDelete.Size = New System.Drawing.Size(75, 23)
-        Me.ucrBtnDelete.TabIndex = 83
-        '
-        'ucrBtnClear
-        '
-        Me.ucrBtnClear.ActionTypeId = 0
-        Me.ucrBtnClear.ButtonText = "Clear"
-        Me.ucrBtnClear.Location = New System.Drawing.Point(443, 10)
-        Me.ucrBtnClear.Name = "ucrBtnClear"
-        Me.ucrBtnClear.Size = New System.Drawing.Size(75, 23)
-        Me.ucrBtnClear.TabIndex = 85
-        '
-        'ucrBtnView
-        '
-        Me.ucrBtnView.ActionTypeId = 0
-        Me.ucrBtnView.ButtonText = "View"
-        Me.ucrBtnView.Location = New System.Drawing.Point(549, 10)
-        Me.ucrBtnView.Name = "ucrBtnView"
-        Me.ucrBtnView.Size = New System.Drawing.Size(75, 23)
-        Me.ucrBtnView.TabIndex = 82
-        '
-        'ucrBtnAddNew
-        '
-        Me.ucrBtnAddNew.ActionTypeId = 0
-        Me.ucrBtnAddNew.ButtonText = "AddNew"
-        Me.ucrBtnAddNew.Location = New System.Drawing.Point(19, 10)
-        Me.ucrBtnAddNew.Name = "ucrBtnAddNew"
-        Me.ucrBtnAddNew.Size = New System.Drawing.Size(75, 23)
-        Me.ucrBtnAddNew.TabIndex = 86
-        '
-        'ucrBtnUpdate
-        '
-        Me.ucrBtnUpdate.ActionTypeId = 0
-        Me.ucrBtnUpdate.ButtonText = "Update"
-        Me.ucrBtnUpdate.Location = New System.Drawing.Point(231, 10)
-        Me.ucrBtnUpdate.Name = "ucrBtnUpdate"
-        Me.ucrBtnUpdate.Size = New System.Drawing.Size(75, 23)
-        Me.ucrBtnUpdate.TabIndex = 81
-        '
-        'ucrBtnSave
-        '
-        Me.ucrBtnSave.ActionTypeId = 0
-        Me.ucrBtnSave.ButtonText = "Save"
-        Me.ucrBtnSave.Location = New System.Drawing.Point(125, 10)
-        Me.ucrBtnSave.Name = "ucrBtnSave"
-        Me.ucrBtnSave.Size = New System.Drawing.Size(75, 23)
-        Me.ucrBtnSave.TabIndex = 84
         '
         'ucrMetadataStationElementNew
         '

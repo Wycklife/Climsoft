@@ -5,7 +5,6 @@
     Private strElementName As String
     Private strElementId As String
     Private strIDsAndElements As String
-
     Public Sub setInstrumentLink(ucrInstrumentSelector As ucrInstrumentSelectorNew)
         ucrLinkedInstrument = ucrInstrumentSelector
         AddHandler ucrLinkedInstrument.evtValueChanged, AddressOf InstrumentEvtValueChanged
@@ -27,40 +26,36 @@
 
     Public Overrides Sub UpdateValueChoices()
         SetValueFromDataStructure()
-        'TODO update this variables
-        'strElementTableName 
-        ' strElementName 
-        'strElementId
+        'TODO The following variables
+        ' strElementTableName
+        'strElementName 
+        'strElementId 
         'strIDsAndElements 
+
     End Sub
 
     Public Sub SetViewTypeAsElements()
-        'TODO sets the list of elements from the datastructure list of elements
         SetDisplayMember(strElementName)
     End Sub
 
     Public Sub SetViewTypeAsIDs()
-        'TODO. Refer to the SetDisplayMember(),in UcrComboBoxNew,while passing in theelementID to get the list of specified IDS
-        'SetDisplayMember(strElementId)
+        SetDisplayMember(strElementId)
     End Sub
 
     Public Sub SetViewTypeAsIDsAndElements()
-        'TODO. Refer to the SetDisplayMember(),in UcrComboBoxNew,while passing in the element names and IDs to get the list of specified IDS
-        'SetDisplayMember(strIDsAndElements)
+        SetDisplayMember(strIDsAndElements)
     End Sub
 
     Private Sub SortByID()
-        'use the sortBy(),with ElementID as the argument,function in ucrComboboxNew to sort the Elements
-        'SortBy(strElementId)
-        'cmsElementSortByID.Checked = True
-        'cmsElementSortyByName.Checked = False
+        SortBy(strElementId)
+        cmsElementSortByID.Checked = True
+        cmsElementSortyByName.Checked = False
     End Sub
 
     Private Sub SortByElementName()
-        'use the sortBy(),with ElementName as the argument,function in ucrComboboxNew to sort the Elements
-        'SortBy(strElementName)
-        'cmsElementSortByID.Checked = False
-        'cmsElementSortyByName.Checked = True
+        SortBy(strElementName)
+        cmsElementSortByID.Checked = False
+        cmsElementSortyByName.Checked = True
     End Sub
 
     Private Sub cmsElementsNames_Click(sender As Object, e As EventArgs) Handles cmsElementNames.Click
@@ -97,12 +92,12 @@
         If Not bValid Then
             If Not String.IsNullOrEmpty(cboValues.ValueMember) Then
                 'TODO Requires datatable to  go through this loop
-                'For Each rTemp As DataRow In dtbRecords.Rows
-                '    If rTemp.Item(cboValues.ValueMember).ToString = cboValues.Text Then
-                '        bValid = True
-                '        Exit For
-                '    End If
-                'Next
+                '    For Each rTemp As DataRow In dtbRecords.Rows
+                '        If rTemp.Item(cboValues.ValueMember).ToString = cboValues.Text Then
+                '            bValid = True
+                '            Exit For
+                '        End If
+                '    Next
             End If
 
             SetBackColor(If(bValid, clValidColor, clInValidColor))
@@ -110,4 +105,40 @@
 
         Return bValid
     End Function
+
+    Protected Overrides Sub ucrComboBoxSelector_Load(sender As Object, e As EventArgs) Handles Me.Load
+        If clsDataConnection.IsInDesignMode() Then
+            Exit Sub ' temporary code to remove the bugs thrown during design time
+        End If
+
+        Dim dct As New Dictionary(Of String, List(Of String))
+        If bFirstLoad Then
+
+            cboValues.ContextMenuStrip = cmsElement
+            SetComboBoxSelectorProperties()
+            bValidateEmpty = True
+            strValidationType = "exists"
+
+            dct.Add(strElementName, New List(Of String)({strElementName}))
+            dct.Add(strElementId, New List(Of String)({strElementId}))
+            dct.Add(strIDsAndElements, New List(Of String)({strElementId, strElementName}))
+            'SetTableNameAndFields(strElementTableName, dct)
+            'SetFilter("selected", "=", "1", bIsPositiveCondition:=True)
+            UpdateValueChoices()
+            bFirstLoad = False
+        End If
+    End Sub
+
+    Private Sub cboValues_Leave(sender As Object, e As EventArgs)
+        If Not cboValues.DisplayMember = strElementId Then
+            If IsNumeric(cboValues.Text) Then
+                If ValidateValue() Then
+                    Dim bChangedEvents As Boolean = Me.bSuppressChangedEvents
+                    bSuppressChangedEvents = True
+                    SetValue(cboValues.Text)
+                    bSuppressChangedEvents = bChangedEvents
+                End If
+            End If
+        End If
+    End Sub
 End Class

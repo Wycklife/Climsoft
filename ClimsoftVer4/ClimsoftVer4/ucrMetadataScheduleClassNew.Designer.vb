@@ -30,13 +30,13 @@ Partial Class ucrMetadataScheduleClassNew
         Me.lblDescription = New System.Windows.Forms.Label()
         Me.ucrTextBoxNewDescription = New ClimsoftVer4.ucrTextBoxNew()
         Me.GroupBox13 = New System.Windows.Forms.GroupBox()
-        Me.ucrNavigatorScheduleClass = New ClimsoftVer4.ucrNavigator()
         Me.ucrBtnDelete = New ClimsoftVer4.ucrButton()
         Me.ucrBtnClear = New ClimsoftVer4.ucrButton()
         Me.ucrBtnView = New ClimsoftVer4.ucrButton()
         Me.ucrBtnAddNew = New ClimsoftVer4.ucrButton()
         Me.ucrBtnUpdate = New ClimsoftVer4.ucrButton()
         Me.ucrBtnSave = New ClimsoftVer4.ucrButton()
+        Me.ucrNavigatorScheduleClass = New ClimsoftVer4.ucrNavigator()
         Me.GroupBox13.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -62,7 +62,7 @@ Partial Class ucrMetadataScheduleClassNew
         'ucrTextBoxNewClass
         '
         Me.ucrTextBoxNewClass.Location = New System.Drawing.Point(270, 96)
-        Me.ucrTextBoxNewClass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ucrTextBoxNewClass.Margin = New System.Windows.Forms.Padding(4)
         Me.ucrTextBoxNewClass.Name = "ucrTextBoxNewClass"
         Me.ucrTextBoxNewClass.Size = New System.Drawing.Size(154, 20)
         Me.ucrTextBoxNewClass.TabIndex = 3
@@ -80,7 +80,7 @@ Partial Class ucrMetadataScheduleClassNew
         'ucrStationSelector
         '
         Me.ucrStationSelector.Location = New System.Drawing.Point(270, 133)
-        Me.ucrStationSelector.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ucrStationSelector.Margin = New System.Windows.Forms.Padding(4)
         Me.ucrStationSelector.Name = "ucrStationSelector"
         Me.ucrStationSelector.Size = New System.Drawing.Size(154, 24)
         Me.ucrStationSelector.TabIndex = 5
@@ -97,7 +97,7 @@ Partial Class ucrMetadataScheduleClassNew
         'ucrTextBoxNewDescription
         '
         Me.ucrTextBoxNewDescription.Location = New System.Drawing.Point(270, 176)
-        Me.ucrTextBoxNewDescription.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ucrTextBoxNewDescription.Margin = New System.Windows.Forms.Padding(4)
         Me.ucrTextBoxNewDescription.Name = "ucrTextBoxNewDescription"
         Me.ucrTextBoxNewDescription.Size = New System.Drawing.Size(154, 20)
         Me.ucrTextBoxNewDescription.TabIndex = 7
@@ -117,16 +117,9 @@ Partial Class ucrMetadataScheduleClassNew
         Me.GroupBox13.TabIndex = 8
         Me.GroupBox13.TabStop = False
         '
-        'ucrNavigatorScheduleClass
-        '
-        Me.ucrNavigatorScheduleClass.Location = New System.Drawing.Point(147, 319)
-        Me.ucrNavigatorScheduleClass.Name = "ucrNavigatorScheduleClass"
-        Me.ucrNavigatorScheduleClass.Size = New System.Drawing.Size(336, 25)
-        Me.ucrNavigatorScheduleClass.TabIndex = 9
-        '
         'ucrBtnDelete
         '
-        Me.ucrBtnDelete.ActionTypeId = 0
+        Me.ucrBtnDelete.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.Delete
         Me.ucrBtnDelete.ButtonText = "Delete"
         Me.ucrBtnDelete.Location = New System.Drawing.Point(314, 5)
         Me.ucrBtnDelete.Name = "ucrBtnDelete"
@@ -135,7 +128,6 @@ Partial Class ucrMetadataScheduleClassNew
         '
         'ucrBtnClear
         '
-        Me.ucrBtnClear.ActionTypeId = 0
         Me.ucrBtnClear.ButtonText = "Clear"
         Me.ucrBtnClear.Location = New System.Drawing.Point(412, 5)
         Me.ucrBtnClear.Name = "ucrBtnClear"
@@ -144,7 +136,6 @@ Partial Class ucrMetadataScheduleClassNew
         '
         'ucrBtnView
         '
-        Me.ucrBtnView.ActionTypeId = 0
         Me.ucrBtnView.ButtonText = "View"
         Me.ucrBtnView.Location = New System.Drawing.Point(510, 5)
         Me.ucrBtnView.Name = "ucrBtnView"
@@ -153,7 +144,7 @@ Partial Class ucrMetadataScheduleClassNew
         '
         'ucrBtnAddNew
         '
-        Me.ucrBtnAddNew.ActionTypeId = 0
+        Me.ucrBtnAddNew.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.AddNew
         Me.ucrBtnAddNew.ButtonText = "AddNew"
         Me.ucrBtnAddNew.Location = New System.Drawing.Point(20, 5)
         Me.ucrBtnAddNew.Name = "ucrBtnAddNew"
@@ -162,7 +153,7 @@ Partial Class ucrMetadataScheduleClassNew
         '
         'ucrBtnUpdate
         '
-        Me.ucrBtnUpdate.ActionTypeId = 0
+        Me.ucrBtnUpdate.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.Update
         Me.ucrBtnUpdate.ButtonText = "Update"
         Me.ucrBtnUpdate.Location = New System.Drawing.Point(216, 5)
         Me.ucrBtnUpdate.Name = "ucrBtnUpdate"
@@ -171,12 +162,19 @@ Partial Class ucrMetadataScheduleClassNew
         '
         'ucrBtnSave
         '
-        Me.ucrBtnSave.ActionTypeId = 0
+        Me.ucrBtnSave.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.Save
         Me.ucrBtnSave.ButtonText = "Save"
         Me.ucrBtnSave.Location = New System.Drawing.Point(118, 5)
         Me.ucrBtnSave.Name = "ucrBtnSave"
         Me.ucrBtnSave.Size = New System.Drawing.Size(81, 27)
         Me.ucrBtnSave.TabIndex = 78
+        '
+        'ucrNavigatorScheduleClass
+        '
+        Me.ucrNavigatorScheduleClass.Location = New System.Drawing.Point(147, 319)
+        Me.ucrNavigatorScheduleClass.Name = "ucrNavigatorScheduleClass"
+        Me.ucrNavigatorScheduleClass.Size = New System.Drawing.Size(336, 25)
+        Me.ucrNavigatorScheduleClass.TabIndex = 9
         '
         'ucrMetadataScheduleClassNew
         '
@@ -191,7 +189,7 @@ Partial Class ucrMetadataScheduleClassNew
         Me.Controls.Add(Me.ucrTextBoxNewClass)
         Me.Controls.Add(Me.lblClass)
         Me.Controls.Add(Me.lblScheduleClass)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "ucrMetadataScheduleClassNew"
         Me.Size = New System.Drawing.Size(630, 349)
         Me.GroupBox13.ResumeLayout(False)
