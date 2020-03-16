@@ -28,13 +28,13 @@ Partial Class ucrMetadataPaperArchiveNew
         Me.lbldescri = New System.Windows.Forms.Label()
         Me.ucrTextBoxNewDescription = New ClimsoftVer4.ucrTextBoxNew()
         Me.GroupBox13 = New System.Windows.Forms.GroupBox()
-        Me.ucrNavigatorPaperArchive = New ClimsoftVer4.ucrNavigator()
         Me.ucrBtnDelete = New ClimsoftVer4.ucrButton()
         Me.ucrBtnClear = New ClimsoftVer4.ucrButton()
         Me.ucrBtnView = New ClimsoftVer4.ucrButton()
         Me.ucrBtnAddNew = New ClimsoftVer4.ucrButton()
         Me.ucrBtnUpdate = New ClimsoftVer4.ucrButton()
         Me.ucrBtnSave = New ClimsoftVer4.ucrButton()
+        Me.ucrNavigatorPaperArchive = New ClimsoftVer4.ucrNavigator()
         Me.GroupBox13.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -60,7 +60,7 @@ Partial Class ucrMetadataPaperArchiveNew
         'ucrTextboxNewFormID
         '
         Me.ucrTextboxNewFormID.Location = New System.Drawing.Point(278, 99)
-        Me.ucrTextboxNewFormID.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ucrTextboxNewFormID.Margin = New System.Windows.Forms.Padding(4)
         Me.ucrTextboxNewFormID.Name = "ucrTextboxNewFormID"
         Me.ucrTextboxNewFormID.Size = New System.Drawing.Size(136, 20)
         Me.ucrTextboxNewFormID.TabIndex = 3
@@ -78,7 +78,7 @@ Partial Class ucrMetadataPaperArchiveNew
         'ucrTextBoxNewDescription
         '
         Me.ucrTextBoxNewDescription.Location = New System.Drawing.Point(278, 141)
-        Me.ucrTextBoxNewDescription.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ucrTextBoxNewDescription.Margin = New System.Windows.Forms.Padding(4)
         Me.ucrTextBoxNewDescription.Name = "ucrTextBoxNewDescription"
         Me.ucrTextBoxNewDescription.Size = New System.Drawing.Size(136, 20)
         Me.ucrTextBoxNewDescription.TabIndex = 5
@@ -98,16 +98,9 @@ Partial Class ucrMetadataPaperArchiveNew
         Me.GroupBox13.TabIndex = 6
         Me.GroupBox13.TabStop = False
         '
-        'ucrNavigatorPaperArchive
-        '
-        Me.ucrNavigatorPaperArchive.Location = New System.Drawing.Point(140, 286)
-        Me.ucrNavigatorPaperArchive.Name = "ucrNavigatorPaperArchive"
-        Me.ucrNavigatorPaperArchive.Size = New System.Drawing.Size(336, 25)
-        Me.ucrNavigatorPaperArchive.TabIndex = 8
-        '
         'ucrBtnDelete
         '
-        Me.ucrBtnDelete.ActionTypeId = 0
+        Me.ucrBtnDelete.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.Delete
         Me.ucrBtnDelete.ButtonText = "Delete"
         Me.ucrBtnDelete.Location = New System.Drawing.Point(308, 5)
         Me.ucrBtnDelete.Name = "ucrBtnDelete"
@@ -116,7 +109,6 @@ Partial Class ucrMetadataPaperArchiveNew
         '
         'ucrBtnClear
         '
-        Me.ucrBtnClear.ActionTypeId = 0
         Me.ucrBtnClear.ButtonText = "Clear"
         Me.ucrBtnClear.Location = New System.Drawing.Point(403, 5)
         Me.ucrBtnClear.Name = "ucrBtnClear"
@@ -125,7 +117,6 @@ Partial Class ucrMetadataPaperArchiveNew
         '
         'ucrBtnView
         '
-        Me.ucrBtnView.ActionTypeId = 0
         Me.ucrBtnView.ButtonText = "View"
         Me.ucrBtnView.Location = New System.Drawing.Point(498, 5)
         Me.ucrBtnView.Name = "ucrBtnView"
@@ -134,7 +125,7 @@ Partial Class ucrMetadataPaperArchiveNew
         '
         'ucrBtnAddNew
         '
-        Me.ucrBtnAddNew.ActionTypeId = 0
+        Me.ucrBtnAddNew.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.AddNew
         Me.ucrBtnAddNew.ButtonText = "AddNew"
         Me.ucrBtnAddNew.Location = New System.Drawing.Point(23, 5)
         Me.ucrBtnAddNew.Name = "ucrBtnAddNew"
@@ -143,7 +134,7 @@ Partial Class ucrMetadataPaperArchiveNew
         '
         'ucrBtnUpdate
         '
-        Me.ucrBtnUpdate.ActionTypeId = 0
+        Me.ucrBtnUpdate.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.Update
         Me.ucrBtnUpdate.ButtonText = "Update"
         Me.ucrBtnUpdate.Location = New System.Drawing.Point(213, 5)
         Me.ucrBtnUpdate.Name = "ucrBtnUpdate"
@@ -152,12 +143,19 @@ Partial Class ucrMetadataPaperArchiveNew
         '
         'ucrBtnSave
         '
-        Me.ucrBtnSave.ActionTypeId = 0
+        Me.ucrBtnSave.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.Save
         Me.ucrBtnSave.ButtonText = "Save"
         Me.ucrBtnSave.Location = New System.Drawing.Point(118, 5)
         Me.ucrBtnSave.Name = "ucrBtnSave"
         Me.ucrBtnSave.Size = New System.Drawing.Size(81, 27)
         Me.ucrBtnSave.TabIndex = 66
+        '
+        'ucrNavigatorPaperArchive
+        '
+        Me.ucrNavigatorPaperArchive.Location = New System.Drawing.Point(140, 286)
+        Me.ucrNavigatorPaperArchive.Name = "ucrNavigatorPaperArchive"
+        Me.ucrNavigatorPaperArchive.Size = New System.Drawing.Size(336, 25)
+        Me.ucrNavigatorPaperArchive.TabIndex = 8
         '
         'ucrMetadataPaperArchiveNew
         '
@@ -170,7 +168,7 @@ Partial Class ucrMetadataPaperArchiveNew
         Me.Controls.Add(Me.ucrTextboxNewFormID)
         Me.Controls.Add(Me.lblFormId)
         Me.Controls.Add(Me.Label7)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "ucrMetadataPaperArchiveNew"
         Me.Size = New System.Drawing.Size(617, 316)
         Me.GroupBox13.ResumeLayout(False)
