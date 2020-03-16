@@ -19,7 +19,7 @@
     Private Sub InstrumentEvtValueChanged()
         'TODO.Filter out the instruments specific for the selected station
     End Sub
-    Public Overrides Sub PopulateControl()
+    Public Overrides Sub UpdateValueChoices()
         'TODO Fill the selector combo box with the list of required values ie station ID or station Name
     End Sub
 
@@ -49,7 +49,7 @@
         ' TODO SetDataTable() in sdgFilter needs to be created
         'sdgFilter.SetDataTable(dtbStations)
         sdgFilter.ShowDialog()
-        PopulateControl()
+        UpdateValueChoices()
     End Sub
 
     Public Sub SetViewTypeAsStations()

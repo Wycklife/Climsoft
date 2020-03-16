@@ -650,12 +650,6 @@
     <Compile Include="ucrBaseDataLink.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucrBaseDataLinkNew.Designer.vb">
-      <DependentUpon>ucrBaseDataLinkNew.vb</DependentUpon>
-    </Compile>
-    <Compile Include="ucrBaseDataLinkNew.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Include="ucrButton.Designer.vb">
       <DependentUpon>ucrButton.vb</DependentUpon>
     </Compile>

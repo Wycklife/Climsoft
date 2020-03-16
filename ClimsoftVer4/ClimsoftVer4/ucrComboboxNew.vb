@@ -204,6 +204,7 @@
     End Sub
 
     Public Sub SetDisplayMember(strDisplay As String)
+
         'TODO dataStructures are required here to set the comboboxes display member
     End Sub
 

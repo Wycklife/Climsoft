@@ -1,6 +1,10 @@
 ﻿Public Class ucrElementSelectorNew
     Private ucrLinkedStation As ucrStationSelectorNew
     Private ucrLinkedInstrument As ucrInstrumentSelectorNew
+    Private strElementTableName As String
+    Private strElementName As String
+    Private strElementId As String
+    Private strIDsAndElements As String
 
     Public Sub setInstrumentLink(ucrInstrumentSelector As ucrInstrumentSelectorNew)
         ucrLinkedInstrument = ucrInstrumentSelector
@@ -21,18 +25,18 @@
         'instrument
     End Sub
 
-    Public Overrides Sub PopulateControl()
-        'TODO Fills the elementSelector combobox with the list of elements
-
+    Public Overrides Sub UpdateValueChoices()
+        SetValueFromDataStructure()
+        'TODO update this variables
+        'strElementTableName 
+        ' strElementName 
+        'strElementId
+        'strIDsAndElements 
     End Sub
 
-    Public Overrides Function ValidateValue() As Boolean
-        'TODO..Validates the user input values
-    End Function
-
     Public Sub SetViewTypeAsElements()
-        'TODO. Refer to the SetDisplayMember(),in UcrComboBoxNew,while passing in the elementNames to get the list of specified IDS
-        'SetDisplayMember(strElementName)
+        'TODO sets the list of elements from the datastructure list of elements
+        SetDisplayMember(strElementName)
     End Sub
 
     Public Sub SetViewTypeAsIDs()
@@ -85,4 +89,25 @@
         'sdgFilter.ShowDialog()
         'PopulateControl()
     End Sub
+
+    Public Overrides Function ValidateValue() As Boolean
+        Dim bValid As Boolean
+        bValid = MyBase.ValidateValue()
+
+        If Not bValid Then
+            If Not String.IsNullOrEmpty(cboValues.ValueMember) Then
+                'TODO Requires datatable to  go through this loop
+                'For Each rTemp As DataRow In dtbRecords.Rows
+                '    If rTemp.Item(cboValues.ValueMember).ToString = cboValues.Text Then
+                '        bValid = True
+                '        Exit For
+                '    End If
+                'Next
+            End If
+
+            SetBackColor(If(bValid, clValidColor, clInValidColor))
+        End If
+
+        Return bValid
+    End Function
 End Class

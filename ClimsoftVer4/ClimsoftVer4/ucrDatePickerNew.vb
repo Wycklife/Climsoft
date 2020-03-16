@@ -1,5 +1,4 @@
 ﻿Public Class ucrDatePickerNew
-    Private bFirstLoad As Boolean = True
     Private strDateFormat As String
     Private strValueReturnType As String
     Protected Overridable Sub ucrDatePicker_Load(sender As Object, e As EventArgs) Handles Me.Load
