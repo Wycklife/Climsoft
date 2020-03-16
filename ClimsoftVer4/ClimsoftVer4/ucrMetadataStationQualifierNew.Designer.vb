@@ -37,13 +37,13 @@ Partial Class ucrMetadataStationQualifierNew
         Me.lblNetworkType = New System.Windows.Forms.Label()
         Me.ucrTextBoxNewNetworkType = New ClimsoftVer4.ucrTextBoxNew()
         Me.grpCommand2 = New System.Windows.Forms.GroupBox()
-        Me.UcrNavigator1 = New ClimsoftVer4.ucrNavigator()
         Me.ucrBtnDelete = New ClimsoftVer4.ucrButton()
         Me.ucrBtnClear = New ClimsoftVer4.ucrButton()
         Me.ucrBtnView = New ClimsoftVer4.ucrButton()
         Me.ucrBtnAddNew = New ClimsoftVer4.ucrButton()
         Me.ucrBtnUpdate = New ClimsoftVer4.ucrButton()
         Me.ucrBtnSave = New ClimsoftVer4.ucrButton()
+        Me.UcrNavigator1 = New ClimsoftVer4.ucrNavigator()
         Me.grpCommand2.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -69,7 +69,7 @@ Partial Class ucrMetadataStationQualifierNew
         'ucrTextBoxNewQualifier
         '
         Me.ucrTextBoxNewQualifier.Location = New System.Drawing.Point(301, 89)
-        Me.ucrTextBoxNewQualifier.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ucrTextBoxNewQualifier.Margin = New System.Windows.Forms.Padding(4)
         Me.ucrTextBoxNewQualifier.Name = "ucrTextBoxNewQualifier"
         Me.ucrTextBoxNewQualifier.Size = New System.Drawing.Size(154, 20)
         Me.ucrTextBoxNewQualifier.TabIndex = 3
@@ -87,7 +87,7 @@ Partial Class ucrMetadataStationQualifierNew
         'UcrComboboxNew1
         '
         Me.UcrComboboxNew1.Location = New System.Drawing.Point(301, 126)
-        Me.UcrComboboxNew1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.UcrComboboxNew1.Margin = New System.Windows.Forms.Padding(4)
         Me.UcrComboboxNew1.Name = "UcrComboboxNew1"
         Me.UcrComboboxNew1.Size = New System.Drawing.Size(155, 24)
         Me.UcrComboboxNew1.TabIndex = 5
@@ -104,7 +104,7 @@ Partial Class ucrMetadataStationQualifierNew
         'ucrDatePickerNewBeginDate
         '
         Me.ucrDatePickerNewBeginDate.Location = New System.Drawing.Point(301, 160)
-        Me.ucrDatePickerNewBeginDate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ucrDatePickerNewBeginDate.Margin = New System.Windows.Forms.Padding(4)
         Me.ucrDatePickerNewBeginDate.Name = "ucrDatePickerNewBeginDate"
         Me.ucrDatePickerNewBeginDate.Size = New System.Drawing.Size(155, 21)
         Me.ucrDatePickerNewBeginDate.TabIndex = 7
@@ -121,7 +121,7 @@ Partial Class ucrMetadataStationQualifierNew
         'ucrDatePickerNewEndDate
         '
         Me.ucrDatePickerNewEndDate.Location = New System.Drawing.Point(301, 196)
-        Me.ucrDatePickerNewEndDate.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ucrDatePickerNewEndDate.Margin = New System.Windows.Forms.Padding(4)
         Me.ucrDatePickerNewEndDate.Name = "ucrDatePickerNewEndDate"
         Me.ucrDatePickerNewEndDate.Size = New System.Drawing.Size(155, 21)
         Me.ucrDatePickerNewEndDate.TabIndex = 9
@@ -138,7 +138,7 @@ Partial Class ucrMetadataStationQualifierNew
         'ucrTextBoxNewTimeZone
         '
         Me.ucrTextBoxNewTimeZone.Location = New System.Drawing.Point(301, 237)
-        Me.ucrTextBoxNewTimeZone.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ucrTextBoxNewTimeZone.Margin = New System.Windows.Forms.Padding(4)
         Me.ucrTextBoxNewTimeZone.Name = "ucrTextBoxNewTimeZone"
         Me.ucrTextBoxNewTimeZone.Size = New System.Drawing.Size(154, 20)
         Me.ucrTextBoxNewTimeZone.TabIndex = 11
@@ -156,7 +156,7 @@ Partial Class ucrMetadataStationQualifierNew
         'ucrTextBoxNewNetworkType
         '
         Me.ucrTextBoxNewNetworkType.Location = New System.Drawing.Point(301, 274)
-        Me.ucrTextBoxNewNetworkType.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ucrTextBoxNewNetworkType.Margin = New System.Windows.Forms.Padding(4)
         Me.ucrTextBoxNewNetworkType.Name = "ucrTextBoxNewNetworkType"
         Me.ucrTextBoxNewNetworkType.Size = New System.Drawing.Size(154, 20)
         Me.ucrTextBoxNewNetworkType.TabIndex = 13
@@ -176,16 +176,9 @@ Partial Class ucrMetadataStationQualifierNew
         Me.grpCommand2.TabIndex = 14
         Me.grpCommand2.TabStop = False
         '
-        'UcrNavigator1
-        '
-        Me.UcrNavigator1.Location = New System.Drawing.Point(172, 375)
-        Me.UcrNavigator1.Name = "UcrNavigator1"
-        Me.UcrNavigator1.Size = New System.Drawing.Size(336, 25)
-        Me.UcrNavigator1.TabIndex = 15
-        '
         'ucrBtnDelete
         '
-        Me.ucrBtnDelete.ActionTypeId = 0
+        Me.ucrBtnDelete.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.Delete
         Me.ucrBtnDelete.ButtonText = "Delete"
         Me.ucrBtnDelete.Location = New System.Drawing.Point(354, 5)
         Me.ucrBtnDelete.Name = "ucrBtnDelete"
@@ -194,7 +187,6 @@ Partial Class ucrMetadataStationQualifierNew
         '
         'ucrBtnClear
         '
-        Me.ucrBtnClear.ActionTypeId = 0
         Me.ucrBtnClear.ButtonText = "Clear"
         Me.ucrBtnClear.Location = New System.Drawing.Point(466, 6)
         Me.ucrBtnClear.Name = "ucrBtnClear"
@@ -203,7 +195,6 @@ Partial Class ucrMetadataStationQualifierNew
         '
         'ucrBtnView
         '
-        Me.ucrBtnView.ActionTypeId = 0
         Me.ucrBtnView.ButtonText = "View"
         Me.ucrBtnView.Location = New System.Drawing.Point(578, 5)
         Me.ucrBtnView.Name = "ucrBtnView"
@@ -212,7 +203,7 @@ Partial Class ucrMetadataStationQualifierNew
         '
         'ucrBtnAddNew
         '
-        Me.ucrBtnAddNew.ActionTypeId = 0
+        Me.ucrBtnAddNew.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.AddNew
         Me.ucrBtnAddNew.ButtonText = "AddNew"
         Me.ucrBtnAddNew.Location = New System.Drawing.Point(18, 4)
         Me.ucrBtnAddNew.Name = "ucrBtnAddNew"
@@ -221,7 +212,7 @@ Partial Class ucrMetadataStationQualifierNew
         '
         'ucrBtnUpdate
         '
-        Me.ucrBtnUpdate.ActionTypeId = 0
+        Me.ucrBtnUpdate.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.Update
         Me.ucrBtnUpdate.ButtonText = "Update"
         Me.ucrBtnUpdate.Location = New System.Drawing.Point(242, 5)
         Me.ucrBtnUpdate.Name = "ucrBtnUpdate"
@@ -230,12 +221,19 @@ Partial Class ucrMetadataStationQualifierNew
         '
         'ucrBtnSave
         '
-        Me.ucrBtnSave.ActionTypeId = 0
+        Me.ucrBtnSave.ActionTypeId = ClimsoftVer4.ClsGlobals.EnumActionCode.Save
         Me.ucrBtnSave.ButtonText = "Save"
         Me.ucrBtnSave.Location = New System.Drawing.Point(130, 5)
         Me.ucrBtnSave.Name = "ucrBtnSave"
         Me.ucrBtnSave.Size = New System.Drawing.Size(75, 23)
         Me.ucrBtnSave.TabIndex = 96
+        '
+        'UcrNavigator1
+        '
+        Me.UcrNavigator1.Location = New System.Drawing.Point(172, 375)
+        Me.UcrNavigator1.Name = "UcrNavigator1"
+        Me.UcrNavigator1.Size = New System.Drawing.Size(336, 25)
+        Me.UcrNavigator1.TabIndex = 15
         '
         'ucrMetadataStationQualifierNew
         '
@@ -256,7 +254,7 @@ Partial Class ucrMetadataStationQualifierNew
         Me.Controls.Add(Me.ucrTextBoxNewQualifier)
         Me.Controls.Add(Me.lblQualifier)
         Me.Controls.Add(Me.lblStationQualifier)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "ucrMetadataStationQualifierNew"
         Me.Size = New System.Drawing.Size(680, 402)
         Me.grpCommand2.ResumeLayout(False)

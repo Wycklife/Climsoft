@@ -10,14 +10,14 @@
     Protected WithEvents btnCancel As ucrButton
     Protected WithEvents btnView As ucrButton
     Protected WithEvents btnUpload As ucrButton
-    Protected iSaveActionTypeID As Integer
-    Protected iDeleteActionTypeID As Integer
-    Protected iUpdateActionTypeID As Integer
-    Protected iAddNewActionTypeID As Integer
-    Protected iClearActionTypeID As Integer
-    Protected iCancelActionTypeID As Integer
-    Protected iUploadActionTypeID As Integer
-    Protected iViewActionTypeID As Integer
+    Protected iSaveActionTypeID As ClsGlobals.EnumActionCode
+    Protected iDeleteActionTypeID As ClsGlobals.EnumActionCode
+    Protected iUpdateActionTypeID As ClsGlobals.EnumActionCode
+    Protected iAddNewActionTypeID As ClsGlobals.EnumActionCode
+    Protected iClearActionTypeID As ClsGlobals.EnumActionCode
+    Protected iCancelActionTypeID As ClsGlobals.EnumActionCode
+    Protected iUploadActionTypeID As ClsGlobals.EnumActionCode
+    Protected iViewActionTypeID As ClsGlobals.EnumActionCode
 
     Private Sub ucrPage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If bFirstLoad Then
