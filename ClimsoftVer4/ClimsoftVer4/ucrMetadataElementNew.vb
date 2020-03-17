@@ -1,6 +1,28 @@
 ﻿Public Class ucrMetadataElementNew
     Private Sub ucrMetadataElementNew_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If bFirstLoad Then
+            'TODO Have a method that sets up the table to be used from the datastructure as before   SetUpTableEntry("obselement") 
+            ucrDataLinkElementID.UpdateValueChoices()
+            ucrDataLinkElementID.SetDisplayAndValueMember("elementId")
+            'TODO set the table to be used from the datatructure
+            'ucrDataLinkElementID.SetTableNameAndField("obselement", "elementId")
+            ucrDataLinkElementID.SetValidationTypeAsNumeric(dcmMin:=1)
+
+            ucrDataLinkType.SetPossibleValues("elementtypes", GetType(String), {"Daily", "Hourly", "Monthly", "AWS"})
+            ucrDataLinkType.SetDisplayAndValueMember("elementtypes")
+            ucrDataLinkType.bValidateEmpty = False
+
+            ucrTextboxName.bValidateEmpty = True
+            ucrTextBoxScale.SetValidationTypeAsNumeric()
+            ucrTextBoxUpperLimit.SetValidationTypeAsNumeric()
+            'ucrTextBoxUpperLimit.bValidateEmpty = False
+            ucrTextBoxLowerLimit.SetValidationTypeAsNumeric()
+            'ucrTextBoxLowerLimit.bValidateEmpty = False
+
+            ucrNewElementSelector.SetInValidColor(ucrNewElementSelector.GetValidColor)
+
+            'TODO impliment Linked control filters
+            'AddLinkedControlFilters(ucrDataLinkElementID, ucrDataLinkElementID.FieldName(), "=", strLinkedFieldName:=ucrDataLinkElementID.FieldName(), bForceValuesAsString:=False)
 
             SetUpButtonAddNew(ucrBtnAddNew)
             SetUpButtonSave(ucrBtnSave)

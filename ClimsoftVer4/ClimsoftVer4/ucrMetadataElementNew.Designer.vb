@@ -22,7 +22,6 @@ Partial Class ucrMetadataElementNew
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.ucrElementSelectorSearch = New ClimsoftVer4.ucrComboboxNew()
         Me.lblSearchElement = New System.Windows.Forms.Label()
         Me.lblID = New System.Windows.Forms.Label()
         Me.ucrDataLinkElementID = New ClimsoftVer4.ucrComboboxNew()
@@ -55,16 +54,9 @@ Partial Class ucrMetadataElementNew
         Me.ucrBtnSave = New ClimsoftVer4.ucrButton()
         Me.ucrNavigatorElement = New ClimsoftVer4.ucrNavigator()
         Me.lblElement = New System.Windows.Forms.Label()
+        Me.ucrNewElementSelector = New ClimsoftVer4.ucrElementSelectorNew()
         Me.GroupBox13.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'ucrElementSelectorSearch
-        '
-        Me.ucrElementSelectorSearch.Location = New System.Drawing.Point(474, 41)
-        Me.ucrElementSelectorSearch.Margin = New System.Windows.Forms.Padding(4)
-        Me.ucrElementSelectorSearch.Name = "ucrElementSelectorSearch"
-        Me.ucrElementSelectorSearch.Size = New System.Drawing.Size(178, 21)
-        Me.ucrElementSelectorSearch.TabIndex = 0
         '
         'lblSearchElement
         '
@@ -354,10 +346,18 @@ Partial Class ucrMetadataElementNew
         Me.lblElement.TabIndex = 50
         Me.lblElement.Text = "Element"
         '
+        'ucrNewElementSelector
+        '
+        Me.ucrNewElementSelector.Location = New System.Drawing.Point(466, 42)
+        Me.ucrNewElementSelector.Name = "ucrNewElementSelector"
+        Me.ucrNewElementSelector.Size = New System.Drawing.Size(183, 21)
+        Me.ucrNewElementSelector.TabIndex = 51
+        '
         'ucrMetadataElementNew
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.ucrNewElementSelector)
         Me.Controls.Add(Me.lblElement)
         Me.Controls.Add(Me.ucrNavigatorElement)
         Me.Controls.Add(Me.GroupBox13)
@@ -384,7 +384,6 @@ Partial Class ucrMetadataElementNew
         Me.Controls.Add(Me.ucrDataLinkElementID)
         Me.Controls.Add(Me.lblID)
         Me.Controls.Add(Me.lblSearchElement)
-        Me.Controls.Add(Me.ucrElementSelectorSearch)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "ucrMetadataElementNew"
         Me.Size = New System.Drawing.Size(676, 481)
@@ -393,8 +392,6 @@ Partial Class ucrMetadataElementNew
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents ucrElementSelectorSearch As ucrComboboxNew
     Friend WithEvents lblSearchElement As Label
     Friend WithEvents lblID As Label
     Friend WithEvents ucrDataLinkElementID As ucrComboboxNew
@@ -427,4 +424,5 @@ Partial Class ucrMetadataElementNew
     Friend WithEvents ucrBtnSave As ucrButton
     Friend WithEvents ucrBtnClear As ucrButton
     Friend WithEvents ucrBtnAddNew As ucrButton
+    Friend WithEvents ucrNewElementSelector As ucrElementSelectorNew
 End Class
