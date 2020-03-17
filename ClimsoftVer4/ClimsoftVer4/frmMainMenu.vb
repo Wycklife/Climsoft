@@ -113,7 +113,7 @@ Public Class frmMainMenu
 
     Private Sub cmdKeyEntry_Click(sender As Object, e As EventArgs) Handles cmdKeyEntry.Click
         ' The icon has been changed
-        frmKeyEntry.ShowDialog()
+        frmDataEntry.ShowDialog()
 
     End Sub
 
@@ -156,7 +156,7 @@ Public Class frmMainMenu
 
     ' Input Menu items
     Private Sub mnuInputKeyEntry_Click(sender As Object, e As EventArgs) Handles mnuInputKeyEntry.Click
-        frmKeyEntry.ShowDialog()
+        frmDataEntry.ShowDialog()
     End Sub
 
     Private Sub mnuInputPaperArchive_Click(sender As Object, e As EventArgs) Handles mnuInputPaperArchive.Click

@@ -91,6 +91,7 @@
     <Compile Include="ClsCloneFunctions.vb" />
     <Compile Include="clsDataCall.vb" />
     <Compile Include="clsDataConnection.vb" />
+    <Compile Include="ClsEncryption.vb" />
     <Compile Include="ClsGlobals.vb" />
     <Compile Include="clsHelp.vb" />
     <Compile Include="clsClimsoftSettings.vb" />
@@ -134,6 +135,12 @@
       <DependentUpon>frmDatabaseConnectionsNew.vb</DependentUpon>
     </Compile>
     <Compile Include="frmDatabaseConnectionsNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataEntryNew.Designer.vb">
+      <DependentUpon>frmDataEntryNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataEntryNew.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmElementSequencerMonthly.Designer.vb">
@@ -993,6 +1000,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmDatabaseConnectionsNew.resx">
       <DependentUpon>frmDatabaseConnectionsNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataEntryNew.resx">
+      <DependentUpon>frmDataEntryNew.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmElementSequencerMonthly.resx">
       <DependentUpon>frmElementSequencerMonthly.vb</DependentUpon>

@@ -1,49 +1,51 @@
 ﻿Public Class frmChangePasswordNew
-    Dim conn As New MySql.Data.MySqlClient.MySqlConnection
-    Dim connStr As String, Sql As String
-    Dim objCmd As MySql.Data.MySqlClient.MySqlCommand
-    Dim msgNotYetImplemented As String
-    Dim msgWrongPasswordConfirmation As String
-    Dim msgPasswordTooShort As String
 
     Private Sub frmChangePasswordNew_Load(sender As Object, e As EventArgs) Handles Me.Load
-        msgNotYetImplemented = "Not yet implemented!"
-        msgWrongPasswordConfirmation = "Wrong confirmation of password!"
-        msgPasswordTooShort = "Password length must be >=6 characters!"
+
+    End Sub
+
+    Private Sub txtUsername_TextChanged(sender As Object, e As EventArgs) Handles txtUsername.TextChanged
+        btnOK.Enabled = IsValidUsername(False) AndAlso IsValidPassword(False)
     End Sub
 
     Private Sub txtConfirmPassword_TextChanged(sender As Object, e As EventArgs) Handles txtConfirmPassword.TextChanged
-        If Strings.Len(txtConfirmPassword.Text) > 0 And Strings.Len(txtNewPassword.Text) > 0 And Strings.Len(txtUsername.Text) > 0 Then
-            btnOK.Enabled = True
-        End If
+        btnOK.Enabled = IsValidUsername(False) AndAlso IsValidPassword(False)
     End Sub
 
     Private Sub btnOK_Click(sender As Object, e As EventArgs) Handles btnOK.Click
-        connStr = frmLogin.txtusrpwd.Text
-        conn.ConnectionString = connStr
-        'Open connection to database
-        conn.Open()
-        If Strings.Len(txtNewPassword.Text) >= 6 Then
-            If txtNewPassword.Text = txtConfirmPassword.Text Then
-                Try
-                    'Set new password
-                    Sql = "SET PASSWORD FOR '" & txtUsername.Text & "'@'localhost' = PASSWORD('" & txtNewPassword.Text & "');"
-                    objCmd = New MySql.Data.MySqlClient.MySqlCommand(Sql, conn)
-                    objCmd.ExecuteNonQuery()
-                    MsgBox("New password set for '" & txtUsername.Text & "'@'localhost'", MsgBoxStyle.Information)
-                Catch ex As Exception
-                    ''Dispaly Exception error message 
-                    MsgBox(ex.Message)
-                    conn.Close()
-                End Try
-            Else
-                MsgBox(msgWrongPasswordConfirmation, MsgBoxStyle.Information)
-            End If
-        Else
-            MsgBox(msgPasswordTooShort, MsgBoxStyle.Information)
+        Dim objOperator As New ClsOperator
+
+        If Not IsValidUsername(True) OrElse IsValidPassword(True) Then
+            MsgBox("Invalid user credentials")
+            Exit Sub
         End If
-        'Close connection
-        conn.Close()
+
+        'if it's the current user then just change the password and save
+        If ClsGlobals.objOperatorInstance.GetOperatorUserName = txtUsername.Text Then
+
+            If ClsGlobals.objOperatorInstance.ChangePassword(txtNewPassword.Text) AndAlso ClsGlobals.objOperatorInstance.SaveOperator() Then
+                MsgBox("New password set for '" & txtUsername.Text)
+            Else
+                MsgBox("Password for '" & txtUsername.Text & "' NOT set ")
+            End If
+
+        Else
+            'get the operator with the given username. then change the password 
+            If objOperator.FetchByOperatorUsername(txtUsername.Text) Then
+
+                If objOperator.ChangePassword(txtNewPassword.Text) AndAlso ClsGlobals.objOperatorInstance.SaveOperator() Then
+                    MsgBox("New password set for '" & txtUsername.Text)
+                Else
+                    MsgBox("Password for '" & txtUsername.Text & "' NOT set ")
+                End If
+
+            Else
+                MsgBox("username NOT found")
+            End If
+
+        End If
+
+
     End Sub
 
 
@@ -52,8 +54,58 @@
     End Sub
 
     Private Sub btnHelp_Click(sender As Object, e As EventArgs) Handles btnHelp.Click
-        'MsgBox(msgNotYetImplemented, MsgBoxStyle.Information)
         Help.ShowHelp(Me, Application.StartupPath & "\climsoft4.chm", "changepassword.htm#userspassword")
     End Sub
+
+    Public Function IsValidUsername(Optional bValidateSilently As Boolean = False) As Boolean
+        If String.IsNullOrWhiteSpace(txtUsername.Text) Then
+            If Not bValidateSilently Then
+                'todo. give feedback
+            End If
+            Return False
+        End If
+
+        'todo. do more validations like if username exists in the database or not, characters allowed
+
+        Return True
+    End Function
+
+    Public Function IsValidPassword(Optional bValidateSilently As Boolean = False) As Boolean
+        If String.IsNullOrWhiteSpace(txtNewPassword.Text) Then
+            If Not bValidateSilently Then
+                MsgBox("Enter password")
+            End If
+            Return False
+        End If
+
+        If String.IsNullOrWhiteSpace(txtConfirmPassword.Text) Then
+            If Not bValidateSilently Then
+                MsgBox("Enter confirmation password")
+            End If
+            Return False
+        End If
+
+        If txtNewPassword.Text <> txtConfirmPassword.Text Then
+            If Not bValidateSilently Then
+                MsgBox("Wrong confirmation of password!")
+            End If
+            Return False
+        End If
+
+        If txtNewPassword.Text < 6 Then
+            If Not bValidateSilently Then
+                MsgBox("Password length must be >=6 characters!")
+            End If
+            Return False
+        End If
+
+
+
+        'todo. do more validations like regular expressions for characters allowed
+
+        Return True
+    End Function
+
+
 
 End Class
