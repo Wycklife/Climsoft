@@ -155,12 +155,6 @@
     <Compile Include="frmEntryForms.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEntryFormsNew.Designer.vb">
-      <DependentUpon>frmEntryFormsNew.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmEntryFormsNew.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frmLoginNew.Designer.vb">
       <DependentUpon>frmLoginNew.vb</DependentUpon>
     </Compile>
@@ -1015,9 +1009,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEntryForms.resx">
       <DependentUpon>frmEntryForms.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmEntryFormsNew.resx">
-      <DependentUpon>frmEntryFormsNew.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLoginNew.resx">
       <DependentUpon>frmLoginNew.vb</DependentUpon>
