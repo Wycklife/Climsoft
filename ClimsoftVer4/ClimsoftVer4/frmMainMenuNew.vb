@@ -42,7 +42,7 @@ Public Class frmMainMenuNew
 
 
     Private Sub btnKeyEntry_Click(sender As Object, e As EventArgs) Handles btnKeyEntry.Click
-        frmKeyEntry.ShowDialog()
+        frmDataEntry.ShowDialog()
     End Sub
 
     Private Sub btnPaperArchive_Click(sender As Object, e As EventArgs) Handles btnPaperArchive.Click
@@ -83,7 +83,7 @@ Public Class frmMainMenuNew
     ' Methods for menu items.
     ' Input Menu items
     Private Sub mnuInputKeyEntry_Click(sender As Object, e As EventArgs) Handles mnuInputKeyEntry.Click
-        frmKeyEntry.ShowDialog()
+        frmDataEntry.ShowDialog()
     End Sub
 
     Private Sub mnuInputPaperArchive_Click(sender As Object, e As EventArgs) Handles mnuInputPaperArchive.Click

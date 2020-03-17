@@ -137,6 +137,12 @@
     <Compile Include="frmDatabaseConnectionsNew.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmDataEntryNew.Designer.vb">
+      <DependentUpon>frmDataEntryNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataEntryNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmElementSequencerMonthly.Designer.vb">
       <DependentUpon>frmElementSequencerMonthly.vb</DependentUpon>
     </Compile>
@@ -1000,6 +1006,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmDatabaseConnectionsNew.resx">
       <DependentUpon>frmDatabaseConnectionsNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataEntryNew.resx">
+      <DependentUpon>frmDataEntryNew.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmElementSequencerMonthly.resx">
       <DependentUpon>frmElementSequencerMonthly.vb</DependentUpon>
