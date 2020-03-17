@@ -8,7 +8,7 @@
         btnOK.Enabled = IsValidUsername(False) AndAlso IsValidPassword(False)
     End Sub
 
-    Private Sub txtConfirmPassword_TextChanged(sender As Object, e As EventArgs) Handles txtConfirmPassword.TextChanged
+    Private Sub txtPassword_TextChanged(sender As Object, e As EventArgs) Handles txtNewPassword.TextChanged, txtConfirmPassword.TextChanged
         btnOK.Enabled = IsValidUsername(False) AndAlso IsValidPassword(False)
     End Sub
 
@@ -16,7 +16,6 @@
         Dim objOperator As New ClsOperator
 
         If Not IsValidUsername(True) OrElse IsValidPassword(True) Then
-            MsgBox("Invalid user credentials")
             Exit Sub
         End If
 

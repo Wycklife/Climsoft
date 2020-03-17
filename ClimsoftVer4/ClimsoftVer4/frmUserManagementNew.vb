@@ -14,7 +14,6 @@
     Private Sub btnAddNew_Click(sender As Object, e As EventArgs) Handles btnAddNew.Click
 
         If Not IsValidUsername(True) OrElse IsValidUserRole(True) OrElse IsValidPassword(True) Then
-            MsgBox("Invalid user credentials")
             Exit Sub
         End If
         'todo. get the permissions of the user role 
