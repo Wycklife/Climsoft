@@ -1,5 +1,5 @@
-﻿Public Class frmDataEntryNew
-    Private Sub frmDataEntry_Load(sender As Object, e As EventArgs) Handles Me.Load
+﻿Public Class frmDataFormsNew
+    Private Sub frmDataEntryNew_Load(sender As Object, e As EventArgs) Handles Me.Load
         Try
             Dim dataCall As New DataCall
             Dim dataTable As DataTable
