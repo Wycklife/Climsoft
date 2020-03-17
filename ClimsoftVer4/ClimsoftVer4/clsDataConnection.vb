@@ -9,6 +9,9 @@ Public Class clsDataConnection
     Private Shared directoryPath As String = IO.Path.Combine(commonPath, "Climsoft4")
     Private Shared filePath As String = IO.Path.Combine(directoryPath, "config.inf")
 
+    'todo. the passed key needs to be stored somewhere safe and should be part of setting up climsoft
+    Public Shared objEncryption As New ClsEncryption("!@%.&2m1P")
+
 
     Public Shared ReadOnly Property OpenedConnection As MySql.Data.MySqlClient.MySqlConnection
         Get
@@ -57,6 +60,7 @@ Public Class clsDataConnection
         Dim dctConnectionDetails As New Dictionary(Of String, String)
         Dim parts As String()
         Dim line As String
+        Dim builder As New System.Data.Common.DbConnectionStringBuilder()
 
         If IO.File.Exists(filePath) Then
             Using r As IO.StreamReader = New IO.StreamReader(filePath)
@@ -66,6 +70,11 @@ Public Class clsDataConnection
                     'To be here, we know that line is not empty, therefore there must be a part(0) and part(1) after split
                     Try
                         parts = line.Split("|")
+                        builder.Clear()
+                        builder.ConnectionString = parts(1)
+                        'passwords are encrypted before being stored, so we need to decrpt them here first 
+                        builder("pwd") = objEncryption.DecryptData(builder("pwd"))
+
                         dctConnectionDetails.Add(parts(0), parts(1))
                     Catch ex As Exception
                         'If a line cannot be read for any reason then we skip it. It is invalid, therefore it will
@@ -154,11 +163,11 @@ Public Class clsDataConnection
                             Continue For
                         End If
 
-                        'todo. encrypt the password and store it separetely
+                        'encrypt the password and store it in an encrypted form
+                        builder("pwd") = objEncryption.EncryptData(builder("pwd"))
 
 
-                        'only save valid connection string values
-                        'A valid connection detail should contain a connection name, a pipe character `|` and a connection string excluding the password
+                        'Valid connection detail should contain a connection name, a pipe character `|` and a connection string excluding the password
                         writer.WriteLine(kvp.Key & "|" & builder.ConnectionString)
 
                     Catch ex As Exception
@@ -175,8 +184,6 @@ Public Class clsDataConnection
         End Try
 
     End Sub
-
-
 
     'temporary code for visual studio design time
     Public Shared Function IsInDesignMode() As Boolean

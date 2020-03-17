@@ -91,6 +91,7 @@
     <Compile Include="ClsCloneFunctions.vb" />
     <Compile Include="clsDataCall.vb" />
     <Compile Include="clsDataConnection.vb" />
+    <Compile Include="ClsEncryption.vb" />
     <Compile Include="ClsGlobals.vb" />
     <Compile Include="clsHelp.vb" />
     <Compile Include="clsClimsoftSettings.vb" />
@@ -146,6 +147,12 @@
       <DependentUpon>frmEntryForms.vb</DependentUpon>
     </Compile>
     <Compile Include="frmEntryForms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEntryFormsNew.Designer.vb">
+      <DependentUpon>frmEntryFormsNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEntryFormsNew.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmLoginNew.Designer.vb">
@@ -999,6 +1006,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEntryForms.resx">
       <DependentUpon>frmEntryForms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEntryFormsNew.resx">
+      <DependentUpon>frmEntryFormsNew.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLoginNew.resx">
       <DependentUpon>frmLoginNew.vb</DependentUpon>
