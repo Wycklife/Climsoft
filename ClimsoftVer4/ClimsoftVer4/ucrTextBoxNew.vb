@@ -136,6 +136,48 @@
         bMaximumIncluded = True
     End Sub
 
+    Public Function ValidateText(strText As String, Optional bValidateSilently As Boolean = True) As Boolean
+        Dim iValidationCode As Integer
+
+        If bValidate Then
+            'if set to not validate empty values and string is empty then don't proceed with validation
+            If Not bValidateEmpty AndAlso String.IsNullOrEmpty(strText) Then
+                Return True
+            End If
+
+            iValidationCode = GetValidationCode(strText)
+            Select Case iValidationCode
+                Case 0
+                'this is for none. No validation
+                Case 1
+                    Select Case strValidationType
+                        Case ClsGlobals.EnumValidationType.Numeric
+                            If Not bValidateSilently Then
+                                MessageBox.Show("Entry must be numeric.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                            End If
+                    End Select
+                Case 2
+                    Select Case strValidationType
+                        Case ClsGlobals.EnumValidationType.Numeric
+                            If Not bValidateSilently Then
+                                MessageBox.Show("This number must be: " & GetNumericRange(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+                            End If
+                    End Select
+                Case 3
+                    Select Case strValidationType
+                        Case ClsGlobals.EnumValidationType.Flag
+                            If Not bValidateSilently Then
+                                MessageBox.Show("Correct Flag expected! Flags allowed are: M (Missing), T (Trace), E (Estimated), G (Generated), D (Dubious)", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+                            End If
+                    End Select
+            End Select
+            Return (iValidationCode = 0)
+        Else
+            Return True
+        End If
+
+    End Function
+
 
     Public Overrides Function ValidateValue() As Boolean
         Dim iType As Integer
