@@ -3,11 +3,7 @@
         PopulateDataGridWithUsers()
     End Sub
 
-    Private Sub txtUserName_TextChanged(sender As Object, e As EventArgs) Handles txtUserName.TextChanged
-        btnAddNew.Enabled = IsValidUsername(True) AndAlso IsValidUserRole(False) AndAlso IsValidPassword(False)
-    End Sub
-
-    Private Sub txtPassword_TextChanged(sender As Object, e As EventArgs) Handles txtPassword.TextChanged, txtConfirmPassword.TextChanged
+    Private Sub txt_TextChanged(sender As Object, e As EventArgs) Handles txtUserName.TextChanged, txtPassword.TextChanged, txtConfirmPassword.TextChanged
         btnAddNew.Enabled = IsValidUsername(False) AndAlso IsValidUserRole(False) AndAlso IsValidPassword(False)
     End Sub
 
@@ -16,8 +12,12 @@
         If Not IsValidUsername(True) OrElse IsValidUserRole(True) OrElse IsValidPassword(True) Then
             Exit Sub
         End If
+        'todo. implement as climsoft database action
         'todo. get the permissions of the user role 
         'todo. grant the permissions to the user
+        'todo. add the new user
+
+
 
         'If cboUserRole.Text = "ClimsoftAdmin" Then
         'ElseIf cboUserRole.Text = "ClimsoftOperator" Then
@@ -49,52 +49,13 @@
 
 
     Public Function IsValidUsername(Optional bValidateSilently As Boolean = False) As Boolean
-        If String.IsNullOrWhiteSpace(txtUserName.Text) Then
-            If Not bValidateSilently Then
-                MsgBox("Enter username")
-            End If
-            Return False
-        End If
-
-        'todo. do more validations like if username exists in the database or not, characters allowed
-
-        Return True
+        'just used the logged in user to validate if the password is valid
+        Return ClsGlobals.objOperatorInstance.ValidateUsernameCharacters(txtUserName.Text, bValidateSilently)
     End Function
 
     Public Function IsValidPassword(Optional bValidateSilently As Boolean = False) As Boolean
-        If String.IsNullOrWhiteSpace(txtPassword.Text) Then
-            If Not bValidateSilently Then
-                MsgBox("Enter password")
-            End If
-            Return False
-        End If
-
-        If String.IsNullOrWhiteSpace(txtConfirmPassword.Text) Then
-            If Not bValidateSilently Then
-                MsgBox("Enter confirmation password")
-            End If
-            Return False
-        End If
-
-        If txtPassword.Text <> txtConfirmPassword.Text Then
-            If Not bValidateSilently Then
-                MsgBox("Wrong confirmation of password!")
-            End If
-            Return False
-        End If
-
-        If txtPassword.Text < 6 Then
-            If Not bValidateSilently Then
-                MsgBox("Password length must be >=6 characters!")
-            End If
-            Return False
-        End If
-
-
-
-        'todo. do more validations like regular expressions for characters allowed
-
-        Return True
+        'just used the logged in user to validate if the password is valid
+        Return ClsGlobals.objOperatorInstance.ValidatePassword(txtPassword.Text, txtConfirmPassword.Text, bValidateSilently)
     End Function
 
     Public Function IsValidUserRole(Optional bValidateSilently As Boolean = False) As Boolean
@@ -107,8 +68,6 @@
 
         Return True
     End Function
-
-
 
 
 End Class

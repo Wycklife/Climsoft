@@ -14,7 +14,8 @@
             Exit Sub
         End If
 
-        If ClsGlobals.objOperatorInstance.ChangePassword(txtNewPassword.Text) AndAlso ClsGlobals.objOperatorInstance.SaveOperator() Then
+        'todo. implement as climsoft database action
+        If ClsGlobals.objOperatorInstance.ChangePassword(txtNewPassword.Text) Then
             MsgBox("Your new password has been set!")
         Else
             MsgBox("Password NOT set")
@@ -30,39 +31,8 @@
     End Sub
 
     Public Function IsValidPassword(Optional bValidateSilently As Boolean = False) As Boolean
-        If String.IsNullOrWhiteSpace(txtNewPassword.Text) Then
-            If Not bValidateSilently Then
-                MsgBox("Enter password")
-            End If
-            Return False
-        End If
-
-        If String.IsNullOrWhiteSpace(txtConfirmPassword.Text) Then
-            If Not bValidateSilently Then
-                MsgBox("Enter confirmation password")
-            End If
-            Return False
-        End If
-
-        If txtNewPassword.Text <> txtConfirmPassword.Text Then
-            If Not bValidateSilently Then
-                MsgBox("Wrong confirmation of password!")
-            End If
-            Return False
-        End If
-
-        If txtNewPassword.Text < 6 Then
-            If Not bValidateSilently Then
-                MsgBox("Password length must be >=6 characters!")
-            End If
-            Return False
-        End If
-
-
-
-        'todo. do more validations like regular expressions for characters allowed
-
-        Return True
+        'just used the logged in user to validate if the password is valid
+        Return ClsGlobals.objOperatorInstance.ValidatePassword(txtNewPassword.Text, txtConfirmPassword.Text, bValidateSilently)
     End Function
 
 End Class
