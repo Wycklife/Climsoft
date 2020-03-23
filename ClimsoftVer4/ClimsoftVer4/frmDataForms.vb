@@ -3,31 +3,10 @@
     Private dataTable As DataTable
 
     Private Sub frmDataForms_Load(sender As Object, e As EventArgs) Handles Me.Load
-        'Dim sql As String
-        'Dim conn As New MySql.Data.MySqlClient.MySqlConnection
-        'Dim MyConnectionString As String
-        'Dim cmd As New MySql.Data.MySqlClient.MySqlCommand
-        'MyConnectionString = frmLogin.txtusrpwd.Text
-        'conn.ConnectionString = MyConnectionString
-
-        ' Add a record for key entry mode if not exists
-        'Try
-        '    Dim qry As MySql.Data.MySqlClient.MySqlCommand
-        '    sql = "ALTER TABLE `data_forms` ADD COLUMN `entry_mode` TINYINT(2) NOT NULL DEFAULT '0' AFTER `sequencer`;"
-        '    conn.Open()
-        '    qry = New MySql.Data.MySqlClient.MySqlCommand(sql, conn)
-        '    qry.CommandTimeout = 0
-        '    qry.ExecuteNonQuery()
-
-        '    conn.Close()
-        'Catch ex As Exception
-        '    If ex.HResult <> -2147467259 Then 'Existing record
-        '        MsgBox(ex.HResult & " " & ex.Message)
-        '    End If
-        '    conn.Close()
-        'End Try
 
         Try
+            'todo. this should be done through our actions and permissions system
+
             Dim itm As ListViewItem
             lstViewForms.Items.Clear()
             'set the database name and columns, set the key field for updating, then add the retrieved data to the listview

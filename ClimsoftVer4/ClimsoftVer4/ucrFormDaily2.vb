@@ -114,7 +114,7 @@ Public Class ucrFormDaily2
         Next
     End Sub
 
-    Private Sub BtnUpload_Click(sender As Object, e As EventArgs) Handles btnUpload.Click
+    Private Sub BtnUpload_Click(sender As Object, e As EventArgs) Handles btnUpload.Click, Button1.Click
         'upload code in the background thread
         Dim frm As New frmNewComputationProgress
         frm.SetHeader("Uploading " & ucrDaily2Navigation.iMaxRows & " records")

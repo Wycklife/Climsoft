@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class ucrFormDaily2
     Inherits ClimsoftVer4.ucrTableEntry
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         If disposing AndAlso components IsNot Nothing Then
             components.Dispose()
@@ -17,7 +17,7 @@ Partial Class ucrFormDaily2
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.ucrInputTotal = New ClimsoftVer4.ucrTextBox()
         Me.lblTotal = New System.Windows.Forms.Label()
@@ -132,6 +132,7 @@ Partial Class ucrFormDaily2
         Me.Label5 = New System.Windows.Forms.Label()
         Me.ucrInputSameValue = New ClimsoftVer4.ucrTextBox()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.dtbRecords, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -1284,6 +1285,16 @@ Partial Class ucrFormDaily2
         Me.Label6.TabIndex = 771
         Me.Label6.Text = "Units"
         '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.Lime
+        Me.Button1.Location = New System.Drawing.Point(529, 551)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 47
+        Me.Button1.Text = "Upload"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'ucrFormDaily2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1303,6 +1314,7 @@ Partial Class ucrFormDaily2
         Me.Controls.Add(Me.lblSequencer)
         Me.Controls.Add(Me.txtSequencer)
         Me.Controls.Add(Me.ucrDaily2Navigation)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btnUpload)
         Me.Controls.Add(Me.btnView)
         Me.Controls.Add(Me.btnHelp)
@@ -1521,4 +1533,5 @@ Partial Class ucrFormDaily2
     Friend WithEvents Label5 As Label
     Friend WithEvents ucrInputSameValue As ucrTextBox
     Friend WithEvents Label6 As Label
+    Friend WithEvents Button1 As Button
 End Class
