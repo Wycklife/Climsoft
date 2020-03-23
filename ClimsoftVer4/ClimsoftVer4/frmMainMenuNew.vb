@@ -42,7 +42,7 @@ Public Class frmMainMenuNew
 
 
     Private Sub btnKeyEntry_Click(sender As Object, e As EventArgs) Handles btnKeyEntry.Click
-        frmKeyEntry.ShowDialog()
+        frmDataEntryNew.ShowDialog()
     End Sub
 
     Private Sub btnPaperArchive_Click(sender As Object, e As EventArgs) Handles btnPaperArchive.Click
@@ -83,7 +83,7 @@ Public Class frmMainMenuNew
     ' Methods for menu items.
     ' Input Menu items
     Private Sub mnuInputKeyEntry_Click(sender As Object, e As EventArgs) Handles mnuInputKeyEntry.Click
-        frmKeyEntry.ShowDialog()
+        frmDataEntryNew.ShowDialog()
     End Sub
 
     Private Sub mnuInputPaperArchive_Click(sender As Object, e As EventArgs) Handles mnuInputPaperArchive.Click
@@ -126,7 +126,7 @@ Public Class frmMainMenuNew
     End Sub
 
     Private Sub DataFormsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DataFormsToolStripMenuItem.Click
-        frmDataForms.Show()
+        frmDataFormsNew.Show()
     End Sub
 
     Private Sub GenerlSettingsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GenerlSettingsToolStripMenuItem.Click
@@ -150,7 +150,7 @@ Public Class frmMainMenuNew
     End Sub
 
     Private Sub PasswordToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PasswordToolStripMenuItem.Click
-        frmChangePassword.Show()
+        frmChangePasswordNew.Show()
     End Sub
 
     Private Sub ChangeOwnPasswordToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChangeOwnPasswordToolStripMenuItem.Click

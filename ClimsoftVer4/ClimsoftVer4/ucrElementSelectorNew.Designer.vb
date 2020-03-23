@@ -23,7 +23,7 @@ Partial Class ucrElementSelectorNew
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.cmsStation = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.cmsElement = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.cmsElementNames = New System.Windows.Forms.ToolStripMenuItem()
         Me.cmsElementIDs = New System.Windows.Forms.ToolStripMenuItem()
         Me.cmsElementIDAndStation = New System.Windows.Forms.ToolStripMenuItem()
@@ -32,14 +32,14 @@ Partial Class ucrElementSelectorNew
         Me.cmsElementSortyByName = New System.Windows.Forms.ToolStripMenuItem()
         Me.cmsFilterElements = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.cmsStation.SuspendLayout()
+        Me.cmsElement.SuspendLayout()
         Me.SuspendLayout()
         '
-        'cmsStation
+        'cmsElement
         '
-        Me.cmsStation.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.cmsElementNames, Me.cmsElementIDs, Me.cmsElementIDAndStation, Me.ToolStripSeparator2, Me.cmsElementSortByID, Me.cmsElementSortyByName, Me.cmsFilterElements, Me.ToolStripSeparator1})
-        Me.cmsStation.Name = "cmsStation"
-        Me.cmsStation.Size = New System.Drawing.Size(187, 170)
+        Me.cmsElement.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.cmsElementNames, Me.cmsElementIDs, Me.cmsElementIDAndStation, Me.ToolStripSeparator2, Me.cmsElementSortByID, Me.cmsElementSortyByName, Me.cmsFilterElements, Me.ToolStripSeparator1})
+        Me.cmsElement.Name = "cmsStation"
+        Me.cmsElement.Size = New System.Drawing.Size(187, 148)
         '
         'cmsElementNames
         '
@@ -93,12 +93,12 @@ Partial Class ucrElementSelectorNew
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Name = "ucrElementSelectorNew"
         Me.Size = New System.Drawing.Size(183, 21)
-        Me.cmsStation.ResumeLayout(False)
+        Me.cmsElement.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents cmsStation As ContextMenuStrip
+    Friend WithEvents cmsElement As ContextMenuStrip
     Friend WithEvents cmsElementNames As ToolStripMenuItem
     Friend WithEvents cmsElementIDs As ToolStripMenuItem
     Friend WithEvents cmsElementIDAndStation As ToolStripMenuItem
