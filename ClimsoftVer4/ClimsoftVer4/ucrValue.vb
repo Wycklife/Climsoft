@@ -18,6 +18,19 @@
     Private Sub ucrValue_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+    Public Property FieldName() As String
+        Get
+            Return Me.Tag
+        End Get
+        Set(value As String)
+            Me.Tag = value
+        End Set
+    End Property
+
+    Public Overridable Sub SetDefaultValue(objNewValue As Object)
+        objDefaultValue = objNewValue
+    End Sub
+
     Public Function HasDefaultValue() As Boolean
         Return Not IsNothing(GetDefaultValue())
     End Function
@@ -112,6 +125,67 @@
 
     Public Overridable Sub SetAsReadOnly()
         'set th control to read only
+    End Sub
+
+    Public Overridable Sub AddFieldstoList(lstFields As List(Of String))
+        If Not String.IsNullOrEmpty(FieldName) Then
+            lstFields.Add(FieldName)
+        End If
+    End Sub
+
+    Public Overridable Sub AddEventValueChangedHandle(ehSub As evtValueChangedEventHandler)
+        If Not String.IsNullOrEmpty(FieldName) Then
+            AddHandler evtValueChanged, ehSub
+        End If
+    End Sub
+    Public Overridable Sub SetValueFromDataTable(dtbValues As DataTable)
+        Dim lstTemp As New List(Of Object)
+        Dim lstDistinct As New List(Of Object)
+
+        If String.IsNullOrEmpty(FieldName) Then
+            SetValue(Nothing)
+        Else
+            If dtbValues.Rows.Count = 1 Then
+                SetValue(dtbValues.Rows(0).Item(FieldName))
+            ElseIf dtbValues.Rows.Count > 1 Then
+                For Each tempRow As DataRow In dtbValues.Rows
+                    lstTemp.Add(tempRow.Item(FieldName))
+                Next
+                lstDistinct = lstTemp.Distinct().ToList
+                If lstDistinct.Count = 1 Then
+                    SetValue(lstDistinct(0))
+                Else
+                    SetValue(lstTemp)
+                End If
+            Else
+                SetValue(Nothing)
+            End If
+        End If
+    End Sub
+    Public Overridable Sub SetValueToDataTable(dtbValues As DataTable)
+        Dim lstTemp As New List(Of Object)
+        Dim lstDistinct As New List(Of Object)
+
+        If String.IsNullOrEmpty(FieldName) Then
+            'TODO?
+        Else
+            If dtbValues.Rows.Count = 1 Then
+                If ValidateValue() Then
+                    'dtbValues.Rows(0).Item(FieldName) = If(IsNothing(GetValue()), DBNull.Value, GetValue())
+                    Try
+                        dtbValues.Rows(0).Item(FieldName) = GetValue()
+                    Catch ex As ArgumentException
+                        dtbValues.Rows(0).Item(FieldName) = DBNull.Value
+                    End Try
+                Else
+                    dtbValues.Rows(0).Item(FieldName) = DBNull.Value
+                End If
+            ElseIf dtbValues.Rows.Count > 1 Then
+                'TODO
+            Else
+                'TODO
+            End If
+        End If
     End Sub
 
     Public Sub OnevtKeyDown(sender As Object, e As KeyEventArgs)

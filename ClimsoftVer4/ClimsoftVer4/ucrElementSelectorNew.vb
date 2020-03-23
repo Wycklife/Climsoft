@@ -26,12 +26,6 @@
 
     Public Overrides Sub UpdateValueChoices()
         SetValueFromDataStructure()
-        'TODO The following variables
-        ' strElementTableName
-        'strElementName 
-        'strElementId 
-        'strIDsAndElements 
-
     End Sub
 
     Public Sub SetViewTypeAsElements()
@@ -117,11 +111,12 @@
             cboValues.ContextMenuStrip = cmsElement
             SetComboBoxSelectorProperties()
             bValidateEmpty = True
-            strValidationType = "exists"
+            strValidationType = ClsGlobals.EnumValidationType.Exist
 
             dct.Add(strElementName, New List(Of String)({strElementName}))
             dct.Add(strElementId, New List(Of String)({strElementId}))
             dct.Add(strIDsAndElements, New List(Of String)({strElementId, strElementName}))
+            'TODO.
             'SetTableNameAndFields(strElementTableName, dct)
             'SetFilter("selected", "=", "1", bIsPositiveCondition:=True)
             UpdateValueChoices()

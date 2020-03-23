@@ -1,5 +1,4 @@
-﻿
-Public Class ucrFormDaily2
+﻿Public Class ucrFormDaily2New
 
     'These store field names for value, flag and period
     Private strValueFieldName As String = "day"
@@ -45,24 +44,25 @@ Public Class ucrFormDaily2
                 End If
             Next
 
-            SetUpTableEntry("form_daily2")
-            AddField("signature")
-            AddField("entryDatetime")
+            'TODO  ucrbaseDatalink required?
+            'SetUpTableEntry("form_daily2")
+            'AddField("signature")
+            'AddField("entryDatetime")
 
-            AddLinkedControlFilters(ucrStationSelector, ucrStationSelector.FieldName, "=", strLinkedFieldName:="stationId", bForceValuesAsString:=True)
-            AddLinkedControlFilters(ucrElementSelector, ucrElementSelector.FieldName, "=", strLinkedFieldName:="elementId", bForceValuesAsString:=False)
-            AddLinkedControlFilters(ucrYearSelector, ucrYearSelector.FieldName, "=", strLinkedFieldName:="Year", bForceValuesAsString:=False)
-            AddLinkedControlFilters(ucrMonth, ucrMonth.FieldName, "=", strLinkedFieldName:="MonthId", bForceValuesAsString:=False)
-            AddLinkedControlFilters(ucrHour, ucrHour.FieldName, "=", strLinkedFieldName:="24Hrs", bForceValuesAsString:=False)
+            'AddLinkedControlFilters(ucrStationSelector, ucrStationSelector.FieldName, "=", strLinkedFieldName:="stationId", bForceValuesAsString:=True)
+            'AddLinkedControlFilters(ucrElementSelector, ucrElementSelector.FieldName, "=", strLinkedFieldName:="elementId", bForceValuesAsString:=False)
+            'AddLinkedControlFilters(ucrYearSelector, ucrYearSelector.FieldName, "=", strLinkedFieldName:="Year", bForceValuesAsString:=False)
+            'AddLinkedControlFilters(ucrMonth, ucrMonth.FieldName, "=", strLinkedFieldName:="MonthId", bForceValuesAsString:=False)
+            'AddLinkedControlFilters(ucrHour, ucrHour.FieldName, "=", strLinkedFieldName:="24Hrs", bForceValuesAsString:=False)
 
-            'set up the navigation control
-            ucrDaily2Navigation.SetTableEntryAndKeyControls(Me)
+            ''set up the navigation control
+            'ucrDaily2Navigation.SetTableEntryAndKeyControls(Me)
 
-            bFirstLoad = False
+            'bFirstLoad = False
 
-            'populate the values
-            ucrDaily2Navigation.SetSortBy("entryDatetime")
-            ucrDaily2Navigation.PopulateControl()
+            ''populate the values
+            'ucrDaily2Navigation.SetSortBy("entryDatetime")
+            'ucrDaily2Navigation.PopulateControl()
         End If
 
     End Sub
@@ -70,15 +70,17 @@ Public Class ucrFormDaily2
     Private Sub btnAddNew_Click(sender As Object, e As EventArgs) Handles btnAddNew.Click
         If chkEnableSequencer.Checked Then
             ' temporary until we know how to get all fields from table without specifying names
-            ucrDaily2Navigation.NewSequencerRecord(txtSequencer.Text, {"elementId"}, {ucrMonth}, ucrYearSelector)
+            'TODO Discussion on how the new navigator will interact with the Sequencer
+            'ucrDaily2Navigation.NewSequencerRecord(txtSequencer.Text, {"elementId"}, {ucrMonth}, ucrYrSelector)
             SaveEnable()
             ucrValueFlagPeriod1.Focus()
         End If
     End Sub
     Private Sub BtnSaveAndUpdate_Click(sender As Object, e As EventArgs) Handles btnSave.Click, btnUpdate.Click
         'Change the signature(user) and the DATETIME first before saving 
-        GetTable.Rows(0).Item("signature") = frmLogin.txtUsername.Text
-        GetTable.Rows(0).Item("entryDatetime") = Date.Now
+        'TODO ucrBaseDatalink was previousy used
+        'GetTable.Rows(0).Item("signature") = frmLogin.txtUsername.Text
+        'GetTable.Rows(0).Item("entryDatetime") = Date.Now
     End Sub
     Private Sub btnView_Click(sender As Object, e As EventArgs) Handles btnView.Click
         Dim viewRecords As New dataEntryGlobalRoutines
@@ -117,8 +119,9 @@ Public Class ucrFormDaily2
     Private Sub BtnUpload_Click(sender As Object, e As EventArgs) Handles btnUpload.Click, Button1.Click
         'upload code in the background thread
         Dim frm As New frmNewComputationProgress
-        frm.SetHeader("Uploading " & ucrDaily2Navigation.iMaxRows & " records")
-        frm.SetProgressMaximum(ucrDaily2Navigation.iMaxRows)
+        'TODO Navigator  requires this functions
+        'frm.SetHeader("Uploading " & ucrNavigator.iMaxRows & " records")
+        'frm.SetProgressMaximum(ucrNavigator.iMaxRows)
         frm.ShowNumbers(True)
         frm.ShowResultMessage(True)
         AddHandler frm.backgroundWorker.DoWork, AddressOf DoUpload
@@ -266,8 +269,8 @@ Public Class ucrFormDaily2
         Dim todaysDate As Date
         todaysDate = Date.Now
 
-        If ucrYearSelector.ValidateValue AndAlso ucrMonth.ValidateValue Then
-            If ucrYearSelector.GetValue > todaysDate.Year OrElse (ucrYearSelector.GetValue = todaysDate.Year AndAlso ucrMonth.GetValue > todaysDate.Month) Then
+        If ucrYrSelector.ValidateValue AndAlso ucrMonth.ValidateValue Then
+            If ucrYrSelector.GetValue > todaysDate.Year OrElse (ucrYrSelector.GetValue = todaysDate.Year AndAlso ucrMonth.GetValue > todaysDate.Month) Then
                 For Each ctr As Control In Me.Controls
                     If TypeOf ctr Is ucrValueView AndAlso Not DirectCast(ctr, ucrValueView).KeyControl Then
                         ctr.Enabled = False
@@ -275,14 +278,14 @@ Public Class ucrFormDaily2
                 Next
 
             Else
-                If ucrYearSelector.GetValue = todaysDate.Year AndAlso ucrMonth.GetValue = todaysDate.Month Then
+                If ucrYrSelector.GetValue = todaysDate.Year AndAlso ucrMonth.GetValue = todaysDate.Month Then
                     For Each ctr In Me.Controls
                         If TypeOf ctr Is ucrValueFlagPeriod Then
                             ctr.Enabled = If(Val(ctr.Tag) >= todaysDate.Day, False, True)
                         End If
                     Next
                 Else
-                    iMonthLength = Date.DaysInMonth(ucrYearSelector.GetValue, ucrMonth.GetValue())
+                    iMonthLength = Date.DaysInMonth(ucrYrSelector.GetValue, ucrMonth.GetValue())
                     For Each ctr In Me.Controls
                         If TypeOf ctr Is ucrValueFlagPeriod Then
                             ctr.Enabled = If(Val(ctr.Tag > iMonthLength), False, True)
@@ -326,8 +329,8 @@ Public Class ucrFormDaily2
         Dim strTableName As String
 
         Try
-
-            strTableName = GetTableName()
+            'TODO GetTableName is in ucrBase?
+            'strTableName = GetTableName()
 
             'Get all the records from the table
             Using cmdSelect As New MySql.Data.MySqlClient.MySqlCommand("Select * FROM " & strTableName & " ORDER BY entryDatetime", clsDataConnection.OpenedConnection)
@@ -432,7 +435,8 @@ Public Class ucrFormDaily2
                                 cmdSave.Parameters.AddWithValue("@qcStatus", 0)
                                 cmdSave.Parameters.AddWithValue("@acquisitiontype", 1)
                                 cmdSave.Parameters.AddWithValue("@capturedBy", strSignature)
-                                cmdSave.Parameters.AddWithValue("@dataForm", GetTableName)
+                                'TODO GetTableName is in ucrBase?
+                                'cmdSave.Parameters.AddWithValue("@dataForm", GetTableName)
                                 cmdSave.Parameters.AddWithValue("@temperatureUnits", strTempUnits)
                                 cmdSave.Parameters.AddWithValue("@precipUnits", strPrecipUnits)
                                 cmdSave.Parameters.AddWithValue("@cloudHeightUnits", strCloudHeightUnits)
@@ -474,5 +478,4 @@ Public Class ucrFormDaily2
         End Try
 
     End Sub
-
 End Class

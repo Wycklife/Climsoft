@@ -26,6 +26,8 @@
         End If
     End Sub
 
+    Protected Overridable Sub ValidateDataEntryPermission()
+    End Sub
     Public Sub SetUpButtonAddNew(newAddNewBtn As ucrButton)
         btnAddNew = newAddNewBtn
         iAddNewActionTypeID = newAddNewBtn.ActionTypeId
@@ -224,7 +226,21 @@
 
     End Sub
 
-    Private Sub SaveEnable()
+    Public Overridable Function ValidateValue() As Boolean
+        Dim ucr As ucrValueView
+        For Each ctr As Control In Controls
+            If TypeOf ctr Is ucrValueView Then
+                ucr = DirectCast(ctr, ucrValueView)
+                'TODO. What should we do for controls without field names
+                If Not String.IsNullOrEmpty(ucr.FieldName) AndAlso Not ucr.ValidateValue() Then
+                    ctr.Focus()
+                    Return False
+                End If
+            End If
+        Next
+        Return True
+    End Function
+    Public Sub SaveEnable()
         btnAddNew.Enabled = True
         btnSave.Enabled = False
         btnClear.Enabled = False
@@ -276,4 +292,8 @@
     Private Sub btnUpload_Click(sender As Object, e As EventArgs) Handles btnUpload.Click
         Upload()
     End Sub
+
+    Protected Overridable Sub SetValuesValidation()
+    End Sub
+
 End Class
