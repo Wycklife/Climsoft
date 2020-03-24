@@ -113,6 +113,12 @@
     <Compile Include="formSynopticCaribbean.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmChangeOwnPasswordNew.Designer.vb">
+      <DependentUpon>frmChangeOwnPasswordNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangeOwnPasswordNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmChangePasswordNew.Designer.vb">
       <DependentUpon>frmChangePasswordNew.vb</DependentUpon>
     </Compile>
@@ -141,6 +147,12 @@
       <DependentUpon>frmDataEntryNew.vb</DependentUpon>
     </Compile>
     <Compile Include="frmDataEntryNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDataFormsNew.Designer.vb">
+      <DependentUpon>frmDataFormsNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDataFormsNew.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmElementSequencerMonthly.Designer.vb">
@@ -1025,6 +1037,9 @@
     <EmbeddedResource Include="formSynopticCaribbean.resx">
       <DependentUpon>formSynopticCaribbean.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmChangeOwnPasswordNew.resx">
+      <DependentUpon>frmChangeOwnPasswordNew.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmChangePasswordNew.resx">
       <DependentUpon>frmChangePasswordNew.vb</DependentUpon>
     </EmbeddedResource>
@@ -1039,6 +1054,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmDataEntryNew.resx">
       <DependentUpon>frmDataEntryNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDataFormsNew.resx">
+      <DependentUpon>frmDataFormsNew.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmElementSequencerMonthly.resx">
       <DependentUpon>frmElementSequencerMonthly.vb</DependentUpon>
