@@ -179,6 +179,12 @@
     <Compile Include="frmNewComputationProgress.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmNewFormDaily2New.Designer.vb">
+      <DependentUpon>frmNewFormDaily2New.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewFormDaily2New.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmNewHourly.Designer.vb">
       <DependentUpon>frmNewHourly.vb</DependentUpon>
     </Compile>
@@ -1051,6 +1057,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmNewComputationProgress.resx">
       <DependentUpon>frmNewComputationProgress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewFormDaily2New.resx">
+      <DependentUpon>frmNewFormDaily2New.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNewHourly.resx">
       <DependentUpon>frmNewHourly.vb</DependentUpon>
