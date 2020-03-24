@@ -78,6 +78,51 @@ Partial Class ucrFormAgro1
         Me.UcrValueFlagPeriodNew10 = New ClimsoftVer4.ucrValueFlagPeriodNew()
         Me.UcrValueFlagPeriodNew11 = New ClimsoftVer4.ucrValueFlagPeriodNew()
         Me.UcrValueFlagPeriodNew12 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.Label35 = New System.Windows.Forms.Label()
+        Me.lblSunHrs = New System.Windows.Forms.Label()
+        Me.UcrValueFlagPeriodNew13 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.UcrValueFlagPeriodNew14 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.UcrValueFlagPeriodNew15 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.UcrValueFlagPeriodNew16 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.lblRH06Z = New System.Windows.Forms.Label()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.UcrValueFlagPeriodNew17 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.UcrValueFlagPeriodNew18 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.UcrValueFlagPeriodNew19 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.UcrValueFlagPeriodNew20 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.Label48 = New System.Windows.Forms.Label()
+        Me.Label49 = New System.Windows.Forms.Label()
+        Me.UcrValueFlagPeriodNew21 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.UcrValueFlagPeriodNew22 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.UcrValueFlagPeriodNew23 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.Label37 = New System.Windows.Forms.Label()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.Label56 = New System.Windows.Forms.Label()
+        Me.Label57 = New System.Windows.Forms.Label()
+        Me.Label52 = New System.Windows.Forms.Label()
+        Me.Label53 = New System.Windows.Forms.Label()
+        Me.UcrValueFlagPeriodNew24 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.UcrValueFlagPeriodNew25 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.UcrValueFlagPeriodNew26 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.UcrValueFlagPeriodNew27 = New ClimsoftVer4.ucrValueFlagPeriodNew()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.UcrButton1 = New ClimsoftVer4.ucrButton()
+        Me.UcrButton2 = New ClimsoftVer4.ucrButton()
+        Me.UcrNavigator1 = New ClimsoftVer4.ucrNavigator()
         Me.SuspendLayout()
         '
         'Label1
@@ -273,7 +318,7 @@ Partial Class ucrFormAgro1
         'lblDP06
         '
         Me.lblDP06.AutoSize = True
-        Me.lblDP06.Location = New System.Drawing.Point(56, 201)
+        Me.lblDP06.Location = New System.Drawing.Point(49, 201)
         Me.lblDP06.Name = "lblDP06"
         Me.lblDP06.Size = New System.Drawing.Size(56, 13)
         Me.lblDP06.TabIndex = 1093
@@ -585,10 +630,460 @@ Partial Class ucrFormAgro1
         Me.UcrValueFlagPeriodNew12.Size = New System.Drawing.Size(130, 23)
         Me.UcrValueFlagPeriodNew12.TabIndex = 1127
         '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.Location = New System.Drawing.Point(604, 345)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(175, 13)
+        Me.Label36.TabIndex = 1140
+        Me.Label36.Text = "Temp Reset and soil Moisture"
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Location = New System.Drawing.Point(410, 345)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(148, 13)
+        Me.Label31.TabIndex = 1139
+        Me.Label31.Text = "Soil Temps @ 1300 GMT"
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.Location = New System.Drawing.Point(256, 345)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(146, 13)
+        Me.Label30.TabIndex = 1138
+        Me.Label30.Text = "Temp and RH @ 12GMT"
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Location = New System.Drawing.Point(94, 345)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(156, 13)
+        Me.Label29.TabIndex = 1137
+        Me.Label29.Text = "Sunshine and Evaporation"
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.Location = New System.Drawing.Point(27, 464)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(60, 13)
+        Me.Label38.TabIndex = 1144
+        Me.Label38.Text = "Evap Pan2"
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.Location = New System.Drawing.Point(30, 434)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(60, 13)
+        Me.Label39.TabIndex = 1143
+        Me.Label39.Text = "Evap Pan1"
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.Location = New System.Drawing.Point(34, 409)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(52, 13)
+        Me.Label35.TabIndex = 1142
+        Me.Label35.Text = "Radiation"
+        '
+        'lblSunHrs
+        '
+        Me.lblSunHrs.AutoSize = True
+        Me.lblSunHrs.Location = New System.Drawing.Point(40, 385)
+        Me.lblSunHrs.Name = "lblSunHrs"
+        Me.lblSunHrs.Size = New System.Drawing.Size(45, 13)
+        Me.lblSunHrs.TabIndex = 1141
+        Me.lblSunHrs.Text = "Sun Hrs"
+        '
+        'UcrValueFlagPeriodNew13
+        '
+        Me.UcrValueFlagPeriodNew13.FieldName = Nothing
+        Me.UcrValueFlagPeriodNew13.IncludePeriod = True
+        Me.UcrValueFlagPeriodNew13.Location = New System.Drawing.Point(97, 380)
+        Me.UcrValueFlagPeriodNew13.Name = "UcrValueFlagPeriodNew13"
+        Me.UcrValueFlagPeriodNew13.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew13.TabIndex = 1145
+        '
+        'UcrValueFlagPeriodNew14
+        '
+        Me.UcrValueFlagPeriodNew14.FieldName = Nothing
+        Me.UcrValueFlagPeriodNew14.IncludePeriod = True
+        Me.UcrValueFlagPeriodNew14.Location = New System.Drawing.Point(97, 405)
+        Me.UcrValueFlagPeriodNew14.Name = "UcrValueFlagPeriodNew14"
+        Me.UcrValueFlagPeriodNew14.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew14.TabIndex = 1146
+        '
+        'UcrValueFlagPeriodNew15
+        '
+        Me.UcrValueFlagPeriodNew15.FieldName = Nothing
+        Me.UcrValueFlagPeriodNew15.IncludePeriod = True
+        Me.UcrValueFlagPeriodNew15.Location = New System.Drawing.Point(97, 430)
+        Me.UcrValueFlagPeriodNew15.Name = "UcrValueFlagPeriodNew15"
+        Me.UcrValueFlagPeriodNew15.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew15.TabIndex = 1147
+        '
+        'UcrValueFlagPeriodNew16
+        '
+        Me.UcrValueFlagPeriodNew16.FieldName = Nothing
+        Me.UcrValueFlagPeriodNew16.IncludePeriod = True
+        Me.UcrValueFlagPeriodNew16.Location = New System.Drawing.Point(97, 459)
+        Me.UcrValueFlagPeriodNew16.Name = "UcrValueFlagPeriodNew16"
+        Me.UcrValueFlagPeriodNew16.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew16.TabIndex = 1148
+        '
+        'lblRH06Z
+        '
+        Me.lblRH06Z.AutoSize = True
+        Me.lblRH06Z.Location = New System.Drawing.Point(238, 461)
+        Me.lblRH06Z.Name = "lblRH06Z"
+        Me.lblRH06Z.Size = New System.Drawing.Size(40, 13)
+        Me.lblRH06Z.TabIndex = 1152
+        Me.lblRH06Z.Text = "RH (%)"
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.Location = New System.Drawing.Point(231, 436)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(56, 13)
+        Me.Label42.TabIndex = 1151
+        Me.Label42.Text = "Dew Point"
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.Location = New System.Drawing.Point(233, 411)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(51, 13)
+        Me.Label43.TabIndex = 1150
+        Me.Label43.Text = "Wet Bulb"
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Location = New System.Drawing.Point(234, 386)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(47, 13)
+        Me.Label44.TabIndex = 1149
+        Me.Label44.Text = "Dry Bulb"
+        '
+        'Label34
+        '
+        Me.Label34.AutoSize = True
+        Me.Label34.Location = New System.Drawing.Point(107, 365)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(34, 13)
+        Me.Label34.TabIndex = 1153
+        Me.Label34.Text = "Value"
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.Location = New System.Drawing.Point(197, 365)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(27, 13)
+        Me.Label33.TabIndex = 1154
+        Me.Label33.Text = "Flag"
+        '
+        'UcrValueFlagPeriodNew17
+        '
+        Me.UcrValueFlagPeriodNew17.FieldName = Nothing
+        Me.UcrValueFlagPeriodNew17.IncludePeriod = True
+        Me.UcrValueFlagPeriodNew17.Location = New System.Drawing.Point(293, 380)
+        Me.UcrValueFlagPeriodNew17.Name = "UcrValueFlagPeriodNew17"
+        Me.UcrValueFlagPeriodNew17.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew17.TabIndex = 1155
+        '
+        'UcrValueFlagPeriodNew18
+        '
+        Me.UcrValueFlagPeriodNew18.FieldName = Nothing
+        Me.UcrValueFlagPeriodNew18.IncludePeriod = True
+        Me.UcrValueFlagPeriodNew18.Location = New System.Drawing.Point(293, 405)
+        Me.UcrValueFlagPeriodNew18.Name = "UcrValueFlagPeriodNew18"
+        Me.UcrValueFlagPeriodNew18.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew18.TabIndex = 1156
+        '
+        'UcrValueFlagPeriodNew19
+        '
+        Me.UcrValueFlagPeriodNew19.FieldName = Nothing
+        Me.UcrValueFlagPeriodNew19.IncludePeriod = True
+        Me.UcrValueFlagPeriodNew19.Location = New System.Drawing.Point(293, 431)
+        Me.UcrValueFlagPeriodNew19.Name = "UcrValueFlagPeriodNew19"
+        Me.UcrValueFlagPeriodNew19.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew19.TabIndex = 1157
+        '
+        'UcrValueFlagPeriodNew20
+        '
+        Me.UcrValueFlagPeriodNew20.FieldName = Nothing
+        Me.UcrValueFlagPeriodNew20.IncludePeriod = True
+        Me.UcrValueFlagPeriodNew20.Location = New System.Drawing.Point(293, 457)
+        Me.UcrValueFlagPeriodNew20.Name = "UcrValueFlagPeriodNew20"
+        Me.UcrValueFlagPeriodNew20.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew20.TabIndex = 1158
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Location = New System.Drawing.Point(301, 365)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(34, 13)
+        Me.Label24.TabIndex = 1159
+        Me.Label24.Text = "Value"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Location = New System.Drawing.Point(391, 365)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(27, 13)
+        Me.Label25.TabIndex = 1160
+        Me.Label25.Text = "Flag"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Location = New System.Drawing.Point(438, 450)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(42, 13)
+        Me.Label47.TabIndex = 1163
+        Me.Label47.Text = "020 cm"
+        '
+        'Label48
+        '
+        Me.Label48.AutoSize = True
+        Me.Label48.Location = New System.Drawing.Point(438, 421)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(42, 13)
+        Me.Label48.TabIndex = 1162
+        Me.Label48.Text = "010 cm"
+        '
+        'Label49
+        '
+        Me.Label49.AutoSize = True
+        Me.Label49.Location = New System.Drawing.Point(438, 392)
+        Me.Label49.Name = "Label49"
+        Me.Label49.Size = New System.Drawing.Size(42, 13)
+        Me.Label49.TabIndex = 1161
+        Me.Label49.Text = "005 cm"
+        '
+        'UcrValueFlagPeriodNew21
+        '
+        Me.UcrValueFlagPeriodNew21.FieldName = Nothing
+        Me.UcrValueFlagPeriodNew21.IncludePeriod = True
+        Me.UcrValueFlagPeriodNew21.Location = New System.Drawing.Point(486, 385)
+        Me.UcrValueFlagPeriodNew21.Name = "UcrValueFlagPeriodNew21"
+        Me.UcrValueFlagPeriodNew21.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew21.TabIndex = 1164
+        '
+        'UcrValueFlagPeriodNew22
+        '
+        Me.UcrValueFlagPeriodNew22.FieldName = Nothing
+        Me.UcrValueFlagPeriodNew22.IncludePeriod = True
+        Me.UcrValueFlagPeriodNew22.Location = New System.Drawing.Point(486, 414)
+        Me.UcrValueFlagPeriodNew22.Name = "UcrValueFlagPeriodNew22"
+        Me.UcrValueFlagPeriodNew22.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew22.TabIndex = 1165
+        '
+        'UcrValueFlagPeriodNew23
+        '
+        Me.UcrValueFlagPeriodNew23.FieldName = Nothing
+        Me.UcrValueFlagPeriodNew23.IncludePeriod = True
+        Me.UcrValueFlagPeriodNew23.Location = New System.Drawing.Point(486, 443)
+        Me.UcrValueFlagPeriodNew23.Name = "UcrValueFlagPeriodNew23"
+        Me.UcrValueFlagPeriodNew23.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew23.TabIndex = 1166
+        '
+        'Label37
+        '
+        Me.Label37.AutoSize = True
+        Me.Label37.Location = New System.Drawing.Point(493, 369)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(34, 13)
+        Me.Label37.TabIndex = 1167
+        Me.Label37.Text = "Value"
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.Location = New System.Drawing.Point(572, 369)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(27, 13)
+        Me.Label40.TabIndex = 1168
+        Me.Label40.Text = "Flag"
+        '
+        'Label56
+        '
+        Me.Label56.AutoSize = True
+        Me.Label56.Location = New System.Drawing.Point(622, 470)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(93, 13)
+        Me.Label56.TabIndex = 1172
+        Me.Label56.Text = "Moisture @100cm"
+        '
+        'Label57
+        '
+        Me.Label57.AutoSize = True
+        Me.Label57.Location = New System.Drawing.Point(622, 443)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(93, 13)
+        Me.Label57.TabIndex = 1171
+        Me.Label57.Text = "Moisture @005cm"
+        '
+        'Label52
+        '
+        Me.Label52.AutoSize = True
+        Me.Label52.Location = New System.Drawing.Point(649, 419)
+        Me.Label52.Name = "Label52"
+        Me.Label52.Size = New System.Drawing.Size(56, 13)
+        Me.Label52.TabIndex = 1170
+        Me.Label52.Text = "Tmin reset"
+        '
+        'Label53
+        '
+        Me.Label53.AutoSize = True
+        Me.Label53.Location = New System.Drawing.Point(649, 386)
+        Me.Label53.Name = "Label53"
+        Me.Label53.Size = New System.Drawing.Size(65, 13)
+        Me.Label53.TabIndex = 1169
+        Me.Label53.Text = "TMax Reset"
+        '
+        'UcrValueFlagPeriodNew24
+        '
+        Me.UcrValueFlagPeriodNew24.FieldName = Nothing
+        Me.UcrValueFlagPeriodNew24.IncludePeriod = True
+        Me.UcrValueFlagPeriodNew24.Location = New System.Drawing.Point(721, 380)
+        Me.UcrValueFlagPeriodNew24.Name = "UcrValueFlagPeriodNew24"
+        Me.UcrValueFlagPeriodNew24.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew24.TabIndex = 1173
+        '
+        'UcrValueFlagPeriodNew25
+        '
+        Me.UcrValueFlagPeriodNew25.FieldName = Nothing
+        Me.UcrValueFlagPeriodNew25.IncludePeriod = True
+        Me.UcrValueFlagPeriodNew25.Location = New System.Drawing.Point(721, 409)
+        Me.UcrValueFlagPeriodNew25.Name = "UcrValueFlagPeriodNew25"
+        Me.UcrValueFlagPeriodNew25.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew25.TabIndex = 1174
+        '
+        'UcrValueFlagPeriodNew26
+        '
+        Me.UcrValueFlagPeriodNew26.FieldName = Nothing
+        Me.UcrValueFlagPeriodNew26.IncludePeriod = True
+        Me.UcrValueFlagPeriodNew26.Location = New System.Drawing.Point(721, 436)
+        Me.UcrValueFlagPeriodNew26.Name = "UcrValueFlagPeriodNew26"
+        Me.UcrValueFlagPeriodNew26.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew26.TabIndex = 1175
+        '
+        'UcrValueFlagPeriodNew27
+        '
+        Me.UcrValueFlagPeriodNew27.FieldName = Nothing
+        Me.UcrValueFlagPeriodNew27.IncludePeriod = True
+        Me.UcrValueFlagPeriodNew27.Location = New System.Drawing.Point(721, 465)
+        Me.UcrValueFlagPeriodNew27.Name = "UcrValueFlagPeriodNew27"
+        Me.UcrValueFlagPeriodNew27.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew27.TabIndex = 1176
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.Location = New System.Drawing.Point(727, 365)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(34, 13)
+        Me.Label41.TabIndex = 1177
+        Me.Label41.Text = "Value"
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Location = New System.Drawing.Point(813, 364)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(27, 13)
+        Me.Label45.TabIndex = 1178
+        Me.Label45.Text = "Flag"
+        '
+        'UcrButton1
+        '
+        Me.UcrButton1.ButtonText = "Button1"
+        Me.UcrButton1.Location = New System.Drawing.Point(325, 613)
+        Me.UcrButton1.Name = "UcrButton1"
+        Me.UcrButton1.Size = New System.Drawing.Size(55, 20)
+        Me.UcrButton1.TabIndex = 1179
+        '
+        'UcrButton2
+        '
+        Me.UcrButton2.ButtonText = "Button1"
+        Me.UcrButton2.Location = New System.Drawing.Point(425, 613)
+        Me.UcrButton2.Name = "UcrButton2"
+        Me.UcrButton2.Size = New System.Drawing.Size(55, 20)
+        Me.UcrButton2.TabIndex = 1180
+        '
+        'UcrNavigator1
+        '
+        Me.UcrNavigator1.Location = New System.Drawing.Point(259, 537)
+        Me.UcrNavigator1.Name = "UcrNavigator1"
+        Me.UcrNavigator1.Size = New System.Drawing.Size(340, 30)
+        Me.UcrNavigator1.TabIndex = 1181
+        '
         'ucrFormAgro1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.UcrNavigator1)
+        Me.Controls.Add(Me.UcrButton2)
+        Me.Controls.Add(Me.UcrButton1)
+        Me.Controls.Add(Me.Label45)
+        Me.Controls.Add(Me.Label41)
+        Me.Controls.Add(Me.UcrValueFlagPeriodNew27)
+        Me.Controls.Add(Me.UcrValueFlagPeriodNew26)
+        Me.Controls.Add(Me.UcrValueFlagPeriodNew25)
+        Me.Controls.Add(Me.UcrValueFlagPeriodNew24)
+        Me.Controls.Add(Me.Label56)
+        Me.Controls.Add(Me.Label57)
+        Me.Controls.Add(Me.Label52)
+        Me.Controls.Add(Me.Label53)
+        Me.Controls.Add(Me.Label40)
+        Me.Controls.Add(Me.Label37)
+        Me.Controls.Add(Me.UcrValueFlagPeriodNew23)
+        Me.Controls.Add(Me.UcrValueFlagPeriodNew22)
+        Me.Controls.Add(Me.UcrValueFlagPeriodNew21)
+        Me.Controls.Add(Me.Label47)
+        Me.Controls.Add(Me.Label48)
+        Me.Controls.Add(Me.Label49)
+        Me.Controls.Add(Me.Label25)
+        Me.Controls.Add(Me.Label24)
+        Me.Controls.Add(Me.UcrValueFlagPeriodNew20)
+        Me.Controls.Add(Me.UcrValueFlagPeriodNew19)
+        Me.Controls.Add(Me.UcrValueFlagPeriodNew18)
+        Me.Controls.Add(Me.UcrValueFlagPeriodNew17)
+        Me.Controls.Add(Me.Label33)
+        Me.Controls.Add(Me.Label34)
+        Me.Controls.Add(Me.lblRH06Z)
+        Me.Controls.Add(Me.Label42)
+        Me.Controls.Add(Me.Label43)
+        Me.Controls.Add(Me.Label44)
+        Me.Controls.Add(Me.UcrValueFlagPeriodNew16)
+        Me.Controls.Add(Me.UcrValueFlagPeriodNew15)
+        Me.Controls.Add(Me.UcrValueFlagPeriodNew14)
+        Me.Controls.Add(Me.UcrValueFlagPeriodNew13)
+        Me.Controls.Add(Me.Label38)
+        Me.Controls.Add(Me.Label39)
+        Me.Controls.Add(Me.Label35)
+        Me.Controls.Add(Me.lblSunHrs)
+        Me.Controls.Add(Me.Label36)
+        Me.Controls.Add(Me.Label31)
+        Me.Controls.Add(Me.Label30)
+        Me.Controls.Add(Me.Label29)
         Me.Controls.Add(Me.UcrValueFlagPeriodNew12)
         Me.Controls.Add(Me.UcrValueFlagPeriodNew11)
         Me.Controls.Add(Me.UcrValueFlagPeriodNew10)
@@ -646,7 +1141,7 @@ Partial Class ucrFormAgro1
         Me.Controls.Add(Me.ucrStationSelectorIdentifier)
         Me.Controls.Add(Me.Label1)
         Me.Name = "ucrFormAgro1"
-        Me.Size = New System.Drawing.Size(843, 683)
+        Me.Size = New System.Drawing.Size(890, 683)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -708,4 +1203,49 @@ Partial Class ucrFormAgro1
     Friend WithEvents UcrValueFlagPeriodNew10 As ucrValueFlagPeriodNew
     Friend WithEvents UcrValueFlagPeriodNew11 As ucrValueFlagPeriodNew
     Friend WithEvents UcrValueFlagPeriodNew12 As ucrValueFlagPeriodNew
+    Friend WithEvents Label36 As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents Label30 As Label
+    Friend WithEvents Label29 As Label
+    Friend WithEvents Label38 As Label
+    Friend WithEvents Label39 As Label
+    Friend WithEvents Label35 As Label
+    Friend WithEvents lblSunHrs As Label
+    Friend WithEvents UcrValueFlagPeriodNew13 As ucrValueFlagPeriodNew
+    Friend WithEvents UcrValueFlagPeriodNew14 As ucrValueFlagPeriodNew
+    Friend WithEvents UcrValueFlagPeriodNew15 As ucrValueFlagPeriodNew
+    Friend WithEvents UcrValueFlagPeriodNew16 As ucrValueFlagPeriodNew
+    Friend WithEvents lblRH06Z As Label
+    Friend WithEvents Label42 As Label
+    Friend WithEvents Label43 As Label
+    Friend WithEvents Label44 As Label
+    Friend WithEvents Label34 As Label
+    Friend WithEvents Label33 As Label
+    Friend WithEvents UcrValueFlagPeriodNew17 As ucrValueFlagPeriodNew
+    Friend WithEvents UcrValueFlagPeriodNew18 As ucrValueFlagPeriodNew
+    Friend WithEvents UcrValueFlagPeriodNew19 As ucrValueFlagPeriodNew
+    Friend WithEvents UcrValueFlagPeriodNew20 As ucrValueFlagPeriodNew
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label47 As Label
+    Friend WithEvents Label48 As Label
+    Friend WithEvents Label49 As Label
+    Friend WithEvents UcrValueFlagPeriodNew21 As ucrValueFlagPeriodNew
+    Friend WithEvents UcrValueFlagPeriodNew22 As ucrValueFlagPeriodNew
+    Friend WithEvents UcrValueFlagPeriodNew23 As ucrValueFlagPeriodNew
+    Friend WithEvents Label37 As Label
+    Friend WithEvents Label40 As Label
+    Friend WithEvents Label56 As Label
+    Friend WithEvents Label57 As Label
+    Friend WithEvents Label52 As Label
+    Friend WithEvents Label53 As Label
+    Friend WithEvents UcrValueFlagPeriodNew24 As ucrValueFlagPeriodNew
+    Friend WithEvents UcrValueFlagPeriodNew25 As ucrValueFlagPeriodNew
+    Friend WithEvents UcrValueFlagPeriodNew26 As ucrValueFlagPeriodNew
+    Friend WithEvents UcrValueFlagPeriodNew27 As ucrValueFlagPeriodNew
+    Friend WithEvents Label41 As Label
+    Friend WithEvents Label45 As Label
+    Friend WithEvents UcrButton1 As ucrButton
+    Friend WithEvents UcrButton2 As ucrButton
+    Friend WithEvents UcrNavigator1 As ucrNavigator
 End Class
