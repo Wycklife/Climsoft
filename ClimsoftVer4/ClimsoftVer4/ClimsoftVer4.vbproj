@@ -723,6 +723,12 @@
     <Compile Include="ucrElementSelectorNew.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="ucrFormAgro1.Designer.vb">
+      <DependentUpon>ucrFormAgro1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucrFormAgro1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="ucrFormDaily2New.Designer.vb">
       <DependentUpon>ucrFormDaily2New.vb</DependentUpon>
     </Compile>
@@ -1340,6 +1346,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucrElementSelectorNew.resx">
       <DependentUpon>ucrElementSelectorNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucrFormAgro1.resx">
+      <DependentUpon>ucrFormAgro1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucrFormDaily2New.resx">
       <DependentUpon>ucrFormDaily2New.vb</DependentUpon>
