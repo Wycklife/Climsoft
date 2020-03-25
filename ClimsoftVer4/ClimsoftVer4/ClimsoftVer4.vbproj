@@ -107,6 +107,12 @@
     <Compile Include="formAgro1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="formElementNew.Designer.vb">
+      <DependentUpon>formElementNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formElementNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="formSynopticCaribbean.Designer.vb">
       <DependentUpon>formSynopticCaribbean.vb</DependentUpon>
     </Compile>
@@ -723,6 +729,12 @@
     <Compile Include="ucrDaySelectorNew.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="ucrElementInformation.Designer.vb">
+      <DependentUpon>ucrElementInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucrElementInformation.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="ucrElementSelectorNew.Designer.vb">
       <DependentUpon>ucrElementSelectorNew.vb</DependentUpon>
     </Compile>
@@ -1033,6 +1045,9 @@
   <ItemGroup>
     <EmbeddedResource Include="formAgro1.resx">
       <DependentUpon>formAgro1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formElementNew.resx">
+      <DependentUpon>formElementNew.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formSynopticCaribbean.resx">
       <DependentUpon>formSynopticCaribbean.vb</DependentUpon>
@@ -1346,6 +1361,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucrDaySelectorNew.resx">
       <DependentUpon>ucrDaySelectorNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucrElementInformation.resx">
+      <DependentUpon>ucrElementInformation.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucrElementSelectorNew.resx">
       <DependentUpon>ucrElementSelectorNew.vb</DependentUpon>
