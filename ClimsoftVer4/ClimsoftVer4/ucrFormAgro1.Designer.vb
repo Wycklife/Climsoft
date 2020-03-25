@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class ucrFormAgro1
     Inherits ClimsoftVer4.ucrPage
 
     'UserControl overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class ucrFormAgro1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ucrStationSelectorIdentifier = New ClimsoftVer4.ucrStationSelectorNew()
@@ -29,7 +29,7 @@ Partial Class ucrFormAgro1
         Me.Label61 = New System.Windows.Forms.Label()
         Me.ucrMonthSelector = New ClimsoftVer4.ucrMonthSelectorNew()
         Me.Label62 = New System.Windows.Forms.Label()
-        Me.UcrDaySelectorNew1 = New ClimsoftVer4.ucrDaySelectorNew()
+        Me.ucrDaySelector = New ClimsoftVer4.ucrDaySelectorNew()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -133,6 +133,8 @@ Partial Class ucrFormAgro1
         Me.Label46 = New System.Windows.Forms.Label()
         Me.txtSequencer = New System.Windows.Forms.TextBox()
         Me.btnUpload = New System.Windows.Forms.Button()
+        Me.Label50 = New System.Windows.Forms.Label()
+        Me.Label51 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -148,6 +150,7 @@ Partial Class ucrFormAgro1
         '
         Me.ucrStationSelectorIdentifier.FieldName = Nothing
         Me.ucrStationSelectorIdentifier.Location = New System.Drawing.Point(209, 22)
+        Me.ucrStationSelectorIdentifier.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.ucrStationSelectorIdentifier.Name = "ucrStationSelectorIdentifier"
         Me.ucrStationSelectorIdentifier.Size = New System.Drawing.Size(532, 21)
         Me.ucrStationSelectorIdentifier.TabIndex = 1009
@@ -165,6 +168,7 @@ Partial Class ucrFormAgro1
         '
         Me.ucrTextBoxYear.FieldName = Nothing
         Me.ucrTextBoxYear.Location = New System.Drawing.Point(210, 64)
+        Me.ucrTextBoxYear.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrTextBoxYear.Name = "ucrTextBoxYear"
         Me.ucrTextBoxYear.Size = New System.Drawing.Size(40, 20)
         Me.ucrTextBoxYear.TabIndex = 1011
@@ -183,6 +187,7 @@ Partial Class ucrFormAgro1
         '
         Me.ucrMonthSelector.FieldName = Nothing
         Me.ucrMonthSelector.Location = New System.Drawing.Point(325, 64)
+        Me.ucrMonthSelector.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.ucrMonthSelector.Name = "ucrMonthSelector"
         Me.ucrMonthSelector.Size = New System.Drawing.Size(41, 21)
         Me.ucrMonthSelector.TabIndex = 1013
@@ -196,19 +201,20 @@ Partial Class ucrFormAgro1
         Me.Label62.TabIndex = 1014
         Me.Label62.Text = "Day"
         '
-        'UcrDaySelectorNew1
+        'ucrDaySelector
         '
-        Me.UcrDaySelectorNew1.FieldName = Nothing
-        Me.UcrDaySelectorNew1.Location = New System.Drawing.Point(441, 64)
-        Me.UcrDaySelectorNew1.Name = "UcrDaySelectorNew1"
-        Me.UcrDaySelectorNew1.Size = New System.Drawing.Size(39, 21)
-        Me.UcrDaySelectorNew1.TabIndex = 1015
+        Me.ucrDaySelector.FieldName = Nothing
+        Me.ucrDaySelector.Location = New System.Drawing.Point(441, 64)
+        Me.ucrDaySelector.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
+        Me.ucrDaySelector.Name = "ucrDaySelector"
+        Me.ucrDaySelector.Size = New System.Drawing.Size(39, 21)
+        Me.ucrDaySelector.TabIndex = 1015
         '
         'Label26
         '
         Me.Label26.AutoSize = True
         Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(591, 114)
+        Me.Label26.Location = New System.Drawing.Point(554, 123)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(170, 13)
         Me.Label26.TabIndex = 1083
@@ -218,7 +224,7 @@ Partial Class ucrFormAgro1
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(444, 114)
+        Me.Label5.Location = New System.Drawing.Point(409, 123)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(134, 13)
         Me.Label5.TabIndex = 1082
@@ -228,7 +234,7 @@ Partial Class ucrFormAgro1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(88, 114)
+        Me.Label4.Location = New System.Drawing.Point(110, 123)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(152, 13)
         Me.Label4.TabIndex = 1081
@@ -238,7 +244,7 @@ Partial Class ucrFormAgro1
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(268, 114)
+        Me.Label3.Location = New System.Drawing.Point(265, 123)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(134, 13)
         Me.Label3.TabIndex = 1080
@@ -247,70 +253,77 @@ Partial Class ucrFormAgro1
         'ucrValueFlagPeriod1
         '
         Me.ucrValueFlagPeriod1.FieldName = Nothing
-        Me.ucrValueFlagPeriod1.IncludePeriod = True
-        Me.ucrValueFlagPeriod1.Location = New System.Drawing.Point(110, 151)
+        Me.ucrValueFlagPeriod1.IncludePeriod = False
+        Me.ucrValueFlagPeriod1.Location = New System.Drawing.Point(161, 163)
+        Me.ucrValueFlagPeriod1.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod1.Name = "ucrValueFlagPeriod1"
-        Me.ucrValueFlagPeriod1.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod1.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod1.TabIndex = 1084
         '
         'ucrValueFlagPeriod2
         '
         Me.ucrValueFlagPeriod2.FieldName = Nothing
-        Me.ucrValueFlagPeriod2.IncludePeriod = True
-        Me.ucrValueFlagPeriod2.Location = New System.Drawing.Point(110, 174)
+        Me.ucrValueFlagPeriod2.IncludePeriod = False
+        Me.ucrValueFlagPeriod2.Location = New System.Drawing.Point(161, 186)
+        Me.ucrValueFlagPeriod2.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod2.Name = "ucrValueFlagPeriod2"
-        Me.ucrValueFlagPeriod2.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod2.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod2.TabIndex = 1085
         '
         'ucrValueFlagPeriod3
         '
         Me.ucrValueFlagPeriod3.FieldName = Nothing
-        Me.ucrValueFlagPeriod3.IncludePeriod = True
-        Me.ucrValueFlagPeriod3.Location = New System.Drawing.Point(110, 197)
+        Me.ucrValueFlagPeriod3.IncludePeriod = False
+        Me.ucrValueFlagPeriod3.Location = New System.Drawing.Point(161, 209)
+        Me.ucrValueFlagPeriod3.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod3.Name = "ucrValueFlagPeriod3"
-        Me.ucrValueFlagPeriod3.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod3.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod3.TabIndex = 1086
         '
         'ucrValueFlagPeriod4
         '
         Me.ucrValueFlagPeriod4.FieldName = Nothing
-        Me.ucrValueFlagPeriod4.IncludePeriod = True
-        Me.ucrValueFlagPeriod4.Location = New System.Drawing.Point(110, 220)
+        Me.ucrValueFlagPeriod4.IncludePeriod = False
+        Me.ucrValueFlagPeriod4.Location = New System.Drawing.Point(161, 232)
+        Me.ucrValueFlagPeriod4.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod4.Name = "ucrValueFlagPeriod4"
-        Me.ucrValueFlagPeriod4.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod4.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod4.TabIndex = 1087
         '
         'ucrValueFlagPeriod5
         '
         Me.ucrValueFlagPeriod5.FieldName = Nothing
-        Me.ucrValueFlagPeriod5.IncludePeriod = True
-        Me.ucrValueFlagPeriod5.Location = New System.Drawing.Point(110, 243)
+        Me.ucrValueFlagPeriod5.IncludePeriod = False
+        Me.ucrValueFlagPeriod5.Location = New System.Drawing.Point(161, 255)
+        Me.ucrValueFlagPeriod5.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod5.Name = "ucrValueFlagPeriod5"
-        Me.ucrValueFlagPeriod5.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod5.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod5.TabIndex = 1088
         '
         'ucrValueFlagPeriod6
         '
         Me.ucrValueFlagPeriod6.FieldName = Nothing
-        Me.ucrValueFlagPeriod6.IncludePeriod = True
-        Me.ucrValueFlagPeriod6.Location = New System.Drawing.Point(110, 266)
+        Me.ucrValueFlagPeriod6.IncludePeriod = False
+        Me.ucrValueFlagPeriod6.Location = New System.Drawing.Point(161, 278)
+        Me.ucrValueFlagPeriod6.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod6.Name = "ucrValueFlagPeriod6"
-        Me.ucrValueFlagPeriod6.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod6.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod6.TabIndex = 1089
         '
         'ucrValueFlagPeriod7
         '
         Me.ucrValueFlagPeriod7.FieldName = Nothing
-        Me.ucrValueFlagPeriod7.IncludePeriod = True
-        Me.ucrValueFlagPeriod7.Location = New System.Drawing.Point(110, 289)
+        Me.ucrValueFlagPeriod7.IncludePeriod = False
+        Me.ucrValueFlagPeriod7.Location = New System.Drawing.Point(161, 301)
+        Me.ucrValueFlagPeriod7.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod7.Name = "ucrValueFlagPeriod7"
-        Me.ucrValueFlagPeriod7.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod7.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod7.TabIndex = 1090
         '
         'lblDB06
         '
         Me.lblDB06.AutoSize = True
-        Me.lblDB06.Location = New System.Drawing.Point(56, 155)
+        Me.lblDB06.Location = New System.Drawing.Point(104, 167)
         Me.lblDB06.Name = "lblDB06"
         Me.lblDB06.Size = New System.Drawing.Size(47, 13)
         Me.lblDB06.TabIndex = 1091
@@ -319,7 +332,7 @@ Partial Class ucrFormAgro1
         'lblWB06
         '
         Me.lblWB06.AutoSize = True
-        Me.lblWB06.Location = New System.Drawing.Point(56, 178)
+        Me.lblWB06.Location = New System.Drawing.Point(104, 190)
         Me.lblWB06.Name = "lblWB06"
         Me.lblWB06.Size = New System.Drawing.Size(51, 13)
         Me.lblWB06.TabIndex = 1092
@@ -328,7 +341,7 @@ Partial Class ucrFormAgro1
         'lblDP06
         '
         Me.lblDP06.AutoSize = True
-        Me.lblDP06.Location = New System.Drawing.Point(49, 201)
+        Me.lblDP06.Location = New System.Drawing.Point(104, 213)
         Me.lblDP06.Name = "lblDP06"
         Me.lblDP06.Size = New System.Drawing.Size(56, 13)
         Me.lblDP06.TabIndex = 1093
@@ -337,7 +350,7 @@ Partial Class ucrFormAgro1
         'Label60
         '
         Me.Label60.AutoSize = True
-        Me.Label60.Location = New System.Drawing.Point(56, 224)
+        Me.Label60.Location = New System.Drawing.Point(104, 236)
         Me.Label60.Name = "Label60"
         Me.Label60.Size = New System.Drawing.Size(40, 13)
         Me.Label60.TabIndex = 1094
@@ -346,7 +359,7 @@ Partial Class ucrFormAgro1
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(56, 247)
+        Me.Label10.Location = New System.Drawing.Point(104, 259)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(34, 13)
         Me.Label10.TabIndex = 1095
@@ -355,7 +368,7 @@ Partial Class ucrFormAgro1
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(56, 270)
+        Me.Label9.Location = New System.Drawing.Point(104, 282)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(31, 13)
         Me.Label9.TabIndex = 1096
@@ -364,7 +377,7 @@ Partial Class ucrFormAgro1
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(47, 293)
+        Me.Label8.Location = New System.Drawing.Point(97, 305)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(60, 13)
         Me.Label8.TabIndex = 1097
@@ -373,7 +386,7 @@ Partial Class ucrFormAgro1
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(241, 249)
+        Me.Label17.Location = New System.Drawing.Point(255, 259)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(42, 13)
         Me.Label17.TabIndex = 1102
@@ -382,7 +395,7 @@ Partial Class ucrFormAgro1
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(241, 226)
+        Me.Label18.Location = New System.Drawing.Point(255, 236)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(42, 13)
         Me.Label18.TabIndex = 1101
@@ -391,7 +404,7 @@ Partial Class ucrFormAgro1
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(240, 203)
+        Me.Label13.Location = New System.Drawing.Point(254, 213)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(42, 13)
         Me.Label13.TabIndex = 1100
@@ -400,7 +413,7 @@ Partial Class ucrFormAgro1
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(240, 180)
+        Me.Label14.Location = New System.Drawing.Point(254, 190)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(42, 13)
         Me.Label14.TabIndex = 1099
@@ -409,7 +422,7 @@ Partial Class ucrFormAgro1
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(240, 157)
+        Me.Label15.Location = New System.Drawing.Point(254, 167)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(42, 13)
         Me.Label15.TabIndex = 1098
@@ -418,7 +431,7 @@ Partial Class ucrFormAgro1
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(202, 136)
+        Me.Label7.Location = New System.Drawing.Point(219, 148)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(27, 13)
         Me.Label7.TabIndex = 1104
@@ -427,7 +440,7 @@ Partial Class ucrFormAgro1
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(118, 136)
+        Me.Label6.Location = New System.Drawing.Point(163, 148)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(34, 13)
         Me.Label6.TabIndex = 1103
@@ -436,52 +449,57 @@ Partial Class ucrFormAgro1
         'ucrValueFlagPeriod8
         '
         Me.ucrValueFlagPeriod8.FieldName = Nothing
-        Me.ucrValueFlagPeriod8.IncludePeriod = True
-        Me.ucrValueFlagPeriod8.Location = New System.Drawing.Point(288, 150)
+        Me.ucrValueFlagPeriod8.IncludePeriod = False
+        Me.ucrValueFlagPeriod8.Location = New System.Drawing.Point(311, 163)
+        Me.ucrValueFlagPeriod8.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod8.Name = "ucrValueFlagPeriod8"
-        Me.ucrValueFlagPeriod8.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod8.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod8.TabIndex = 1105
         '
         'ucrValueFlagPeriod9
         '
         Me.ucrValueFlagPeriod9.FieldName = Nothing
-        Me.ucrValueFlagPeriod9.IncludePeriod = True
-        Me.ucrValueFlagPeriod9.Location = New System.Drawing.Point(288, 173)
+        Me.ucrValueFlagPeriod9.IncludePeriod = False
+        Me.ucrValueFlagPeriod9.Location = New System.Drawing.Point(311, 186)
+        Me.ucrValueFlagPeriod9.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod9.Name = "ucrValueFlagPeriod9"
-        Me.ucrValueFlagPeriod9.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod9.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod9.TabIndex = 1106
         '
         'ucrValueFlagPeriod10
         '
         Me.ucrValueFlagPeriod10.FieldName = Nothing
-        Me.ucrValueFlagPeriod10.IncludePeriod = True
-        Me.ucrValueFlagPeriod10.Location = New System.Drawing.Point(288, 196)
+        Me.ucrValueFlagPeriod10.IncludePeriod = False
+        Me.ucrValueFlagPeriod10.Location = New System.Drawing.Point(311, 209)
+        Me.ucrValueFlagPeriod10.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod10.Name = "ucrValueFlagPeriod10"
-        Me.ucrValueFlagPeriod10.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod10.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod10.TabIndex = 1107
         '
         'ucrValueFlagPeriod11
         '
         Me.ucrValueFlagPeriod11.FieldName = Nothing
-        Me.ucrValueFlagPeriod11.IncludePeriod = True
-        Me.ucrValueFlagPeriod11.Location = New System.Drawing.Point(288, 220)
+        Me.ucrValueFlagPeriod11.IncludePeriod = False
+        Me.ucrValueFlagPeriod11.Location = New System.Drawing.Point(311, 232)
+        Me.ucrValueFlagPeriod11.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod11.Name = "ucrValueFlagPeriod11"
-        Me.ucrValueFlagPeriod11.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod11.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod11.TabIndex = 1108
         '
         'ucrValueFlagPeriod12
         '
         Me.ucrValueFlagPeriod12.FieldName = Nothing
-        Me.ucrValueFlagPeriod12.IncludePeriod = True
-        Me.ucrValueFlagPeriod12.Location = New System.Drawing.Point(288, 244)
+        Me.ucrValueFlagPeriod12.IncludePeriod = False
+        Me.ucrValueFlagPeriod12.Location = New System.Drawing.Point(311, 255)
+        Me.ucrValueFlagPeriod12.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod12.Name = "ucrValueFlagPeriod12"
-        Me.ucrValueFlagPeriod12.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod12.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod12.TabIndex = 1109
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(383, 134)
+        Me.Label11.Location = New System.Drawing.Point(366, 148)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(27, 13)
         Me.Label11.TabIndex = 1111
@@ -490,7 +508,7 @@ Partial Class ucrFormAgro1
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(290, 134)
+        Me.Label12.Location = New System.Drawing.Point(314, 148)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(34, 13)
         Me.Label12.TabIndex = 1110
@@ -499,7 +517,7 @@ Partial Class ucrFormAgro1
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(425, 207)
+        Me.Label21.Location = New System.Drawing.Point(402, 213)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(42, 13)
         Me.Label21.TabIndex = 1114
@@ -508,7 +526,7 @@ Partial Class ucrFormAgro1
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(425, 181)
+        Me.Label22.Location = New System.Drawing.Point(402, 190)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(42, 13)
         Me.Label22.TabIndex = 1113
@@ -517,7 +535,7 @@ Partial Class ucrFormAgro1
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(425, 158)
+        Me.Label23.Location = New System.Drawing.Point(402, 167)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(42, 13)
         Me.Label23.TabIndex = 1112
@@ -526,34 +544,37 @@ Partial Class ucrFormAgro1
         'ucrValueFlagPeriod14
         '
         Me.ucrValueFlagPeriod14.FieldName = Nothing
-        Me.ucrValueFlagPeriod14.IncludePeriod = True
-        Me.ucrValueFlagPeriod14.Location = New System.Drawing.Point(469, 151)
+        Me.ucrValueFlagPeriod14.IncludePeriod = False
+        Me.ucrValueFlagPeriod14.Location = New System.Drawing.Point(459, 163)
+        Me.ucrValueFlagPeriod14.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod14.Name = "ucrValueFlagPeriod14"
-        Me.ucrValueFlagPeriod14.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod14.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod14.TabIndex = 1115
         '
         'ucrValueFlagPeriod15
         '
         Me.ucrValueFlagPeriod15.FieldName = Nothing
-        Me.ucrValueFlagPeriod15.IncludePeriod = True
-        Me.ucrValueFlagPeriod15.Location = New System.Drawing.Point(469, 176)
+        Me.ucrValueFlagPeriod15.IncludePeriod = False
+        Me.ucrValueFlagPeriod15.Location = New System.Drawing.Point(459, 186)
+        Me.ucrValueFlagPeriod15.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod15.Name = "ucrValueFlagPeriod15"
-        Me.ucrValueFlagPeriod15.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod15.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod15.TabIndex = 1116
         '
         'ucrValueFlagPeriod16
         '
         Me.ucrValueFlagPeriod16.FieldName = Nothing
-        Me.ucrValueFlagPeriod16.IncludePeriod = True
-        Me.ucrValueFlagPeriod16.Location = New System.Drawing.Point(469, 200)
+        Me.ucrValueFlagPeriod16.IncludePeriod = False
+        Me.ucrValueFlagPeriod16.Location = New System.Drawing.Point(459, 209)
+        Me.ucrValueFlagPeriod16.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod16.Name = "ucrValueFlagPeriod16"
-        Me.ucrValueFlagPeriod16.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod16.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod16.TabIndex = 1117
         '
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(603, 203)
+        Me.Label27.Location = New System.Drawing.Point(562, 213)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(95, 13)
         Me.Label27.TabIndex = 1120
@@ -562,7 +583,7 @@ Partial Class ucrFormAgro1
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(608, 179)
+        Me.Label28.Location = New System.Drawing.Point(562, 190)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(90, 13)
         Me.Label28.TabIndex = 1119
@@ -571,7 +592,7 @@ Partial Class ucrFormAgro1
         'Label32
         '
         Me.Label32.AutoSize = True
-        Me.Label32.Location = New System.Drawing.Point(616, 153)
+        Me.Label32.Location = New System.Drawing.Point(562, 167)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(78, 13)
         Me.Label32.TabIndex = 1118
@@ -580,7 +601,7 @@ Partial Class ucrFormAgro1
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(466, 136)
+        Me.Label16.Location = New System.Drawing.Point(462, 148)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(34, 13)
         Me.Label16.TabIndex = 1121
@@ -589,7 +610,7 @@ Partial Class ucrFormAgro1
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(562, 136)
+        Me.Label19.Location = New System.Drawing.Point(514, 148)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(27, 13)
         Me.Label19.TabIndex = 1122
@@ -598,16 +619,17 @@ Partial Class ucrFormAgro1
         'ucrValueFlagPeriod13
         '
         Me.ucrValueFlagPeriod13.FieldName = Nothing
-        Me.ucrValueFlagPeriod13.IncludePeriod = True
-        Me.ucrValueFlagPeriod13.Location = New System.Drawing.Point(288, 270)
+        Me.ucrValueFlagPeriod13.IncludePeriod = False
+        Me.ucrValueFlagPeriod13.Location = New System.Drawing.Point(311, 278)
+        Me.ucrValueFlagPeriod13.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod13.Name = "ucrValueFlagPeriod13"
-        Me.ucrValueFlagPeriod13.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod13.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod13.TabIndex = 1123
         '
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(241, 276)
+        Me.Label20.Location = New System.Drawing.Point(255, 282)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(42, 13)
         Me.Label20.TabIndex = 1124
@@ -616,35 +638,38 @@ Partial Class ucrFormAgro1
         'ucrValueFlagPeriod17
         '
         Me.ucrValueFlagPeriod17.FieldName = Nothing
-        Me.ucrValueFlagPeriod17.IncludePeriod = True
-        Me.ucrValueFlagPeriod17.Location = New System.Drawing.Point(703, 147)
+        Me.ucrValueFlagPeriod17.IncludePeriod = False
+        Me.ucrValueFlagPeriod17.Location = New System.Drawing.Point(662, 163)
+        Me.ucrValueFlagPeriod17.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod17.Name = "ucrValueFlagPeriod17"
-        Me.ucrValueFlagPeriod17.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod17.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod17.TabIndex = 1125
         '
         'ucrValueFlagPeriod18
         '
         Me.ucrValueFlagPeriod18.FieldName = Nothing
-        Me.ucrValueFlagPeriod18.IncludePeriod = True
-        Me.ucrValueFlagPeriod18.Location = New System.Drawing.Point(704, 171)
+        Me.ucrValueFlagPeriod18.IncludePeriod = False
+        Me.ucrValueFlagPeriod18.Location = New System.Drawing.Point(662, 186)
+        Me.ucrValueFlagPeriod18.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod18.Name = "ucrValueFlagPeriod18"
-        Me.ucrValueFlagPeriod18.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod18.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod18.TabIndex = 1126
         '
         'ucrValueFlagPeriod19
         '
         Me.ucrValueFlagPeriod19.FieldName = Nothing
-        Me.ucrValueFlagPeriod19.IncludePeriod = True
-        Me.ucrValueFlagPeriod19.Location = New System.Drawing.Point(704, 196)
+        Me.ucrValueFlagPeriod19.IncludePeriod = False
+        Me.ucrValueFlagPeriod19.Location = New System.Drawing.Point(662, 209)
+        Me.ucrValueFlagPeriod19.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod19.Name = "ucrValueFlagPeriod19"
-        Me.ucrValueFlagPeriod19.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod19.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod19.TabIndex = 1127
         '
         'Label36
         '
         Me.Label36.AutoSize = True
         Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.Location = New System.Drawing.Point(604, 345)
+        Me.Label36.Location = New System.Drawing.Point(583, 345)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(175, 13)
         Me.Label36.TabIndex = 1140
@@ -683,7 +708,7 @@ Partial Class ucrFormAgro1
         'Label38
         '
         Me.Label38.AutoSize = True
-        Me.Label38.Location = New System.Drawing.Point(27, 464)
+        Me.Label38.Location = New System.Drawing.Point(100, 456)
         Me.Label38.Name = "Label38"
         Me.Label38.Size = New System.Drawing.Size(60, 13)
         Me.Label38.TabIndex = 1144
@@ -692,7 +717,7 @@ Partial Class ucrFormAgro1
         'Label39
         '
         Me.Label39.AutoSize = True
-        Me.Label39.Location = New System.Drawing.Point(30, 434)
+        Me.Label39.Location = New System.Drawing.Point(101, 432)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(60, 13)
         Me.Label39.TabIndex = 1143
@@ -701,7 +726,7 @@ Partial Class ucrFormAgro1
         'Label35
         '
         Me.Label35.AutoSize = True
-        Me.Label35.Location = New System.Drawing.Point(34, 409)
+        Me.Label35.Location = New System.Drawing.Point(100, 408)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(52, 13)
         Me.Label35.TabIndex = 1142
@@ -710,7 +735,7 @@ Partial Class ucrFormAgro1
         'lblSunHrs
         '
         Me.lblSunHrs.AutoSize = True
-        Me.lblSunHrs.Location = New System.Drawing.Point(40, 385)
+        Me.lblSunHrs.Location = New System.Drawing.Point(101, 384)
         Me.lblSunHrs.Name = "lblSunHrs"
         Me.lblSunHrs.Size = New System.Drawing.Size(45, 13)
         Me.lblSunHrs.TabIndex = 1141
@@ -719,43 +744,47 @@ Partial Class ucrFormAgro1
         'ucrValueFlagPeriod20
         '
         Me.ucrValueFlagPeriod20.FieldName = Nothing
-        Me.ucrValueFlagPeriod20.IncludePeriod = True
-        Me.ucrValueFlagPeriod20.Location = New System.Drawing.Point(97, 380)
+        Me.ucrValueFlagPeriod20.IncludePeriod = False
+        Me.ucrValueFlagPeriod20.Location = New System.Drawing.Point(161, 380)
+        Me.ucrValueFlagPeriod20.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod20.Name = "ucrValueFlagPeriod20"
-        Me.ucrValueFlagPeriod20.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod20.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod20.TabIndex = 1145
         '
         'ucrValueFlagPeriod21
         '
         Me.ucrValueFlagPeriod21.FieldName = Nothing
-        Me.ucrValueFlagPeriod21.IncludePeriod = True
-        Me.ucrValueFlagPeriod21.Location = New System.Drawing.Point(97, 405)
+        Me.ucrValueFlagPeriod21.IncludePeriod = False
+        Me.ucrValueFlagPeriod21.Location = New System.Drawing.Point(161, 404)
+        Me.ucrValueFlagPeriod21.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod21.Name = "ucrValueFlagPeriod21"
-        Me.ucrValueFlagPeriod21.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod21.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod21.TabIndex = 1146
         '
         'ucrValueFlagPeriod22
         '
         Me.ucrValueFlagPeriod22.FieldName = Nothing
-        Me.ucrValueFlagPeriod22.IncludePeriod = True
-        Me.ucrValueFlagPeriod22.Location = New System.Drawing.Point(97, 430)
+        Me.ucrValueFlagPeriod22.IncludePeriod = False
+        Me.ucrValueFlagPeriod22.Location = New System.Drawing.Point(161, 428)
+        Me.ucrValueFlagPeriod22.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod22.Name = "ucrValueFlagPeriod22"
-        Me.ucrValueFlagPeriod22.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod22.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod22.TabIndex = 1147
         '
         'ucrValueFlagPeriod23
         '
         Me.ucrValueFlagPeriod23.FieldName = Nothing
-        Me.ucrValueFlagPeriod23.IncludePeriod = True
-        Me.ucrValueFlagPeriod23.Location = New System.Drawing.Point(97, 459)
+        Me.ucrValueFlagPeriod23.IncludePeriod = False
+        Me.ucrValueFlagPeriod23.Location = New System.Drawing.Point(161, 452)
+        Me.ucrValueFlagPeriod23.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod23.Name = "ucrValueFlagPeriod23"
-        Me.ucrValueFlagPeriod23.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod23.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod23.TabIndex = 1148
         '
         'lblRH06Z
         '
         Me.lblRH06Z.AutoSize = True
-        Me.lblRH06Z.Location = New System.Drawing.Point(238, 461)
+        Me.lblRH06Z.Location = New System.Drawing.Point(254, 456)
         Me.lblRH06Z.Name = "lblRH06Z"
         Me.lblRH06Z.Size = New System.Drawing.Size(40, 13)
         Me.lblRH06Z.TabIndex = 1152
@@ -764,7 +793,7 @@ Partial Class ucrFormAgro1
         'Label42
         '
         Me.Label42.AutoSize = True
-        Me.Label42.Location = New System.Drawing.Point(231, 436)
+        Me.Label42.Location = New System.Drawing.Point(255, 432)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(56, 13)
         Me.Label42.TabIndex = 1151
@@ -773,7 +802,7 @@ Partial Class ucrFormAgro1
         'Label43
         '
         Me.Label43.AutoSize = True
-        Me.Label43.Location = New System.Drawing.Point(233, 411)
+        Me.Label43.Location = New System.Drawing.Point(255, 408)
         Me.Label43.Name = "Label43"
         Me.Label43.Size = New System.Drawing.Size(51, 13)
         Me.Label43.TabIndex = 1150
@@ -782,7 +811,7 @@ Partial Class ucrFormAgro1
         'Label44
         '
         Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(234, 386)
+        Me.Label44.Location = New System.Drawing.Point(255, 384)
         Me.Label44.Name = "Label44"
         Me.Label44.Size = New System.Drawing.Size(47, 13)
         Me.Label44.TabIndex = 1149
@@ -791,7 +820,7 @@ Partial Class ucrFormAgro1
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Location = New System.Drawing.Point(107, 365)
+        Me.Label34.Location = New System.Drawing.Point(164, 366)
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(34, 13)
         Me.Label34.TabIndex = 1153
@@ -800,7 +829,7 @@ Partial Class ucrFormAgro1
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Location = New System.Drawing.Point(197, 365)
+        Me.Label33.Location = New System.Drawing.Point(219, 366)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(27, 13)
         Me.Label33.TabIndex = 1154
@@ -809,43 +838,47 @@ Partial Class ucrFormAgro1
         'ucrValueFlagPeriod24
         '
         Me.ucrValueFlagPeriod24.FieldName = Nothing
-        Me.ucrValueFlagPeriod24.IncludePeriod = True
-        Me.ucrValueFlagPeriod24.Location = New System.Drawing.Point(293, 380)
+        Me.ucrValueFlagPeriod24.IncludePeriod = False
+        Me.ucrValueFlagPeriod24.Location = New System.Drawing.Point(311, 380)
+        Me.ucrValueFlagPeriod24.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod24.Name = "ucrValueFlagPeriod24"
-        Me.ucrValueFlagPeriod24.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod24.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod24.TabIndex = 1155
         '
         'ucrValueFlagPeriod25
         '
         Me.ucrValueFlagPeriod25.FieldName = Nothing
-        Me.ucrValueFlagPeriod25.IncludePeriod = True
-        Me.ucrValueFlagPeriod25.Location = New System.Drawing.Point(293, 405)
+        Me.ucrValueFlagPeriod25.IncludePeriod = False
+        Me.ucrValueFlagPeriod25.Location = New System.Drawing.Point(311, 404)
+        Me.ucrValueFlagPeriod25.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod25.Name = "ucrValueFlagPeriod25"
-        Me.ucrValueFlagPeriod25.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod25.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod25.TabIndex = 1156
         '
         'ucrValueFlagPeriod26
         '
         Me.ucrValueFlagPeriod26.FieldName = Nothing
-        Me.ucrValueFlagPeriod26.IncludePeriod = True
-        Me.ucrValueFlagPeriod26.Location = New System.Drawing.Point(293, 431)
+        Me.ucrValueFlagPeriod26.IncludePeriod = False
+        Me.ucrValueFlagPeriod26.Location = New System.Drawing.Point(311, 428)
+        Me.ucrValueFlagPeriod26.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod26.Name = "ucrValueFlagPeriod26"
-        Me.ucrValueFlagPeriod26.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod26.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod26.TabIndex = 1157
         '
         'ucrValueFlagPeriod27
         '
         Me.ucrValueFlagPeriod27.FieldName = Nothing
-        Me.ucrValueFlagPeriod27.IncludePeriod = True
-        Me.ucrValueFlagPeriod27.Location = New System.Drawing.Point(293, 457)
+        Me.ucrValueFlagPeriod27.IncludePeriod = False
+        Me.ucrValueFlagPeriod27.Location = New System.Drawing.Point(311, 452)
+        Me.ucrValueFlagPeriod27.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod27.Name = "ucrValueFlagPeriod27"
-        Me.ucrValueFlagPeriod27.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod27.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod27.TabIndex = 1158
         '
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(301, 365)
+        Me.Label24.Location = New System.Drawing.Point(315, 366)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(34, 13)
         Me.Label24.TabIndex = 1159
@@ -854,7 +887,7 @@ Partial Class ucrFormAgro1
         'Label25
         '
         Me.Label25.AutoSize = True
-        Me.Label25.Location = New System.Drawing.Point(391, 365)
+        Me.Label25.Location = New System.Drawing.Point(369, 366)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(27, 13)
         Me.Label25.TabIndex = 1160
@@ -863,7 +896,7 @@ Partial Class ucrFormAgro1
         'Label47
         '
         Me.Label47.AutoSize = True
-        Me.Label47.Location = New System.Drawing.Point(438, 450)
+        Me.Label47.Location = New System.Drawing.Point(416, 432)
         Me.Label47.Name = "Label47"
         Me.Label47.Size = New System.Drawing.Size(42, 13)
         Me.Label47.TabIndex = 1163
@@ -872,7 +905,7 @@ Partial Class ucrFormAgro1
         'Label48
         '
         Me.Label48.AutoSize = True
-        Me.Label48.Location = New System.Drawing.Point(438, 421)
+        Me.Label48.Location = New System.Drawing.Point(416, 408)
         Me.Label48.Name = "Label48"
         Me.Label48.Size = New System.Drawing.Size(42, 13)
         Me.Label48.TabIndex = 1162
@@ -881,7 +914,7 @@ Partial Class ucrFormAgro1
         'Label49
         '
         Me.Label49.AutoSize = True
-        Me.Label49.Location = New System.Drawing.Point(438, 392)
+        Me.Label49.Location = New System.Drawing.Point(416, 384)
         Me.Label49.Name = "Label49"
         Me.Label49.Size = New System.Drawing.Size(42, 13)
         Me.Label49.TabIndex = 1161
@@ -890,34 +923,37 @@ Partial Class ucrFormAgro1
         'ucrValueFlagPeriod28
         '
         Me.ucrValueFlagPeriod28.FieldName = Nothing
-        Me.ucrValueFlagPeriod28.IncludePeriod = True
-        Me.ucrValueFlagPeriod28.Location = New System.Drawing.Point(486, 385)
+        Me.ucrValueFlagPeriod28.IncludePeriod = False
+        Me.ucrValueFlagPeriod28.Location = New System.Drawing.Point(473, 380)
+        Me.ucrValueFlagPeriod28.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod28.Name = "ucrValueFlagPeriod28"
-        Me.ucrValueFlagPeriod28.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod28.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod28.TabIndex = 1164
         '
         'ucrValueFlagPeriod29
         '
         Me.ucrValueFlagPeriod29.FieldName = Nothing
-        Me.ucrValueFlagPeriod29.IncludePeriod = True
-        Me.ucrValueFlagPeriod29.Location = New System.Drawing.Point(486, 414)
+        Me.ucrValueFlagPeriod29.IncludePeriod = False
+        Me.ucrValueFlagPeriod29.Location = New System.Drawing.Point(473, 404)
+        Me.ucrValueFlagPeriod29.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod29.Name = "ucrValueFlagPeriod29"
-        Me.ucrValueFlagPeriod29.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod29.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod29.TabIndex = 1165
         '
         'ucrValueFlagPeriod30
         '
         Me.ucrValueFlagPeriod30.FieldName = Nothing
-        Me.ucrValueFlagPeriod30.IncludePeriod = True
-        Me.ucrValueFlagPeriod30.Location = New System.Drawing.Point(486, 443)
+        Me.ucrValueFlagPeriod30.IncludePeriod = False
+        Me.ucrValueFlagPeriod30.Location = New System.Drawing.Point(473, 428)
+        Me.ucrValueFlagPeriod30.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriod30.Name = "ucrValueFlagPeriod30"
-        Me.ucrValueFlagPeriod30.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriod30.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriod30.TabIndex = 1166
         '
         'Label37
         '
         Me.Label37.AutoSize = True
-        Me.Label37.Location = New System.Drawing.Point(493, 369)
+        Me.Label37.Location = New System.Drawing.Point(476, 366)
         Me.Label37.Name = "Label37"
         Me.Label37.Size = New System.Drawing.Size(34, 13)
         Me.Label37.TabIndex = 1167
@@ -926,7 +962,7 @@ Partial Class ucrFormAgro1
         'Label40
         '
         Me.Label40.AutoSize = True
-        Me.Label40.Location = New System.Drawing.Point(572, 369)
+        Me.Label40.Location = New System.Drawing.Point(530, 366)
         Me.Label40.Name = "Label40"
         Me.Label40.Size = New System.Drawing.Size(27, 13)
         Me.Label40.TabIndex = 1168
@@ -935,7 +971,7 @@ Partial Class ucrFormAgro1
         'Label56
         '
         Me.Label56.AutoSize = True
-        Me.Label56.Location = New System.Drawing.Point(622, 470)
+        Me.Label56.Location = New System.Drawing.Point(571, 456)
         Me.Label56.Name = "Label56"
         Me.Label56.Size = New System.Drawing.Size(93, 13)
         Me.Label56.TabIndex = 1172
@@ -944,7 +980,7 @@ Partial Class ucrFormAgro1
         'Label57
         '
         Me.Label57.AutoSize = True
-        Me.Label57.Location = New System.Drawing.Point(622, 443)
+        Me.Label57.Location = New System.Drawing.Point(570, 432)
         Me.Label57.Name = "Label57"
         Me.Label57.Size = New System.Drawing.Size(93, 13)
         Me.Label57.TabIndex = 1171
@@ -953,7 +989,7 @@ Partial Class ucrFormAgro1
         'Label52
         '
         Me.Label52.AutoSize = True
-        Me.Label52.Location = New System.Drawing.Point(649, 419)
+        Me.Label52.Location = New System.Drawing.Point(598, 408)
         Me.Label52.Name = "Label52"
         Me.Label52.Size = New System.Drawing.Size(56, 13)
         Me.Label52.TabIndex = 1170
@@ -962,7 +998,7 @@ Partial Class ucrFormAgro1
         'Label53
         '
         Me.Label53.AutoSize = True
-        Me.Label53.Location = New System.Drawing.Point(649, 386)
+        Me.Label53.Location = New System.Drawing.Point(598, 384)
         Me.Label53.Name = "Label53"
         Me.Label53.Size = New System.Drawing.Size(65, 13)
         Me.Label53.TabIndex = 1169
@@ -971,43 +1007,47 @@ Partial Class ucrFormAgro1
         'UcrValueFlagPeriodNew24
         '
         Me.UcrValueFlagPeriodNew24.FieldName = Nothing
-        Me.UcrValueFlagPeriodNew24.IncludePeriod = True
-        Me.UcrValueFlagPeriodNew24.Location = New System.Drawing.Point(721, 380)
+        Me.UcrValueFlagPeriodNew24.IncludePeriod = False
+        Me.UcrValueFlagPeriodNew24.Location = New System.Drawing.Point(661, 380)
+        Me.UcrValueFlagPeriodNew24.Margin = New System.Windows.Forms.Padding(5)
         Me.UcrValueFlagPeriodNew24.Name = "UcrValueFlagPeriodNew24"
-        Me.UcrValueFlagPeriodNew24.Size = New System.Drawing.Size(130, 23)
+        Me.UcrValueFlagPeriodNew24.Size = New System.Drawing.Size(92, 23)
         Me.UcrValueFlagPeriodNew24.TabIndex = 1173
         '
         'ucrValueFlagPeriodNew25
         '
         Me.ucrValueFlagPeriodNew25.FieldName = Nothing
-        Me.ucrValueFlagPeriodNew25.IncludePeriod = True
-        Me.ucrValueFlagPeriodNew25.Location = New System.Drawing.Point(721, 409)
+        Me.ucrValueFlagPeriodNew25.IncludePeriod = False
+        Me.ucrValueFlagPeriodNew25.Location = New System.Drawing.Point(661, 404)
+        Me.ucrValueFlagPeriodNew25.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriodNew25.Name = "ucrValueFlagPeriodNew25"
-        Me.ucrValueFlagPeriodNew25.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriodNew25.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriodNew25.TabIndex = 1174
         '
         'ucrValueFlagPeriodNew26
         '
         Me.ucrValueFlagPeriodNew26.FieldName = Nothing
-        Me.ucrValueFlagPeriodNew26.IncludePeriod = True
-        Me.ucrValueFlagPeriodNew26.Location = New System.Drawing.Point(721, 436)
+        Me.ucrValueFlagPeriodNew26.IncludePeriod = False
+        Me.ucrValueFlagPeriodNew26.Location = New System.Drawing.Point(661, 428)
+        Me.ucrValueFlagPeriodNew26.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriodNew26.Name = "ucrValueFlagPeriodNew26"
-        Me.ucrValueFlagPeriodNew26.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriodNew26.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriodNew26.TabIndex = 1175
         '
         'ucrValueFlagPeriodNew27
         '
         Me.ucrValueFlagPeriodNew27.FieldName = Nothing
-        Me.ucrValueFlagPeriodNew27.IncludePeriod = True
-        Me.ucrValueFlagPeriodNew27.Location = New System.Drawing.Point(721, 465)
+        Me.ucrValueFlagPeriodNew27.IncludePeriod = False
+        Me.ucrValueFlagPeriodNew27.Location = New System.Drawing.Point(661, 452)
+        Me.ucrValueFlagPeriodNew27.Margin = New System.Windows.Forms.Padding(5)
         Me.ucrValueFlagPeriodNew27.Name = "ucrValueFlagPeriodNew27"
-        Me.ucrValueFlagPeriodNew27.Size = New System.Drawing.Size(130, 23)
+        Me.ucrValueFlagPeriodNew27.Size = New System.Drawing.Size(92, 23)
         Me.ucrValueFlagPeriodNew27.TabIndex = 1176
         '
         'Label41
         '
         Me.Label41.AutoSize = True
-        Me.Label41.Location = New System.Drawing.Point(727, 365)
+        Me.Label41.Location = New System.Drawing.Point(665, 366)
         Me.Label41.Name = "Label41"
         Me.Label41.Size = New System.Drawing.Size(34, 13)
         Me.Label41.TabIndex = 1177
@@ -1016,7 +1056,7 @@ Partial Class ucrFormAgro1
         'Label45
         '
         Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(813, 364)
+        Me.Label45.Location = New System.Drawing.Point(716, 366)
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(27, 13)
         Me.Label45.TabIndex = 1178
@@ -1025,6 +1065,7 @@ Partial Class ucrFormAgro1
         'ucrNavigator
         '
         Me.ucrNavigator.Location = New System.Drawing.Point(259, 509)
+        Me.ucrNavigator.Margin = New System.Windows.Forms.Padding(4)
         Me.ucrNavigator.Name = "ucrNavigator"
         Me.ucrNavigator.Size = New System.Drawing.Size(340, 30)
         Me.ucrNavigator.TabIndex = 1181
@@ -1140,10 +1181,30 @@ Partial Class ucrFormAgro1
         Me.btnUpload.Text = "Upload"
         Me.btnUpload.UseVisualStyleBackColor = False
         '
+        'Label50
+        '
+        Me.Label50.AutoSize = True
+        Me.Label50.Location = New System.Drawing.Point(667, 148)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(34, 13)
+        Me.Label50.TabIndex = 1194
+        Me.Label50.Text = "Value"
+        '
+        'Label51
+        '
+        Me.Label51.AutoSize = True
+        Me.Label51.Location = New System.Drawing.Point(718, 148)
+        Me.Label51.Name = "Label51"
+        Me.Label51.Size = New System.Drawing.Size(27, 13)
+        Me.Label51.TabIndex = 1195
+        Me.Label51.Text = "Flag"
+        '
         'ucrFormAgro1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.Label51)
+        Me.Controls.Add(Me.Label50)
         Me.Controls.Add(Me.btnUpload)
         Me.Controls.Add(Me.txtSequencer)
         Me.Controls.Add(Me.Label46)
@@ -1247,7 +1308,7 @@ Partial Class ucrFormAgro1
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.UcrDaySelectorNew1)
+        Me.Controls.Add(Me.ucrDaySelector)
         Me.Controls.Add(Me.Label62)
         Me.Controls.Add(Me.ucrMonthSelector)
         Me.Controls.Add(Me.Label61)
@@ -1255,8 +1316,9 @@ Partial Class ucrFormAgro1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.ucrStationSelectorIdentifier)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "ucrFormAgro1"
-        Me.Size = New System.Drawing.Size(890, 683)
+        Me.Size = New System.Drawing.Size(843, 622)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1269,7 +1331,7 @@ Partial Class ucrFormAgro1
     Friend WithEvents Label61 As Label
     Friend WithEvents ucrMonthSelector As ucrMonthSelectorNew
     Friend WithEvents Label62 As Label
-    Friend WithEvents UcrDaySelectorNew1 As ucrDaySelectorNew
+    Friend WithEvents ucrDaySelector As ucrDaySelectorNew
     Friend WithEvents Label26 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
@@ -1373,4 +1435,6 @@ Partial Class ucrFormAgro1
     Friend WithEvents Label46 As Label
     Friend WithEvents txtSequencer As TextBox
     Friend WithEvents btnUpload As Button
+    Friend WithEvents Label50 As Label
+    Friend WithEvents Label51 As Label
 End Class
