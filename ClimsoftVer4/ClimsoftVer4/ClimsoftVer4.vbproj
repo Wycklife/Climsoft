@@ -119,6 +119,12 @@
     <Compile Include="formElementNew.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="formHourlyNew.Designer.vb">
+      <DependentUpon>formHourlyNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formHourlyNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="formSynopticCaribbean.Designer.vb">
       <DependentUpon>formSynopticCaribbean.vb</DependentUpon>
     </Compile>
@@ -759,6 +765,12 @@
     <Compile Include="ucrFormDaily2New.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="ucrHourlyNew.Designer.vb">
+      <DependentUpon>ucrHourlyNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucrHourlyNew.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="ucrHourlyWind.Designer.vb">
       <DependentUpon>ucrHourlyWind.vb</DependentUpon>
     </Compile>
@@ -895,6 +907,12 @@
       <DependentUpon>ucrMonthlyData.vb</DependentUpon>
     </Compile>
     <Compile Include="ucrMonthlyData.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucrMonthlyDataNew.Designer.vb">
+      <DependentUpon>ucrMonthlyDataNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucrMonthlyDataNew.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ucrMonthlyNew.Designer.vb">
@@ -1063,6 +1081,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formElementNew.resx">
       <DependentUpon>formElementNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formHourlyNew.resx">
+      <DependentUpon>formHourlyNew.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formSynopticCaribbean.resx">
       <DependentUpon>formSynopticCaribbean.vb</DependentUpon>
@@ -1389,6 +1410,9 @@
     <EmbeddedResource Include="ucrFormDaily2New.resx">
       <DependentUpon>ucrFormDaily2New.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucrHourlyNew.resx">
+      <DependentUpon>ucrHourlyNew.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucrHourlyWind.resx">
       <DependentUpon>ucrHourlyWind.vb</DependentUpon>
     </EmbeddedResource>
@@ -1460,6 +1484,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucrMonthlyData.resx">
       <DependentUpon>ucrMonthlyData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucrMonthlyDataNew.resx">
+      <DependentUpon>ucrMonthlyDataNew.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucrMonthlyNew.resx">
       <DependentUpon>ucrMonthlyNew.vb</DependentUpon>
