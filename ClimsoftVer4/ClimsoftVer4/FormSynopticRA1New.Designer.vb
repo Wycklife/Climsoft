@@ -22,28 +22,28 @@ Partial Class FormSynopticRA1New
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.UcrSynopticRA1New1 = New ClimsoftVer4.ucrSynopticRA1New()
+        Me.ucrSynopticRA1New = New ClimsoftVer4.ucrSynopticRA1New()
         Me.SuspendLayout()
         '
-        'UcrSynopticRA1New1
+        'ucrSynopticRA1New
         '
-        Me.UcrSynopticRA1New1.Location = New System.Drawing.Point(13, 12)
-        Me.UcrSynopticRA1New1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.UcrSynopticRA1New1.Name = "UcrSynopticRA1New1"
-        Me.UcrSynopticRA1New1.Size = New System.Drawing.Size(864, 659)
-        Me.UcrSynopticRA1New1.TabIndex = 0
+        Me.ucrSynopticRA1New.Location = New System.Drawing.Point(13, 12)
+        Me.ucrSynopticRA1New.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.ucrSynopticRA1New.Name = "ucrSynopticRA1New"
+        Me.ucrSynopticRA1New.Size = New System.Drawing.Size(864, 659)
+        Me.ucrSynopticRA1New.TabIndex = 0
         '
         'FormSynopticRA1New
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(894, 685)
-        Me.Controls.Add(Me.UcrSynopticRA1New1)
+        Me.Controls.Add(Me.ucrSynopticRA1New)
         Me.Name = "FormSynopticRA1New"
         Me.Text = "FormSynopticRA1New"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents UcrSynopticRA1New1 As ucrSynopticRA1New
+    Friend WithEvents ucrSynopticRA1New As ucrSynopticRA1New
 End Class
