@@ -28,10 +28,12 @@ Public Class frmProducts
 
         'MyConnectionString = "server=127.0.0.1; uid=root; pwd=admin; database=mysql_climsoft_db_v4"
         MyConnectionString = frmLogin.txtusrpwd.Text
+
         Try
             conn.ConnectionString = MyConnectionString
             conn.Open()
 
+            ProductsTable_Update()
             'sql = "SELECT * FROM tblproducts"
             sql = "SELECT prCategory FROM tblProducts GROUP BY prCategory"
             da = New MySql.Data.MySqlClient.MySqlDataAdapter(sql, conn)
@@ -63,15 +65,13 @@ Public Class frmProducts
 
     End Sub
 
-    Private Sub cmbProductsCategory_Click(sender As Object, e As EventArgs) Handles cmbProductsCategory.Click
-
-    End Sub
-
     Private Sub cmbProductsCategory_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbProductsCategory.SelectedIndexChanged
         Dim prod As String
 
         prod = cmbProductsCategory.Text
 
+        'If prod = "Rain Days" Then ProductsTable_Update()
+        'ProductsTable_Update()
         lstvProducts.Clear()
         lstvProducts.Columns.Clear()
         lstvProducts.Columns.Add("Products Name", 100, HorizontalAlignment.Left)
@@ -107,6 +107,12 @@ Public Class frmProducts
             End If
         Next
 
+        If prtyp.ProductType = "Stations Records" Then
+            frmInventoryChart.Show()
+            Exit Sub
+        End If
+
+
         formProductsSelectCriteria.lblProductType.Text = prtyp.ProductType
 
         'If prtyp.ProductType = "Histograms" Or prtyp.ProductType = "TimeSeires" Then formProductsSelectCriteria.pnlSummary.Enabled = True
@@ -141,5 +147,56 @@ Public Class frmProducts
     Private Sub HelpToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HelpToolStripMenuItem.Click
         Help.ShowHelp(Me, Application.StartupPath & "\climsoft4.chm", "climateproducts.htm#products")
 
+    End Sub
+
+    Sub ProductsTable_Update()
+        Dim currDB, sql0 As String
+        Dim qry0 As MySql.Data.MySqlClient.MySqlCommand
+
+        frmUserManagement.CurrentDB(MyConnectionString, currDB)
+
+        sql0 = "USE `" & currDB & "`;
+               REPLACE INTO `tblproducts` (`productId`, `productName`, `prDetails`, `prCategory`) VALUES 
+               ('0', 'Minutes', 'Minutes observations', 'Data'),  
+               ('01', 'Inventory', 'Details of Data Records', 'Inventory'),  
+               ('02', 'Hourly', 'Summaries of Hourly Observations', 'Data'),  
+               ('03', 'Daily', 'Summaries of Daily Observation', 'Data'),  
+               ('04', 'Pentad', '5 Days Summeries', 'Data'),  
+               ('05', 'Dekadal', '10 Days Summaries', 'Data'),  
+               ('06', 'Monthly', 'Monthly Summaries', 'Data'),  
+               ('07', 'Annual', 'Annual Summaries', 'Data'),  
+               ('08', 'Means', 'Long Term Means', 'Data'),  
+               ('09', 'Extremes', 'Long Term', 'Data'),  
+               ('10', 'WindRose', 'Wind Rose Picture', 'Graphics'),  
+               ('11', 'TimeSeries', 'Time Series Chart', 'Graphics'),  
+               ('12', 'Histograms', 'Histogram Chart', 'Graphics'),  
+               ('13', 'Instat', 'Daily Data for Instat', 'Output for other Applications'),  
+               ('14', 'Rclimdex', 'Daily Data for Rclimdex', 'Output for other Applications'),  
+               ('15', 'CPT', 'Data for CPT', 'Output for other Applications'),  
+               ('16', 'GeoCLIM Monthly', 'Monthly Data for GeoCLIM', 'Output for other Applications'),  
+               ('17', 'GeoCLIM Dekadal', 'Dekadal Data for Geoclim', 'Output for other Applications'),  
+               ('18', 'GeoCLIM Daily', 'Daily Data for Geoclim', 'Output for other Applications'),  
+               ('19', 'ACMADBulletin', 'ACMAD Dekadal Bulletin', 'Summaries'),  
+               ('20', 'CLIMAT', 'CLIMAT Messages', 'Messages'),  
+               ('21', 'Missing Data', 'Inventory of Missing Data', 'Inventory'),  
+               ('22', 'CDT Dekadal', 'Dekadal Data for CDT', 'Output for other Applications'),  
+               ('23', 'CDT Daily', 'Daily Data for CDT', 'Output for other Applications'),  
+               ('24', 'Dekadal Counts', 'Dekadal Rain Days', 'Rain Days'),  
+               ('25', 'Monthly Counts', 'Monthly Rain Days', 'Rain Days'),  
+               ('26', 'Annual Counts', 'Annual Rain Days', 'Rain Days'),
+               ('27', 'Daily Extremes', 'Daily Lowest and Highest values', 'Data'),
+               ('28', 'Monthly Extremes', 'Monthly Lowest and Highest daily values', 'Data'),
+               ('29', 'Annual Extremes', 'Annual Lowest and Highest daily values', 'Data'),
+               ('30', 'Stations Records', 'Time Series Chart for Observing Stations', 'Inventory'),
+               ('31', 'Yearly Elements Observed', 'Yearly Time Series Chart per Station', 'Inventory'),
+               ('32', 'Monthly Elements Observed', 'Monthly Time Series Chart per Station', 'Inventory');"
+        Try
+            qry0 = New MySql.Data.MySqlClient.MySqlCommand(sql0, conn)
+            qry0.CommandTimeout = 0
+            qry0.ExecuteNonQuery()
+
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
     End Sub
 End Class
